@@ -1,0 +1,66 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2006-10",
+  "messages": [
+    {
+      "id": "msg-1cd7f6b63c6a",
+      "message_id": "<452A6E69.7090706@bfro.uni-lj.si>",
+      "from_name": "Gregor Gorjanc",
+      "from_email_hash": "b39c75688faf9190a17a4a292fdf8f9ec6b9f34cb9f4caf4a9101153bea16442",
+      "date": "2006-10-09T15:44:41Z",
+      "subject": "[R-wiki] Waiting times (was: Transcript of \"Conservative ANOVA tables\")",
+      "subject_clean": "[R-wiki] Waiting times (was: Transcript of \"Conservative ANOVA tables\")",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dieter Menne <dieter.menne <at> menne-biomed.de> writes:\n\n> \n> Dear friends of lmer,\n> \n> http://wiki.r-project.org/rwiki/doku.php?id=guides:lmer-tests\n> \n> I have put a transcript of the long thread on lmer/lme4 statistical \n> test into the Wiki. For all those who missed it life, and for those \n> like me, who don't like the special style of the R-list to keep full\n> length quotes.\n> \n> Creating the text there was not much fun, waiting times are simply \n> unacceptable and the Wiki only give an empty page when syntax errors \n> (for example from quotes) are detected.\n\nI agree that there is a problem about waiting times with large pages.\nThis might be of interest for r-sig-wiki list, but I can not CC from\nGmane - I will send separate mail. I think there was discussion about\nthis and that wiki is optimized for many small pages. I do agree though\nthat having several pages for this transcript is not acceptable.\n\n-- \nLep pozdrav / With regards,\n    Gregor Gorjanc\n----------------------------------------------------------------------\nUniversity of Ljubljana     PhD student\nBiotechnical Faculty\nZootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan\nGroblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si\n\nSI-1230 Domzale             tel: +386 (0)1 72 17 861\nSlovenia, Europe            fax: +386 (0)1 72 17 888\n\n----------------------------------------------------------------------\n\"One must learn by doing the thing; for though you think you know it,\n you have no certainty until you try.\" Sophocles ~ 450 B.C.",
+      "body_snippet": "Dieter Menne <dieter.menne <at> menne-biomed.de> writes:\n\n> \n> Dear friends of lmer,\n> \n> http://wiki.r-project.org/rwiki/doku.php?id=guides:lmer-tests\n> \n> I have put a transcript of the long thread ",
+      "thread_id": "thread-1cd7f6b63c6a",
+      "thread_depth": 0,
+      "month": "2006-10"
+    },
+    {
+      "id": "msg-e99ed194daa3",
+      "message_id": "<17731.46114.942787.471256@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2006-10-28T19:48:50Z",
+      "subject": "[R-wiki] [Rd] Idea: Testimonials",
+      "subject_clean": "[R-wiki] [Rd] Idea: Testimonials",
+      "in_reply_to": "<45425EF2.5030502@mango-solutions.com>",
+      "references": [
+        "<971536df0610271036l15c8c46ahb549331458668afd@mail.gmail.com>",
+        "<45425EF2.5030502@mango-solutions.com>"
+      ],
+      "body_plain": ">>>>> \"Romain\" == Romain Francois <rfrancois at mango-solutions.com>\n>>>>>     on Fri, 27 Oct 2006 20:33:06 +0100 writes:\n\n    Romain> Gabor Grothendieck wrote:\n    >> It occurred to me that we could have an optional file\n    >> called TESTIMONIALS that comes with each package which\n    >> could be a list of short testimonials from users\n    >> indicating success with that package and possibly a few\n    >> details of the successful application, e.g. it was used\n    >> to analyse xyz data.\n    >> \n    >> Users would be encouraged to send in testimonials.\n    >> \n    >> This would give new users an immediate idea of what\n    >> others have done with any given package.\n    >> \n    >> It would be up to the authors and maintainer to solicit\n    >> the testimonials.  The author and maintainer could list\n    >> their own applications in that file too if they wished.\n    >> \n    >> Another possibility is to place the testimonials in the\n    >> vignette if there is one.\n    >> \n    Romain> Hi,\n\n    Romain> Could that kind of things go to the wiki\n    Romain> http://wiki.r-project.org/rwiki/doku.php?id=packages:packages\n\nYes, I think it could, and even think it should.\nFor the time being the 'packages' section of the RWiki (URL\nabove) should be used much more in my view.\n\nHere is ``my wish'' :\n\nIdeally, for all CRAN (or Bioconductor or Omegahat) package\nthat's not there already,\nthere would be either\n1) a nightly CRON job that built a web page template automatically,\n   just from analyzing <CRAN>/src/packages/ content\n2) a \"button\" that user could press which creates a web page\n   template for package\n\nThese templates would already have a few pieces of information,\nincluding a link to CRAN / BioC / ... for the package source\n(and reference PDF).\n\n--> and now the topic has really diverted and should probably be\ncontinued on the R-SIG-Wiki mailing list.\n\nMartin Maechler, ETH Zurich",
+      "body_snippet": ">>>>> \"Romain\" == Romain Francois <rfrancois at mango-solutions.com>\n>>>>>     on Fri, 27 Oct 2006 20:33:06 +0100 writes:\n\n    Romain> Gabor Grothendieck wrote:\n    >> It occurred to me that we could ",
+      "thread_id": "thread-e99ed194daa3",
+      "thread_depth": 0,
+      "month": "2006-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1cd7f6b63c6a",
+      "subject": "[R-wiki] Waiting times (was: Transcript of \"Conservative ANOVA tables\")",
+      "message_count": 1,
+      "participants": [
+        "Gregor Gorjanc"
+      ],
+      "started": "2006-10-09T15:44:41Z",
+      "last_reply": "2006-10-09T15:44:41Z",
+      "root_message_id": "msg-1cd7f6b63c6a"
+    },
+    {
+      "id": "thread-e99ed194daa3",
+      "subject": "[R-wiki] [Rd] Idea: Testimonials",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2006-10-28T19:48:50Z",
+      "last_reply": "2006-10-28T19:48:50Z",
+      "root_message_id": "msg-e99ed194daa3"
+    }
+  ]
+}

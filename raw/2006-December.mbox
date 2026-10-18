@@ -1,0 +1,230 @@
+From bolker at zoo.ufl.edu  Fri Dec  1 21:26:45 2006
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Fri, 01 Dec 2006 15:26:45 -0500
+Subject: [R-wiki] difficulty in editing mixed models/p-value thread
+Message-ID: <45709005.2000804@zoo.ufl.edu>
+
+
+   Dieter,
+
+  I read your complaints about waiting times and
+difficulties with the parser in constructing
+http://wiki.r-project.org/rwiki/doku.php?id=guides:lmer-tests
+
+  I didn't seem to have any trouble -- could it somehow
+be something platform- or connection-specific?
+(I'm using Firefox 1.5.0.8, Ubuntu 6.06) Or some transient
+problem?
+
+  I agree it would be nice to figure out why pf() links
+to plot.stepfun(stats) ??  And to turn off the MS = Microsoft
+tooltip ...
+  I'm not sure I agree about the syntax coloring being
+unhelpful ...
+
+   Ben Bolker
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 254 bytes
+Desc: OpenPGP digital signature
+Url : https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20061201/f5921343/attachment.bin 
+
+From phgrosjean at sciviews.org  Sat Dec  2 09:38:02 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sat, 02 Dec 2006 09:38:02 +0100
+Subject: [R-wiki] difficulty in editing mixed models/p-value thread
+In-Reply-To: <45709005.2000804@zoo.ufl.edu>
+References: <45709005.2000804@zoo.ufl.edu>
+Message-ID: <45713B6A.4060109@sciviews.org>
+
+Hello Dieter,
+
+I read your complains too in 
+http://wiki.r-project.org/rwiki/doku.php?id=guides:lmer-tests. First, 
+let me tell you that I appreciate your contribution to the R Wiki and I 
+seriously consider these complains.
+
+Now, a couple of explanations. First, the Wiki IS NOT the right place to 
+discuss *technical issues* of the Wiki inside pages/sections with other 
+subject. Look at your page. It is about lmer... and it start with two 
+paragraphs of complains about the Wiki. Doing so, you pollute your page 
+yourself. The best place to discuss these technical issues is in 
+R-SIG-WIKI. Ben Bolker adequately moved the discussion there. So, 
+please, let's continue this discussion there; I will edit your page to 
+remove these distracting elements, but I copy and paste it in the 
+current message:
+
+==============================================
+ > I don?t know why this Wiki adds unwanted nonsense-links to pf(), but I
+ > don?t have the patience to find out why because of the inacceptable
+ > waits in editing. And it?s not my fault that MS(linux) is considered a
+ > product of Microsoft by the makers of this Wiki. I also don?t use the
+ > R-highlighter, because the choice of colors makes reading more
+ > difficult than black-only.
+ >
+ > Creating the text here was not much fun, waiting times are simply
+ > unacceptable and the Wiki behaves unpredictably when syntax errors are
+ > detected. I still do not know why Spencer Graves? text at the end of
+ > this page is Ok in a separate link, but crashes the parser when
+ > inserted in-line. This has cost me over an hour to track it down
+ > because of the long waits.
+ >
+ > ? Dieter Menne 2006/10/09
+==============================================
+
+Now, I take your various gripes one after the other, and try to give an 
+answer to them:
+
+ > I don?t know why this Wiki adds unwanted nonsense-links to pf(), but I
+ > don?t have the patience to find out why because of the inacceptable
+ > waits in editing.
+
+We try hard to make Wiki pages context-sensible. The idea is: to be able 
+to read a Wiki page and get instant links and hints about R functions 
+cited, or used in R code sections. This is not easy to do because that 
+code is not actually parsed by R, and guessing what the context is, 
+sometimes fails. It is certainly possible to do better, which we will do 
+in subsequent versions of the Wiki engine. However, pf() in the text is 
+automatically detected as a citation to the... pf() function in package 
+stats. So, the Wiki does the two following additions:
+
+1) It creates a hint with the syntax of the function (its arguments). In 
+this case, it seems correct, isn't it?
+
+2) It is supposed to create a link to the Wiki version of the man page 
+for that function. As you noticed, there is a bug for that function, and 
+it incorrectly links to plot.stepfun() (sic!).
+
+Now, when you notice that, the good behavior is to send a mail to the 
+Wiki maintainer to signal the bug. So, please, do so in the future. Keep 
+in mind that people are working hard to make this R Wiki, and consider 
+their work: no software is totally bug-free (well, what about LaTeX?)
+
+Now, about the slowliness you complain for. First, the Wiki edition is 
+totally managed by the server, not by the client (although there is a 
+little bit of JavaScript run on the client). The reason is to make it 
+compatible with as many different web browsers as possible. This is hard 
+to do, those days, with a client-side implementation of the editor. The 
+bad side is the heavy traffic between the server and the client this 
+requires for long pages with slow Internet connections. So, three 
+recommendations:
+
+1) Try to understand why the connection with the R Wiki server is so 
+slow for you,
+
+2) Please, learn how to present material in the Wiki. Your page is way 
+too long and is a rather crude copy and paste from the long thread in 
+the mailing list. Wiki pages are supposed to be digest forms of them, 
+removing most of the discussion with section titles matching the 
+content, not the name of authors of posts in the mailing list.
+
+3) For long Wiki pages, the Wiki engines allows for editing one section 
+at a time. Shorter text to edit = faster response of the editor, 
+especially on slow Internet connections.
+
+
+ > And it?s not my fault that MS(linux) is considered a
+ > product of Microsoft by the makers of this Wiki.
+
+This comes from the default list of acronyms provided with DokuWiki. You 
+cannot deny that MS is often used as acronym for Microsoft. Now, if you 
+happen to use MS with a different meaning, you can still protect it from 
+the bad, automatic interpretation by writing  %%MS%%(linux). Please, 
+read the Wiki syntax more carefully before complaining so badly about a 
+problem. In particular, (re)read:
+
+http://wiki.r-project.org/rwiki/doku.php?id=wiki:syntax
+
+... and you will find there:
+
+"To let the parser ignore an area completely (ie. do no formatting on 
+it), enclose the area either with nowiki tags or even simpler, with 
+double percent signs %%."
+
+And again... if you don't find the solution yourself, you still can ask 
+on R-SIG-GUI and someone would gladly give you the answer.
+
+ > I also don?t use the R-highlighter, because the choice of colors makes
+ > reading more difficult than black-only.
+
+This is YOUR feeling. You should consider that it is not easy to find a 
+combination of colors that would be usable on ANY SCREEN, not only 
+yours. In particular, a good practice is to limit colors used to the 
+small palette of colors that are considered "Web-safe" (same colors on 
+all Web Browsers and plateforms). When you consider that, plus the fact 
+that the text should remain readable (no pale yellow text on gray 
+background, for instance), you end up with a VERY LIMITED choice.
+
+Now, you are the first one to complain about color for syntax 
+highlighting. So, two possibilities: (1) nobody dares to do so before 
+you, (2) you are marginal in this consideration.
+
+If its is point (1), please, propose another combination of web-safe 
+colors. I have worked more than two days, trying different configs on 
+different machines before chosing this one. So, I cannot do better myself.
+
+Now, do you write the Wiki page for yourself, or for other readers. For 
+other readers, of course. So, please, do follow the format and 
+conventions adopted in the R Wiki. R code MUST be declared as <code 
+r>...</code> and it activates also automatic links for R functions, not 
+only syntax highlighting. Other readers could find black text less 
+readable that colored text and would appreciate automatic links to man 
+pages of R functions they don't know. At least, it is my case!
+
+ > Creating the text here was not much fun, waiting times are simply
+ > unacceptable and the Wiki behaves unpredictably when syntax errors are
+ > detected. I still do not know why Spencer Graves? text at the end of
+ > this page is Ok in a separate link, but crashes the parser when
+ > inserted in-line. This has cost me over an hour to track it down
+ > because of the long waits.
+
+Again, please, write first the structure of your page (the section 
+titles) and then, edit these sections one at a time if your Internet 
+connection is slow. Also, read more carefully the syntax of the Wiki. 
+You complain about bad formatting of your pages, but the Wiki engine is 
+just a robot that does what YOU tell him to do. If you give bad 
+instructions, you are guilty, not the Wiki engine! This will take me 
+MORE than one hour to both answer your complains and reformat your page 
+correctly... and it is certainly not much fun for me either!
+
+Now, I will try to edit your page to present it the way it should be in 
+the Wiki. Would you consider the work of other people a little bit more 
+positively, would you formulate bug reports or suggestions the right 
+way, and you would be really appreciated as a R Wiki contributor.
+Best,
+
+Philippe Grosjean
+
+Ben Bolker wrote:
+>    Dieter,
+> 
+>   I read your complaints about waiting times and
+> difficulties with the parser in constructing
+> http://wiki.r-project.org/rwiki/doku.php?id=guides:lmer-tests
+> 
+>   I didn't seem to have any trouble -- could it somehow
+> be something platform- or connection-specific?
+> (I'm using Firefox 1.5.0.8, Ubuntu 6.06) Or some transient
+> problem?
+> 
+>   I agree it would be nice to figure out why pf() links
+> to plot.stepfun(stats) ??  And to turn off the MS = Microsoft
+> tooltip ...
+>   I'm not sure I agree about the syntax coloring being
+> unhelpful ...
+> 
+>    Ben Bolker
+> 
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+

@@ -1,0 +1,304 @@
+From tplate at acm.org  Fri Jun 15 00:13:45 2007
+From: tplate at acm.org (Tony Plate)
+Date: Thu, 14 Jun 2007 16:13:45 -0600
+Subject: [R-wiki] How to upload a graphics file?
+Message-ID: <4671BD99.3080904@acm.org>
+
+I was trying to upload a .svg file to the Wiki, but I couldn't see how 
+to do it.
+
+I clicked the "Add images or other files" button and got a page (with 
+the category Mediafile Selection packages:cran), where I could browse to 
+the file on my computer (mlgvswgt1.svg) and click "Upload".  However, 
+even though it gave no error, there was no indication that the file was 
+successfully uploaded, and I couldn't find it.  The 5 or 6 filenames and 
+images in the right hand side of the "Add images..." window didn't change.
+
+How do I go about uploading an image?
+
+-- Tony Plate
+
+
+From phgrosjean at sciviews.org  Fri Jun 15 10:14:15 2007
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 15 Jun 2007 10:14:15 +0200
+Subject: [R-wiki] How to upload a graphics file?
+In-Reply-To: <4671BD99.3080904@acm.org>
+References: <4671BD99.3080904@acm.org>
+Message-ID: <46724A57.6010502@sciviews.org>
+
+Hello Tony,
+
+This is because the file format is not accepted. You should have a clear 
+message in red telling that the "upload is denied because the file 
+extension is not accepted" at the top of the upload page.
+
+Here is the list of accepted extensions (file formats):
+
+jpg     image/jpeg
+jpeg    image/jpeg
+gif     image/gif
+png     image/png
+tgz     application/octet-stream
+tar     application/x-gtar
+gz      application/octet-stream
+zip     application/zip
+pdf     application/pdf
+txt     text/plain
+html    text/html
+htm     text/html
+xml     text/xml
+swf     application/x-shockwave-flash
+r       application/r
+rd      application/rd
+
+plus a couple of other, less common ones. The .svg extension is not in 
+this list because not all Web browsers support this extension. I suggest 
+to convert your file into one of the supported formats. If you would 
+like to keep it in vector format, convert it into .pdf or, better, .swf. 
+Also, if you change the name of the file, do not forget to place the 
+right extension at the end of the new name.
+Best,
+
+Philippe Grosjean
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Belgium
+( ( ( ( (
+..............................................................
+
+Tony Plate wrote:
+> I was trying to upload a .svg file to the Wiki, but I couldn't see how 
+> to do it.
+> 
+> I clicked the "Add images or other files" button and got a page (with 
+> the category Mediafile Selection packages:cran), where I could browse to 
+> the file on my computer (mlgvswgt1.svg) and click "Upload".  However, 
+> even though it gave no error, there was no indication that the file was 
+> successfully uploaded, and I couldn't find it.  The 5 or 6 filenames and 
+> images in the right hand side of the "Add images..." window didn't change.
+> 
+> How do I go about uploading an image?
+> 
+> -- Tony Plate
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From tplate at acm.org  Fri Jun 15 17:55:18 2007
+From: tplate at acm.org (Tony Plate)
+Date: Fri, 15 Jun 2007 09:55:18 -0600
+Subject: [R-wiki] How to upload a graphics file?
+In-Reply-To: <46724A57.6010502@sciviews.org>
+References: <4671BD99.3080904@acm.org> <46724A57.6010502@sciviews.org>
+Message-ID: <4672B666.2020209@acm.org>
+
+Philippe, thanks, I guess I missed the error message the first time 
+(small font, different part of the screen from where the "Upload" button 
+is...)
+
+I added a page to the wiki describing the RSVGTipsDevice package and I 
+had wanted to include an SVG image precisely because of the special 
+abilities of SVG -- pop-up tool-tips identifying points.  So, using 
+another graphics format pretty much defeats the purpose.  But, I 
+included an external link to the SVG image.
+
+thanks anyway!
+
+-- Tony
+
+Philippe Grosjean wrote:
+> Hello Tony,
+> 
+> This is because the file format is not accepted. You should have a clear 
+> message in red telling that the "upload is denied because the file 
+> extension is not accepted" at the top of the upload page.
+> 
+> Here is the list of accepted extensions (file formats):
+> 
+> jpg     image/jpeg
+> jpeg    image/jpeg
+> gif     image/gif
+> png     image/png
+> tgz     application/octet-stream
+> tar     application/x-gtar
+> gz      application/octet-stream
+> zip     application/zip
+> pdf     application/pdf
+> txt     text/plain
+> html    text/html
+> htm     text/html
+> xml     text/xml
+> swf     application/x-shockwave-flash
+> r       application/r
+> rd      application/rd
+> 
+> plus a couple of other, less common ones. The .svg extension is not in 
+> this list because not all Web browsers support this extension. I suggest 
+> to convert your file into one of the supported formats. If you would 
+> like to keep it in vector format, convert it into .pdf or, better, .swf. 
+> Also, if you change the name of the file, do not forget to place the 
+> right extension at the end of the new name.
+> Best,
+> 
+> Philippe Grosjean
+> 
+> ..............................................<?}))><........
+>   ) ) ) ) )
+> ( ( ( ( (    Prof. Philippe Grosjean
+>   ) ) ) ) )
+> ( ( ( ( (    Numerical Ecology of Aquatic Systems
+>   ) ) ) ) )   Mons-Hainaut University, Belgium
+> ( ( ( ( (
+> ..............................................................
+> 
+> Tony Plate wrote:
+>> I was trying to upload a .svg file to the Wiki, but I couldn't see how 
+>> to do it.
+>>
+>> I clicked the "Add images or other files" button and got a page (with 
+>> the category Mediafile Selection packages:cran), where I could browse to 
+>> the file on my computer (mlgvswgt1.svg) and click "Upload".  However, 
+>> even though it gave no error, there was no indication that the file was 
+>> successfully uploaded, and I couldn't find it.  The 5 or 6 filenames and 
+>> images in the right hand side of the "Add images..." window didn't change.
+>>
+>> How do I go about uploading an image?
+>>
+>> -- Tony Plate
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From phgrosjean at sciviews.org  Fri Jun 15 18:11:41 2007
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 15 Jun 2007 18:11:41 +0200
+Subject: [R-wiki] How to upload a graphics file?
+In-Reply-To: <4672B666.2020209@acm.org>
+References: <4671BD99.3080904@acm.org> <46724A57.6010502@sciviews.org>
+	<4672B666.2020209@acm.org>
+Message-ID: <4672BA3D.3010208@sciviews.org>
+
+If you want, I can place it myself...
+Best,
+
+Philippe
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Belgium
+( ( ( ( (
+..............................................................
+
+Tony Plate wrote:
+> Philippe, thanks, I guess I missed the error message the first time 
+> (small font, different part of the screen from where the "Upload" button 
+> is...)
+> 
+> I added a page to the wiki describing the RSVGTipsDevice package and I 
+> had wanted to include an SVG image precisely because of the special 
+> abilities of SVG -- pop-up tool-tips identifying points.  So, using 
+> another graphics format pretty much defeats the purpose.  But, I 
+> included an external link to the SVG image.
+> 
+> thanks anyway!
+> 
+> -- Tony
+> 
+> Philippe Grosjean wrote:
+>> Hello Tony,
+>>
+>> This is because the file format is not accepted. You should have a 
+>> clear message in red telling that the "upload is denied because the 
+>> file extension is not accepted" at the top of the upload page.
+>>
+>> Here is the list of accepted extensions (file formats):
+>>
+>> jpg     image/jpeg
+>> jpeg    image/jpeg
+>> gif     image/gif
+>> png     image/png
+>> tgz     application/octet-stream
+>> tar     application/x-gtar
+>> gz      application/octet-stream
+>> zip     application/zip
+>> pdf     application/pdf
+>> txt     text/plain
+>> html    text/html
+>> htm     text/html
+>> xml     text/xml
+>> swf     application/x-shockwave-flash
+>> r       application/r
+>> rd      application/rd
+>>
+>> plus a couple of other, less common ones. The .svg extension is not in 
+>> this list because not all Web browsers support this extension. I 
+>> suggest to convert your file into one of the supported formats. If you 
+>> would like to keep it in vector format, convert it into .pdf or, 
+>> better, .swf. Also, if you change the name of the file, do not forget 
+>> to place the right extension at the end of the new name.
+>> Best,
+>>
+>> Philippe Grosjean
+>>
+>> ..............................................<?}))><........
+>>   ) ) ) ) )
+>> ( ( ( ( (    Prof. Philippe Grosjean
+>>   ) ) ) ) )
+>> ( ( ( ( (    Numerical Ecology of Aquatic Systems
+>>   ) ) ) ) )   Mons-Hainaut University, Belgium
+>> ( ( ( ( (
+>> ..............................................................
+>>
+>> Tony Plate wrote:
+>>> I was trying to upload a .svg file to the Wiki, but I couldn't see 
+>>> how to do it.
+>>>
+>>> I clicked the "Add images or other files" button and got a page (with 
+>>> the category Mediafile Selection packages:cran), where I could browse 
+>>> to the file on my computer (mlgvswgt1.svg) and click "Upload".  
+>>> However, even though it gave no error, there was no indication that 
+>>> the file was successfully uploaded, and I couldn't find it.  The 5 or 
+>>> 6 filenames and images in the right hand side of the "Add images..." 
+>>> window didn't change.
+>>>
+>>> How do I go about uploading an image?
+>>>
+>>> -- Tony Plate
+>>>
+>>> _______________________________________________
+>>> R-sig-wiki mailing list
+>>> R-sig-wiki at r-project.org
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+> 
+>
+
+

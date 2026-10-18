@@ -1,0 +1,316 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2006-03",
+  "messages": [
+    {
+      "id": "msg-b2b4dcd722d9",
+      "message_id": "<440C4FC5.6040105@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2006-03-06T15:05:41Z",
+      "subject": "[R-wiki] New R syntax highlighter",
+      "subject_clean": "[R-wiki] New R syntax highlighter",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello All,\n\nI have reworked the R syntax highlighter for R and I have added three \nhighlighters (for R documentation, for DESCRIPTION and NAMESPACE files).\n\nSee: http://www.sciviews.org/_rgui/wiki/doku.php?id=wiki:rhighlighting\n\nI have now almost finished the Wiki engine by itself, and I will install \nit in the final address (but not the final physical server yet).\nBest,\n\nPhilippe Grosjean",
+      "body_snippet": "Hello All,\n\nI have reworked the R syntax highlighter for R and I have added three \nhighlighters (for R documentation, for DESCRIPTION and NAMESPACE files).\n\nSee: http://www.sciviews.org/_rgui/wiki/dok",
+      "thread_id": "thread-b2b4dcd722d9",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-1de3bd021a9d",
+      "message_id": "<web-7887418@be3.bc.edu>",
+      "from_name": "Damian Betebenner",
+      "from_email_hash": "be7f4483374065ff0b96bf519638917ced92f9a3ee2d0ed036b7987938a6f9a8",
+      "date": "2006-03-06T16:01:16Z",
+      "subject": "[R-wiki] New R syntax highlighter",
+      "subject_clean": "[R-wiki] New R syntax highlighter",
+      "in_reply_to": "<440C4FC5.6040105@sciviews.org>",
+      "references": [
+        "<440C4FC5.6040105@sciviews.org>"
+      ],
+      "body_plain": "Philippe,\n\nBRAVO!\n\nTruly literate programming.\n\nDamian\n\n |  On Mon, 06 Mar 2006 16:05:41 +0100\n |  Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n>>>Hello All,\n>>>\n>>>I have reworked the R syntax highlighter for R and I have added three \n>>>highlighters (for R documentation, for DESCRIPTION and NAMESPACE files).\n>>>\n>>>See: http://www.sciviews.org/_rgui/wiki/doku.php?id=wiki:rhighlighting\n>>>\n>>>I have now almost finished the Wiki engine by itself, and I will install \n>>>it in the final address (but not the final physical server yet).\n>>>Best,\n>>>\n>>>Philippe Grosjean\n>>>\n>>>_______________________________________________\n>>>R-sig-wiki mailing list\n>>>R-sig-wiki at r-project.org\n>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n\n\n\n(617) 552 4491",
+      "body_snippet": "Philippe,\n\nBRAVO!\n\nTruly literate programming.\n\nDamian\n\n |  On Mon, 06 Mar 2006 16:05:41 +0100\n |  Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n>>>Hello All,\n>>>\n>>>I have reworked the R synt",
+      "thread_id": "thread-b2b4dcd722d9",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-e1ec59c583ef",
+      "message_id": "<440F46BE.2050509@metrak.com>",
+      "from_name": "paul sorenson",
+      "from_email_hash": "ec863ddce612e14ac983523e941132c2887b83a602719a73f0130b804ae0d935",
+      "date": "2006-03-08T21:03:58Z",
+      "subject": "[R-wiki] New R syntax highlighter",
+      "subject_clean": "[R-wiki] New R syntax highlighter",
+      "in_reply_to": "<440C4FC5.6040105@sciviews.org>",
+      "references": [
+        "<440C4FC5.6040105@sciviews.org>"
+      ],
+      "body_plain": "That is looking very cool indeed.\n\nCan it write my algorithms for me?\n\nPhilippe Grosjean wrote:\n> Hello All,\n> \n> I have reworked the R syntax highlighter for R and I have added three \n> highlighters (for R documentation, for DESCRIPTION and NAMESPACE files).\n> \n> See: http://www.sciviews.org/_rgui/wiki/doku.php?id=wiki:rhighlighting\n> \n> I have now almost finished the Wiki engine by itself, and I will install \n> it in the final address (but not the final physical server yet).\n> Best,\n> \n> Philippe Grosjean\n> \n> _______________________________________________\n> R-sig-wiki mailing list\n> R-sig-wiki at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n>",
+      "body_snippet": "That is looking very cool indeed.\n\nCan it write my algorithms for me?\n\nPhilippe Grosjean wrote:\n> Hello All,\n> \n> I have reworked the R syntax highlighter for R and I have added three \n> highlighters ",
+      "thread_id": "thread-b2b4dcd722d9",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-afdeed444c54",
+      "message_id": "<440F4D37.5020705@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2006-03-08T21:31:35Z",
+      "subject": "[R-wiki] New R syntax highlighter",
+      "subject_clean": "[R-wiki] New R syntax highlighter",
+      "in_reply_to": "<440F46BE.2050509@metrak.com>",
+      "references": [
+        "<440C4FC5.6040105@sciviews.org>",
+        "<440F46BE.2050509@metrak.com>"
+      ],
+      "body_plain": "paul sorenson wrote:\n> That is looking very cool indeed.\n> \n> Can it write my algorithms for me?\n\nForget about the algorithms and focus on a software that writes the \nreports and publications for you... that would be realllly cool stuff!\n\nbest,\n\nPhilippe Grosjean\n\n> Philippe Grosjean wrote:\n> \n>> Hello All,\n>>\n>> I have reworked the R syntax highlighter for R and I have added three \n>> highlighters (for R documentation, for DESCRIPTION and NAMESPACE files).\n>>\n>> See: http://www.sciviews.org/_rgui/wiki/doku.php?id=wiki:rhighlighting\n>>\n>> I have now almost finished the Wiki engine by itself, and I will \n>> install it in the final address (but not the final physical server yet).\n>> Best,\n>>\n>> Philippe Grosjean\n>>\n>> _______________________________________________\n>> R-sig-wiki mailing list\n>> R-sig-wiki at r-project.org\n>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n>>\n> \n> \n>",
+      "body_snippet": "paul sorenson wrote:\n> That is looking very cool indeed.\n> \n> Can it write my algorithms for me?\n\nForget about the algorithms and focus on a software that writes the \nreports and publications for you.",
+      "thread_id": "thread-b2b4dcd722d9",
+      "thread_depth": 2,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-c4e33679366e",
+      "message_id": "<441570A8.1080205@ufl.edu>",
+      "from_name": "Ben Bolker",
+      "from_email_hash": "e939ee505cc6d7a90d0153f4adc5952232fd23faf5cf21e6fd51dcdff5d5ae73",
+      "date": "2006-03-13T13:16:24Z",
+      "subject": "[R-wiki] orphans/wanted",
+      "subject_clean": "[R-wiki] orphans/wanted",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "what is the best way to deal with the orphans/wanted page?\nshould I start trying to move stuff over?\n\n   The orphans/wanted page doesn't *look* automatically\ngenerated, but it seems as though it should be ?\n\n   sorry to have fallen down on the job -- I will try to\nstart moving again, although next week is more likely\nthan this week ...\n\n    Ben Bolker\n\n-- \n620B Bartram Hall                            bolker at zoo.ufl.edu\nZoology Department, University of Florida    http://www.zoo.ufl.edu/bolker\nBox 118525                                   (ph)  352-392-5697\nGainesville, FL 32611-8525                   (fax) 352-392-3704",
+      "body_snippet": "what is the best way to deal with the orphans/wanted page?\nshould I start trying to move stuff over?\n\n   The orphans/wanted page doesn't *look* automatically\ngenerated, but it seems as though it shoul",
+      "thread_id": "thread-c4e33679366e",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-c73665283237",
+      "message_id": "<17444.4890.384486.173800@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2006-03-24T15:41:14Z",
+      "subject": "[R-wiki] R Wiki server -- wiki.R-project.org is THERE!",
+      "subject_clean": "[R-wiki] R Wiki server -- wiki.R-project.org is THERE!",
+      "in_reply_to": "<4422AA1F.10301@sciviews.org>",
+      "references": [
+        "<44229A49.8070709@sciviews.org>",
+        "<17442.40208.517103.86234@stat.math.ethz.ch>",
+        "<4422AA1F.10301@sciviews.org>"
+      ],
+      "body_plain": "Finally...  \nhttp://wiki.R-project.org/  \n-------------------------- \nnow points to the new server that\nPhilippe Grosjean has set up these days!\n\nCongratulations!",
+      "body_snippet": "Finally...  \nhttp://wiki.R-project.org/  \n-------------------------- \nnow points to the new server that\nPhilippe Grosjean has set up these days!\n\nCongratulations!",
+      "thread_id": "thread-c73665283237",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-e079631cd045",
+      "message_id": "<44243ACE.9070303@zoo.ufl.edu>",
+      "from_name": "Ben Bolker",
+      "from_email_hash": "10af28d36bcdc09beaca76a608d7bee9f1f3e76c32aaecff390c982a8bb8ca4a",
+      "date": "2006-03-24T18:30:38Z",
+      "subject": "[R-wiki] exhortation & question about FAQ",
+      "subject_clean": "[R-wiki] exhortation & question about FAQ",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "[first sent to r-sig-wiki-request by accident]\n\n   now that the FAQ has gone public (more or less) it\nwould be great if we could get some more content up ...\nthanks to Phillipe Grosjean and Romain Francois\n(and whoever \"129.132.58.30\" is ... Olivier Powell???)\n\n   and a question/comment:\n\n   FAQ:plotting-faq\n\n   looks to me like it should go under tips:graphics-base ;\nI'm worried that material is going to start getting duplicated/\nseparated in a \"FAQ\" section and a \"Tips\" section.  Opinions?\n\n    Ben\n-- \n620B Bartram Hall                            bolker at zoo.ufl.edu\nZoology Department, University of Florida    http://www.zoo.ufl.edu/bolker\nBox 118525                                   (ph)  352-392-5697\nGainesville, FL 32611-8525                   (fax) 352-392-3704",
+      "body_snippet": "[first sent to r-sig-wiki-request by accident]\n\n   now that the FAQ has gone public (more or less) it\nwould be great if we could get some more content up ...\nthanks to Phillipe Grosjean and Romain Fra",
+      "thread_id": "thread-e079631cd045",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-a998bfd1de80",
+      "message_id": "<20060324195937.91891.qmail@web50910.mail.yahoo.com>",
+      "from_name": "Drew",
+      "from_email_hash": "3c51cc38f4357b859d89103349c9f4999514773d5efed951a0de5e3e884a90ff",
+      "date": "2006-03-24T19:59:37Z",
+      "subject": "[R-wiki] exhortation & question about FAQ",
+      "subject_clean": "[R-wiki] exhortation & question about FAQ",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Yes, more content would be good, although I've not\nbeen doing my part\nlately. Hope I can pick it up again now that work is\nstarting to slow down.\n\n~Nick\n\n-----Original Message-----\nFrom: r-sig-wiki-bounces at r-project.org\n[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of\nBen Bolker\nSent: Friday, March 24, 2006 10:31 AM\nTo: r-sig-wiki at r-project.org\nSubject: [R-wiki] exhortation & question about FAQ\n\n\n\n   [first sent to r-sig-wiki-request by accident]\n\n   now that the FAQ has gone public (more or less) it\nwould be great if we could get some more content up\n...\nthanks to Phillipe Grosjean and Romain Francois\n(and whoever \"129.132.58.30\" is ... Olivier Powell???)\n\n   and a question/comment:\n\n   FAQ:plotting-faq\n\n   looks to me like it should go under\ntips:graphics-base ;\nI'm worried that material is going to start getting\nduplicated/\nseparated in a \"FAQ\" section and a \"Tips\" section. \nOpinions?\n\n    Ben\n--\n620B Bartram Hall                           \nbolker at zoo.ufl.edu\nZoology Department, University of Florida   \nhttp://www.zoo.ufl.edu/bolker\nBox 118525                                   (ph) \n352-392-5697\nGainesville, FL 32611-8525                   (fax)\n352-392-3704\n\n_______________________________________________\nR-sig-wiki mailing list\nR-sig-wiki at r-project.org\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-wiki",
+      "body_snippet": "Yes, more content would be good, although I've not\nbeen doing my part\nlately. Hope I can pick it up again now that work is\nstarting to slow down.\n\n~Nick\n\n-----Original Message-----\nFrom: r-sig-wiki-bo",
+      "thread_id": "thread-a998bfd1de80",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-f8c285a70ed7",
+      "message_id": "<17445.11272.356456.924051@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2006-03-25T11:39:52Z",
+      "subject": "[R-wiki] exhortation & question about FAQ",
+      "subject_clean": "[R-wiki] exhortation & question about FAQ",
+      "in_reply_to": "<44243ACE.9070303@zoo.ufl.edu>",
+      "references": [
+        "<44243ACE.9070303@zoo.ufl.edu>"
+      ],
+      "body_plain": ">>>>> \"Ben\" == Ben Bolker <bolker at zoo.ufl.edu>\n>>>>>     on Fri, 24 Mar 2006 13:30:38 -0500 writes:\n\n    Ben> [first sent to r-sig-wiki-request by accident]\n\n    Ben> now that the FAQ has gone public (more or less) it\n    Ben> would be great if we could get some more content up ...\n    Ben> thanks to Phillipe Grosjean and Romain Francois\n    Ben> (and whoever \"129.132.58.30\" is ... Olivier Powell???)\n\n[ 129.132.50.30 is my (hopefully pretty well firewalled) desktop..  \n  I have a problem logging in *and* registering, since it seems\n \"maechler\" has a login already, but I don't know the password :-\\ \n]\n\n    Ben> and a question/comment:\n\n    Ben> FAQ:plotting-faq\n\n    Ben> looks to me like it should go under tips:graphics-base ;\n    Ben> I'm worried that material is going to start getting duplicated/\n    Ben> separated in a \"FAQ\" section and a \"Tips\" section.  Opinions?\n\nInitially I didn't like the idea to have a FAQ section in the\nWiki at all, since there's the official R FAQ and \"R for windows\nFAQ\" already and we (R core) really want people to read (and\nre-read!) these officials FAQ lists.  I've then seen that you\n(Philippe) were aiming for a different ``mostly orthogonal'' FAQ\nlist and could well live with that.\nStill I'd like to reconsider calling these 'Tips / Hints / ..\" FAQ.\n\nBTW, relatedly, when looking for \"Introduction\" in the Wiki,\nI've been unable to even *find* a hint to the official \"Introduction to R\";\nsomething that we (R core) would *really* want people to know\nabout and take time to read *before* asking FAQs ..\n\nIf the above sounds negative, I want to divert those sentiments\nand express my tremendous gratitude towards Philippe Grosjean\nprincipally but also to several other thoughtful and active Wiki\nwriters and discussants!\n\nMartin Maechler, ETH Zurich",
+      "body_snippet": ">>>>> \"Ben\" == Ben Bolker <bolker at zoo.ufl.edu>\n>>>>>     on Fri, 24 Mar 2006 13:30:38 -0500 writes:\n\n    Ben> [first sent to r-sig-wiki-request by accident]\n\n    Ben> now that the FAQ has gone publ",
+      "thread_id": "thread-e079631cd045",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-567110585ee8",
+      "message_id": "<442541E5.6000609@zoo.ufl.edu>",
+      "from_name": "Ben Bolker",
+      "from_email_hash": "10af28d36bcdc09beaca76a608d7bee9f1f3e76c32aaecff390c982a8bb8ca4a",
+      "date": "2006-03-25T13:13:09Z",
+      "subject": "[R-wiki] wikis out of sync",
+      "subject_clean": "[R-wiki] wikis out of sync",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "http://www.sciviews.org/_rgui/wiki/doku.php\n\nand\n\nwiki.r-project.org\n\nappear to point at *different* data ...\n\n... just a warning to anyone who might\nstill be updating the former!\n\n   Ben",
+      "body_snippet": "http://www.sciviews.org/_rgui/wiki/doku.php\n\nand\n\nwiki.r-project.org\n\nappear to point at *different* data ...\n\n... just a warning to anyone who might\nstill be updating the former!\n\n   Ben",
+      "thread_id": "thread-567110585ee8",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-2dac4cbfff80",
+      "message_id": "<4426C147.1070600@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2006-03-26T16:28:55Z",
+      "subject": "[R-wiki] exhortation & question about FAQ",
+      "subject_clean": "[R-wiki] exhortation & question about FAQ",
+      "in_reply_to": "<44243ACE.9070303@zoo.ufl.edu>",
+      "references": [
+        "<44243ACE.9070303@zoo.ufl.edu>"
+      ],
+      "body_plain": "Ben Bolker wrote:\n>    [first sent to r-sig-wiki-request by accident]\n> \n>    now that the FAQ has gone public (more or less) it\n> would be great if we could get some more content up ...\n> thanks to Phillipe Grosjean and Romain Francois\n> (and whoever \"129.132.58.30\" is ... Olivier Powell???)\n\n>    and a question/comment:\n> \n>    FAQ:plotting-faq\n> \n>    looks to me like it should go under tips:graphics-base ;\n> I'm worried that material is going to start getting duplicated/\n> separated in a \"FAQ\" section and a \"Tips\" section.  Opinions?\n> \n>     Ben\n\nYes, a little reworking is required.\n\nPhG",
+      "body_snippet": "Ben Bolker wrote:\n>    [first sent to r-sig-wiki-request by accident]\n> \n>    now that the FAQ has gone public (more or less) it\n> would be great if we could get some more content up ...\n> thanks to P",
+      "thread_id": "thread-e079631cd045",
+      "thread_depth": 1,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-45a7bdaf011f",
+      "message_id": "<4426DD13.70501@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2006-03-26T18:27:31Z",
+      "subject": "[R-wiki] exhortation & question about FAQ",
+      "subject_clean": "[R-wiki] exhortation & question about FAQ",
+      "in_reply_to": "<17445.11272.356456.924051@stat.math.ethz.ch>",
+      "references": [
+        "<44243ACE.9070303@zoo.ufl.edu>",
+        "<17445.11272.356456.924051@stat.math.ethz.ch>"
+      ],
+      "body_plain": "Martin Maechler wrote:\n>>>>>>\"Ben\" == Ben Bolker <bolker at zoo.ufl.edu>\n>>>>>>    on Fri, 24 Mar 2006 13:30:38 -0500 writes:\n> \n> \n>     Ben> [first sent to r-sig-wiki-request by accident]\n> \n>     Ben> now that the FAQ has gone public (more or less) it\n>     Ben> would be great if we could get some more content up ...\n>     Ben> thanks to Phillipe Grosjean and Romain Francois\n>     Ben> (and whoever \"129.132.58.30\" is ... Olivier Powell???)\n> \n> [ 129.132.50.30 is my (hopefully pretty well firewalled) desktop..  \n>   I have a problem logging in *and* registering, since it seems\n>  \"maechler\" has a login already, but I don't know the password :-\\ \n> ]\n> \n>     Ben> and a question/comment:\n> \n>     Ben> FAQ:plotting-faq\n> \n>     Ben> looks to me like it should go under tips:graphics-base ;\n>     Ben> I'm worried that material is going to start getting duplicated/\n>     Ben> separated in a \"FAQ\" section and a \"Tips\" section.  Opinions?\n\nYes, I agree. We should move this to Tips. I'll do that as soon as possible.\n\n> Initially I didn't like the idea to have a FAQ section in the\n> Wiki at all, since there's the official R FAQ and \"R for windows\n> FAQ\" already and we (R core) really want people to read (and\n> re-read!) these officials FAQ lists.  I've then seen that you\n> (Philippe) were aiming for a different ``mostly orthogonal'' FAQ\n> list and could well live with that.\n> Still I'd like to reconsider calling these 'Tips / Hints / ..\" FAQ.\n\nIndeed, we initially added FAQ as a subsection of getting-started. Its \nthere, but empty. My idea was to put a wikified version of the official \nFAQs there, with a possibility for Wiki discussion. That's all! I also \nconsider that there is no place for duplicated FAQ. It is already \ndifficult enough to make people read the official FAQ. So, why should we \nadd more here?\n\n> BTW, relatedly, when looking for \"Introduction\" in the Wiki,\n> I've been unable to even *find* a hint to the official \"Introduction to R\";\n> something that we (R core) would *really* want people to know\n> about and take time to read *before* asking FAQs ..\n\nI have added a paragraph pointing to the official R documentation at the \nvery beginning of the 'Start' page.\n\n> If the above sounds negative, I want to divert those sentiments\n> and express my tremendous gratitude towards Philippe Grosjean\n> principally but also to several other thoughtful and active Wiki\n> writers and discussants!\n> \n> Martin Maechler, ETH Zurich\n\nThank you Martin. I would like to warmly thank the current contributors \nthat improved the site organization a lot from my initial (bad) scheme \nand that started to contribute pages. I hope that many others will \"join \nthe team\"!\nBest,\n\nPhilippe Grosjean",
+      "body_snippet": "Martin Maechler wrote:\n>>>>>>\"Ben\" == Ben Bolker <bolker at zoo.ufl.edu>\n>>>>>>    on Fri, 24 Mar 2006 13:30:38 -0500 writes:\n> \n> \n>     Ben> [first sent to r-sig-wiki-request by accident]\n> \n>     B",
+      "thread_id": "thread-e079631cd045",
+      "thread_depth": 2,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-064e9a1c8fcd",
+      "message_id": "<442AD98B.3010502@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2006-03-29T19:01:31Z",
+      "subject": "[R-wiki] We get close to the final release",
+      "subject_clean": "[R-wiki] We get close to the final release",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello,\n\nI have refined the structure, installed everything on the server, and, \nmost importantly, upgraded to the latest DokuWiki engine (more \nefficient: *everything is now double-cached*), and added a couple of \nadditional features. I don't tell you more, so that you could discover \nthem by yourself ;-)\n\nPlease, note that the tag for R output in <code r></code> has changed \nfrom '#<' to '#!' (I have changed all pages accordingly).\n\nWe are now very close to the final release to be publicly announced, but \nI noticed a couple of new bugs that appeared when switching to the \nlatest DokuWiki engine, and also, I still have one or two features to \nimplement or finalize (particularly, exportation of Rdoc and ACL).\n\nThank you for your patience and for your contributions.\nBest,\n\nPhilippe Grosjean\n-- \n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)\n( ( ( ( (    Academie Universitaire Wallonie-Bruxelles\n  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium\n( ( ( ( (\n..............................................................",
+      "body_snippet": "Hello,\n\nI have refined the structure, installed everything on the server, and, \nmost importantly, upgraded to the latest DokuWiki engine (more \nefficient: *everything is now double-cached*), and added",
+      "thread_id": "thread-064e9a1c8fcd",
+      "thread_depth": 0,
+      "month": "2006-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b2b4dcd722d9",
+      "subject": "[R-wiki] New R syntax highlighter",
+      "message_count": 4,
+      "participants": [
+        "Damian Betebenner",
+        "Philippe Grosjean",
+        "paul sorenson"
+      ],
+      "started": "2006-03-06T15:05:41Z",
+      "last_reply": "2006-03-08T21:31:35Z",
+      "root_message_id": "msg-b2b4dcd722d9"
+    },
+    {
+      "id": "thread-c4e33679366e",
+      "subject": "[R-wiki] orphans/wanted",
+      "message_count": 1,
+      "participants": [
+        "Ben Bolker"
+      ],
+      "started": "2006-03-13T13:16:24Z",
+      "last_reply": "2006-03-13T13:16:24Z",
+      "root_message_id": "msg-c4e33679366e"
+    },
+    {
+      "id": "thread-c73665283237",
+      "subject": "[R-wiki] R Wiki server -- wiki.R-project.org is THERE!",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2006-03-24T15:41:14Z",
+      "last_reply": "2006-03-24T15:41:14Z",
+      "root_message_id": "msg-c73665283237"
+    },
+    {
+      "id": "thread-e079631cd045",
+      "subject": "[R-wiki] exhortation & question about FAQ",
+      "message_count": 4,
+      "participants": [
+        "Ben Bolker",
+        "Martin Maechler",
+        "Philippe Grosjean"
+      ],
+      "started": "2006-03-24T18:30:38Z",
+      "last_reply": "2006-03-26T18:27:31Z",
+      "root_message_id": "msg-e079631cd045"
+    },
+    {
+      "id": "thread-a998bfd1de80",
+      "subject": "[R-wiki] exhortation & question about FAQ",
+      "message_count": 1,
+      "participants": [
+        "Drew"
+      ],
+      "started": "2006-03-24T19:59:37Z",
+      "last_reply": "2006-03-24T19:59:37Z",
+      "root_message_id": "msg-a998bfd1de80"
+    },
+    {
+      "id": "thread-567110585ee8",
+      "subject": "[R-wiki] wikis out of sync",
+      "message_count": 1,
+      "participants": [
+        "Ben Bolker"
+      ],
+      "started": "2006-03-25T13:13:09Z",
+      "last_reply": "2006-03-25T13:13:09Z",
+      "root_message_id": "msg-567110585ee8"
+    },
+    {
+      "id": "thread-064e9a1c8fcd",
+      "subject": "[R-wiki] We get close to the final release",
+      "message_count": 1,
+      "participants": [
+        "Philippe Grosjean"
+      ],
+      "started": "2006-03-29T19:01:31Z",
+      "last_reply": "2006-03-29T19:01:31Z",
+      "root_message_id": "msg-064e9a1c8fcd"
+    }
+  ]
+}

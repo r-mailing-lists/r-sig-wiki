@@ -1,0 +1,231 @@
+From peter.konings at esat.kuleuven.be  Fri Feb  5 12:06:34 2010
+From: peter.konings at esat.kuleuven.be (Peter Konings)
+Date: Fri, 05 Feb 2010 12:06:34 +0100
+Subject: [R-wiki] R-wiki down?
+Message-ID: <4B6BFBBA.4010003@esat.kuleuven.be>
+
+Dear all,
+
+what happened to the R wiki? The links on the R homepage 
+(http://wiki.r-project.org) result in a 404 error. Has it been moved?
+
+kind regards
+Peter.
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: peter_konings.vcf
+Type: text/x-vcard
+Size: 334 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20100205/7092f582/attachment.vcf>
+
+From P.Dalgaard at biostat.ku.dk  Fri Feb  5 12:16:33 2010
+From: P.Dalgaard at biostat.ku.dk (Peter Dalgaard)
+Date: Fri, 05 Feb 2010 12:16:33 +0100
+Subject: [R-wiki] R-wiki down?
+In-Reply-To: <4B6BFBBA.4010003@esat.kuleuven.be>
+References: <4B6BFBBA.4010003@esat.kuleuven.be>
+Message-ID: <4B6BFE11.5050106@biostat.ku.dk>
+
+Peter Konings wrote:
+> Dear all,
+> 
+> what happened to the R wiki? The links on the R homepage
+> (http://wiki.r-project.org) result in a 404 error. Has it been moved?
+> 
+> kind regards
+> Peter.
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+I suspect that some server side aliasing got messed up. We have
+
+wiki.r-project.org.     7139    IN      CNAME   rwiki.sciviews.org.
+rwiki.sciviews.org.     10572   IN      A       87.98.211.111
+
+and using the canonical name
+
+http://rwiki.sciviews.org/
+
+does indeed bring up the R wiki.
+
+-- 
+   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B
+  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K
+ (*) \(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918
+~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907
+
+
+From phgrosjean at sciviews.org  Fri Feb  5 13:55:57 2010
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 05 Feb 2010 13:55:57 +0100
+Subject: [R-wiki] R-wiki down?
+In-Reply-To: <4B6BFE11.5050106@biostat.ku.dk>
+References: <4B6BFBBA.4010003@esat.kuleuven.be>
+	<4B6BFE11.5050106@biostat.ku.dk>
+Message-ID: <4B6C155D.2030205@sciviews.org>
+
+
+Peter Dalgaard wrote:
+> Peter Konings wrote:
+>> Dear all,
+>>
+>> what happened to the R wiki? The links on the R homepage
+>> (http://wiki.r-project.org) result in a 404 error. Has it been moved?
+>>
+>> kind regards
+>> Peter.
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+> I suspect that some server side aliasing got messed up. We have
+> 
+> wiki.r-project.org.     7139    IN      CNAME   rwiki.sciviews.org.
+> rwiki.sciviews.org.     10572   IN      A       87.98.211.111
+> 
+> and using the canonical name
+> 
+> http://rwiki.sciviews.org/
+> 
+> does indeed bring up the R wiki.
+
+Yes, indeed. The R Wiki was moved yesterday on 
+http://rwiki.sciviews.org/ and Martin Maechler did the required changes 
+for pointing wiki.r-project.org to rwiki.sciviews.org accordingly. But 
+there is still a problem in the Apache configuration on my side, it seems.
+
+Philippe Grosjean
+
+
+From peter.konings at esat.kuleuven.be  Mon Feb  8 15:39:05 2010
+From: peter.konings at esat.kuleuven.be (Peter Konings)
+Date: Mon, 08 Feb 2010 15:39:05 +0100
+Subject: [R-wiki] R-wiki down?
+In-Reply-To: <4B6C155D.2030205@sciviews.org>
+References: <4B6BFBBA.4010003@esat.kuleuven.be>
+	<4B6BFE11.5050106@biostat.ku.dk> <4B6C155D.2030205@sciviews.org>
+Message-ID: <4B702209.2060206@esat.kuleuven.be>
+
+Thanks for your answers. I will use rwiki.sciviews.org for now; the R 
+homepage still has these dead links.
+
+Peter.
+
+On 2/5/2010 1:55 PM, Philippe Grosjean wrote:
+>
+> Peter Dalgaard wrote:
+>> Peter Konings wrote:
+>>> Dear all,
+>>>
+>>> what happened to the R wiki? The links on the R homepage
+>>> (http://wiki.r-project.org) result in a 404 error. Has it been moved?
+>>>
+>>> kind regards
+>>> Peter.
+>>>
+>>> _______________________________________________
+>>> R-sig-wiki mailing list
+>>> R-sig-wiki at r-project.org
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+>> I suspect that some server side aliasing got messed up. We have
+>>
+>> wiki.r-project.org. 7139 IN CNAME rwiki.sciviews.org.
+>> rwiki.sciviews.org. 10572 IN A 87.98.211.111
+>>
+>> and using the canonical name
+>>
+>> http://rwiki.sciviews.org/
+>>
+>> does indeed bring up the R wiki.
+>
+> Yes, indeed. The R Wiki was moved yesterday on
+> http://rwiki.sciviews.org/ and Martin Maechler did the required changes
+> for pointing wiki.r-project.org to rwiki.sciviews.org accordingly. But
+> there is still a problem in the Apache configuration on my side, it seems.
+>
+> Philippe Grosjean
+>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: peter_konings.vcf
+Type: text/x-vcard
+Size: 347 bytes
+Desc: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20100208/65756249/attachment.vcf>
+
+From P.Dalgaard at biostat.ku.dk  Mon Feb  8 16:50:57 2010
+From: P.Dalgaard at biostat.ku.dk (Peter Dalgaard)
+Date: Mon, 08 Feb 2010 16:50:57 +0100
+Subject: [R-wiki] R-wiki down?
+In-Reply-To: <4B702209.2060206@esat.kuleuven.be>
+References: <4B6BFBBA.4010003@esat.kuleuven.be>
+	<4B6BFE11.5050106@biostat.ku.dk> <4B6C155D.2030205@sciviews.org>
+	<4B702209.2060206@esat.kuleuven.be>
+Message-ID: <4B7032E1.7080600@biostat.ku.dk>
+
+Peter Konings wrote:
+> Thanks for your answers. I will use rwiki.sciviews.org for now; the R
+> homepage still has these dead links.
+
+Just in case it wasn't already obvious: There shouldn't be any changes
+needed on the R homepage. The missing item is a ServerAlias (or some
+such thing) in the rwiki.sciviews.org configuration at Philippe's end.
+
+-pd
+
+> 
+> Peter.
+> 
+> On 2/5/2010 1:55 PM, Philippe Grosjean wrote:
+>>
+>> Peter Dalgaard wrote:
+>>> Peter Konings wrote:
+>>>> Dear all,
+>>>>
+>>>> what happened to the R wiki? The links on the R homepage
+>>>> (http://wiki.r-project.org) result in a 404 error. Has it been moved?
+>>>>
+>>>> kind regards
+>>>> Peter.
+>>>>
+>>>> _______________________________________________
+>>>> R-sig-wiki mailing list
+>>>> R-sig-wiki at r-project.org
+>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>
+>>> I suspect that some server side aliasing got messed up. We have
+>>>
+>>> wiki.r-project.org. 7139 IN CNAME rwiki.sciviews.org.
+>>> rwiki.sciviews.org. 10572 IN A 87.98.211.111
+>>>
+>>> and using the canonical name
+>>>
+>>> http://rwiki.sciviews.org/
+>>>
+>>> does indeed bring up the R wiki.
+>>
+>> Yes, indeed. The R Wiki was moved yesterday on
+>> http://rwiki.sciviews.org/ and Martin Maechler did the required changes
+>> for pointing wiki.r-project.org to rwiki.sciviews.org accordingly. But
+>> there is still a problem in the Apache configuration on my side, it
+>> seems.
+>>
+>> Philippe Grosjean
+>>
+
+
+-- 
+   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B
+  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K
+ (*) \(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918
+~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907
+
+

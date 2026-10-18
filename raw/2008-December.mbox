@@ -1,0 +1,30 @@
+From yan at pixie.org.uk  Sat Dec 20 22:21:46 2008
+From: yan at pixie.org.uk (Yan Wong)
+Date: Sat, 20 Dec 2008 21:21:46 +0000
+Subject: [R-wiki] Syntax highlighting (can I use R.php?)
+Message-ID: <4980A593-38F9-4D3D-A2B4-5A595971801A@pixie.org.uk>
+
+I'm trying to write a wikibook (http://en.wikibooks.org/w/index.php? 
+title=Statistical_Analysis:_an_Introduction_using_R in case anyone is  
+interested) to teach statistics using R. I would like to be able to  
+syntax-highlight code in the book, and so I've been in touch with the  
+authors of GeSHi, the program used to do syntax-highlighting on the R  
+wiki.
+
+Apparently, it is no longer necessary to use a hacked version of  
+GeSHi, since allowing keywords with dots in "can be done quite easily  
+with the PARSER_CONTROL settings." (see https://sourceforge.net/ 
+support/tracker.php?aid=2276025 ). I guess that means that GeSHi can  
+be distributed with R highlighting built in.
+
+Presumably all that is needed is an R.php file. There is one at  
+http://organicdesign.co.nz/GeSHi/R.php, but perhaps the one on the  
+normal R wiki is more up to date? If I can find where this is stored,  
+would I have permission to send it to the GeSHi people to be  
+distributed with future versions of GeSHi?
+
+Cheers
+
+Yan
+
+

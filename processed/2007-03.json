@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2007-03",
+  "messages": [
+    {
+      "id": "msg-22284762ef1c",
+      "message_id": "<460944D9.7080508@acm.org>",
+      "from_name": "Tony Plate",
+      "from_email_hash": "270dbfad1bede22a8cb030fa728f9ba1cb2915f53915148ec2f12f8d2cfa93a9",
+      "date": "2007-03-27T16:22:49Z",
+      "subject": "[R-wiki] rdoc pages not finding R docs?",
+      "subject_clean": "[R-wiki] rdoc pages not finding R docs?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "When I visit http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:seq , \nI see the following text:\n\n== Rwiki file not found! ==\n\nBe aware that due to the use of binary floating-point arithmetic, you \nmay not get results that are exactly equal to what\n...\n\nThe source of the page starts with \"~~RDOC~~\".\n\nIn fact, I see this \"== Rwiki file not found==\" on all of the half-dozen \nor so rdoc pages I tried visiting (with the exception of \nhttp://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:any, which \ndisplayed as \"~~RDOC~~\"???)\n\nCuriously, for any of these pages, when I click \"Edit this page\", and \nthen click \"Preview\", I see the R documentation.\n\n-- Tony Plate",
+      "body_snippet": "When I visit http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:seq , \nI see the following text:\n\n== Rwiki file not found! ==\n\nBe aware that due to the use of binary floating-point arithmetic, you ",
+      "thread_id": "thread-22284762ef1c",
+      "thread_depth": 0,
+      "month": "2007-03"
+    },
+    {
+      "id": "msg-e571a8efd41a",
+      "message_id": "<460A3306.5040106@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2007-03-28T09:19:02Z",
+      "subject": "[R-wiki] rdoc pages not finding R docs?",
+      "subject_clean": "[R-wiki] rdoc pages not finding R docs?",
+      "in_reply_to": "<460944D9.7080508@acm.org>",
+      "references": [
+        "<460944D9.7080508@acm.org>"
+      ],
+      "body_plain": "Hello,\n\nThis bug is known, but I did not found a workaround yet. Basically, the \nRDoc plugin includes the content of the corresponding help file on top \nof the wiki page. Unfortunately, the cache mechanism of the wiki engine \ndoes not detects these additions. Consequently, the page looks empty \nuntil it is first edited (actual edition, the wiki engines always \ncompare pages before and after edition before to decide if it is worth \nupdating the cache version, but the RDoc content is invisible for it).\n\nI though using the ~~NOCACHE~~ flag would solve the problem, but \napparently not. The solution is probably to write a PHP program that \nflushes the cache for each of these RDoc pages and triggers the Wiki \nengine to calculate a new version of this cache. This should be part of \na robot that automatically updates the Wiki R documentation according to \nnew versions of R, or R packages, as scanned on CRAN periodically. It \nshould be better a PHP program because the wiki engine itself is written \nin PHP.\n\nThis is planned for the future,... but I have no date, because I am \nreally too busy right now (full-time prof + direction of an experimental \nlab, no technician, no assistant yet, thus, a crazy situation where all \nmy remaining time besides teaching is dedicated to my Master and PhD \nstudents).\n\nOn the same line, the RDoc-to-wiki converter (Perl code, according to \nthe code used by R to convert RDoc to man pages, HTML pages, LaTeX, ...) \nstill have to be finished before it could be proposed as an addition to \nR. Help would be very welcome for both of these topics (finishing of the \nRDoc to Wiki converter in Perl, and robot in PHP to update Wiki help \npages automatically). Any volunteer?\n\nBest,\n\nPhilippe\n\n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Belgium\n( ( ( ( (\n..............................................................\n\nTony Plate wrote:\n> When I visit http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:seq , \n> I see the following text:\n> \n> == Rwiki file not found! ==\n> \n> Be aware that due to the use of binary floating-point arithmetic, you \n> may not get results that are exactly equal to what\n> ...\n> \n> The source of the page starts with \"~~RDOC~~\".\n> \n> In fact, I see this \"== Rwiki file not found==\" on all of the half-dozen \n> or so rdoc pages I tried visiting (with the exception of \n> http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:any, which \n> displayed as \"~~RDOC~~\"???)\n> \n> Curiously, for any of these pages, when I click \"Edit this page\", and \n> then click \"Preview\", I see the R documentation.\n> \n> -- Tony Plate\n> \n> _______________________________________________\n> R-sig-wiki mailing list\n> R-sig-wiki at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n>",
+      "body_snippet": "Hello,\n\nThis bug is known, but I did not found a workaround yet. Basically, the \nRDoc plugin includes the content of the corresponding help file on top \nof the wiki page. Unfortunately, the cache mech",
+      "thread_id": "thread-22284762ef1c",
+      "thread_depth": 1,
+      "month": "2007-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-22284762ef1c",
+      "subject": "[R-wiki] rdoc pages not finding R docs?",
+      "message_count": 2,
+      "participants": [
+        "Philippe Grosjean",
+        "Tony Plate"
+      ],
+      "started": "2007-03-27T16:22:49Z",
+      "last_reply": "2007-03-28T09:19:02Z",
+      "root_message_id": "msg-22284762ef1c"
+    }
+  ]
+}

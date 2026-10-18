@@ -1,0 +1,494 @@
+From patrick at burns-stat.com  Sat Aug  7 12:29:30 2010
+From: patrick at burns-stat.com (Patrick Burns)
+Date: Sat, 07 Aug 2010 11:29:30 +0100
+Subject: [R-wiki] R jargon
+Message-ID: <4C5D358A.4030901@burns-stat.com>
+
+The document 'Some hints for the R beginner'
+is gradually becoming more complete and gradually
+gaining momentum in terms of hits.
+
+One of the more popular sub-pages is the jaRgon
+page even though there is hardly anything on it.
+
+I think the R-wiki is the place that such a list
+should live.  My vision is that for each word
+there be a brief definition and then a link to a
+wiki page for the word.  A number of definitions
+would be on the same page.
+
+I think this could be the application that finally
+gives the R-wiki the boost that it needs to fulfill
+its promise.  The people learning R from the 'hints'
+document would come to think of the R-wiki as a
+natural place to look for information.
+
+The steps to do this are to create the structure
+within the wiki for it, and then to populate the
+definitions.  The glossary from S Poetry should be
+a good starting point.  I'm also happy to donate
+the jaRgon pun.
+
+
+-- 
+Patrick Burns
+patrick at burns-stat.com
+http://www.burns-stat.com
+
+
+From bbolker at gmail.com  Sun Aug  8 22:27:50 2010
+From: bbolker at gmail.com (Ben Bolker)
+Date: Sun, 8 Aug 2010 16:27:50 -0400
+Subject: [R-wiki] R jargon
+In-Reply-To: <4C5D358A.4030901@burns-stat.com>
+References: <4C5D358A.4030901@burns-stat.com>
+Message-ID: <AANLkTi=w56nwH-g4QGK8Ki3HVKzyP6dZNRPs7X1bdVN7@mail.gmail.com>
+
+  So ... are you asking requesting commentary on whether this is a
+good idea or not? (Seems so to me.)  Asking for for help in porting
+this/volunteers to port it? (I might help, but I also might not find
+time. I would be happy if someone else volunteered ...)
+
+  I guess I'm as frustrated as (perhaps) all of the other wiki contributors
+that it hasn't taken off, and that the primary source of information as well
+as the primary sink of energy for answering questions remains the mailing
+list. (Now Stackoverflow, Stackexchange, and various R blogs are also
+competing for this energy ...)
+   I intended to make contributions to the wiki be a class activity, but I
+never really got around to it. I still think that's a good idea.
+
+  Ben Bolker
+
+On Sat, Aug 7, 2010 at 6:29 AM, Patrick Burns <patrick at burns-stat.com> wrote:
+> The document 'Some hints for the R beginner'
+> is gradually becoming more complete and gradually
+> gaining momentum in terms of hits.
+>
+> One of the more popular sub-pages is the jaRgon
+> page even though there is hardly anything on it.
+>
+> I think the R-wiki is the place that such a list
+> should live. ?My vision is that for each word
+> there be a brief definition and then a link to a
+> wiki page for the word. ?A number of definitions
+> would be on the same page.
+>
+> I think this could be the application that finally
+> gives the R-wiki the boost that it needs to fulfill
+> its promise. ?The people learning R from the 'hints'
+> document would come to think of the R-wiki as a
+> natural place to look for information.
+>
+> The steps to do this are to create the structure
+> within the wiki for it, and then to populate the
+> definitions. ?The glossary from S Poetry should be
+> a good starting point. ?I'm also happy to donate
+> the jaRgon pun.
+>
+>
+> --
+> Patrick Burns
+> patrick at burns-stat.com
+> http://www.burns-stat.com
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From pburns at pburns.seanet.com  Mon Aug  9 10:27:08 2010
+From: pburns at pburns.seanet.com (Patrick Burns)
+Date: Mon, 09 Aug 2010 09:27:08 +0100
+Subject: [R-wiki] R jargon
+In-Reply-To: <AANLkTi=w56nwH-g4QGK8Ki3HVKzyP6dZNRPs7X1bdVN7@mail.gmail.com>
+References: <4C5D358A.4030901@burns-stat.com>
+	<AANLkTi=w56nwH-g4QGK8Ki3HVKzyP6dZNRPs7X1bdVN7@mail.gmail.com>
+Message-ID: <4C5FBBDC.5000609@pburns.seanet.com>
+
+Thanks for the good question, Ben.
+
+I'm looking for volunteers.  I'm
+definitely not going to have time to
+learn enough wiki stuff to put the
+structure in place.
+
+Once the structure is there, I would
+put definitions in.  But I'd prefer
+for someone to volunteer to do that
+as well -- I have one or two other
+things in mind to do.
+
+Pat
+
+
+On 08/08/2010 21:27, Ben Bolker wrote:
+>    So ... are you asking requesting commentary on whether this is a
+> good idea or not? (Seems so to me.)  Asking for for help in porting
+> this/volunteers to port it? (I might help, but I also might not find
+> time. I would be happy if someone else volunteered ...)
+>
+>    I guess I'm as frustrated as (perhaps) all of the other wiki contributors
+> that it hasn't taken off, and that the primary source of information as well
+> as the primary sink of energy for answering questions remains the mailing
+> list. (Now Stackoverflow, Stackexchange, and various R blogs are also
+> competing for this energy ...)
+>     I intended to make contributions to the wiki be a class activity, but I
+> never really got around to it. I still think that's a good idea.
+>
+>    Ben Bolker
+>
+> On Sat, Aug 7, 2010 at 6:29 AM, Patrick Burns<patrick at burns-stat.com>  wrote:
+>> The document 'Some hints for the R beginner'
+>> is gradually becoming more complete and gradually
+>> gaining momentum in terms of hits.
+>>
+>> One of the more popular sub-pages is the jaRgon
+>> page even though there is hardly anything on it.
+>>
+>> I think the R-wiki is the place that such a list
+>> should live.  My vision is that for each word
+>> there be a brief definition and then a link to a
+>> wiki page for the word.  A number of definitions
+>> would be on the same page.
+>>
+>> I think this could be the application that finally
+>> gives the R-wiki the boost that it needs to fulfill
+>> its promise.  The people learning R from the 'hints'
+>> document would come to think of the R-wiki as a
+>> natural place to look for information.
+>>
+>> The steps to do this are to create the structure
+>> within the wiki for it, and then to populate the
+>> definitions.  The glossary from S Poetry should be
+>> a good starting point.  I'm also happy to donate
+>> the jaRgon pun.
+>>
+>>
+>> --
+>> Patrick Burns
+>> patrick at burns-stat.com
+>> http://www.burns-stat.com
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+-- 
+Patrick Burns
+pburns at pburns.seanet.com
+http://www.burns-stat.com
+(home of 'Some hints for the R beginner'
+and 'The R Inferno')
+
+
+From phgrosjean at sciviews.org  Mon Aug 16 12:52:41 2010
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 16 Aug 2010 12:52:41 +0200
+Subject: [R-wiki] R jargon
+In-Reply-To: <4C5FBBDC.5000609@pburns.seanet.com>
+References: <4C5D358A.4030901@burns-stat.com>	<AANLkTi=w56nwH-g4QGK8Ki3HVKzyP6dZNRPs7X1bdVN7@mail.gmail.com>
+	<4C5FBBDC.5000609@pburns.seanet.com>
+Message-ID: <4C691879.4040600@sciviews.org>
+
+One thing that can be done is to update the list of abbreviations to 
+include R specific terms. The Wiki adds automatically a little tooltip 
+text with the definition that is activated each time the user moves the 
+mouse cursor on top of the word.
+
+A page with the definitions would be worth too.
+
+Regarding the mitigate success of the Wiki, that contrasts with other 
+languages where the wiki is really the primary source of information (I 
+think at Tcl/Tk, for instance). I think the reason is the other 
+"channels" of information are pre-existing the R wiki, and people are 
+used to them. Regarding R blogs, the reason is different: it looks more 
+technically up-to-date to have and use a blog than a wiki... although I 
+think the wiki is better for collaborative writing of documentation in a 
+centralized place.
+
+The "wikified" version of help pages with a discussion section was, I 
+think, a good idea but I never got the time to finalize the plugin and 
+to install a system that automatically synch wiki versions of help pages 
+with latest version, ... as intended.
+
+Now, the new HTTP help server introduced in R 2.10 opens new 
+perspectives. If someone is connected to the Internet, it should be 
+possible to add the discussion section of the corresponding wiki page at 
+the bottom of the regular help page. Hence, every user that would add 
+this feature (by means of a rwiki package that is still to be written) 
+would get a very easy and convenient access to related wiki pages. Then, 
+of course, people would have to populate the discussion sections with 
+short tips, comments, or links to other related wiki pages, ... but the 
+key feature here would be to bring the R wiki right inside (at the 
+bottom of) the regular help pages.
+
+That's what I think would be most helpful to leverage the R wiki that 
+has a lot a nice stuff now (but also other pages of mixed, or even, low 
+quality, that would require post-processing by R experts... but that's 
+another problem)!
+
+Best,
+
+Philippe
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons University, Belgium
+( ( ( ( (
+..............................................................
+
+On 09/08/10 10:27, Patrick Burns wrote:
+> Thanks for the good question, Ben.
+>
+> I'm looking for volunteers. I'm
+> definitely not going to have time to
+> learn enough wiki stuff to put the
+> structure in place.
+>
+> Once the structure is there, I would
+> put definitions in. But I'd prefer
+> for someone to volunteer to do that
+> as well -- I have one or two other
+> things in mind to do.
+>
+> Pat
+>
+>
+> On 08/08/2010 21:27, Ben Bolker wrote:
+>> So ... are you asking requesting commentary on whether this is a
+>> good idea or not? (Seems so to me.) Asking for for help in porting
+>> this/volunteers to port it? (I might help, but I also might not find
+>> time. I would be happy if someone else volunteered ...)
+>>
+>> I guess I'm as frustrated as (perhaps) all of the other wiki contributors
+>> that it hasn't taken off, and that the primary source of information
+>> as well
+>> as the primary sink of energy for answering questions remains the mailing
+>> list. (Now Stackoverflow, Stackexchange, and various R blogs are also
+>> competing for this energy ...)
+>> I intended to make contributions to the wiki be a class activity, but I
+>> never really got around to it. I still think that's a good idea.
+>>
+>> Ben Bolker
+>>
+>> On Sat, Aug 7, 2010 at 6:29 AM, Patrick Burns<patrick at burns-stat.com>
+>> wrote:
+>>> The document 'Some hints for the R beginner'
+>>> is gradually becoming more complete and gradually
+>>> gaining momentum in terms of hits.
+>>>
+>>> One of the more popular sub-pages is the jaRgon
+>>> page even though there is hardly anything on it.
+>>>
+>>> I think the R-wiki is the place that such a list
+>>> should live. My vision is that for each word
+>>> there be a brief definition and then a link to a
+>>> wiki page for the word. A number of definitions
+>>> would be on the same page.
+>>>
+>>> I think this could be the application that finally
+>>> gives the R-wiki the boost that it needs to fulfill
+>>> its promise. The people learning R from the 'hints'
+>>> document would come to think of the R-wiki as a
+>>> natural place to look for information.
+>>>
+>>> The steps to do this are to create the structure
+>>> within the wiki for it, and then to populate the
+>>> definitions. The glossary from S Poetry should be
+>>> a good starting point. I'm also happy to donate
+>>> the jaRgon pun.
+>>>
+>>>
+>>> --
+>>> Patrick Burns
+>>> patrick at burns-stat.com
+>>> http://www.burns-stat.com
+>>>
+>>> _______________________________________________
+>>> R-sig-wiki mailing list
+>>> R-sig-wiki at r-project.org
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+>
+
+
+From f.harrell at vanderbilt.edu  Mon Aug 16 14:03:29 2010
+From: f.harrell at vanderbilt.edu (Frank Harrell)
+Date: Mon, 16 Aug 2010 07:03:29 -0500 (CDT)
+Subject: [R-wiki] R jargon
+In-Reply-To: <4C691879.4040600@sciviews.org>
+References: <4C5D358A.4030901@burns-stat.com>
+	<AANLkTi=w56nwH-g4QGK8Ki3HVKzyP6dZNRPs7X1bdVN7@mail.gmail.com>
+	<4C5FBBDC.5000609@pburns.seanet.com>
+	<4C691879.4040600@sciviews.org>
+Message-ID: <alpine.DEB.2.00.1008160659460.10864@localhost>
+
+
+You make good points Philippe.  I stand my my original opinion that 
+as long as everyone continues to answer posts to r-help it will 
+remain a never-ending unorganized string of largely redundant 
+information.  It is rare for people seeking information to search the 
+r-help archive, and the archive is unnecessarily large.
+
+Frank
+
+Frank E Harrell Jr   Professor and Chairman        School of Medicine
+                      Department of Biostatistics   Vanderbilt University
+
+On Mon, 16 Aug 2010, Philippe Grosjean wrote:
+
+> One thing that can be done is to update the list of abbreviations to
+> include R specific terms. The Wiki adds automatically a little tooltip
+> text with the definition that is activated each time the user moves the
+> mouse cursor on top of the word.
+>
+> A page with the definitions would be worth too.
+>
+> Regarding the mitigate success of the Wiki, that contrasts with other
+> languages where the wiki is really the primary source of information (I
+> think at Tcl/Tk, for instance). I think the reason is the other
+> "channels" of information are pre-existing the R wiki, and people are
+> used to them. Regarding R blogs, the reason is different: it looks more
+> technically up-to-date to have and use a blog than a wiki... although I
+> think the wiki is better for collaborative writing of documentation in a
+> centralized place.
+>
+> The "wikified" version of help pages with a discussion section was, I
+> think, a good idea but I never got the time to finalize the plugin and
+> to install a system that automatically synch wiki versions of help pages
+> with latest version, ... as intended.
+>
+> Now, the new HTTP help server introduced in R 2.10 opens new
+> perspectives. If someone is connected to the Internet, it should be
+> possible to add the discussion section of the corresponding wiki page at
+> the bottom of the regular help page. Hence, every user that would add
+> this feature (by means of a rwiki package that is still to be written)
+> would get a very easy and convenient access to related wiki pages. Then,
+> of course, people would have to populate the discussion sections with
+> short tips, comments, or links to other related wiki pages, ... but the
+> key feature here would be to bring the R wiki right inside (at the
+> bottom of) the regular help pages.
+>
+> That's what I think would be most helpful to leverage the R wiki that
+> has a lot a nice stuff now (but also other pages of mixed, or even, low
+> quality, that would require post-processing by R experts... but that's
+> another problem)!
+>
+> Best,
+>
+> Philippe
+>
+> ..............................................<?}))><........
+>  ) ) ) ) )
+> ( ( ( ( (    Prof. Philippe Grosjean
+>  ) ) ) ) )
+> ( ( ( ( (    Numerical Ecology of Aquatic Systems
+>  ) ) ) ) )   Mons University, Belgium
+> ( ( ( ( (
+> ..............................................................
+>
+> On 09/08/10 10:27, Patrick Burns wrote:
+>> Thanks for the good question, Ben.
+>>
+>> I'm looking for volunteers. I'm
+>> definitely not going to have time to
+>> learn enough wiki stuff to put the
+>> structure in place.
+>>
+>> Once the structure is there, I would
+>> put definitions in. But I'd prefer
+>> for someone to volunteer to do that
+>> as well -- I have one or two other
+>> things in mind to do.
+>>
+>> Pat
+>>
+>>
+>> On 08/08/2010 21:27, Ben Bolker wrote:
+>>> So ... are you asking requesting commentary on whether this is a
+>>> good idea or not? (Seems so to me.) Asking for for help in porting
+>>> this/volunteers to port it? (I might help, but I also might not find
+>>> time. I would be happy if someone else volunteered ...)
+>>>
+>>> I guess I'm as frustrated as (perhaps) all of the other wiki contributors
+>>> that it hasn't taken off, and that the primary source of information
+>>> as well
+>>> as the primary sink of energy for answering questions remains the mailing
+>>> list. (Now Stackoverflow, Stackexchange, and various R blogs are also
+>>> competing for this energy ...)
+>>> I intended to make contributions to the wiki be a class activity, but I
+>>> never really got around to it. I still think that's a good idea.
+>>>
+>>> Ben Bolker
+>>>
+>>> On Sat, Aug 7, 2010 at 6:29 AM, Patrick Burns<patrick at burns-stat.com>
+>>> wrote:
+>>>> The document 'Some hints for the R beginner'
+>>>> is gradually becoming more complete and gradually
+>>>> gaining momentum in terms of hits.
+>>>>
+>>>> One of the more popular sub-pages is the jaRgon
+>>>> page even though there is hardly anything on it.
+>>>>
+>>>> I think the R-wiki is the place that such a list
+>>>> should live. My vision is that for each word
+>>>> there be a brief definition and then a link to a
+>>>> wiki page for the word. A number of definitions
+>>>> would be on the same page.
+>>>>
+>>>> I think this could be the application that finally
+>>>> gives the R-wiki the boost that it needs to fulfill
+>>>> its promise. The people learning R from the 'hints'
+>>>> document would come to think of the R-wiki as a
+>>>> natural place to look for information.
+>>>>
+>>>> The steps to do this are to create the structure
+>>>> within the wiki for it, and then to populate the
+>>>> definitions. The glossary from S Poetry should be
+>>>> a good starting point. I'm also happy to donate
+>>>> the jaRgon pun.
+>>>>
+>>>>
+>>>> --
+>>>> Patrick Burns
+>>>> patrick at burns-stat.com
+>>>> http://www.burns-stat.com
+>>>>
+>>>> _______________________________________________
+>>>> R-sig-wiki mailing list
+>>>> R-sig-wiki at r-project.org
+>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>
+>>>
+>>> _______________________________________________
+>>> R-sig-wiki mailing list
+>>> R-sig-wiki at r-project.org
+>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>
+>>
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+

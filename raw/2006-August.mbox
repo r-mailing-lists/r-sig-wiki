@@ -1,0 +1,722 @@
+From Gregor.Gorjanc at bfro.uni-lj.si  Fri Aug  4 22:21:21 2006
+From: Gregor.Gorjanc at bfro.uni-lj.si (Gorjanc Gregor)
+Date: Fri, 4 Aug 2006 22:21:21 +0200
+Subject: [R-wiki] Factor pages
+Message-ID: <7FFEE688B57D7346BC6241C55900E730F31C35@pollux.bfro.uni-lj.si>
+
+Hi!
+
+There are several instances of describing factors i.e. at least these
+two
+
+http://wiki.r-project.org/rwiki/doku.php?id=guides:stats-with-r:02programming_in_r:03datastructures&s=omit#factors
+
+and
+
+http://wiki.r-project.org/rwiki/doku.php?id=tips:data-factors:factors
+
+I think that we should merge factor parts. Should we put that part from 
+first link to the second?
+
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty        URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Zootechnical Department     mail: gregor.gorjanc <at> bfro.uni-lj.si
+Groblje 3                   tel: +386 (0)1 72 17 861
+SI-1230 Domzale             fax: +386 (0)1 72 17 888
+Slovenia, Europe
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From Gregor.Gorjanc at bfro.uni-lj.si  Mon Aug  7 07:54:59 2006
+From: Gregor.Gorjanc at bfro.uni-lj.si (Gorjanc Gregor)
+Date: Mon, 7 Aug 2006 07:54:59 +0200
+Subject: [R-wiki] Factor pages
+Message-ID: <7FFEE688B57D7346BC6241C55900E730F31C3E@pollux.bfro.uni-lj.si>
+
+>>Gorjanc Gregor wrote:
+>> Hi!
+>> 
+>> There are several instances of describing factors i.e. at least these
+>> two
+>> 
+>> http://wiki.r-project.org/rwiki/doku.php?id=guides:stats-with-r:02programming_in_r:03datastructures&s=omit#factors
+>> 
+>> and
+>> 
+>> http://wiki.r-project.org/rwiki/doku.php?id=tips:data-factors:factors
+>> 
+>> I think that we should merge factor parts. Should we put that part from 
+>> first link to the second?
+>> 
+>>   Well, the first part is within Vincent Zoonekynd's "Programming in 
+>> R", so I don't think so.  Perhaps some cross-referencing?  (Only the last
+>> section -- how to convert factors with numeric labels into numbers
+>> properly (as.numeric(as.character(x)) etc.) really looks appropriate
+>> for R-tips anyway.)
+
+It is confusing to have the same thing in different places. Actually 
+as.numeric(as.character(x)) is also in Vincent's part so I am now a bit 
+confused what should be in Vincent's part and what should be in R-tips.
+I agree that say drop.levels[1] is a thing for R-tips. Would it make 
+sense to migrate part in [2] to Vincent's part?
+
+[1]http://wiki.r-project.org/rwiki/doku.php?id=tips:data-manip:drop_unused_levels
+[2]http://wiki.r-project.org/rwiki/doku.php?id=tips:data-factors:factors
+
+Gregor
+
+
+From phgrosjean at sciviews.org  Mon Aug  7 08:14:19 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 07 Aug 2006 08:14:19 +0200
+Subject: [R-wiki] Factor pages
+In-Reply-To: <7FFEE688B57D7346BC6241C55900E730F31C3E@pollux.bfro.uni-lj.si>
+References: <7FFEE688B57D7346BC6241C55900E730F31C3E@pollux.bfro.uni-lj.si>
+Message-ID: <44D6DA3B.1010801@sciviews.org>
+
+Gorjanc Gregor wrote:
+>>>Gorjanc Gregor wrote:
+>>>Hi!
+>>>
+>>>There are several instances of describing factors i.e. at least these
+>>>two
+>>>
+>>>http://wiki.r-project.org/rwiki/doku.php?id=guides:stats-with-r:02programming_in_r:03datastructures&s=omit#factors
+>>>
+>>>and
+>>>
+>>>http://wiki.r-project.org/rwiki/doku.php?id=tips:data-factors:factors
+>>>
+>>>I think that we should merge factor parts. Should we put that part from 
+>>>first link to the second?
+>>>
+>>>  Well, the first part is within Vincent Zoonekynd's "Programming in 
+>>>R", so I don't think so.  Perhaps some cross-referencing?  (Only the last
+>>>section -- how to convert factors with numeric labels into numbers
+>>>properly (as.numeric(as.character(x)) etc.) really looks appropriate
+>>>for R-tips anyway.)
+> 
+> 
+> It is confusing to have the same thing in different places. Actually 
+> as.numeric(as.character(x)) is also in Vincent's part so I am now a bit 
+> confused what should be in Vincent's part and what should be in R-tips.
+> I agree that say drop.levels[1] is a thing for R-tips. Would it make 
+> sense to migrate part in [2] to Vincent's part?
+
+No. Vincent Zoonekynd's Statistics with R is a separate guide by itself 
+(and I hope to have more documents like this, translated into the Wiki). 
+Apart from its translation into Wiki format (and perhaps, refreshment of 
+the content to work with latest R version), this is not to be 
+edited/merged with the rest.
+
+The tips section starts with Paul Johnson's tips, but is dedicated to be 
+a collection of many more tips, contributed by the Wiki users.
+
+Guides and Tips are very different sections. However, it is possible to 
+got some redundancy... a little bit like you have certainly redundancy 
+in the various contributed packages and documents on CRAN, but you 
+cannot force their authors for more coherence.
+
+Best,
+
+Philippe Grosjean
+
+> [1]http://wiki.r-project.org/rwiki/doku.php?id=tips:data-manip:drop_unused_levels
+> [2]http://wiki.r-project.org/rwiki/doku.php?id=tips:data-factors:factors
+> 
+> Gregor
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+>
+
+
+From Gregor.Gorjanc at bfro.uni-lj.si  Mon Aug  7 08:41:19 2006
+From: Gregor.Gorjanc at bfro.uni-lj.si (Gorjanc Gregor)
+Date: Mon, 7 Aug 2006 08:41:19 +0200
+Subject: [R-wiki] Factor pages
+Message-ID: <7FFEE688B57D7346BC6241C55900E730F31C40@pollux.bfro.uni-lj.si>
+
+Hi,
+
+> No. Vincent Zoonekynd's Statistics with R is a separate guide by itself 
+> (and I hope to have more documents like this, translated into the Wiki). 
+> Apart from its translation into Wiki format (and perhaps, refreshment of 
+> the content to work with latest R version), this is not to be 
+> edited/merged with the rest.
+> 
+> The tips section starts with Paul Johnson's tips, but is dedicated to be 
+> a collection of many more tips, contributed by the Wiki users.
+> 
+> Guides and Tips are very different sections. However, it is possible to 
+> got some redundancy... a little bit like you have certainly redundancy 
+> in the various contributed packages and documents on CRAN, but you 
+> cannot force their authors for more coherence.
+
+I agree that guides and tips are different, but it would be great to go 
+for one definite guide and link tips to it? I just do not see the benefit 
+of having a multiple of a bit different guides. Imagine several pages on
+the same topic in wikipedia. The same applies with CRAN, but I think that 
+we should try to have one general tool/guide/tip for one task/issue, ...
+or am I wrong?
+
+Gregor
+
+
+From maechler at stat.math.ethz.ch  Mon Aug  7 10:08:27 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Mon, 7 Aug 2006 10:08:27 +0200
+Subject: [R-wiki] Factor pages
+In-Reply-To: <7FFEE688B57D7346BC6241C55900E730F31C40@pollux.bfro.uni-lj.si>
+References: <7FFEE688B57D7346BC6241C55900E730F31C40@pollux.bfro.uni-lj.si>
+Message-ID: <17622.62715.299217.966433@stat.math.ethz.ch>
+
+>>>>> "Gorjanc" == Gorjanc Gregor <Gregor.Gorjanc at bfro.uni-lj.si>
+>>>>>     on Mon, 7 Aug 2006 08:41:19 +0200 writes:
+
+    Gorjanc> Hi,
+    >> No. Vincent Zoonekynd's Statistics with R is a separate guide by itself 
+    >> (and I hope to have more documents like this, translated into the Wiki). 
+    >> Apart from its translation into Wiki format (and perhaps, refreshment of 
+    >> the content to work with latest R version), this is not to be 
+    >> edited/merged with the rest.
+    >> 
+    >> The tips section starts with Paul Johnson's tips, but is dedicated to be 
+    >> a collection of many more tips, contributed by the Wiki users.
+    >> 
+    >> Guides and Tips are very different sections. However, it is possible to 
+    >> got some redundancy... a little bit like you have certainly redundancy 
+    >> in the various contributed packages and documents on CRAN, but you 
+    >> cannot force their authors for more coherence.
+
+    Gorjanc> I agree that guides and tips are different, but it
+    Gorjanc> would be great to go for one definite guide and
+    Gorjanc> link tips to it? I just do not see the benefit of
+    Gorjanc> having a multiple of a bit different
+    Gorjanc> guides. Imagine several pages on the same topic in
+    Gorjanc> wikipedia. The same applies with CRAN, but I think
+    Gorjanc> that we should try to have one general
+    Gorjanc> tool/guide/tip for one task/issue, ...  or am I
+    Gorjanc> wrong?
+
+I think you are partly right and partly wrong.
+You are right the "reference" or "definition" information should
+be in one place only if possible --- within a given "set", see
+wikipedia.
+In our context note that I think the "definition" / "reference"
+is typically the help pages (from the latest version of R) ---
+and fortunately Philippe has made the incorporation of these
+into the Wiki a big priority for the Wiki
+[[though there's still the bug that not all help page hyper
+   links work as they should ]].
+
+
+However there are many books covering the same topic, even many
+encyclopedia.  Typically these books are for different
+audiences; if they are very thorough books they all refer to the
+original "definition".  
+Hence, in our case, all "good" R-Wiki articles on 'factor'
+should link to the R-Wiki-version of help(factor) .
+
+In our case here, such guides are ``books for different
+audiences''; and BTW even tips *can* (and should if I remember
+Philippe's original intentions with the Wiki correctly) be aimed
+at different audiences.
+So there's definitely room for different guides explaining
+'factor's in R -- and to reiterate the point -- if they should
+be improved, they should point the wikified  help(factor) page.
+
+Martin
+
+
+From Gregor.Gorjanc at bfro.uni-lj.si  Mon Aug  7 12:23:56 2006
+From: Gregor.Gorjanc at bfro.uni-lj.si (Gorjanc Gregor)
+Date: Mon, 7 Aug 2006 12:23:56 +0200
+Subject: [R-wiki] Factor pages
+Message-ID: <7FFEE688B57D7346BC6241C55900E730F31C45@pollux.bfro.uni-lj.si>
+
+OK, I agree here.
+
+But, should we, beside pointing to help(factor), cross-reference all
+guides and tips on the same topic?
+
+Gregor
+
+-----Original Message-----
+From: Martin Maechler [mailto:maechler at stat.math.ethz.ch]
+Sent: Mon 2006-08-07 10:08
+To: Gorjanc Gregor
+Cc: Philippe Grosjean; Ben Bolker; r-sig-wiki at stat.math.ethz.ch
+Subject: Re: [R-wiki] Factor pages
+ 
+>>>>> "Gorjanc" == Gorjanc Gregor <Gregor.Gorjanc at bfro.uni-lj.si>
+>>>>>     on Mon, 7 Aug 2006 08:41:19 +0200 writes:
+
+    Gorjanc> Hi,
+    >> No. Vincent Zoonekynd's Statistics with R is a separate guide by itself 
+    >> (and I hope to have more documents like this, translated into the Wiki). 
+    >> Apart from its translation into Wiki format (and perhaps, refreshment of 
+    >> the content to work with latest R version), this is not to be 
+    >> edited/merged with the rest.
+    >> 
+    >> The tips section starts with Paul Johnson's tips, but is dedicated to be 
+    >> a collection of many more tips, contributed by the Wiki users.
+    >> 
+    >> Guides and Tips are very different sections. However, it is possible to 
+    >> got some redundancy... a little bit like you have certainly redundancy 
+    >> in the various contributed packages and documents on CRAN, but you 
+    >> cannot force their authors for more coherence.
+
+    Gorjanc> I agree that guides and tips are different, but it
+    Gorjanc> would be great to go for one definite guide and
+    Gorjanc> link tips to it? I just do not see the benefit of
+    Gorjanc> having a multiple of a bit different
+    Gorjanc> guides. Imagine several pages on the same topic in
+    Gorjanc> wikipedia. The same applies with CRAN, but I think
+    Gorjanc> that we should try to have one general
+    Gorjanc> tool/guide/tip for one task/issue, ...  or am I
+    Gorjanc> wrong?
+
+I think you are partly right and partly wrong.
+You are right the "reference" or "definition" information should
+be in one place only if possible --- within a given "set", see
+wikipedia.
+In our context note that I think the "definition" / "reference"
+is typically the help pages (from the latest version of R) ---
+and fortunately Philippe has made the incorporation of these
+into the Wiki a big priority for the Wiki
+[[though there's still the bug that not all help page hyper
+   links work as they should ]].
+
+
+However there are many books covering the same topic, even many
+encyclopedia.  Typically these books are for different
+audiences; if they are very thorough books they all refer to the
+original "definition".  
+Hence, in our case, all "good" R-Wiki articles on 'factor'
+should link to the R-Wiki-version of help(factor) .
+
+In our case here, such guides are ``books for different
+audiences''; and BTW even tips *can* (and should if I remember
+Philippe's original intentions with the Wiki correctly) be aimed
+at different audiences.
+So there's definitely room for different guides explaining
+'factor's in R -- and to reiterate the point -- if they should
+be improved, they should point the wikified  help(factor) page.
+
+Martin
+
+
+From phgrosjean at sciviews.org  Mon Aug  7 13:13:31 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 07 Aug 2006 13:13:31 +0200
+Subject: [R-wiki] Factor pages
+In-Reply-To: <7FFEE688B57D7346BC6241C55900E730F31C45@pollux.bfro.uni-lj.si>
+References: <7FFEE688B57D7346BC6241C55900E730F31C45@pollux.bfro.uni-lj.si>
+Message-ID: <44D7205B.3090304@sciviews.org>
+
+Gorjanc Gregor wrote:
+> OK, I agree here.
+> 
+> But, should we, beside pointing to help(factor), cross-reference all
+> guides and tips on the same topic?
+> 
+> Gregor
+
+Sure! And also, you are free to contact Vincent Zoonekynd and propose to 
+rework respective pages to make them more complementary, if you like.
+Best,
+
+Philippe Grosjean
+
+> -----Original Message-----
+> From: Martin Maechler [mailto:maechler at stat.math.ethz.ch]
+> Sent: Mon 2006-08-07 10:08
+> To: Gorjanc Gregor
+> Cc: Philippe Grosjean; Ben Bolker; r-sig-wiki at stat.math.ethz.ch
+> Subject: Re: [R-wiki] Factor pages
+>  
+> 
+>>>>>>"Gorjanc" == Gorjanc Gregor <Gregor.Gorjanc at bfro.uni-lj.si>
+>>>>>>    on Mon, 7 Aug 2006 08:41:19 +0200 writes:
+> 
+> 
+>     Gorjanc> Hi,
+>     >> No. Vincent Zoonekynd's Statistics with R is a separate guide by itself 
+>     >> (and I hope to have more documents like this, translated into the Wiki). 
+>     >> Apart from its translation into Wiki format (and perhaps, refreshment of 
+>     >> the content to work with latest R version), this is not to be 
+>     >> edited/merged with the rest.
+>     >> 
+>     >> The tips section starts with Paul Johnson's tips, but is dedicated to be 
+>     >> a collection of many more tips, contributed by the Wiki users.
+>     >> 
+>     >> Guides and Tips are very different sections. However, it is possible to 
+>     >> got some redundancy... a little bit like you have certainly redundancy 
+>     >> in the various contributed packages and documents on CRAN, but you 
+>     >> cannot force their authors for more coherence.
+> 
+>     Gorjanc> I agree that guides and tips are different, but it
+>     Gorjanc> would be great to go for one definite guide and
+>     Gorjanc> link tips to it? I just do not see the benefit of
+>     Gorjanc> having a multiple of a bit different
+>     Gorjanc> guides. Imagine several pages on the same topic in
+>     Gorjanc> wikipedia. The same applies with CRAN, but I think
+>     Gorjanc> that we should try to have one general
+>     Gorjanc> tool/guide/tip for one task/issue, ...  or am I
+>     Gorjanc> wrong?
+> 
+> I think you are partly right and partly wrong.
+> You are right the "reference" or "definition" information should
+> be in one place only if possible --- within a given "set", see
+> wikipedia.
+> In our context note that I think the "definition" / "reference"
+> is typically the help pages (from the latest version of R) ---
+> and fortunately Philippe has made the incorporation of these
+> into the Wiki a big priority for the Wiki
+> [[though there's still the bug that not all help page hyper
+>    links work as they should ]].
+> 
+> 
+> However there are many books covering the same topic, even many
+> encyclopedia.  Typically these books are for different
+> audiences; if they are very thorough books they all refer to the
+> original "definition".  
+> Hence, in our case, all "good" R-Wiki articles on 'factor'
+> should link to the R-Wiki-version of help(factor) .
+> 
+> In our case here, such guides are ``books for different
+> audiences''; and BTW even tips *can* (and should if I remember
+> Philippe's original intentions with the Wiki correctly) be aimed
+> at different audiences.
+> So there's definitely room for different guides explaining
+> 'factor's in R -- and to reiterate the point -- if they should
+> be improved, they should point the wikified  help(factor) page.
+> 
+> Martin
+> 
+> 
+> 
+> 
+>
+
+
+From Gregor.Gorjanc at bfro.uni-lj.si  Mon Aug  7 13:19:07 2006
+From: Gregor.Gorjanc at bfro.uni-lj.si (Gorjanc Gregor)
+Date: Mon, 7 Aug 2006 13:19:07 +0200
+Subject: [R-wiki] Factor pages
+Message-ID: <7FFEE688B57D7346BC6241C55900E730F31C49@pollux.bfro.uni-lj.si>
+
+OK!
+
+-----Original Message-----
+From: Philippe Grosjean [mailto:phgrosjean at sciviews.org]
+Sent: Mon 2006-08-07 13:13
+To: Gorjanc Gregor
+Cc: Martin Maechler; Ben Bolker; r-sig-wiki at stat.math.ethz.ch
+Subject: Re: [R-wiki] Factor pages
+ 
+Gorjanc Gregor wrote:
+> OK, I agree here.
+> 
+> But, should we, beside pointing to help(factor), cross-reference all
+> guides and tips on the same topic?
+> 
+> Gregor
+
+Sure! And also, you are free to contact Vincent Zoonekynd and propose to 
+rework respective pages to make them more complementary, if you like.
+Best,
+
+Philippe Grosjean
+
+> -----Original Message-----
+> From: Martin Maechler [mailto:maechler at stat.math.ethz.ch]
+> Sent: Mon 2006-08-07 10:08
+> To: Gorjanc Gregor
+> Cc: Philippe Grosjean; Ben Bolker; r-sig-wiki at stat.math.ethz.ch
+> Subject: Re: [R-wiki] Factor pages
+>  
+> 
+>>>>>>"Gorjanc" == Gorjanc Gregor <Gregor.Gorjanc at bfro.uni-lj.si>
+>>>>>>    on Mon, 7 Aug 2006 08:41:19 +0200 writes:
+> 
+> 
+>     Gorjanc> Hi,
+>     >> No. Vincent Zoonekynd's Statistics with R is a separate guide by itself 
+>     >> (and I hope to have more documents like this, translated into the Wiki). 
+>     >> Apart from its translation into Wiki format (and perhaps, refreshment of 
+>     >> the content to work with latest R version), this is not to be 
+>     >> edited/merged with the rest.
+>     >> 
+>     >> The tips section starts with Paul Johnson's tips, but is dedicated to be 
+>     >> a collection of many more tips, contributed by the Wiki users.
+>     >> 
+>     >> Guides and Tips are very different sections. However, it is possible to 
+>     >> got some redundancy... a little bit like you have certainly redundancy 
+>     >> in the various contributed packages and documents on CRAN, but you 
+>     >> cannot force their authors for more coherence.
+> 
+>     Gorjanc> I agree that guides and tips are different, but it
+>     Gorjanc> would be great to go for one definite guide and
+>     Gorjanc> link tips to it? I just do not see the benefit of
+>     Gorjanc> having a multiple of a bit different
+>     Gorjanc> guides. Imagine several pages on the same topic in
+>     Gorjanc> wikipedia. The same applies with CRAN, but I think
+>     Gorjanc> that we should try to have one general
+>     Gorjanc> tool/guide/tip for one task/issue, ...  or am I
+>     Gorjanc> wrong?
+> 
+> I think you are partly right and partly wrong.
+> You are right the "reference" or "definition" information should
+> be in one place only if possible --- within a given "set", see
+> wikipedia.
+> In our context note that I think the "definition" / "reference"
+> is typically the help pages (from the latest version of R) ---
+> and fortunately Philippe has made the incorporation of these
+> into the Wiki a big priority for the Wiki
+> [[though there's still the bug that not all help page hyper
+>    links work as they should ]].
+> 
+> 
+> However there are many books covering the same topic, even many
+> encyclopedia.  Typically these books are for different
+> audiences; if they are very thorough books they all refer to the
+> original "definition".  
+> Hence, in our case, all "good" R-Wiki articles on 'factor'
+> should link to the R-Wiki-version of help(factor) .
+> 
+> In our case here, such guides are ``books for different
+> audiences''; and BTW even tips *can* (and should if I remember
+> Philippe's original intentions with the Wiki correctly) be aimed
+> at different audiences.
+> So there's definitely room for different guides explaining
+> 'factor's in R -- and to reiterate the point -- if they should
+> be improved, they should point the wikified  help(factor) page.
+> 
+> Martin
+> 
+> 
+> 
+> 
+>
+
+
+From francoisromain at free.fr  Mon Aug 28 11:17:42 2006
+From: francoisromain at free.fr (francoisromain at free.fr)
+Date: Mon, 28 Aug 2006 11:17:42 +0200
+Subject: [R-wiki] search *and* raw export
+Message-ID: <1156756662.44f2b4b6a420c@imp4-g19.free.fr>
+
+
+Hi,
+
+I know that I can do a raw export of a wiki page, e.g :
+http://wiki.r-project.org/rwiki/doku.php?id=developers:rinterp&do=export_raw
+
+I also know that I can search in the wiki, e.g :
+http://wiki.r-project.org/rwiki/doku.php?id=density&do=search
+
+What I would like is doign both at the same time, something like :
+http://wiki.r-project.org/rwiki/doku.php?id=density&do=search&do=export_raw
+
+... but it doesn't work
+
+In other words, is it possible for the wiki when I send a request to just send
+the results as a simple ASCII file, something like :
+
+
+url hits
+http://wiki.r-project.org/rwiki/doku.php?id=misc:artwork 5
+http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:hist_density 4
+...
+
+
+If someone is aware of something like that, let me know. Otherwise I'll have to
+dig inside dokuwiki..
+
+Cheers,
+
+Romain
+
+
+From phgrosjean at sciviews.org  Tue Aug 29 15:06:37 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Tue, 29 Aug 2006 15:06:37 +0200
+Subject: [R-wiki] search *and* raw export
+In-Reply-To: <1156756662.44f2b4b6a420c@imp4-g19.free.fr>
+References: <1156756662.44f2b4b6a420c@imp4-g19.free.fr>
+Message-ID: <44F43BDD.5050006@sciviews.org>
+
+Hello,
+
+It should be possible to return an ASCII page with Wiki search, but that 
+requires a reworking of the search PHP functions. I could put this on 
+the TODO list, if needed, but I don't hjave time to do it right now.
+Best,
+
+Philippe Grosjean
+
+francoisromain at free.fr wrote:
+> Hi,
+> 
+> I know that I can do a raw export of a wiki page, e.g :
+> http://wiki.r-project.org/rwiki/doku.php?id=developers:rinterp&do=export_raw
+> 
+> I also know that I can search in the wiki, e.g :
+> http://wiki.r-project.org/rwiki/doku.php?id=density&do=search
+> 
+> What I would like is doign both at the same time, something like :
+> http://wiki.r-project.org/rwiki/doku.php?id=density&do=search&do=export_raw
+> 
+> ... but it doesn't work
+> 
+> In other words, is it possible for the wiki when I send a request to just send
+> the results as a simple ASCII file, something like :
+> 
+> 
+> url hits
+> http://wiki.r-project.org/rwiki/doku.php?id=misc:artwork 5
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:hist_density 4
+> ...
+> 
+> 
+> If someone is aware of something like that, let me know. Otherwise I'll have to
+> dig inside dokuwiki..
+> 
+> Cheers,
+> 
+> Romain
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+>
+
+
+From francoisromain at free.fr  Wed Aug 30 08:29:10 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Wed, 30 Aug 2006 07:29:10 +0100
+Subject: [R-wiki] search *and* raw export
+In-Reply-To: <44F43BDD.5050006@sciviews.org>
+References: <1156756662.44f2b4b6a420c@imp4-g19.free.fr>
+	<44F43BDD.5050006@sciviews.org>
+Message-ID: <44F53036.4080607@free.fr>
+
+Philippe Grosjean a ?crit :
+> Hello,
+>
+> It should be possible to return an ASCII page with Wiki search, but 
+> that requires a reworking of the search PHP functions. I could put 
+> this on the TODO list, if needed, but I don't hjave time to do it 
+> right now.
+> Best,
+>
+> Philippe Grosjean
+>
+
+Hi,
+
+I've put some thoughts about that in this page : 
+http://wiki.r-project.org/rwiki/doku.php?id=developers:rsitesearch_firefox_extension
+This should not be too much complicated to set up.
+
+BTW, the firefox extension fo r site search : 
+http://addictedtor.free.fr/rsitesearch is now able to search in th wiki.
+The idea here is to make it work faster, i.e without building 
+unnecessary complicated html pages
+
+Cheers,
+
+Romain
+
+> francoisromain at free.fr wrote:
+>> Hi,
+>>
+>> I know that I can do a raw export of a wiki page, e.g :
+>> http://wiki.r-project.org/rwiki/doku.php?id=developers:rinterp&do=export_raw 
+>>
+>>
+>> I also know that I can search in the wiki, e.g :
+>> http://wiki.r-project.org/rwiki/doku.php?id=density&do=search
+>>
+>> What I would like is doign both at the same time, something like :
+>> http://wiki.r-project.org/rwiki/doku.php?id=density&do=search&do=export_raw 
+>>
+>>
+>> ... but it doesn't work
+>>
+>> In other words, is it possible for the wiki when I send a request to 
+>> just send
+>> the results as a simple ASCII file, something like :
+>>
+>>
+>> url hits
+>> http://wiki.r-project.org/rwiki/doku.php?id=misc:artwork 5
+>> http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:hist_density 
+>> 4
+>> ...
+>>
+>>
+>> If someone is aware of something like that, let me know. Otherwise 
+>> I'll have to
+>> dig inside dokuwiki..
+>>
+>> Cheers,
+>>
+>> Romain
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+>>
+>
+>
+>
+
+
+From tplate at acm.org  Wed Aug 30 17:32:18 2006
+From: tplate at acm.org (Tony Plate)
+Date: Wed, 30 Aug 2006 09:32:18 -0600
+Subject: [R-wiki] R-wiki file not found error when visiting wikified R help
+ page for seq()
+Message-ID: <44F5AF82.6000302@acm.org>
+
+I edited the wiki comments for the help page for seq(), but when I visit 
+it, I get a "file not found" error for the original R documentation part 
+of it (the comments that I added appear correctly.)  When I previewed 
+while editing I saw the original doc, and I think I saw it after saving. 
+  Also, the first time I visited that page (prior to editing), I saw the 
+same error.
+
+Here's the URL to the page: 
+http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:seq
+
+Here is the some text of what I see in the pane where the doc should be 
+(The part starting "Be aware" is what I added).
+
+   Trace: ? start ? rdoc ? seq
+   == Rwiki file not found! ==
+   Be aware that due to the use of binary floating-point arithmetic...
+
+This is not the first time I've seen this error, but the problem has 
+usually gone away after I saved my additions.
+
+Any ideas on what's going wrong?
+
+-- Tony Plate
+
+

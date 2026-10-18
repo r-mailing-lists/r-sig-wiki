@@ -1,0 +1,81 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2007-11",
+  "messages": [
+    {
+      "id": "msg-3d6f56886fc4",
+      "message_id": "<18246.57136.224087.333629@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2007-11-23T14:09:52Z",
+      "subject": "[R-wiki] [R] Packages - a great resource, but hard to find the right one",
+      "subject_clean": "[R-wiki] [R] Packages - a great resource, but hard to find the right one",
+      "in_reply_to": "<20071122211456.GB5462@huesing.name>",
+      "references": [
+        "<6776B21F-6E92-4D7D-8C7D-EBE6D27CC701@math.uni-augsburg.de>",
+        "<20071122211456.GB5462@huesing.name>"
+      ],
+      "body_plain": ">>>>> \"JH\" == Johannes Huesing <johannes at huesing.name>\n>>>>>     on Thu, 22 Nov 2007 22:14:57 +0100 writes:\n\n    JH> Antony Unwin <unwin at math.uni-augsburg.de> [Thu, Nov 22,\n    JH> 2007 at 12:43:07PM CET]:\n    >> There have been several constructive responses to John\n    >> Sorkin's comment, but none of them are fully\n    >> satisfactory.  Of course, if you know the name of the\n    >> function you are looking for, there are lots of ways to\n    >> search ? provided that everyone calls the function by a\n    >> name that matches your search.\n\n    JH> I follow the suggestion to Google (mostly restricted by\n    JH> site:cran.r-project.org) which gets me quite far.\n\n    >> If you think there might be a function, but you don't\n    >> know the name, then you have to be lucky in how you\n    >> search.  R is a language and the suggestions so far seem\n    >> to me like dictionary suggestions, whereas maybe what\n    >> John is looking for is something more like a thesarus.\n\n    JH> This is hard to do in a collaborative effort. One\n    JH> analogue is the HOWTOs vs the man pages which I see in\n    JH> Linux. Some of the HOWTOs are outstanding, the only\n    JH> problem they are facing is that they tend to be out of\n    JH> date.\n\n    >> \n    >> R packages are a strange collection, as befits a growing\n    >> language.  There are large packages, small packages, good\n    >> packages (and not so good packages), personal mixtures of\n    >> tools in packages, packages to accompany books,\n    >> superceded packages, unusual packages, everything.  Above\n    >> all there are lots of packages.  As the software editor\n    >> of the Journal of Statistical Software I suggested we\n    >> should review R packages.\n\n    JH> You mean: prior to submission?\n\n    >> No one has shown any enthusiasm for this suggestion, but\n    >> I think it would help.  Any volunteers?\n\n    JH> I am still putting some hope into the R Wiki. To my\n    JH> dismay it is also package oriented, \n    JH> not method-oriented. \n\nI don't think this is true; at least it's not at all intended.\nI'll *exceptionally* am crossposting this to the R-Wiki Special\nInterest Group.\n\n    JH> I tend to think that there is a chance\n    JH> of controlled documentation if somebody set out an\n    JH> infrastructure going beyond the current one. Anything\n    JH> like a classification of methods.\n\n    JH> Thing is, I may like to volunteer, but not in the\n    JH> \"here's a package for you to review by week 32\"\n    JH> way. Rather in the way that I search a package which\n    JH> fits my problem. One package lets me down and I'd like\n    JH> to know other users and the maintainer about it.  The\n    JH> other one works black magic and I'd like to drop a\n    JH> raving review about it. This needs an infrastructure\n    JH> with a low barrier to entry. A wiki is not the worst\n    JH> idea if the initial infrastructure is geared at\n    JH> addressing problems rather than packages.\n\n    JH> -- Johannes H?sing",
+      "body_snippet": ">>>>> \"JH\" == Johannes Huesing <johannes at huesing.name>\n>>>>>     on Thu, 22 Nov 2007 22:14:57 +0100 writes:\n\n    JH> Antony Unwin <unwin at math.uni-augsburg.de> [Thu, Nov 22,\n    JH> 2007 at 12:43",
+      "thread_id": "thread-3d6f56886fc4",
+      "thread_depth": 0,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-2cbab70bfd69",
+      "message_id": "<20071123145529.GA18993@psych.upenn.edu>",
+      "from_name": "Jonathan Baron",
+      "from_email_hash": "8654be822d0d20d8c6ecc7bc25cb15a89120a671b8282ec16320f897275904f1",
+      "date": "2007-11-23T14:55:29Z",
+      "subject": "[R-wiki] [R] Packages - a great resource, but hard to find the right one",
+      "subject_clean": "[R-wiki] [R] Packages - a great resource, but hard to find the right one",
+      "in_reply_to": "<18246.57136.224087.333629@stat.math.ethz.ch>",
+      "references": [
+        "<6776B21F-6E92-4D7D-8C7D-EBE6D27CC701@math.uni-augsburg.de>",
+        "<20071122211456.GB5462@huesing.name>",
+        "<18246.57136.224087.333629@stat.math.ethz.ch>"
+      ],
+      "body_plain": "I'm coming late to this thread, so I don't know if anyone mentioned\nRSiteSearch.  See\nhttp://finzi.psych.upenn.edu/R/library/utils/html/RSiteSearch.html\nYou can also do this directly through a browser (which is how I\nusually do it).\n\nIn the RSiteSearch() function use restrict=\"functions\".  In the web\npage at http://finzi.psych.upenn.edu/, in the search page uncheck the\nboxes except for Functions.\n\nTrue, this doesn't get everything because people use different words\nfor the same thing (especially economists), but I find that it usually\nworks when I'm looking for a function.  When you find the function,\nthere is a header at the top that says what package it is in.\n\nJon\n-- \nJonathan Baron, Professor of Psychology, University of Pennsylvania\nHome page: http://www.sas.upenn.edu/~baron",
+      "body_snippet": "I'm coming late to this thread, so I don't know if anyone mentioned\nRSiteSearch.  See\nhttp://finzi.psych.upenn.edu/R/library/utils/html/RSiteSearch.html\nYou can also do this directly through a browser",
+      "thread_id": "thread-3d6f56886fc4",
+      "thread_depth": 1,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-237d57822e35",
+      "message_id": "<4746EB95.6070909@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2007-11-23T15:02:45Z",
+      "subject": "[R-wiki] [R] Packages - a great resource, but hard to find the right one",
+      "subject_clean": "[R-wiki] [R] Packages - a great resource, but hard to find the right one",
+      "in_reply_to": "<18246.57136.224087.333629@stat.math.ethz.ch>",
+      "references": [
+        "<6776B21F-6E92-4D7D-8C7D-EBE6D27CC701@math.uni-augsburg.de>",
+        "<20071122211456.GB5462@huesing.name>",
+        "<18246.57136.224087.333629@stat.math.ethz.ch>"
+      ],
+      "body_plain": "Martin Maechler wrote:\n>>>>>> \"JH\" == Johannes Huesing <johannes at huesing.name>\n>>>>>>     on Thu, 22 Nov 2007 22:14:57 +0100 writes:\n> \n>     JH> Antony Unwin <unwin at math.uni-augsburg.de> [Thu, Nov 22,\n>     JH> 2007 at 12:43:07PM CET]:\n>     >> There have been several constructive responses to John\n>     >> Sorkin's comment, but none of them are fully\n>     >> satisfactory.  Of course, if you know the name of the\n>     >> function you are looking for, there are lots of ways to\n>     >> search ? provided that everyone calls the function by a\n>     >> name that matches your search.\n> \n>     JH> I follow the suggestion to Google (mostly restricted by\n>     JH> site:cran.r-project.org) which gets me quite far.\n> \n>     >> If you think there might be a function, but you don't\n>     >> know the name, then you have to be lucky in how you\n>     >> search.  R is a language and the suggestions so far seem\n>     >> to me like dictionary suggestions, whereas maybe what\n>     >> John is looking for is something more like a thesarus.\n> \n>     JH> This is hard to do in a collaborative effort. One\n>     JH> analogue is the HOWTOs vs the man pages which I see in\n>     JH> Linux. Some of the HOWTOs are outstanding, the only\n>     JH> problem they are facing is that they tend to be out of\n>     JH> date.\n> \n>     >> \n>     >> R packages are a strange collection, as befits a growing\n>     >> language.  There are large packages, small packages, good\n>     >> packages (and not so good packages), personal mixtures of\n>     >> tools in packages, packages to accompany books,\n>     >> superceded packages, unusual packages, everything.  Above\n>     >> all there are lots of packages.  As the software editor\n>     >> of the Journal of Statistical Software I suggested we\n>     >> should review R packages.\n> \n>     JH> You mean: prior to submission?\n> \n>     >> No one has shown any enthusiasm for this suggestion, but\n>     >> I think it would help.  Any volunteers?\n> \n>     JH> I am still putting some hope into the R Wiki. To my\n>     JH> dismay it is also package oriented, \n>     JH> not method-oriented. \n> \n> I don't think this is true; at least it's not at all intended.\n> I'll *exceptionally* am crossposting this to the R-Wiki Special\n> Interest Group.\n\nThe R-SIG-Wiki is there to discuss problems related to the Wiki. The \nWiki itself, not the SIG, is the place where the information should go.\n\nIndeed, the R Wiki goal is NOT to help finding which package to use (at \nleast, not directly), but it's primary goal is to collect together \nadditional documentation around R and R packages contributed by the \nusers. So, the question about how to efficiently find the right function \nand documentation is still open (CRAN Task Views associated with \nGoogling R stuff is probably the way to go here).\n\nAlthough I am sure it is difficult to do, I also think that a review \nmechanism for packages would be nice. Another interesting approach is \nthe test unit. It is already implemented, but should be used more \nintensively. The question is: could we maintain (and grow) a database of \nuse cases, with examples datasets and typical results expected that we \ncan use to test functions in R packages more intensively?\n\nBest,\n\nPhilippe\n\n>     JH> I tend to think that there is a chance\n>     JH> of controlled documentation if somebody set out an\n>     JH> infrastructure going beyond the current one. Anything\n>     JH> like a classification of methods.\n> \n>     JH> Thing is, I may like to volunteer, but not in the\n>     JH> \"here's a package for you to review by week 32\"\n>     JH> way. Rather in the way that I search a package which\n>     JH> fits my problem. One package lets me down and I'd like\n>     JH> to know other users and the maintainer about it.  The\n>     JH> other one works black magic and I'd like to drop a\n>     JH> raving review about it. This needs an infrastructure\n>     JH> with a low barrier to entry. A wiki is not the worst\n>     JH> idea if the initial infrastructure is geared at\n>     JH> addressing problems rather than packages.\n> \n>     JH> -- Johannes H?sing\n> \n> \n> \n> ------------------------------------------------------------------------\n> \n> _______________________________________________\n> R-sig-wiki mailing list\n> R-sig-wiki at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki",
+      "body_snippet": "Martin Maechler wrote:\n>>>>>> \"JH\" == Johannes Huesing <johannes at huesing.name>\n>>>>>>     on Thu, 22 Nov 2007 22:14:57 +0100 writes:\n> \n>     JH> Antony Unwin <unwin at math.uni-augsburg.de> [Thu, ",
+      "thread_id": "thread-3d6f56886fc4",
+      "thread_depth": 1,
+      "month": "2007-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-3d6f56886fc4",
+      "subject": "[R-wiki] [R] Packages - a great resource, but hard to find the right one",
+      "message_count": 3,
+      "participants": [
+        "Jonathan Baron",
+        "Martin Maechler",
+        "Philippe Grosjean"
+      ],
+      "started": "2007-11-23T14:09:52Z",
+      "last_reply": "2007-11-23T15:02:45Z",
+      "root_message_id": "msg-3d6f56886fc4"
+    }
+  ]
+}

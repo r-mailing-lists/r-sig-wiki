@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2008-12",
+  "messages": [
+    {
+      "id": "msg-9b9915610023",
+      "message_id": "<4980A593-38F9-4D3D-A2B4-5A595971801A@pixie.org.uk>",
+      "from_name": "Yan Wong",
+      "from_email_hash": "86010045229c60fe08537256b08ad525ead8859dff207df887633c01208d4b72",
+      "date": "2008-12-20T21:21:46Z",
+      "subject": "[R-wiki] Syntax highlighting (can I use R.php?)",
+      "subject_clean": "[R-wiki] Syntax highlighting (can I use R.php?)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I'm trying to write a wikibook (http://en.wikibooks.org/w/index.php? \ntitle=Statistical_Analysis:_an_Introduction_using_R in case anyone is  \ninterested) to teach statistics using R. I would like to be able to  \nsyntax-highlight code in the book, and so I've been in touch with the  \nauthors of GeSHi, the program used to do syntax-highlighting on the R  \nwiki.\n\nApparently, it is no longer necessary to use a hacked version of  \nGeSHi, since allowing keywords with dots in \"can be done quite easily  \nwith the PARSER_CONTROL settings.\" (see https://sourceforge.net/ \nsupport/tracker.php?aid=2276025 ). I guess that means that GeSHi can  \nbe distributed with R highlighting built in.\n\nPresumably all that is needed is an R.php file. There is one at  \nhttp://organicdesign.co.nz/GeSHi/R.php, but perhaps the one on the  \nnormal R wiki is more up to date? If I can find where this is stored,  \nwould I have permission to send it to the GeSHi people to be  \ndistributed with future versions of GeSHi?\n\nCheers\n\nYan",
+      "body_snippet": "I'm trying to write a wikibook (http://en.wikibooks.org/w/index.php? \ntitle=Statistical_Analysis:_an_Introduction_using_R in case anyone is  \ninterested) to teach statistics using R. I would like to b",
+      "thread_id": "thread-9b9915610023",
+      "thread_depth": 0,
+      "month": "2008-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9b9915610023",
+      "subject": "[R-wiki] Syntax highlighting (can I use R.php?)",
+      "message_count": 1,
+      "participants": [
+        "Yan Wong"
+      ],
+      "started": "2008-12-20T21:21:46Z",
+      "last_reply": "2008-12-20T21:21:46Z",
+      "root_message_id": "msg-9b9915610023"
+    }
+  ]
+}

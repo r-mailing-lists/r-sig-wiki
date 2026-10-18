@@ -1,0 +1,21 @@
+From bolker at zoo.ufl.edu  Wed Jul 25 18:48:21 2007
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Wed, 25 Jul 2007 12:48:21 -0400
+Subject: [R-wiki] wiki down?
+In-Reply-To: <43F1B6AB.7040403@sciviews.org>
+References: <e1fc21b0602021109o55ca7da9l4b315026eec38e1e@mail.gmail.com>	<43E38AE5.2090508@sciviews.org>	<971536df0602030932m15612e46pdd13e5b50889f346@mail.gmail.com>	<43E3C004.1080500@zoo.ufl.edu>	<971536df0602031615k4a052638o217848cac2ed44b5@mail.gmail.com>	<43E45512.5050702@sciviews.org>	<17380.43523.90959.786378@stat.math.ethz.ch>	<43E4B13E.3010307@sciviews.org>	<17380.52505.49643.649108@stat.math.ethz.ch>	<971536df0602070537o46403fddpf0bbed03a3d547f0@mail.gmail.com>	<13e802630602131750g257226b5g793fd409d87f9617@mail.gmail.com>
+	<43F1B6AB.7040403@sciviews.org>
+Message-ID: <46A77ED5.3010007@zoo.ufl.edu>
+
+
+  There have been some comments on the R help list
+about the wiki being down, and I can't reach it either:
+
+> ben at bolker-lap2:~$ ping wiki.r-project.org
+> PING econum.umh.ac.be (193.190.194.5) 56(84) bytes of data.
+
+   anyone know what's wrong?
+
+  Ben
+
+

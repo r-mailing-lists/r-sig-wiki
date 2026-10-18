@@ -1,0 +1,74 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2009-03",
+  "messages": [
+    {
+      "id": "msg-0502f737814c",
+      "message_id": "<49BE62F0.2010808@free.fr>",
+      "from_name": "Romain François",
+      "from_email_hash": "c2a51b8efc8b99a84a6285eb125fc7f1c071bf561475064053dddd20223ca203",
+      "date": "2009-03-16T14:32:16Z",
+      "subject": "[R-wiki] renaming a page",
+      "subject_clean": "[R-wiki] renaming a page",
+      "in_reply_to": "<20090316143512.GA6975@cs.cas.cz>",
+      "references": [
+        "<20090316143512.GA6975@cs.cas.cz>"
+      ],
+      "body_plain": "Hi,\n\nI think if you save t with empty content, it deletes it.\n\nRegards,\n\nRomain\n\n\nPetr Savicky wrote:\n> Hi.\n>\n> Is it possible to rename a page, which i created a few days ago?\n>\n> If not, can i simply copy it under a more appropriate name\n> and leave the old version only with a link to the new version?\n>\n> I am sorry for this, but it was hard to choose the right name\n> immediately.\n>\n> Petr.\n>   \n\n-- \nRomain Francois\nIndependent R Consultant\n+33(0) 6 28 91 30 30\nhttp://romainfrancois.blog.free.fr",
+      "body_snippet": "Hi,\n\nI think if you save t with empty content, it deletes it.\n\nRegards,\n\nRomain\n\n\nPetr Savicky wrote:\n> Hi.\n>\n> Is it possible to rename a page, which i created a few days ago?\n>\n> If not, can i simpl",
+      "thread_id": "thread-8c354172bf8e",
+      "thread_depth": 1,
+      "month": "2009-03"
+    },
+    {
+      "id": "msg-8c354172bf8e",
+      "message_id": "<20090316143512.GA6975@cs.cas.cz>",
+      "from_name": "Petr Savicky",
+      "from_email_hash": "6f4807d206b2f766dcbf2fbc62c017de2836546d18e3ab091a48475d359fe48f",
+      "date": "2009-03-16T14:35:12Z",
+      "subject": "[R-wiki] renaming a page",
+      "subject_clean": "[R-wiki] renaming a page",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi.\n\nIs it possible to rename a page, which i created a few days ago?\n\nIf not, can i simply copy it under a more appropriate name\nand leave the old version only with a link to the new version?\n\nI am sorry for this, but it was hard to choose the right name\nimmediately.\n\nPetr.",
+      "body_snippet": "Hi.\n\nIs it possible to rename a page, which i created a few days ago?\n\nIf not, can i simply copy it under a more appropriate name\nand leave the old version only with a link to the new version?\n\nI am s",
+      "thread_id": "thread-8c354172bf8e",
+      "thread_depth": 0,
+      "month": "2009-03"
+    },
+    {
+      "id": "msg-1f128f59873a",
+      "message_id": "<20090317072309.GA4522@cs.cas.cz>",
+      "from_name": "Petr Savicky",
+      "from_email_hash": "6f4807d206b2f766dcbf2fbc62c017de2836546d18e3ab091a48475d359fe48f",
+      "date": "2009-03-17T07:23:09Z",
+      "subject": "[R-wiki] renaming a page",
+      "subject_clean": "[R-wiki] renaming a page",
+      "in_reply_to": "<49BE62F0.2010808@free.fr>",
+      "references": [
+        "<20090316143512.GA6975@cs.cas.cz>",
+        "<49BE62F0.2010808@free.fr>"
+      ],
+      "body_plain": "On Mon, Mar 16, 2009 at 03:32:16PM +0100, Romain Fran?ois wrote:\n> Hi,\n> \n> I think if you save t with empty content, it deletes it.\n> \n> Regards,\n> \n> Romain\n\nThanks. It worked.\n\nPetr.",
+      "body_snippet": "On Mon, Mar 16, 2009 at 03:32:16PM +0100, Romain Fran?ois wrote:\n> Hi,\n> \n> I think if you save t with empty content, it deletes it.\n> \n> Regards,\n> \n> Romain\n\nThanks. It worked.\n\nPetr.",
+      "thread_id": "thread-8c354172bf8e",
+      "thread_depth": 2,
+      "month": "2009-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8c354172bf8e",
+      "subject": "[R-wiki] renaming a page",
+      "message_count": 3,
+      "participants": [
+        "Petr Savicky",
+        "Romain François"
+      ],
+      "started": "2009-03-16T14:35:12Z",
+      "last_reply": "2009-03-17T07:23:09Z",
+      "root_message_id": "msg-8c354172bf8e"
+    }
+  ]
+}

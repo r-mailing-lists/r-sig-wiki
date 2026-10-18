@@ -1,0 +1,107 @@
+From gregor.gorjanc at bfro.uni-lj.si  Mon Oct  9 17:44:41 2006
+From: gregor.gorjanc at bfro.uni-lj.si (Gregor Gorjanc)
+Date: Mon, 09 Oct 2006 17:44:41 +0200
+Subject: [R-wiki] Waiting times (was: Transcript of "Conservative ANOVA
+	tables")
+Message-ID: <452A6E69.7090706@bfro.uni-lj.si>
+
+Dieter Menne <dieter.menne <at> menne-biomed.de> writes:
+
+> 
+> Dear friends of lmer,
+> 
+> http://wiki.r-project.org/rwiki/doku.php?id=guides:lmer-tests
+> 
+> I have put a transcript of the long thread on lmer/lme4 statistical 
+> test into the Wiki. For all those who missed it life, and for those 
+> like me, who don't like the special style of the R-list to keep full
+> length quotes.
+> 
+> Creating the text there was not much fun, waiting times are simply 
+> unacceptable and the Wiki only give an empty page when syntax errors 
+> (for example from quotes) are detected.
+
+I agree that there is a problem about waiting times with large pages.
+This might be of interest for r-sig-wiki list, but I can not CC from
+Gmane - I will send separate mail. I think there was discussion about
+this and that wiki is optimized for many small pages. I do agree though
+that having several pages for this transcript is not acceptable.
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From maechler at stat.math.ethz.ch  Sat Oct 28 21:48:50 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Sat, 28 Oct 2006 21:48:50 +0200
+Subject: [R-wiki] [Rd] Idea: Testimonials
+In-Reply-To: <45425EF2.5030502@mango-solutions.com>
+References: <971536df0610271036l15c8c46ahb549331458668afd@mail.gmail.com>
+	<45425EF2.5030502@mango-solutions.com>
+Message-ID: <17731.46114.942787.471256@stat.math.ethz.ch>
+
+>>>>> "Romain" == Romain Francois <rfrancois at mango-solutions.com>
+>>>>>     on Fri, 27 Oct 2006 20:33:06 +0100 writes:
+
+    Romain> Gabor Grothendieck wrote:
+    >> It occurred to me that we could have an optional file
+    >> called TESTIMONIALS that comes with each package which
+    >> could be a list of short testimonials from users
+    >> indicating success with that package and possibly a few
+    >> details of the successful application, e.g. it was used
+    >> to analyse xyz data.
+    >> 
+    >> Users would be encouraged to send in testimonials.
+    >> 
+    >> This would give new users an immediate idea of what
+    >> others have done with any given package.
+    >> 
+    >> It would be up to the authors and maintainer to solicit
+    >> the testimonials.  The author and maintainer could list
+    >> their own applications in that file too if they wished.
+    >> 
+    >> Another possibility is to place the testimonials in the
+    >> vignette if there is one.
+    >> 
+    Romain> Hi,
+
+    Romain> Could that kind of things go to the wiki
+    Romain> http://wiki.r-project.org/rwiki/doku.php?id=packages:packages
+
+Yes, I think it could, and even think it should.
+For the time being the 'packages' section of the RWiki (URL
+above) should be used much more in my view.
+
+Here is ``my wish'' :
+
+Ideally, for all CRAN (or Bioconductor or Omegahat) package
+that's not there already,
+there would be either
+1) a nightly CRON job that built a web page template automatically,
+   just from analyzing <CRAN>/src/packages/ content
+2) a "button" that user could press which creates a web page
+   template for package
+
+These templates would already have a few pieces of information,
+including a link to CRAN / BioC / ... for the package source
+(and reference PDF).
+
+--> and now the topic has really diverted and should probably be
+continued on the R-SIG-Wiki mailing list.
+
+Martin Maechler, ETH Zurich
+
+

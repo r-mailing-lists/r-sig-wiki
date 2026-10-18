@@ -1,0 +1,79 @@
+From savicky at cs.cas.cz  Mon Mar 16 15:35:12 2009
+From: savicky at cs.cas.cz (Petr Savicky)
+Date: Mon, 16 Mar 2009 15:35:12 +0100
+Subject: [R-wiki] renaming a page
+Message-ID: <20090316143512.GA6975@cs.cas.cz>
+
+Hi.
+
+Is it possible to rename a page, which i created a few days ago?
+
+If not, can i simply copy it under a more appropriate name
+and leave the old version only with a link to the new version?
+
+I am sorry for this, but it was hard to choose the right name
+immediately.
+
+Petr.
+
+
+From francoisromain at free.fr  Mon Mar 16 15:32:16 2009
+From: francoisromain at free.fr (=?ISO-8859-1?Q?Romain_Fran=E7ois?=)
+Date: Mon, 16 Mar 2009 15:32:16 +0100
+Subject: [R-wiki] renaming a page
+In-Reply-To: <20090316143512.GA6975@cs.cas.cz>
+References: <20090316143512.GA6975@cs.cas.cz>
+Message-ID: <49BE62F0.2010808@free.fr>
+
+Hi,
+
+I think if you save t with empty content, it deletes it.
+
+Regards,
+
+Romain
+
+
+Petr Savicky wrote:
+> Hi.
+>
+> Is it possible to rename a page, which i created a few days ago?
+>
+> If not, can i simply copy it under a more appropriate name
+> and leave the old version only with a link to the new version?
+>
+> I am sorry for this, but it was hard to choose the right name
+> immediately.
+>
+> Petr.
+>   
+
+-- 
+Romain Francois
+Independent R Consultant
++33(0) 6 28 91 30 30
+http://romainfrancois.blog.free.fr
+
+
+From savicky at cs.cas.cz  Tue Mar 17 08:23:09 2009
+From: savicky at cs.cas.cz (Petr Savicky)
+Date: Tue, 17 Mar 2009 08:23:09 +0100
+Subject: [R-wiki] renaming a page
+In-Reply-To: <49BE62F0.2010808@free.fr>
+References: <20090316143512.GA6975@cs.cas.cz> <49BE62F0.2010808@free.fr>
+Message-ID: <20090317072309.GA4522@cs.cas.cz>
+
+On Mon, Mar 16, 2009 at 03:32:16PM +0100, Romain Fran?ois wrote:
+> Hi,
+> 
+> I think if you save t with empty content, it deletes it.
+> 
+> Regards,
+> 
+> Romain
+
+Thanks. It worked.
+
+Petr.
+
+

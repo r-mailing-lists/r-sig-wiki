@@ -1,0 +1,110 @@
+From tplate at acm.org  Tue Mar 27 18:22:49 2007
+From: tplate at acm.org (Tony Plate)
+Date: Tue, 27 Mar 2007 10:22:49 -0600
+Subject: [R-wiki] rdoc pages not finding R docs?
+Message-ID: <460944D9.7080508@acm.org>
+
+When I visit http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:seq , 
+I see the following text:
+
+== Rwiki file not found! ==
+
+Be aware that due to the use of binary floating-point arithmetic, you 
+may not get results that are exactly equal to what
+...
+
+The source of the page starts with "~~RDOC~~".
+
+In fact, I see this "== Rwiki file not found==" on all of the half-dozen 
+or so rdoc pages I tried visiting (with the exception of 
+http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:any, which 
+displayed as "~~RDOC~~"???)
+
+Curiously, for any of these pages, when I click "Edit this page", and 
+then click "Preview", I see the R documentation.
+
+-- Tony Plate
+
+
+From phgrosjean at sciviews.org  Wed Mar 28 11:19:02 2007
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 28 Mar 2007 11:19:02 +0200
+Subject: [R-wiki] rdoc pages not finding R docs?
+In-Reply-To: <460944D9.7080508@acm.org>
+References: <460944D9.7080508@acm.org>
+Message-ID: <460A3306.5040106@sciviews.org>
+
+Hello,
+
+This bug is known, but I did not found a workaround yet. Basically, the 
+RDoc plugin includes the content of the corresponding help file on top 
+of the wiki page. Unfortunately, the cache mechanism of the wiki engine 
+does not detects these additions. Consequently, the page looks empty 
+until it is first edited (actual edition, the wiki engines always 
+compare pages before and after edition before to decide if it is worth 
+updating the cache version, but the RDoc content is invisible for it).
+
+I though using the ~~NOCACHE~~ flag would solve the problem, but 
+apparently not. The solution is probably to write a PHP program that 
+flushes the cache for each of these RDoc pages and triggers the Wiki 
+engine to calculate a new version of this cache. This should be part of 
+a robot that automatically updates the Wiki R documentation according to 
+new versions of R, or R packages, as scanned on CRAN periodically. It 
+should be better a PHP program because the wiki engine itself is written 
+in PHP.
+
+This is planned for the future,... but I have no date, because I am 
+really too busy right now (full-time prof + direction of an experimental 
+lab, no technician, no assistant yet, thus, a crazy situation where all 
+my remaining time besides teaching is dedicated to my Master and PhD 
+students).
+
+On the same line, the RDoc-to-wiki converter (Perl code, according to 
+the code used by R to convert RDoc to man pages, HTML pages, LaTeX, ...) 
+still have to be finished before it could be proposed as an addition to 
+R. Help would be very welcome for both of these topics (finishing of the 
+RDoc to Wiki converter in Perl, and robot in PHP to update Wiki help 
+pages automatically). Any volunteer?
+
+Best,
+
+Philippe
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Belgium
+( ( ( ( (
+..............................................................
+
+Tony Plate wrote:
+> When I visit http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:seq , 
+> I see the following text:
+> 
+> == Rwiki file not found! ==
+> 
+> Be aware that due to the use of binary floating-point arithmetic, you 
+> may not get results that are exactly equal to what
+> ...
+> 
+> The source of the page starts with "~~RDOC~~".
+> 
+> In fact, I see this "== Rwiki file not found==" on all of the half-dozen 
+> or so rdoc pages I tried visiting (with the exception of 
+> http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:any, which 
+> displayed as "~~RDOC~~"???)
+> 
+> Curiously, for any of these pages, when I click "Edit this page", and 
+> then click "Preview", I see the R documentation.
+> 
+> -- Tony Plate
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+

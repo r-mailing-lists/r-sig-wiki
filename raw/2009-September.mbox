@@ -1,0 +1,43 @@
+From ybukhman at hotmail.com  Wed Sep  2 23:11:32 2009
+From: ybukhman at hotmail.com (Yury Bukhman)
+Date: Wed, 2 Sep 2009 16:11:32 -0500
+Subject: [R-wiki] can I create Wiki pages for my local R User Group?
+Message-ID: <BAY115-W1787CDF5BCBC487ED97DF6C0F00@phx.gbl>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+URL: <https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20090902/ed8c0dac/attachment.pl>
+
+From francoisromain at free.fr  Thu Sep  3 07:48:33 2009
+From: francoisromain at free.fr (=?ISO-8859-1?Q?Romain_Fran=E7ois?=)
+Date: Thu, 03 Sep 2009 07:48:33 +0200
+Subject: [R-wiki] can I create Wiki pages for my local R User Group?
+In-Reply-To: <BAY115-W1787CDF5BCBC487ED97DF6C0F00@phx.gbl>
+References: <BAY115-W1787CDF5BCBC487ED97DF6C0F00@phx.gbl>
+Message-ID: <4A9F58B1.8060103@free.fr>
+
+On 09/02/2009 11:11 PM, Yury Bukhman wrote:
+>
+> Hi,
+>
+> we have organized a new R user group in Madison, WI, USA.  I have edited the rugs:r_user_groups page to put in information about our group.  I would like to create a Wiki page for our meeting schedule, and possibly other related pages in the future.  Would it be appropriate to use the R Wiki for that?  If so, where in the name spaces should I put my page(s)?
+>
+> Thanks.
+>
+> Yury
+
+Sure. Put it wherever common sense drives you ... for example 
+rugs:r_user_groups:madison
+
+Romain
+
+-- 
+Romain Francois
+Professional R Enthusiast
++33(0) 6 28 91 30 30
+http://romainfrancois.blog.free.fr
+|- http://tr.im/xHLs : R capable version of ant
+|- http://tr.im/xHiZ : Tip: get java home from R with rJava
+`- http://tr.im/xkMc : Combine R CMD build and junit
+
+

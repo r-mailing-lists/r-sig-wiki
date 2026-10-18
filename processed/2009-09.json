@@ -1,0 +1,55 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2009-09",
+  "messages": [
+    {
+      "id": "msg-493951959e4f",
+      "message_id": "<BAY115-W1787CDF5BCBC487ED97DF6C0F00@phx.gbl>",
+      "from_name": "Yury Bukhman",
+      "from_email_hash": "24e23b1fc152b70c03e00f18a8790defaf686835058bbe2e3ed9c6c672a6805a",
+      "date": "2009-09-02T21:11:32Z",
+      "subject": "[R-wiki] can I create Wiki pages for my local R User Group?",
+      "subject_clean": "[R-wiki] can I create Wiki pages for my local R User Group?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20090902/ed8c0dac/attachment.pl>",
+      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20090902/ed8c0dac/attachment.pl>",
+      "thread_id": "thread-493951959e4f",
+      "thread_depth": 0,
+      "month": "2009-09"
+    },
+    {
+      "id": "msg-0517c9b4b263",
+      "message_id": "<4A9F58B1.8060103@free.fr>",
+      "from_name": "Romain François",
+      "from_email_hash": "c2a51b8efc8b99a84a6285eb125fc7f1c071bf561475064053dddd20223ca203",
+      "date": "2009-09-03T05:48:33Z",
+      "subject": "[R-wiki] can I create Wiki pages for my local R User Group?",
+      "subject_clean": "[R-wiki] can I create Wiki pages for my local R User Group?",
+      "in_reply_to": "<BAY115-W1787CDF5BCBC487ED97DF6C0F00@phx.gbl>",
+      "references": [
+        "<BAY115-W1787CDF5BCBC487ED97DF6C0F00@phx.gbl>"
+      ],
+      "body_plain": "On 09/02/2009 11:11 PM, Yury Bukhman wrote:\n>\n> Hi,\n>\n> we have organized a new R user group in Madison, WI, USA.  I have edited the rugs:r_user_groups page to put in information about our group.  I would like to create a Wiki page for our meeting schedule, and possibly other related pages in the future.  Would it be appropriate to use the R Wiki for that?  If so, where in the name spaces should I put my page(s)?\n>\n> Thanks.\n>\n> Yury\n\nSure. Put it wherever common sense drives you ... for example \nrugs:r_user_groups:madison\n\nRomain\n\n-- \nRomain Francois\nProfessional R Enthusiast\n+33(0) 6 28 91 30 30\nhttp://romainfrancois.blog.free.fr\n|- http://tr.im/xHLs : R capable version of ant\n|- http://tr.im/xHiZ : Tip: get java home from R with rJava\n`- http://tr.im/xkMc : Combine R CMD build and junit",
+      "body_snippet": "On 09/02/2009 11:11 PM, Yury Bukhman wrote:\n>\n> Hi,\n>\n> we have organized a new R user group in Madison, WI, USA.  I have edited the rugs:r_user_groups page to put in information about our group.  I w",
+      "thread_id": "thread-493951959e4f",
+      "thread_depth": 1,
+      "month": "2009-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-493951959e4f",
+      "subject": "[R-wiki] can I create Wiki pages for my local R User Group?",
+      "message_count": 2,
+      "participants": [
+        "Romain François",
+        "Yury Bukhman"
+      ],
+      "started": "2009-09-02T21:11:32Z",
+      "last_reply": "2009-09-03T05:48:33Z",
+      "root_message_id": "msg-493951959e4f"
+    }
+  ]
+}

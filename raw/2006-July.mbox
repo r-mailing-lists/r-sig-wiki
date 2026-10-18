@@ -1,0 +1,635 @@
+From jeff.horner at vanderbilt.edu  Fri Jul 14 18:34:20 2006
+From: jeff.horner at vanderbilt.edu (Jeffrey Horner)
+Date: Fri, 14 Jul 2006 11:34:20 -0500
+Subject: [R-wiki] Feature request
+Message-ID: <44B7C78C.7000900@vanderbilt.edu>
+
+Hello,
+
+I would like to make a design request. Can the top background header 
+contain a clickable area over the R Wiki log that would link to the 
+start page? This is quite a common feature on many websites. After a 
+little bit of study, I finally found the "Back to start page" link way 
+on the bottom left-hand column.
+
+Also, would it be nice if the R Wiki logo were on the left-hand side top 
+of the page and the wiki article name on the right-hand side top?
+
+Thanks for the wonderful work.
+-- 
+Jeffrey Horner       Computer Systems Analyst         School of Medicine
+615-322-8606         Department of Biostatistics   Vanderbilt University
+
+
+From jeff.horner at vanderbilt.edu  Fri Jul 14 19:14:22 2006
+From: jeff.horner at vanderbilt.edu (Jeffrey Horner)
+Date: Fri, 14 Jul 2006 12:14:22 -0500
+Subject: [R-wiki] Uploading files
+Message-ID: <44B7D0EE.2010300@vanderbilt.edu>
+
+Is this feature turned on? I can't seem to successfully attach a file 
+I've uploaded to this page:
+
+http://wiki.r-project.org/rwiki/doku.php?id=developers:rinterp
+
+-- 
+Jeffrey Horner       Computer Systems Analyst         School of Medicine
+615-322-8606         Department of Biostatistics   Vanderbilt University
+
+
+From francoisromain at free.fr  Sat Jul 15 10:46:15 2006
+From: francoisromain at free.fr (francoisromain at free.fr)
+Date: Sat, 15 Jul 2006 10:46:15 +0200
+Subject: [R-wiki] Feature request
+In-Reply-To: <44B7C78C.7000900@vanderbilt.edu>
+References: <44B7C78C.7000900@vanderbilt.edu>
+Message-ID: <1152953175.44b8ab5789b6f@imp8-g19.free.fr>
+
+Selon Jeffrey Horner <jeff.horner at vanderbilt.edu>:
+
+> Hello,
+>
+> I would like to make a design request. Can the top background header
+> contain a clickable area over the R Wiki log that would link to the
+> start page? This is quite a common feature on many websites. After a
+> little bit of study, I finally found the "Back to start page" link way
+> on the bottom left-hand column.
+
+>From anywhere, you can just do : [Alt]+[H] to go back to start page
+
+
+> Also, would it be nice if the R Wiki logo were on the left-hand side top
+> of the page and the wiki article name on the right-hand side top?
+>
+> Thanks for the wonderful work.
+> --
+> Jeffrey Horner       Computer Systems Analyst         School of Medicine
+> 615-322-8606         Department of Biostatistics   Vanderbilt University
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From ggrothendieck at gmail.com  Sat Jul 15 15:34:52 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sat, 15 Jul 2006 09:34:52 -0400
+Subject: [R-wiki] Feature request
+In-Reply-To: <1152953175.44b8ab5789b6f@imp8-g19.free.fr>
+References: <44B7C78C.7000900@vanderbilt.edu>
+	<1152953175.44b8ab5789b6f@imp8-g19.free.fr>
+Message-ID: <971536df0607150634x34ddb73ei5f5143cb63fac262@mail.gmail.com>
+
+On 7/15/06, francoisromain at free.fr <francoisromain at free.fr> wrote:
+> Selon Jeffrey Horner <jeff.horner at vanderbilt.edu>:
+>
+> > Hello,
+> >
+> > I would like to make a design request. Can the top background header
+> > contain a clickable area over the R Wiki log that would link to the
+> > start page? This is quite a common feature on many websites. After a
+> > little bit of study, I finally found the "Back to start page" link way
+> > on the bottom left-hand column.
+>
+> >From anywhere, you can just do : [Alt]+[H] to go back to start page
+
+On Windows XP using IE Alt-H causes focus to move to the Help menu.
+
+
+From phgrosjean at sciviews.org  Sun Jul 16 22:21:30 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 16 Jul 2006 22:21:30 +0200
+Subject: [R-wiki] Uploading files
+In-Reply-To: <44B7D0EE.2010300@vanderbilt.edu>
+References: <44B7D0EE.2010300@vanderbilt.edu>
+Message-ID: <44BA9FCA.5070603@sciviews.org>
+
+Hello Jeffrey,
+
+You have uploaded a tarball... in the section dedicated to media files 
+(images, videos, ...). So, no, you cannot use it now. There is no place 
+for other files on the R Wiki. You are supposed to share your file on 
+your own web or FTP, and then, use an external link to that file.
+Best,
+
+Philippe Grosjean
+
+Jeffrey Horner wrote:
+> Is this feature turned on? I can't seem to successfully attach a file 
+> I've uploaded to this page:
+> 
+> http://wiki.r-project.org/rwiki/doku.php?id=developers:rinterp
+>
+
+
+From phgrosjean at sciviews.org  Sun Jul 16 22:25:13 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 16 Jul 2006 22:25:13 +0200
+Subject: [R-wiki] Feature request
+In-Reply-To: <44B7C78C.7000900@vanderbilt.edu>
+References: <44B7C78C.7000900@vanderbilt.edu>
+Message-ID: <44BAA0A9.5060607@sciviews.org>
+
+Jeffrey Horner wrote:
+> Hello,
+> 
+> I would like to make a design request. Can the top background header 
+> contain a clickable area over the R Wiki log that would link to the 
+> start page? This is quite a common feature on many websites. After a 
+> little bit of study, I finally found the "Back to start page" link way 
+> on the bottom left-hand column.
+
+This is the way the original DokuWiki works. However, I had to change it 
+to allow the graphical banner. This is not easy to change because it is 
+hundreds of lines of PHP code that generates the page! I think that the 
+shortcuts proposed by other people would do the job, isn't it?
+
+> Also, would it be nice if the R Wiki logo were on the left-hand side top 
+> of the page and the wiki article name on the right-hand side top?
+
+Just a question of personal taste and presentation. Would you like to 
+submit a new banner for the R Wiki?
+
+> Thanks for the wonderful work.
+
+Best,
+
+Philippe Grosjean
+
+
+From francoisromain at free.fr  Sat Jul 22 22:03:18 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Sat, 22 Jul 2006 22:03:18 +0200
+Subject: [R-wiki] list of all the pages
+Message-ID: <44C28486.8030006@free.fr>
+
+Hi,
+
+I'm trying to learn the ways of XUL : mozilla Xml User interface 
+Language (basically that's how they do firefox extensions and stuff).
+
+I'd like to know if that is possible to get the some info about *all* 
+the wiki pages in a simple ascii file (or maybe an xml file) :
+ * id of the page, ie something like tips:misc:alltips
+ * last modif
+ * who is involved in that page
+ * etc ....
+
+
+Cheers,
+
+Romain
+
+-- 
++-------------------------------------------------------------------+
+|                         Romain FRANCOIS                           |
+| R Graph Gallery : http://addictedtor.free.fr/graphiques           |
+| I'm looking for a job, see my cv : http://francoisromain.free.fr  |
+`-------------------------------------------------------------------+
+
+
+From pauljohn32 at gmail.com  Sun Jul 23 00:39:42 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Sat, 22 Jul 2006 17:39:42 -0500
+Subject: [R-wiki] list of all the pages
+In-Reply-To: <44C28486.8030006@free.fr>
+References: <44C28486.8030006@free.fr>
+Message-ID: <13e802630607221539n2c1669a7wb8fb995405cf19e9@mail.gmail.com>
+
+Attached is my most recent version of the R program that generates all
+tips as a single sheet.  Maybe it will help you see what can be done.
+
+There is also an example of another approach that is listed in the
+wiki itself. I think the title is something like "how can I get a list
+of all tips" or something like that.
+
+pj
+
+
+On 7/22/06, Romain Francois <francoisromain at free.fr> wrote:
+> Hi,
+>
+> I'm trying to learn the ways of XUL : mozilla Xml User interface
+> Language (basically that's how they do firefox extensions and stuff).
+>
+> I'd like to know if that is possible to get the some info about *all*
+> the wiki pages in a simple ascii file (or maybe an xml file) :
+>  * id of the page, ie something like tips:misc:alltips
+>  * last modif
+>  * who is involved in that page
+>  * etc ....
+>
+>
+> Cheers,
+>
+> Romain
+>
+> --
+> +-------------------------------------------------------------------+
+> |                         Romain FRANCOIS                           |
+> | R Graph Gallery : http://addictedtor.free.fr/graphiques           |
+> | I'm looking for a job, see my cv : http://francoisromain.free.fr  |
+> `-------------------------------------------------------------------+
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: alltips3.R
+Type: application/octet-stream
+Size: 11787 bytes
+Desc: not available
+Url : https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060722/70e713b5/attachment.obj 
+
+From francoisromain at free.fr  Sun Jul 23 01:08:36 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Sun, 23 Jul 2006 01:08:36 +0200
+Subject: [R-wiki] list of all the pages
+In-Reply-To: <13e802630607221539n2c1669a7wb8fb995405cf19e9@mail.gmail.com>
+References: <44C28486.8030006@free.fr>
+	<13e802630607221539n2c1669a7wb8fb995405cf19e9@mail.gmail.com>
+Message-ID: <44C2AFF4.3020105@free.fr>
+
+Le 23.07.2006 00:39, Paul Johnson a ?crit :
+> Attached is my most recent version of the R program that generates all
+> tips as a single sheet.  Maybe it will help you see what can be done.
+>
+> There is also an example of another approach that is listed in the
+> wiki itself. I think the title is something like "how can I get a list
+> of all tips" or something like that.
+>
+> pj
+>
+Thanks, I'll take a look at the R script,
+
+on the bash way, I could torture the changes.log file of the wiki to get 
+the info i want :
+(maybe it's not the most efficient way)
+
+*#!/bin/bash
+
+rm -f changes.log
+wget http://wiki.r-project.org/rwiki/data/changes.log
+
+rm -f authors.txt
+for i in `cut -f3 changes.log | sort | uniq`;
+do
+ echo -n "$i " >> authors.txt
+ grep $i changes.log | cut -f4 | sort | uniq | tr "\n" " " >> authors.txt
+ echo >> authors.txt
+done
+sed -e "s/  / /g" authors.txt > authors2.txt
+mv -f authors2.txt authors.txt
+*
+Now, the file authors.txt contains the name of the page followed by the 
+name of the person involved.
+The problem is that this contains pages that are not anymore in the wiki 
+because thay have been removed.
+
+Another approach, but I don't have the rights to do that is to use the 
+directory structure, something like that from the data/pages directory :
+
+$ find -name "*.txt" | grep .txt | sed -e "s/\.\/\(.*\)\.txt/\\1/g" | tr 
+"/" ":"
+
+gives the names of all the pages that exist.
+
+With a little more imagination, combining the two scripts, I could get 
+to something like an xml file :
+
+<wikipage>
+  <wikipagename>tips:tips</wikipagename>
+  <writer>phgrosjean</writer>
+  <writer>nick_drew</writer>
+  <writer>pauljohn</writer>
+  <writer>rom1</writer>
+  <lastmodif>Sun Jul 23 01:05:28 2006</lastmodif>
+</wikipage>
+
+which would do the trick to what I have in mind .... but now I should 
+really go to bed, we'll see tomorow.
+
+Philippe, when I'm done with that, would you consider setting a cronjob 
+to generate that file from time to time and put it somewhere we can read 
+it ?
+
+Romain
+
+>
+> On 7/22/06, Romain Francois <francoisromain at free.fr> wrote:
+>> Hi,
+>>
+>> I'm trying to learn the ways of XUL : mozilla Xml User interface
+>> Language (basically that's how they do firefox extensions and stuff).
+>>
+>> I'd like to know if that is possible to get the some info about *all*
+>> the wiki pages in a simple ascii file (or maybe an xml file) :
+>>  * id of the page, ie something like tips:misc:alltips
+>>  * last modif
+>>  * who is involved in that page
+>>  * etc ....
+>>
+>>
+>> Cheers,
+>>
+>> Romain
+
+-- 
++-------------------------------------------------------------------+
+|                         Romain FRANCOIS                           |
+| R Graph Gallery : http://addictedtor.free.fr/graphiques           |
+| I'm looking for a job, see my cv : http://francoisromain.free.fr  |
+`-------------------------------------------------------------------+
+
+
+From gregor.gorjanc at bfro.uni-lj.si  Tue Jul 25 17:54:09 2006
+From: gregor.gorjanc at bfro.uni-lj.si (Gregor Gorjanc)
+Date: Tue, 25 Jul 2006 17:54:09 +0200
+Subject: [R-wiki] Parsing of some pages
+Message-ID: <44C63EA1.2050509@bfro.uni-lj.si>
+
+Hi!
+
+The following page seems to be "unparsed"
+
+http://wiki.r-project.org./rwiki/doku.php?id=developers:rinterp
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From phgrosjean at sciviews.org  Tue Jul 25 18:35:25 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Tue, 25 Jul 2006 18:35:25 +0200
+Subject: [R-wiki] Parsing of some pages
+In-Reply-To: <44C63EA1.2050509@bfro.uni-lj.si>
+References: <44C63EA1.2050509@bfro.uni-lj.si>
+Message-ID: <44C6484D.202@sciviews.org>
+
+Corrected. In this case, editing the page and saving changes
+usually corrects the problem.
+Best,
+
+Philippe
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Belgium
+( ( ( ( (
+..............................................................
+
+Gregor Gorjanc wrote:
+> Hi!
+> 
+> The following page seems to be "unparsed"
+> 
+> http://wiki.r-project.org./rwiki/doku.php?id=developers:rinterp
+>
+
+
+From francoisromain at free.fr  Wed Jul 26 11:37:14 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Wed, 26 Jul 2006 11:37:14 +0200
+Subject: [R-wiki] Google gadget
+Message-ID: <44C737CA.5040007@free.fr>
+
+Hi folks,
+
+Any idea to create a google gadget for the wiki ?
+Currently, one can add an rss feed to his google page, but what's fun 
+about that ...
+
+Is it worth a wiki challenge, or should they only be about R coding ?
+
+See : http://www.google.com/apis/homepage/
+
+-- 
++-------------------------------------------------------------------+
+|                         Romain FRANCOIS                           |
+| R Graph Gallery : http://addictedtor.free.fr/graphiques           |
+| I'm looking for a job, see my cv : http://francoisromain.free.fr  |
+`-------------------------------------------------------------------+
+
+
+From ggrothendieck at gmail.com  Wed Jul 26 13:44:37 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Wed, 26 Jul 2006 07:44:37 -0400
+Subject: [R-wiki] sourcing code from wiki
+Message-ID: <971536df0607260444x2e316c1ay4e91de263cb5aa58@mail.gmail.com>
+
+This was just posted to r-help:
+
+   https://www.stat.math.ethz.ch/pipermail/r-help/2006-July/109931.html
+
+Now suppose we wanted to run the code on the wiki page referenced
+in that post.  Currently I copy and paste the code from that wiki page into an R
+session (or else into a file, save it and source it).  It would be
+convenient if it were possible to source the code for each of the code snippets
+on the referenced wiki page directly:
+
+   source("http://...whatever...")
+
+Is this already possible?
+If so, how does one discover the url?
+
+If not,it would be nice to have some feature to facilitate grabbing code
+from the wiki.
+
+
+From phgrosjean at sciviews.org  Wed Jul 26 16:36:15 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 26 Jul 2006 16:36:15 +0200
+Subject: [R-wiki] sourcing code from wiki
+In-Reply-To: <971536df0607260444x2e316c1ay4e91de263cb5aa58@mail.gmail.com>
+References: <971536df0607260444x2e316c1ay4e91de263cb5aa58@mail.gmail.com>
+Message-ID: <44C77DDF.5000200@sciviews.org>
+
+Hello,
+
+There is a series of functions to manipulate, search, edit R Wiki pages 
+from within R that will be provided by the future 'rwiki' r package in 
+development. Here is the function that does what you want in attachment.
+Best,
+
+Philippe Grosjean
+
+Gabor Grothendieck wrote:
+> This was just posted to r-help:
+> 
+>    https://www.stat.math.ethz.ch/pipermail/r-help/2006-July/109931.html
+> 
+> Now suppose we wanted to run the code on the wiki page referenced
+> in that post.  Currently I copy and paste the code from that wiki page into an R
+> session (or else into a file, save it and source it).  It would be
+> convenient if it were possible to source the code for each of the code snippets
+> on the referenced wiki page directly:
+> 
+>    source("http://...whatever...")
+> 
+> Is this already possible?
+> If so, how does one discover the url?
+> 
+> If not,it would be nice to have some feature to facilitate grabbing code
+> from the wiki.
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+> 
+-------------- next part --------------
+An embedded and charset-unspecified text was scrubbed...
+Name: getWikiRcode.R
+Url: https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060726/08fc0948/attachment.pl 
+
+From ggrothendieck at gmail.com  Wed Jul 26 16:44:43 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Wed, 26 Jul 2006 10:44:43 -0400
+Subject: [R-wiki] sourcing code from wiki
+In-Reply-To: <44C77DDF.5000200@sciviews.org>
+References: <971536df0607260444x2e316c1ay4e91de263cb5aa58@mail.gmail.com>
+	<44C77DDF.5000200@sciviews.org>
+Message-ID: <971536df0607260744q9c1eca1g540b740a587b19ff@mail.gmail.com>
+
+On 7/26/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Hello,
+>
+> There is a series of functions to manipulate, search, edit R Wiki pages
+> from within R that will be provided by the future 'rwiki' r package in
+
+Great.
+
+> development. Here is the function that does what you want in attachment.
+> Best,
+>
+> Philippe Grosjean
+>
+
+Note there is a typo in the warning text in sourceWikiRcode.
+
+Thanks.
+
+> Gabor Grothendieck wrote:
+> > This was just posted to r-help:
+> >
+> >    https://www.stat.math.ethz.ch/pipermail/r-help/2006-July/109931.html
+> >
+> > Now suppose we wanted to run the code on the wiki page referenced
+> > in that post.  Currently I copy and paste the code from that wiki page into an R
+> > session (or else into a file, save it and source it).  It would be
+> > convenient if it were possible to source the code for each of the code snippets
+> > on the referenced wiki page directly:
+> >
+> >    source("http://...whatever...")
+> >
+> > Is this already possible?
+> > If so, how does one discover the url?
+> >
+> > If not,it would be nice to have some feature to facilitate grabbing code
+> > from the wiki.
+> >
+> > _______________________________________________
+> > R-sig-wiki mailing list
+> > R-sig-wiki at r-project.org
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >
+> >
+>
+>
+> getWikiRcode <- function(wikipage, url = "http://wiki.r-project.org/rwiki",
+>        strip.empty.lines = TRUE, strip.output = FALSE) {
+>        # Read the raw wiki page
+>        Url <- paste(url, "/doku.php?id=", wikipage, "&do=export_raw", sep ="")
+>        Raw <- readLines(Url)
+>
+>        # Get only <code r> .... </code> chunks from this page
+>        Codestart <- grep("^\\s*<code", Raw)
+>        Codeend <- grep("^\\s*</code>", Raw)
+>        # A little bit of checking first
+>        if (length(Codestart) != length(Codeend) || any(Codeend <= Codestart))
+>                stop("Malformed wiki page (wrong <code>... </code> sections)")
+>        # Get only r code sections (those starting with <code r> from the list
+>        Rstart <- grep("^\\s*<code r>", Raw)
+>        if (length(Rstart) == 0) return(character(0))   # no R code in this page
+>        isRsection <- Codestart %in% Rstart
+>        Rend <- Codeend[isRsection]
+>
+>        # Construct the list of text lines related to r code
+>        R <- data.frame(Start = Rstart, End = Rend)
+>        Seq <- function(x) seq(from = x[1], to = x[2])
+>        Rrows <- c(apply(R, 1, Seq), recursive = TRUE)
+>        Rcode <- Raw[Rrows]
+>
+>        # Eliminate <code r> and </code> tags
+>        Rcode <- gsub("^\\s*</?code( r)?>.*$", "", Rcode)
+>
+>        # Eliminate prompt from R code '> ', or '+ ' at the begining of a line
+>        Rcode <- sub("^[>+] ", "", Rcode)
+>
+>        # Possibly eliminate empty lines
+>        if (strip.empty.lines) Rcode <- Rcode[Rcode != ""]
+>
+>        # Possibly eliminate output (lines starting with '#!')
+>        if (strip.output) {
+>                Routput <- grep("^\\#\\!", Rcode)
+>                if (length(Routput) > 0) Rcode <- Rcode[-Routput]
+>        }
+>
+>        # Return the R code
+>        return(Rcode)
+> }
+>
+> rcode <- getWikiRcode("tips:data-frames:merge")
+> rcode
+>
+> sourceWikiRcode <- function(wikipage, echo = TRUE, url = "http://wiki.r-project.org/rwiki",
+>        strip.empty.lines = TRUE, strip.output = FALSE, ...) {
+>        # Call getWikiRcode() to extract r code from wiki pages
+>        Rcode <- getWikiRcode(wikipage = wikipage, url = url,
+>                strip.empty.lines = strip.empty.lines, strip.output = strip.output)
+>        if (length(Rcode) == 0) {
+>                warning("No r ocde in this page!")
+>        } else {
+>                Con <- textConnection(Rcode)
+>                source(Con, echo = echo, ...)
+>                close(Con)
+>        }
+> }
+>
+> sourceWikiRcode("tips:data-frames:merge")
+> # Here, the last part of this page is not directly executable (data1 is not defined)
+> # but the rest is fine!
+>
+>
+
+

@@ -1,0 +1,36 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2007-09",
+  "messages": [
+    {
+      "id": "msg-7e2286fc71f5",
+      "message_id": "<46F8D4B4.2080503@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2007-09-25T09:28:20Z",
+      "subject": "[R-wiki] R Wiki down on 27 September",
+      "subject_clean": "[R-wiki] R Wiki down on 27 September",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nFollowing the major electricity problem we got at the University during \nthe summer (the R Wiki was down for several days), there is a need for \nshutting off electricity on the whole campus for a full day to fix it \nnext Thursday 27 September. Consequently, the R Wiki may be down for up \nto 24h. We are sorry for the inconvenience.\nBest,\n\nPhilippe Grosjean\n-- \n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Belgium\n( ( ( ( (\n..............................................................",
+      "body_snippet": "Hi all,\n\nFollowing the major electricity problem we got at the University during \nthe summer (the R Wiki was down for several days), there is a need for \nshutting off electricity on the whole campus f",
+      "thread_id": "thread-7e2286fc71f5",
+      "thread_depth": 0,
+      "month": "2007-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7e2286fc71f5",
+      "subject": "[R-wiki] R Wiki down on 27 September",
+      "message_count": 1,
+      "participants": [
+        "Philippe Grosjean"
+      ],
+      "started": "2007-09-25T09:28:20Z",
+      "last_reply": "2007-09-25T09:28:20Z",
+      "root_message_id": "msg-7e2286fc71f5"
+    }
+  ]
+}

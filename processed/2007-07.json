@@ -1,0 +1,49 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2007-07",
+  "messages": [
+    {
+      "id": "msg-22b2822134b6",
+      "message_id": "<46A77ED5.3010007@zoo.ufl.edu>",
+      "from_name": "Ben Bolker",
+      "from_email_hash": "10af28d36bcdc09beaca76a608d7bee9f1f3e76c32aaecff390c982a8bb8ca4a",
+      "date": "2007-07-25T16:48:21Z",
+      "subject": "[R-wiki] wiki down?",
+      "subject_clean": "[R-wiki] wiki down?",
+      "in_reply_to": "<43F1B6AB.7040403@sciviews.org>",
+      "references": [
+        "<e1fc21b0602021109o55ca7da9l4b315026eec38e1e@mail.gmail.com>",
+        "<43E38AE5.2090508@sciviews.org>",
+        "<971536df0602030932m15612e46pdd13e5b50889f346@mail.gmail.com>",
+        "<43E3C004.1080500@zoo.ufl.edu>",
+        "<971536df0602031615k4a052638o217848cac2ed44b5@mail.gmail.com>",
+        "<43E45512.5050702@sciviews.org>",
+        "<17380.43523.90959.786378@stat.math.ethz.ch>",
+        "<43E4B13E.3010307@sciviews.org>",
+        "<17380.52505.49643.649108@stat.math.ethz.ch>",
+        "<971536df0602070537o46403fddpf0bbed03a3d547f0@mail.gmail.com>",
+        "<13e802630602131750g257226b5g793fd409d87f9617@mail.gmail.com>",
+        "<43F1B6AB.7040403@sciviews.org>"
+      ],
+      "body_plain": "There have been some comments on the R help list\nabout the wiki being down, and I can't reach it either:\n\n> ben at bolker-lap2:~$ ping wiki.r-project.org\n> PING econum.umh.ac.be (193.190.194.5) 56(84) bytes of data.\n\n   anyone know what's wrong?\n\n  Ben",
+      "body_snippet": "There have been some comments on the R help list\nabout the wiki being down, and I can't reach it either:\n\n> ben at bolker-lap2:~$ ping wiki.r-project.org\n> PING econum.umh.ac.be (193.190.194.5) 56(84)",
+      "thread_id": "thread-22b2822134b6",
+      "thread_depth": 0,
+      "month": "2007-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-22b2822134b6",
+      "subject": "[R-wiki] wiki down?",
+      "message_count": 1,
+      "participants": [
+        "Ben Bolker"
+      ],
+      "started": "2007-07-25T16:48:21Z",
+      "last_reply": "2007-07-25T16:48:21Z",
+      "root_message_id": "msg-22b2822134b6"
+    }
+  ]
+}

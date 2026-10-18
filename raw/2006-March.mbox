@@ -1,0 +1,491 @@
+From phgrosjean at sciviews.org  Mon Mar  6 16:05:41 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 06 Mar 2006 16:05:41 +0100
+Subject: [R-wiki] New R syntax highlighter
+Message-ID: <440C4FC5.6040105@sciviews.org>
+
+Hello All,
+
+I have reworked the R syntax highlighter for R and I have added three 
+highlighters (for R documentation, for DESCRIPTION and NAMESPACE files).
+
+See: http://www.sciviews.org/_rgui/wiki/doku.php?id=wiki:rhighlighting
+
+I have now almost finished the Wiki engine by itself, and I will install 
+it in the final address (but not the final physical server yet).
+Best,
+
+Philippe Grosjean
+
+
+From damian.betebenner at bc.edu  Mon Mar  6 17:01:16 2006
+From: damian.betebenner at bc.edu (Damian Betebenner)
+Date: Mon, 06 Mar 2006 11:01:16 -0500
+Subject: [R-wiki] New R syntax highlighter
+In-Reply-To: <440C4FC5.6040105@sciviews.org>
+References: <440C4FC5.6040105@sciviews.org>
+Message-ID: <web-7887418@be3.bc.edu>
+
+Philippe,
+
+BRAVO!
+
+Truly literate programming.
+
+Damian
+
+ |  On Mon, 06 Mar 2006 16:05:41 +0100
+ |  Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>>Hello All,
+>>>
+>>>I have reworked the R syntax highlighter for R and I have added three 
+>>>highlighters (for R documentation, for DESCRIPTION and NAMESPACE files).
+>>>
+>>>See: http://www.sciviews.org/_rgui/wiki/doku.php?id=wiki:rhighlighting
+>>>
+>>>I have now almost finished the Wiki engine by itself, and I will install 
+>>>it in the final address (but not the final physical server yet).
+>>>Best,
+>>>
+>>>Philippe Grosjean
+>>>
+>>>_______________________________________________
+>>>R-sig-wiki mailing list
+>>>R-sig-wiki at r-project.org
+>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+
+
+(617) 552 4491
+
+
+From sourceforge at metrak.com  Wed Mar  8 22:03:58 2006
+From: sourceforge at metrak.com (paul sorenson)
+Date: Thu, 09 Mar 2006 08:03:58 +1100
+Subject: [R-wiki] New R syntax highlighter
+In-Reply-To: <440C4FC5.6040105@sciviews.org>
+References: <440C4FC5.6040105@sciviews.org>
+Message-ID: <440F46BE.2050509@metrak.com>
+
+That is looking very cool indeed.
+
+Can it write my algorithms for me?
+
+Philippe Grosjean wrote:
+> Hello All,
+> 
+> I have reworked the R syntax highlighter for R and I have added three 
+> highlighters (for R documentation, for DESCRIPTION and NAMESPACE files).
+> 
+> See: http://www.sciviews.org/_rgui/wiki/doku.php?id=wiki:rhighlighting
+> 
+> I have now almost finished the Wiki engine by itself, and I will install 
+> it in the final address (but not the final physical server yet).
+> Best,
+> 
+> Philippe Grosjean
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From phgrosjean at sciviews.org  Wed Mar  8 22:31:35 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 08 Mar 2006 22:31:35 +0100
+Subject: [R-wiki] New R syntax highlighter
+In-Reply-To: <440F46BE.2050509@metrak.com>
+References: <440C4FC5.6040105@sciviews.org> <440F46BE.2050509@metrak.com>
+Message-ID: <440F4D37.5020705@sciviews.org>
+
+paul sorenson wrote:
+> That is looking very cool indeed.
+> 
+> Can it write my algorithms for me?
+
+Forget about the algorithms and focus on a software that writes the 
+reports and publications for you... that would be realllly cool stuff!
+
+best,
+
+Philippe Grosjean
+
+> Philippe Grosjean wrote:
+> 
+>> Hello All,
+>>
+>> I have reworked the R syntax highlighter for R and I have added three 
+>> highlighters (for R documentation, for DESCRIPTION and NAMESPACE files).
+>>
+>> See: http://www.sciviews.org/_rgui/wiki/doku.php?id=wiki:rhighlighting
+>>
+>> I have now almost finished the Wiki engine by itself, and I will 
+>> install it in the final address (but not the final physical server yet).
+>> Best,
+>>
+>> Philippe Grosjean
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+> 
+> 
+>
+
+
+From bolker at ufl.edu  Mon Mar 13 14:16:24 2006
+From: bolker at ufl.edu (Ben Bolker)
+Date: Mon, 13 Mar 2006 08:16:24 -0500
+Subject: [R-wiki] orphans/wanted
+Message-ID: <441570A8.1080205@ufl.edu>
+
+
+   what is the best way to deal with the orphans/wanted page?
+should I start trying to move stuff over?
+
+   The orphans/wanted page doesn't *look* automatically
+generated, but it seems as though it should be ?
+
+   sorry to have fallen down on the job -- I will try to
+start moving again, although next week is more likely
+than this week ...
+
+    Ben Bolker
+
+-- 
+620B Bartram Hall                            bolker at zoo.ufl.edu
+Zoology Department, University of Florida    http://www.zoo.ufl.edu/bolker
+Box 118525                                   (ph)  352-392-5697
+Gainesville, FL 32611-8525                   (fax) 352-392-3704
+
+
+From maechler at stat.math.ethz.ch  Fri Mar 24 16:41:14 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Fri, 24 Mar 2006 16:41:14 +0100
+Subject: [R-wiki] R Wiki server -- wiki.R-project.org is THERE!
+In-Reply-To: <4422AA1F.10301@sciviews.org>
+References: <44229A49.8070709@sciviews.org>
+	<17442.40208.517103.86234@stat.math.ethz.ch>
+	<4422AA1F.10301@sciviews.org>
+Message-ID: <17444.4890.384486.173800@stat.math.ethz.ch>
+
+Finally...  
+http://wiki.R-project.org/  
+-------------------------- 
+now points to the new server that
+Philippe Grosjean has set up these days!
+
+Congratulations!
+
+
+From bolker at zoo.ufl.edu  Fri Mar 24 19:30:38 2006
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Fri, 24 Mar 2006 13:30:38 -0500
+Subject: [R-wiki] exhortation & question about FAQ
+Message-ID: <44243ACE.9070303@zoo.ufl.edu>
+
+
+   [first sent to r-sig-wiki-request by accident]
+
+   now that the FAQ has gone public (more or less) it
+would be great if we could get some more content up ...
+thanks to Phillipe Grosjean and Romain Francois
+(and whoever "129.132.58.30" is ... Olivier Powell???)
+
+   and a question/comment:
+
+   FAQ:plotting-faq
+
+   looks to me like it should go under tips:graphics-base ;
+I'm worried that material is going to start getting duplicated/
+separated in a "FAQ" section and a "Tips" section.  Opinions?
+
+    Ben
+-- 
+620B Bartram Hall                            bolker at zoo.ufl.edu
+Zoology Department, University of Florida    http://www.zoo.ufl.edu/bolker
+Box 118525                                   (ph)  352-392-5697
+Gainesville, FL 32611-8525                   (fax) 352-392-3704
+
+
+From maechler at stat.math.ethz.ch  Sat Mar 25 12:39:52 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Sat, 25 Mar 2006 12:39:52 +0100
+Subject: [R-wiki] exhortation & question about FAQ
+In-Reply-To: <44243ACE.9070303@zoo.ufl.edu>
+References: <44243ACE.9070303@zoo.ufl.edu>
+Message-ID: <17445.11272.356456.924051@stat.math.ethz.ch>
+
+>>>>> "Ben" == Ben Bolker <bolker at zoo.ufl.edu>
+>>>>>     on Fri, 24 Mar 2006 13:30:38 -0500 writes:
+
+    Ben> [first sent to r-sig-wiki-request by accident]
+
+    Ben> now that the FAQ has gone public (more or less) it
+    Ben> would be great if we could get some more content up ...
+    Ben> thanks to Phillipe Grosjean and Romain Francois
+    Ben> (and whoever "129.132.58.30" is ... Olivier Powell???)
+
+[ 129.132.50.30 is my (hopefully pretty well firewalled) desktop..  
+  I have a problem logging in *and* registering, since it seems
+ "maechler" has a login already, but I don't know the password :-\ 
+]
+
+    Ben> and a question/comment:
+
+    Ben> FAQ:plotting-faq
+
+    Ben> looks to me like it should go under tips:graphics-base ;
+    Ben> I'm worried that material is going to start getting duplicated/
+    Ben> separated in a "FAQ" section and a "Tips" section.  Opinions?
+
+Initially I didn't like the idea to have a FAQ section in the
+Wiki at all, since there's the official R FAQ and "R for windows
+FAQ" already and we (R core) really want people to read (and
+re-read!) these officials FAQ lists.  I've then seen that you
+(Philippe) were aiming for a different ``mostly orthogonal'' FAQ
+list and could well live with that.
+Still I'd like to reconsider calling these 'Tips / Hints / .." FAQ.
+
+BTW, relatedly, when looking for "Introduction" in the Wiki,
+I've been unable to even *find* a hint to the official "Introduction to R";
+something that we (R core) would *really* want people to know
+about and take time to read *before* asking FAQs ..
+
+If the above sounds negative, I want to divert those sentiments
+and express my tremendous gratitude towards Philippe Grosjean
+principally but also to several other thoughtful and active Wiki
+writers and discussants!
+
+Martin Maechler, ETH Zurich
+
+
+From bolker at zoo.ufl.edu  Sat Mar 25 14:13:09 2006
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Sat, 25 Mar 2006 08:13:09 -0500
+Subject: [R-wiki] wikis out of sync
+Message-ID: <442541E5.6000609@zoo.ufl.edu>
+
+
+http://www.sciviews.org/_rgui/wiki/doku.php
+
+and
+
+wiki.r-project.org
+
+appear to point at *different* data ...
+
+... just a warning to anyone who might
+still be updating the former!
+
+   Ben
+
+
+From phgrosjean at sciviews.org  Sun Mar 26 18:28:55 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 26 Mar 2006 18:28:55 +0200
+Subject: [R-wiki] exhortation & question about FAQ
+In-Reply-To: <44243ACE.9070303@zoo.ufl.edu>
+References: <44243ACE.9070303@zoo.ufl.edu>
+Message-ID: <4426C147.1070600@sciviews.org>
+
+Ben Bolker wrote:
+>    [first sent to r-sig-wiki-request by accident]
+> 
+>    now that the FAQ has gone public (more or less) it
+> would be great if we could get some more content up ...
+> thanks to Phillipe Grosjean and Romain Francois
+> (and whoever "129.132.58.30" is ... Olivier Powell???)
+
+>    and a question/comment:
+> 
+>    FAQ:plotting-faq
+> 
+>    looks to me like it should go under tips:graphics-base ;
+> I'm worried that material is going to start getting duplicated/
+> separated in a "FAQ" section and a "Tips" section.  Opinions?
+> 
+>     Ben
+
+Yes, a little reworking is required.
+
+PhG
+
+
+From drewbrewit at yahoo.com  Fri Mar 24 20:59:37 2006
+From: drewbrewit at yahoo.com (Drew)
+Date: Fri, 24 Mar 2006 11:59:37 -0800 (PST)
+Subject: [R-wiki] exhortation & question about FAQ
+Message-ID: <20060324195937.91891.qmail@web50910.mail.yahoo.com>
+
+Yes, more content would be good, although I've not
+been doing my part
+lately. Hope I can pick it up again now that work is
+starting to slow down.
+
+~Nick
+
+-----Original Message-----
+From: r-sig-wiki-bounces at r-project.org
+[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of
+Ben Bolker
+Sent: Friday, March 24, 2006 10:31 AM
+To: r-sig-wiki at r-project.org
+Subject: [R-wiki] exhortation & question about FAQ
+
+
+
+   [first sent to r-sig-wiki-request by accident]
+
+   now that the FAQ has gone public (more or less) it
+would be great if we could get some more content up
+...
+thanks to Phillipe Grosjean and Romain Francois
+(and whoever "129.132.58.30" is ... Olivier Powell???)
+
+   and a question/comment:
+
+   FAQ:plotting-faq
+
+   looks to me like it should go under
+tips:graphics-base ;
+I'm worried that material is going to start getting
+duplicated/
+separated in a "FAQ" section and a "Tips" section. 
+Opinions?
+
+    Ben
+--
+620B Bartram Hall                           
+bolker at zoo.ufl.edu
+Zoology Department, University of Florida   
+http://www.zoo.ufl.edu/bolker
+Box 118525                                   (ph) 
+352-392-5697
+Gainesville, FL 32611-8525                   (fax)
+352-392-3704
+
+_______________________________________________
+R-sig-wiki mailing list
+R-sig-wiki at r-project.org
+https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+
+From phgrosjean at sciviews.org  Sun Mar 26 20:27:31 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 26 Mar 2006 20:27:31 +0200
+Subject: [R-wiki] exhortation & question about FAQ
+In-Reply-To: <17445.11272.356456.924051@stat.math.ethz.ch>
+References: <44243ACE.9070303@zoo.ufl.edu>
+	<17445.11272.356456.924051@stat.math.ethz.ch>
+Message-ID: <4426DD13.70501@sciviews.org>
+
+Martin Maechler wrote:
+>>>>>>"Ben" == Ben Bolker <bolker at zoo.ufl.edu>
+>>>>>>    on Fri, 24 Mar 2006 13:30:38 -0500 writes:
+> 
+> 
+>     Ben> [first sent to r-sig-wiki-request by accident]
+> 
+>     Ben> now that the FAQ has gone public (more or less) it
+>     Ben> would be great if we could get some more content up ...
+>     Ben> thanks to Phillipe Grosjean and Romain Francois
+>     Ben> (and whoever "129.132.58.30" is ... Olivier Powell???)
+> 
+> [ 129.132.50.30 is my (hopefully pretty well firewalled) desktop..  
+>   I have a problem logging in *and* registering, since it seems
+>  "maechler" has a login already, but I don't know the password :-\ 
+> ]
+> 
+>     Ben> and a question/comment:
+> 
+>     Ben> FAQ:plotting-faq
+> 
+>     Ben> looks to me like it should go under tips:graphics-base ;
+>     Ben> I'm worried that material is going to start getting duplicated/
+>     Ben> separated in a "FAQ" section and a "Tips" section.  Opinions?
+
+Yes, I agree. We should move this to Tips. I'll do that as soon as possible.
+
+> Initially I didn't like the idea to have a FAQ section in the
+> Wiki at all, since there's the official R FAQ and "R for windows
+> FAQ" already and we (R core) really want people to read (and
+> re-read!) these officials FAQ lists.  I've then seen that you
+> (Philippe) were aiming for a different ``mostly orthogonal'' FAQ
+> list and could well live with that.
+> Still I'd like to reconsider calling these 'Tips / Hints / .." FAQ.
+
+Indeed, we initially added FAQ as a subsection of getting-started. Its 
+there, but empty. My idea was to put a wikified version of the official 
+FAQs there, with a possibility for Wiki discussion. That's all! I also 
+consider that there is no place for duplicated FAQ. It is already 
+difficult enough to make people read the official FAQ. So, why should we 
+add more here?
+
+> BTW, relatedly, when looking for "Introduction" in the Wiki,
+> I've been unable to even *find* a hint to the official "Introduction to R";
+> something that we (R core) would *really* want people to know
+> about and take time to read *before* asking FAQs ..
+
+I have added a paragraph pointing to the official R documentation at the 
+very beginning of the 'Start' page.
+
+> If the above sounds negative, I want to divert those sentiments
+> and express my tremendous gratitude towards Philippe Grosjean
+> principally but also to several other thoughtful and active Wiki
+> writers and discussants!
+> 
+> Martin Maechler, ETH Zurich
+
+Thank you Martin. I would like to warmly thank the current contributors 
+that improved the site organization a lot from my initial (bad) scheme 
+and that started to contribute pages. I hope that many others will "join 
+the team"!
+Best,
+
+Philippe Grosjean
+
+
+From phgrosjean at sciviews.org  Wed Mar 29 21:01:31 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 29 Mar 2006 21:01:31 +0200
+Subject: [R-wiki] We get close to the final release
+Message-ID: <442AD98B.3010502@sciviews.org>
+
+Hello,
+
+I have refined the structure, installed everything on the server, and, 
+most importantly, upgraded to the latest DokuWiki engine (more 
+efficient: *everything is now double-cached*), and added a couple of 
+additional features. I don't tell you more, so that you could discover 
+them by yourself ;-)
+
+Please, note that the tag for R output in <code r></code> has changed 
+from '#<' to '#!' (I have changed all pages accordingly).
+
+We are now very close to the final release to be publicly announced, but 
+I noticed a couple of new bugs that appeared when switching to the 
+latest DokuWiki engine, and also, I still have one or two features to 
+implement or finalize (particularly, exportation of Rdoc and ACL).
+
+Thank you for your patience and for your contributions.
+Best,
+
+Philippe Grosjean
+-- 
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+( ( ( ( (
+..............................................................
+
+

@@ -1,0 +1,4375 @@
+From pauljohn32 at gmail.com  Thu Jun  8 19:28:11 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Thu, 8 Jun 2006 12:28:11 -0500
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+Message-ID: <13e802630606081028v7566f26bo6dd10364328c2448@mail.gmail.com>
+
+I have this gmail account but can't manage it very well.  Too many
+messages, too many lists, blah, blah...
+
+Anyway, I just noticed several messages in this list debating the
+question of whether I should maintain Rtips or try to migrate the rest
+of the content into the R Wiki.  What is that status now?
+
+My opinion is that some of the things in Rtips are quite seriously
+useful, especially "how to save graphs" and "use predict with
+regression" but many of the things are tidbits that I accumulated for
+one use and never used again.
+
+I do think it is good if users can just view all the tips on a single
+page, as some readers suggested.  The one who said I should keep
+separate content on Rtips seemed to think the big drawback of the Wiki
+was the sub-compartmentlization of information into little pages, and
+there is some truth in that.  But I've seen other Wiki programs that
+could just display all content in a single www post.
+
+I'm sorry I've not been paying attention, but now it is summer and I
+have some time while preparing to teach stats again in the fall, and
+so if you (all) tell me what needs to be done, I will do it.
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From bolker at ufl.edu  Fri Jun  9 14:02:18 2006
+From: bolker at ufl.edu (Ben Bolker)
+Date: Fri, 09 Jun 2006 08:02:18 -0400
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <13e802630606081028v7566f26bo6dd10364328c2448@mail.gmail.com>
+References: <13e802630606081028v7566f26bo6dd10364328c2448@mail.gmail.com>
+Message-ID: <4489634A.8080505@ufl.edu>
+
+   Having seen no answer thus far:
+
+    Parts but not all of Rtips have been migrated to the R wiki
+(I'd make a wild guess of about 30-50%.)  My personal preference
+would be migration.  Apparently DocuWiki doesn't have a "single
+page" view, but there was some discussion on the list about how
+to run a script etc. to take a snapshot -- see the April archives
+and Romain Francois' code at
+http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+If you were willing (once the migration is complete) to run
+this as a script on your server (say daily) and post the results ...
+
+    Work on the Wiki has slowed down once again (perhaps inevitable
+since so many people are busy).  I'd really like to encourage
+list-readers to keep at it -- would people be willing to make
+some kind of nominal deadline for at least getting the rest
+of R-tips moved over/volunteer for sections?
+
+   cheers
+     Ben Bolker
+
+
+Paul Johnson wrote:
+> I have this gmail account but can't manage it very well.  Too many
+> messages, too many lists, blah, blah...
+> 
+> Anyway, I just noticed several messages in this list debating the
+> question of whether I should maintain Rtips or try to migrate the rest
+> of the content into the R Wiki.  What is that status now?
+> 
+> My opinion is that some of the things in Rtips are quite seriously
+> useful, especially "how to save graphs" and "use predict with
+> regression" but many of the things are tidbits that I accumulated for
+> one use and never used again.
+> 
+> I do think it is good if users can just view all the tips on a single
+> page, as some readers suggested.  The one who said I should keep
+> separate content on Rtips seemed to think the big drawback of the Wiki
+> was the sub-compartmentlization of information into little pages, and
+> there is some truth in that.  But I've seen other Wiki programs that
+> could just display all content in a single www post.
+> 
+> I'm sorry I've not been paying attention, but now it is summer and I
+> have some time while preparing to teach stats again in the fall, and
+> so if you (all) tell me what needs to be done, I will do it.
+>
+
+
+From ndrew at efn.org  Fri Jun  9 14:23:53 2006
+From: ndrew at efn.org (Nick Drew)
+Date: Fri, 9 Jun 2006 05:23:53 -0700
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <4489634A.8080505@ufl.edu>
+Message-ID: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>
+
+Like others, I've been busy and not made the kind of progress 
+of converting Rtips to the R Wiki that I've wanted to. I had hoped to have 
+section 1 (Data input/output) done by now, but there is still
+1.5 - 1.7 left on that section.
+
+I'm willing to continue to help with this. I will finish section 1 
+by  the end of next week. However, I don't see me making
+much progress during our warm summer months here in Oregon.
+
+Perhaps we could generate a list of which sections of 
+Rtips have been converted. Then others would know where to 
+continue if they desire.
+
+~Nick
+
+-----Original Message-----
+From: r-sig-wiki-bounces at r-project.org
+[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+Sent: Friday, June 09, 2006 4:02 AM
+To: Paul Johnson
+Cc: r-sig-wiki at r-project.org
+Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+
+
+   Having seen no answer thus far:
+
+    Parts but not all of Rtips have been migrated to the R wiki
+(I'd make a wild guess of about 30-50%.)  My personal preference
+would be migration.  Apparently DocuWiki doesn't have a "single
+page" view, but there was some discussion on the list about how
+to run a script etc. to take a snapshot -- see the April archives
+and Romain Francois' code at
+http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+If you were willing (once the migration is complete) to run
+this as a script on your server (say daily) and post the results ...
+
+    Work on the Wiki has slowed down once again (perhaps inevitable
+since so many people are busy).  I'd really like to encourage
+list-readers to keep at it -- would people be willing to make
+some kind of nominal deadline for at least getting the rest
+of R-tips moved over/volunteer for sections?
+
+   cheers
+     Ben Bolker
+
+
+Paul Johnson wrote:
+> I have this gmail account but can't manage it very well.  Too many
+> messages, too many lists, blah, blah...
+> 
+> Anyway, I just noticed several messages in this list debating the
+> question of whether I should maintain Rtips or try to migrate the rest
+> of the content into the R Wiki.  What is that status now?
+> 
+> My opinion is that some of the things in Rtips are quite seriously
+> useful, especially "how to save graphs" and "use predict with
+> regression" but many of the things are tidbits that I accumulated for
+> one use and never used again.
+> 
+> I do think it is good if users can just view all the tips on a single
+> page, as some readers suggested.  The one who said I should keep
+> separate content on Rtips seemed to think the big drawback of the Wiki
+> was the sub-compartmentlization of information into little pages, and
+> there is some truth in that.  But I've seen other Wiki programs that
+> could just display all content in a single www post.
+> 
+> I'm sorry I've not been paying attention, but now it is summer and I
+> have some time while preparing to teach stats again in the fall, and
+> so if you (all) tell me what needs to be done, I will do it.
+>
+
+_______________________________________________
+R-sig-wiki mailing list
+R-sig-wiki at r-project.org
+https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+
+From phgrosjean at sciviews.org  Fri Jun  9 14:56:23 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 09 Jun 2006 14:56:23 +0200
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>
+Message-ID: <44896FF7.8050305@sciviews.org>
+
+Hello all,
+
+First, I would like to answer to Paul Johnson. The decision to separate 
+Rtips into sections and have one page per tip is motivated both by 
+technical reasons (already discussed, a wiki is more efficient with 
+separate small pages than a big one), and for practical reasons. When 
+Rtips remains rather small and managed by one people, like your current 
+version of it, it is much easier to handle in one big page. Now, imagine 
+that the R Wiki tips section gains popularity and that (just imagine!) 
+hundreds of authors write thousands of tips. How would you manage a 
+single web page containing these thousands of tips? How do you find tips 
+related to, say, handling of data frames, in this big page? How will 
+someone with a low-speed Internet connexion get the last tip that he is 
+interested in, from this long page (he has to download all the rest first)?
+
+I think that both presentations (several little page versus a single 
+large one) have pros and cons. The suggestion to make a digest of the 
+tips in the R Wiki, as an alternate presentation, makes much sense in 
+this context. Romain Fran?ois proposed a script for that. A good 
+starting basis to automate the creation of that "Rtips digest". Would 
+you be happy with this solution?
+
+Regarding the progress made with the R Wiki. This was also a very busy 
+time for me. I did my best to finish the Wiki engine for the UseR!2006 
+workshop. I still have a couple of aspects to finalize (presentation 
+with the sidebar, the Rdconv --wiki is *almost* done, plus a couple of 
+other details).
+
+Anyway, whatever where we are now, we should officially launch the R 
+Wiki next week at the UseR!2006 workshop. A presentation is planned on 
+thursday (see 
+http://www.r-project.org/useR-2006/Abstracts/Grosjean.pdf). It would be 
+also an occasion to recruit other volunteers to help in migrating 
+material to the Wiki. I think that the priority is to write some initial 
+material for the empty sections, like "getting-started:what-is-r", 
+"getting-started:faq" (this is rather easy: it is the wiki version of 
+the various official FAQ documents, but with the possibility to append 
+comments for the wiki users), "getting-started:case-studies", 
+"guides:books". Another priority is to migrate material from the first R 
+Wiki by Detlef Steuer.
+
+Thank you to all wiki authors or "migrators". The progress is slower 
+than expected, but we have already achieved a pretty good result, I think.
+
+Best,
+
+Philippe
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+( ( ( ( (
+  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+  ) ) ) ) )
+( ( ( ( (    web:   http://www.umh.ac.be/~econum
+  ) ) ) ) )          http://www.sciviews.org
+( ( ( ( (
+..............................................................
+
+Nick Drew wrote:
+> Like others, I've been busy and not made the kind of progress 
+> of converting Rtips to the R Wiki that I've wanted to. I had hoped to have 
+> section 1 (Data input/output) done by now, but there is still
+> 1.5 - 1.7 left on that section.
+> 
+> I'm willing to continue to help with this. I will finish section 1 
+> by  the end of next week. However, I don't see me making
+> much progress during our warm summer months here in Oregon.
+> 
+> Perhaps we could generate a list of which sections of 
+> Rtips have been converted. Then others would know where to 
+> continue if they desire.
+> 
+> ~Nick
+> 
+> -----Original Message-----
+> From: r-sig-wiki-bounces at r-project.org
+> [mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+> Sent: Friday, June 09, 2006 4:02 AM
+> To: Paul Johnson
+> Cc: r-sig-wiki at r-project.org
+> Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+> 
+> 
+>    Having seen no answer thus far:
+> 
+>     Parts but not all of Rtips have been migrated to the R wiki
+> (I'd make a wild guess of about 30-50%.)  My personal preference
+> would be migration.  Apparently DocuWiki doesn't have a "single
+> page" view, but there was some discussion on the list about how
+> to run a script etc. to take a snapshot -- see the April archives
+> and Romain Francois' code at
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+> If you were willing (once the migration is complete) to run
+> this as a script on your server (say daily) and post the results ...
+> 
+>     Work on the Wiki has slowed down once again (perhaps inevitable
+> since so many people are busy).  I'd really like to encourage
+> list-readers to keep at it -- would people be willing to make
+> some kind of nominal deadline for at least getting the rest
+> of R-tips moved over/volunteer for sections?
+> 
+>    cheers
+>      Ben Bolker
+> 
+> 
+> Paul Johnson wrote:
+> 
+>>I have this gmail account but can't manage it very well.  Too many
+>>messages, too many lists, blah, blah...
+>>
+>>Anyway, I just noticed several messages in this list debating the
+>>question of whether I should maintain Rtips or try to migrate the rest
+>>of the content into the R Wiki.  What is that status now?
+>>
+>>My opinion is that some of the things in Rtips are quite seriously
+>>useful, especially "how to save graphs" and "use predict with
+>>regression" but many of the things are tidbits that I accumulated for
+>>one use and never used again.
+>>
+>>I do think it is good if users can just view all the tips on a single
+>>page, as some readers suggested.  The one who said I should keep
+>>separate content on Rtips seemed to think the big drawback of the Wiki
+>>was the sub-compartmentlization of information into little pages, and
+>>there is some truth in that.  But I've seen other Wiki programs that
+>>could just display all content in a single www post.
+>>
+>>I'm sorry I've not been paying attention, but now it is summer and I
+>>have some time while preparing to teach stats again in the fall, and
+>>so if you (all) tell me what needs to be done, I will do it.
+>>
+> 
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+>
+
+
+From pauljohn32 at gmail.com  Fri Jun  9 15:30:31 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Fri, 9 Jun 2006 08:30:31 -0500
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <44896FF7.8050305@sciviews.org>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>
+	<44896FF7.8050305@sciviews.org>
+Message-ID: <13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+
+I've just run the alltips program and did generate a big html file.
+
+http://pj.freefaculty.org/R/alltips.html
+
+That piece of programming is very amazing to me. How in the heck can a
+stat program on my laptop cobble together a web page?  If R had a
+function to write a file onto a remote site , this could be completely
+automated.
+
+I could post something like that on a regular basis. That certainly
+proves it is possible.
+
+So far, I've noticed some problems.
+
+1. Links inside alltips.html don't work.  They point internally to
+places in the Wiki, not to anchors in alltips itself.
+
+2. Is there a way to have numbers generated for these tips?  So that
+we can refer to them by number?
+
+3.   The tips appear without logical sequencing in alltips.html.  I
+wish there were a way to designate the placement.  I don't expect
+there is a Wiki solution for that, however.
+
+
+In the next week, I will try to learn how to input stuff into the WIki
+and I'll also try to make a list of things in Rtips that I think are
+most valuable.
+
+Honestly, some of the tips I have are pretty old or out of date.
+
+
+PJ
+
+On 6/9/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Hello all,
+>
+> First, I would like to answer to Paul Johnson. The decision to separate
+> Rtips into sections and have one page per tip is motivated both by
+> technical reasons (already discussed, a wiki is more efficient with
+> separate small pages than a big one), and for practical reasons. When
+> Rtips remains rather small and managed by one people, like your current
+> version of it, it is much easier to handle in one big page. Now, imagine
+> that the R Wiki tips section gains popularity and that (just imagine!)
+> hundreds of authors write thousands of tips. How would you manage a
+> single web page containing these thousands of tips? How do you find tips
+> related to, say, handling of data frames, in this big page? How will
+> someone with a low-speed Internet connexion get the last tip that he is
+> interested in, from this long page (he has to download all the rest first)?
+>
+> I think that both presentations (several little page versus a single
+> large one) have pros and cons. The suggestion to make a digest of the
+> tips in the R Wiki, as an alternate presentation, makes much sense in
+> this context. Romain Fran?ois proposed a script for that. A good
+> starting basis to automate the creation of that "Rtips digest". Would
+> you be happy with this solution?
+>
+> Regarding the progress made with the R Wiki. This was also a very busy
+> time for me. I did my best to finish the Wiki engine for the UseR!2006
+> workshop. I still have a couple of aspects to finalize (presentation
+> with the sidebar, the Rdconv --wiki is *almost* done, plus a couple of
+> other details).
+>
+> Anyway, whatever where we are now, we should officially launch the R
+> Wiki next week at the UseR!2006 workshop. A presentation is planned on
+> thursday (see
+> http://www.r-project.org/useR-2006/Abstracts/Grosjean.pdf). It would be
+> also an occasion to recruit other volunteers to help in migrating
+> material to the Wiki. I think that the priority is to write some initial
+> material for the empty sections, like "getting-started:what-is-r",
+> "getting-started:faq" (this is rather easy: it is the wiki version of
+> the various official FAQ documents, but with the possibility to append
+> comments for the wiki users), "getting-started:case-studies",
+> "guides:books". Another priority is to migrate material from the first R
+> Wiki by Detlef Steuer.
+>
+> Thank you to all wiki authors or "migrators". The progress is slower
+> than expected, but we have already achieved a pretty good result, I think.
+>
+> Best,
+>
+> Philippe
+>
+> ..............................................<?}))><........
+>   ) ) ) ) )
+> ( ( ( ( (    Prof. Philippe Grosjean
+>   ) ) ) ) )
+> ( ( ( ( (    Numerical Ecology of Aquatic Systems
+>   ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+> ( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>   ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+> ( ( ( ( (
+>   ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+> ( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>   ) ) ) ) )
+> ( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>   ) ) ) ) )          http://www.sciviews.org
+> ( ( ( ( (
+> ..............................................................
+>
+> Nick Drew wrote:
+> > Like others, I've been busy and not made the kind of progress
+> > of converting Rtips to the R Wiki that I've wanted to. I had hoped to have
+> > section 1 (Data input/output) done by now, but there is still
+> > 1.5 - 1.7 left on that section.
+> >
+> > I'm willing to continue to help with this. I will finish section 1
+> > by  the end of next week. However, I don't see me making
+> > much progress during our warm summer months here in Oregon.
+> >
+> > Perhaps we could generate a list of which sections of
+> > Rtips have been converted. Then others would know where to
+> > continue if they desire.
+> >
+> > ~Nick
+> >
+> > -----Original Message-----
+> > From: r-sig-wiki-bounces at r-project.org
+> > [mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+> > Sent: Friday, June 09, 2006 4:02 AM
+> > To: Paul Johnson
+> > Cc: r-sig-wiki at r-project.org
+> > Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+> >
+> >
+> >    Having seen no answer thus far:
+> >
+> >     Parts but not all of Rtips have been migrated to the R wiki
+> > (I'd make a wild guess of about 30-50%.)  My personal preference
+> > would be migration.  Apparently DocuWiki doesn't have a "single
+> > page" view, but there was some discussion on the list about how
+> > to run a script etc. to take a snapshot -- see the April archives
+> > and Romain Francois' code at
+> > http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+> > If you were willing (once the migration is complete) to run
+> > this as a script on your server (say daily) and post the results ...
+> >
+> >     Work on the Wiki has slowed down once again (perhaps inevitable
+> > since so many people are busy).  I'd really like to encourage
+> > list-readers to keep at it -- would people be willing to make
+> > some kind of nominal deadline for at least getting the rest
+> > of R-tips moved over/volunteer for sections?
+> >
+> >    cheers
+> >      Ben Bolker
+> >
+> >
+> > Paul Johnson wrote:
+> >
+> >>I have this gmail account but can't manage it very well.  Too many
+> >>messages, too many lists, blah, blah...
+> >>
+> >>Anyway, I just noticed several messages in this list debating the
+> >>question of whether I should maintain Rtips or try to migrate the rest
+> >>of the content into the R Wiki.  What is that status now?
+> >>
+> >>My opinion is that some of the things in Rtips are quite seriously
+> >>useful, especially "how to save graphs" and "use predict with
+> >>regression" but many of the things are tidbits that I accumulated for
+> >>one use and never used again.
+> >>
+> >>I do think it is good if users can just view all the tips on a single
+> >>page, as some readers suggested.  The one who said I should keep
+> >>separate content on Rtips seemed to think the big drawback of the Wiki
+> >>was the sub-compartmentlization of information into little pages, and
+> >>there is some truth in that.  But I've seen other Wiki programs that
+> >>could just display all content in a single www post.
+> >>
+> >>I'm sorry I've not been paying attention, but now it is summer and I
+> >>have some time while preparing to teach stats again in the fall, and
+> >>so if you (all) tell me what needs to be done, I will do it.
+> >>
+> >
+> >
+> > _______________________________________________
+> > R-sig-wiki mailing list
+> > R-sig-wiki at r-project.org
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >
+> > _______________________________________________
+> > R-sig-wiki mailing list
+> > R-sig-wiki at r-project.org
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >
+> >
+>
+>
+
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From francoisromain at free.fr  Fri Jun  9 15:58:11 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Fri, 09 Jun 2006 15:58:11 +0200
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>	<44896FF7.8050305@sciviews.org>
+	<13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+Message-ID: <44897E73.5040006@free.fr>
+
+Le 09.06.2006 15:30, Paul Johnson a ?crit :
+> I've just run the alltips program and did generate a big html file.
+>
+> http://pj.freefaculty.org/R/alltips.html
+>
+> That piece of programming is very amazing to me. How in the heck can a
+> stat program on my laptop cobble together a web page?  If R had a
+> function to write a file onto a remote site , this could be completely
+> automated.
+>   
+
+Well, this is just a matter of writing a little script, see :
+http://www.inlumineconsulting.com:8080/website/scripting.ftp.html
+
+and then calling it from R, using ?system
+
+
+Romain
+> I could post something like that on a regular basis. That certainly
+> proves it is possible.
+>
+> So far, I've noticed some problems.
+>
+> 1. Links inside alltips.html don't work.  They point internally to
+> places in the Wiki, not to anchors in alltips itself.
+>
+> 2. Is there a way to have numbers generated for these tips?  So that
+> we can refer to them by number?
+>
+> 3.   The tips appear without logical sequencing in alltips.html.  I
+> wish there were a way to designate the placement.  I don't expect
+> there is a Wiki solution for that, however.
+>
+>
+> In the next week, I will try to learn how to input stuff into the WIki
+> and I'll also try to make a list of things in Rtips that I think are
+> most valuable.
+>
+> Honestly, some of the tips I have are pretty old or out of date.
+>
+>
+> PJ
+>
+> On 6/9/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>   
+>> Hello all,
+>>
+>> First, I would like to answer to Paul Johnson. The decision to separate
+>> Rtips into sections and have one page per tip is motivated both by
+>> technical reasons (already discussed, a wiki is more efficient with
+>> separate small pages than a big one), and for practical reasons. When
+>> Rtips remains rather small and managed by one people, like your current
+>> version of it, it is much easier to handle in one big page. Now, imagine
+>> that the R Wiki tips section gains popularity and that (just imagine!)
+>> hundreds of authors write thousands of tips. How would you manage a
+>> single web page containing these thousands of tips? How do you find tips
+>> related to, say, handling of data frames, in this big page? How will
+>> someone with a low-speed Internet connexion get the last tip that he is
+>> interested in, from this long page (he has to download all the rest first)?
+>>
+>> I think that both presentations (several little page versus a single
+>> large one) have pros and cons. The suggestion to make a digest of the
+>> tips in the R Wiki, as an alternate presentation, makes much sense in
+>> this context. Romain Fran?ois proposed a script for that. A good
+>> starting basis to automate the creation of that "Rtips digest". Would
+>> you be happy with this solution?
+>>
+>> Regarding the progress made with the R Wiki. This was also a very busy
+>> time for me. I did my best to finish the Wiki engine for the UseR!2006
+>> workshop. I still have a couple of aspects to finalize (presentation
+>> with the sidebar, the Rdconv --wiki is *almost* done, plus a couple of
+>> other details).
+>>
+>> Anyway, whatever where we are now, we should officially launch the R
+>> Wiki next week at the UseR!2006 workshop. A presentation is planned on
+>> thursday (see
+>> http://www.r-project.org/useR-2006/Abstracts/Grosjean.pdf). It would be
+>> also an occasion to recruit other volunteers to help in migrating
+>> material to the Wiki. I think that the priority is to write some initial
+>> material for the empty sections, like "getting-started:what-is-r",
+>> "getting-started:faq" (this is rather easy: it is the wiki version of
+>> the various official FAQ documents, but with the possibility to append
+>> comments for the wiki users), "getting-started:case-studies",
+>> "guides:books". Another priority is to migrate material from the first R
+>> Wiki by Detlef Steuer.
+>>
+>> Thank you to all wiki authors or "migrators". The progress is slower
+>> than expected, but we have already achieved a pretty good result, I think.
+>>
+>> Best,
+>>
+>> Philippe
+>>
+>> ..............................................<?}))><........
+>>   ) ) ) ) )
+>> ( ( ( ( (    Prof. Philippe Grosjean
+>>   ) ) ) ) )
+>> ( ( ( ( (    Numerical Ecology of Aquatic Systems
+>>   ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+>> ( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>>   ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+>> ( ( ( ( (
+>>   ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+>> ( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>>   ) ) ) ) )
+>> ( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>>   ) ) ) ) )          http://www.sciviews.org
+>> ( ( ( ( (
+>> ..............................................................
+>>
+>> Nick Drew wrote:
+>>     
+>>> Like others, I've been busy and not made the kind of progress
+>>> of converting Rtips to the R Wiki that I've wanted to. I had hoped to have
+>>> section 1 (Data input/output) done by now, but there is still
+>>> 1.5 - 1.7 left on that section.
+>>>
+>>> I'm willing to continue to help with this. I will finish section 1
+>>> by  the end of next week. However, I don't see me making
+>>> much progress during our warm summer months here in Oregon.
+>>>
+>>> Perhaps we could generate a list of which sections of
+>>> Rtips have been converted. Then others would know where to
+>>> continue if they desire.
+>>>
+>>> ~Nick
+>>>
+>>> -----Original Message-----
+>>> From: r-sig-wiki-bounces at r-project.org
+>>> [mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+>>> Sent: Friday, June 09, 2006 4:02 AM
+>>> To: Paul Johnson
+>>> Cc: r-sig-wiki at r-project.org
+>>> Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+>>>
+>>>
+>>>    Having seen no answer thus far:
+>>>
+>>>     Parts but not all of Rtips have been migrated to the R wiki
+>>> (I'd make a wild guess of about 30-50%.)  My personal preference
+>>> would be migration.  Apparently DocuWiki doesn't have a "single
+>>> page" view, but there was some discussion on the list about how
+>>> to run a script etc. to take a snapshot -- see the April archives
+>>> and Romain Francois' code at
+>>> http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+>>> If you were willing (once the migration is complete) to run
+>>> this as a script on your server (say daily) and post the results ...
+>>>
+>>>     Work on the Wiki has slowed down once again (perhaps inevitable
+>>> since so many people are busy).  I'd really like to encourage
+>>> list-readers to keep at it -- would people be willing to make
+>>> some kind of nominal deadline for at least getting the rest
+>>> of R-tips moved over/volunteer for sections?
+>>>
+>>>    cheers
+>>>      Ben Bolker
+>>>
+>>>
+>>> Paul Johnson wrote:
+>>>
+>>>       
+>>>> I have this gmail account but can't manage it very well.  Too many
+>>>> messages, too many lists, blah, blah...
+>>>>
+>>>> Anyway, I just noticed several messages in this list debating the
+>>>> question of whether I should maintain Rtips or try to migrate the rest
+>>>> of the content into the R Wiki.  What is that status now?
+>>>>
+>>>> My opinion is that some of the things in Rtips are quite seriously
+>>>> useful, especially "how to save graphs" and "use predict with
+>>>> regression" but many of the things are tidbits that I accumulated for
+>>>> one use and never used again.
+>>>>
+>>>> I do think it is good if users can just view all the tips on a single
+>>>> page, as some readers suggested.  The one who said I should keep
+>>>> separate content on Rtips seemed to think the big drawback of the Wiki
+>>>> was the sub-compartmentlization of information into little pages, and
+>>>> there is some truth in that.  But I've seen other Wiki programs that
+>>>> could just display all content in a single www post.
+>>>>
+>>>> I'm sorry I've not been paying attention, but now it is summer and I
+>>>> have some time while preparing to teach stats again in the fall, and
+>>>> so if you (all) tell me what needs to be done, I will do it.
+>>>>         
+
+-- 
+visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr               |
+| Doctorant INRIA Futurs / EDF                                  |
++---------------------------------------------------------------+
+
+
+From phgrosjean at sciviews.org  Fri Jun  9 16:07:37 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 09 Jun 2006 16:07:37 +0200
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>	<44896FF7.8050305@sciviews.org>
+	<13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+Message-ID: <448980A9.7000907@sciviews.org>
+
+Paul Johnson wrote:
+> I've just run the alltips program and did generate a big html file.
+> 
+> http://pj.freefaculty.org/R/alltips.html
+> 
+> That piece of programming is very amazing to me. How in the heck can a
+> stat program on my laptop cobble together a web page?  If R had a
+> function to write a file onto a remote site , this could be completely
+> automated.
+> 
+> I could post something like that on a regular basis. That certainly
+> proves it is possible.
+> 
+> So far, I've noticed some problems.
+> 
+> 1. Links inside alltips.html don't work.  They point internally to
+> places in the Wiki, not to anchors in alltips itself.
+> 
+> 2. Is there a way to have numbers generated for these tips?  So that
+> we can refer to them by number?
+> 
+> 3.   The tips appear without logical sequencing in alltips.html.  I
+> wish there were a way to designate the placement.  I don't expect
+> there is a Wiki solution for that, however.
+
+Yes, this is a first draft certainly. Also, the various styles must be 
+refined (R code prints too small on my machine).
+
+> 
+> In the next week, I will try to learn how to input stuff into the WIki
+> and I'll also try to make a list of things in Rtips that I think are
+> most valuable.
+
+One solution would be to select a list of relevant tips and sort them. 
+This would certainly be possible to do.
+
+PhG
+
+> Honestly, some of the tips I have are pretty old or out of date.
+> 
+> 
+> PJ
+> 
+> On 6/9/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> 
+>>Hello all,
+>>
+>>First, I would like to answer to Paul Johnson. The decision to separate
+>>Rtips into sections and have one page per tip is motivated both by
+>>technical reasons (already discussed, a wiki is more efficient with
+>>separate small pages than a big one), and for practical reasons. When
+>>Rtips remains rather small and managed by one people, like your current
+>>version of it, it is much easier to handle in one big page. Now, imagine
+>>that the R Wiki tips section gains popularity and that (just imagine!)
+>>hundreds of authors write thousands of tips. How would you manage a
+>>single web page containing these thousands of tips? How do you find tips
+>>related to, say, handling of data frames, in this big page? How will
+>>someone with a low-speed Internet connexion get the last tip that he is
+>>interested in, from this long page (he has to download all the rest first)?
+>>
+>>I think that both presentations (several little page versus a single
+>>large one) have pros and cons. The suggestion to make a digest of the
+>>tips in the R Wiki, as an alternate presentation, makes much sense in
+>>this context. Romain Fran?ois proposed a script for that. A good
+>>starting basis to automate the creation of that "Rtips digest". Would
+>>you be happy with this solution?
+>>
+>>Regarding the progress made with the R Wiki. This was also a very busy
+>>time for me. I did my best to finish the Wiki engine for the UseR!2006
+>>workshop. I still have a couple of aspects to finalize (presentation
+>>with the sidebar, the Rdconv --wiki is *almost* done, plus a couple of
+>>other details).
+>>
+>>Anyway, whatever where we are now, we should officially launch the R
+>>Wiki next week at the UseR!2006 workshop. A presentation is planned on
+>>thursday (see
+>>http://www.r-project.org/useR-2006/Abstracts/Grosjean.pdf). It would be
+>>also an occasion to recruit other volunteers to help in migrating
+>>material to the Wiki. I think that the priority is to write some initial
+>>material for the empty sections, like "getting-started:what-is-r",
+>>"getting-started:faq" (this is rather easy: it is the wiki version of
+>>the various official FAQ documents, but with the possibility to append
+>>comments for the wiki users), "getting-started:case-studies",
+>>"guides:books". Another priority is to migrate material from the first R
+>>Wiki by Detlef Steuer.
+>>
+>>Thank you to all wiki authors or "migrators". The progress is slower
+>>than expected, but we have already achieved a pretty good result, I think.
+>>
+>>Best,
+>>
+>>Philippe
+>>
+>>..............................................<?}))><........
+>>  ) ) ) ) )
+>>( ( ( ( (    Prof. Philippe Grosjean
+>>  ) ) ) ) )
+>>( ( ( ( (    Numerical Ecology of Aquatic Systems
+>>  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+>>( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>>  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+>>( ( ( ( (
+>>  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+>>( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>>  ) ) ) ) )
+>>( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>>  ) ) ) ) )          http://www.sciviews.org
+>>( ( ( ( (
+>>..............................................................
+>>
+>>Nick Drew wrote:
+>>
+>>>Like others, I've been busy and not made the kind of progress
+>>>of converting Rtips to the R Wiki that I've wanted to. I had hoped to have
+>>>section 1 (Data input/output) done by now, but there is still
+>>>1.5 - 1.7 left on that section.
+>>>
+>>>I'm willing to continue to help with this. I will finish section 1
+>>>by  the end of next week. However, I don't see me making
+>>>much progress during our warm summer months here in Oregon.
+>>>
+>>>Perhaps we could generate a list of which sections of
+>>>Rtips have been converted. Then others would know where to
+>>>continue if they desire.
+>>>
+>>>~Nick
+>>>
+>>>-----Original Message-----
+>>>From: r-sig-wiki-bounces at r-project.org
+>>>[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+>>>Sent: Friday, June 09, 2006 4:02 AM
+>>>To: Paul Johnson
+>>>Cc: r-sig-wiki at r-project.org
+>>>Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+>>>
+>>>
+>>>   Having seen no answer thus far:
+>>>
+>>>    Parts but not all of Rtips have been migrated to the R wiki
+>>>(I'd make a wild guess of about 30-50%.)  My personal preference
+>>>would be migration.  Apparently DocuWiki doesn't have a "single
+>>>page" view, but there was some discussion on the list about how
+>>>to run a script etc. to take a snapshot -- see the April archives
+>>>and Romain Francois' code at
+>>>http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+>>>If you were willing (once the migration is complete) to run
+>>>this as a script on your server (say daily) and post the results ...
+>>>
+>>>    Work on the Wiki has slowed down once again (perhaps inevitable
+>>>since so many people are busy).  I'd really like to encourage
+>>>list-readers to keep at it -- would people be willing to make
+>>>some kind of nominal deadline for at least getting the rest
+>>>of R-tips moved over/volunteer for sections?
+>>>
+>>>   cheers
+>>>     Ben Bolker
+>>>
+>>>
+>>>Paul Johnson wrote:
+>>>
+>>>
+>>>>I have this gmail account but can't manage it very well.  Too many
+>>>>messages, too many lists, blah, blah...
+>>>>
+>>>>Anyway, I just noticed several messages in this list debating the
+>>>>question of whether I should maintain Rtips or try to migrate the rest
+>>>>of the content into the R Wiki.  What is that status now?
+>>>>
+>>>>My opinion is that some of the things in Rtips are quite seriously
+>>>>useful, especially "how to save graphs" and "use predict with
+>>>>regression" but many of the things are tidbits that I accumulated for
+>>>>one use and never used again.
+>>>>
+>>>>I do think it is good if users can just view all the tips on a single
+>>>>page, as some readers suggested.  The one who said I should keep
+>>>>separate content on Rtips seemed to think the big drawback of the Wiki
+>>>>was the sub-compartmentlization of information into little pages, and
+>>>>there is some truth in that.  But I've seen other Wiki programs that
+>>>>could just display all content in a single www post.
+>>>>
+>>>>I'm sorry I've not been paying attention, but now it is summer and I
+>>>>have some time while preparing to teach stats again in the fall, and
+>>>>so if you (all) tell me what needs to be done, I will do it.
+>>>>
+>>>
+>>>
+>>>_______________________________________________
+>>>R-sig-wiki mailing list
+>>>R-sig-wiki at r-project.org
+>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>
+>>>_______________________________________________
+>>>R-sig-wiki mailing list
+>>>R-sig-wiki at r-project.org
+>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>
+>>>
+>>
+>>
+> 
+>
+
+
+From ggrothendieck at gmail.com  Fri Jun  9 16:15:50 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Fri, 9 Jun 2006 10:15:50 -0400
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>
+	<44896FF7.8050305@sciviews.org>
+	<13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+Message-ID: <971536df0606090715h1373a9a7t8991bdbe922236b1@mail.gmail.com>
+
+I find that your tips page is easier to read
+than the automatically generated one although
+that could likely be solved ultimately be improvements
+to the script.
+
+I do find all the various colours somewhat distracting
+and hard to read on the generated web page.  (this is
+also true of the rest of the wiki too)
+
+I suggest you maintain your page until the script
+gets to the point where its comparable in legibility
+to your hand done one.
+
+On 6/9/06, Paul Johnson <pauljohn32 at gmail.com> wrote:
+> I've just run the alltips program and did generate a big html file.
+>
+> http://pj.freefaculty.org/R/alltips.html
+>
+> That piece of programming is very amazing to me. How in the heck can a
+> stat program on my laptop cobble together a web page?  If R had a
+> function to write a file onto a remote site , this could be completely
+> automated.
+>
+> I could post something like that on a regular basis. That certainly
+> proves it is possible.
+>
+> So far, I've noticed some problems.
+>
+> 1. Links inside alltips.html don't work.  They point internally to
+> places in the Wiki, not to anchors in alltips itself.
+>
+> 2. Is there a way to have numbers generated for these tips?  So that
+> we can refer to them by number?
+>
+> 3.   The tips appear without logical sequencing in alltips.html.  I
+> wish there were a way to designate the placement.  I don't expect
+> there is a Wiki solution for that, however.
+>
+>
+> In the next week, I will try to learn how to input stuff into the WIki
+> and I'll also try to make a list of things in Rtips that I think are
+> most valuable.
+>
+> Honestly, some of the tips I have are pretty old or out of date.
+>
+>
+> PJ
+>
+> On 6/9/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> > Hello all,
+> >
+> > First, I would like to answer to Paul Johnson. The decision to separate
+> > Rtips into sections and have one page per tip is motivated both by
+> > technical reasons (already discussed, a wiki is more efficient with
+> > separate small pages than a big one), and for practical reasons. When
+> > Rtips remains rather small and managed by one people, like your current
+> > version of it, it is much easier to handle in one big page. Now, imagine
+> > that the R Wiki tips section gains popularity and that (just imagine!)
+> > hundreds of authors write thousands of tips. How would you manage a
+> > single web page containing these thousands of tips? How do you find tips
+> > related to, say, handling of data frames, in this big page? How will
+> > someone with a low-speed Internet connexion get the last tip that he is
+> > interested in, from this long page (he has to download all the rest first)?
+> >
+> > I think that both presentations (several little page versus a single
+> > large one) have pros and cons. The suggestion to make a digest of the
+> > tips in the R Wiki, as an alternate presentation, makes much sense in
+> > this context. Romain Fran?ois proposed a script for that. A good
+> > starting basis to automate the creation of that "Rtips digest". Would
+> > you be happy with this solution?
+> >
+> > Regarding the progress made with the R Wiki. This was also a very busy
+> > time for me. I did my best to finish the Wiki engine for the UseR!2006
+> > workshop. I still have a couple of aspects to finalize (presentation
+> > with the sidebar, the Rdconv --wiki is *almost* done, plus a couple of
+> > other details).
+> >
+> > Anyway, whatever where we are now, we should officially launch the R
+> > Wiki next week at the UseR!2006 workshop. A presentation is planned on
+> > thursday (see
+> > http://www.r-project.org/useR-2006/Abstracts/Grosjean.pdf). It would be
+> > also an occasion to recruit other volunteers to help in migrating
+> > material to the Wiki. I think that the priority is to write some initial
+> > material for the empty sections, like "getting-started:what-is-r",
+> > "getting-started:faq" (this is rather easy: it is the wiki version of
+> > the various official FAQ documents, but with the possibility to append
+> > comments for the wiki users), "getting-started:case-studies",
+> > "guides:books". Another priority is to migrate material from the first R
+> > Wiki by Detlef Steuer.
+> >
+> > Thank you to all wiki authors or "migrators". The progress is slower
+> > than expected, but we have already achieved a pretty good result, I think.
+> >
+> > Best,
+> >
+> > Philippe
+> >
+> > ..............................................<?}))><........
+> >   ) ) ) ) )
+> > ( ( ( ( (    Prof. Philippe Grosjean
+> >   ) ) ) ) )
+> > ( ( ( ( (    Numerical Ecology of Aquatic Systems
+> >   ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+> > ( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+> >   ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+> > ( ( ( ( (
+> >   ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+> > ( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+> >   ) ) ) ) )
+> > ( ( ( ( (    web:   http://www.umh.ac.be/~econum
+> >   ) ) ) ) )          http://www.sciviews.org
+> > ( ( ( ( (
+> > ..............................................................
+> >
+> > Nick Drew wrote:
+> > > Like others, I've been busy and not made the kind of progress
+> > > of converting Rtips to the R Wiki that I've wanted to. I had hoped to have
+> > > section 1 (Data input/output) done by now, but there is still
+> > > 1.5 - 1.7 left on that section.
+> > >
+> > > I'm willing to continue to help with this. I will finish section 1
+> > > by  the end of next week. However, I don't see me making
+> > > much progress during our warm summer months here in Oregon.
+> > >
+> > > Perhaps we could generate a list of which sections of
+> > > Rtips have been converted. Then others would know where to
+> > > continue if they desire.
+> > >
+> > > ~Nick
+> > >
+> > > -----Original Message-----
+> > > From: r-sig-wiki-bounces at r-project.org
+> > > [mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+> > > Sent: Friday, June 09, 2006 4:02 AM
+> > > To: Paul Johnson
+> > > Cc: r-sig-wiki at r-project.org
+> > > Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+> > >
+> > >
+> > >    Having seen no answer thus far:
+> > >
+> > >     Parts but not all of Rtips have been migrated to the R wiki
+> > > (I'd make a wild guess of about 30-50%.)  My personal preference
+> > > would be migration.  Apparently DocuWiki doesn't have a "single
+> > > page" view, but there was some discussion on the list about how
+> > > to run a script etc. to take a snapshot -- see the April archives
+> > > and Romain Francois' code at
+> > > http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+> > > If you were willing (once the migration is complete) to run
+> > > this as a script on your server (say daily) and post the results ...
+> > >
+> > >     Work on the Wiki has slowed down once again (perhaps inevitable
+> > > since so many people are busy).  I'd really like to encourage
+> > > list-readers to keep at it -- would people be willing to make
+> > > some kind of nominal deadline for at least getting the rest
+> > > of R-tips moved over/volunteer for sections?
+> > >
+> > >    cheers
+> > >      Ben Bolker
+> > >
+> > >
+> > > Paul Johnson wrote:
+> > >
+> > >>I have this gmail account but can't manage it very well.  Too many
+> > >>messages, too many lists, blah, blah...
+> > >>
+> > >>Anyway, I just noticed several messages in this list debating the
+> > >>question of whether I should maintain Rtips or try to migrate the rest
+> > >>of the content into the R Wiki.  What is that status now?
+> > >>
+> > >>My opinion is that some of the things in Rtips are quite seriously
+> > >>useful, especially "how to save graphs" and "use predict with
+> > >>regression" but many of the things are tidbits that I accumulated for
+> > >>one use and never used again.
+> > >>
+> > >>I do think it is good if users can just view all the tips on a single
+> > >>page, as some readers suggested.  The one who said I should keep
+> > >>separate content on Rtips seemed to think the big drawback of the Wiki
+> > >>was the sub-compartmentlization of information into little pages, and
+> > >>there is some truth in that.  But I've seen other Wiki programs that
+> > >>could just display all content in a single www post.
+> > >>
+> > >>I'm sorry I've not been paying attention, but now it is summer and I
+> > >>have some time while preparing to teach stats again in the fall, and
+> > >>so if you (all) tell me what needs to be done, I will do it.
+> > >>
+> > >
+> > >
+> > > _______________________________________________
+> > > R-sig-wiki mailing list
+> > > R-sig-wiki at r-project.org
+> > > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> > >
+> > > _______________________________________________
+> > > R-sig-wiki mailing list
+> > > R-sig-wiki at r-project.org
+> > > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> > >
+> > >
+> >
+> >
+>
+>
+> --
+> Paul E. Johnson
+> Professor, Political Science
+> 1541 Lilac Lane, Room 504
+> University of Kansas
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From francoisromain at free.fr  Fri Jun  9 17:10:06 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Fri, 09 Jun 2006 17:10:06 +0200
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <971536df0606090715h1373a9a7t8991bdbe922236b1@mail.gmail.com>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>	<44896FF7.8050305@sciviews.org>	<13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+	<971536df0606090715h1373a9a7t8991bdbe922236b1@mail.gmail.com>
+Message-ID: <44898F4E.70106@free.fr>
+
+Le 09.06.2006 16:15, Gabor Grothendieck a ?crit :
+> I find that your tips page is easier to read
+> than the automatically generated one although
+> that could likely be solved ultimately be improvements
+> to the script.
+>
+> I do find all the various colours somewhat distracting
+> and hard to read on the generated web page.  (this is
+> also true of the rest of the wiki too)
+>
+>   
+You sould define a user style sheet like that one (this is firefox, I 
+don't know how to do it in other browsers)
+
+@-moz-document url-prefix("http://wiki.r-project.org"){
+  *{color:black !important;}
+}
+
+
+
+> I suggest you maintain your page until the script
+> gets to the point where its comparable in legibility
+> to your hand done one.
+>
+> On 6/9/06, Paul Johnson <pauljohn32 at gmail.com> wrote:
+>   
+>> I've just run the alltips program and did generate a big html file.
+>>
+>> http://pj.freefaculty.org/R/alltips.html
+>>
+>> That piece of programming is very amazing to me. How in the heck can a
+>> stat program on my laptop cobble together a web page?  If R had a
+>> function to write a file onto a remote site , this could be completely
+>> automated.
+>>
+>> I could post something like that on a regular basis. That certainly
+>> proves it is possible.
+>>
+>> So far, I've noticed some problems.
+>>
+>> 1. Links inside alltips.html don't work.  They point internally to
+>> places in the Wiki, not to anchors in alltips itself.
+>>
+>> 2. Is there a way to have numbers generated for these tips?  So that
+>> we can refer to them by number?
+>>
+>> 3.   The tips appear without logical sequencing in alltips.html.  I
+>> wish there were a way to designate the placement.  I don't expect
+>> there is a Wiki solution for that, however.
+>>
+>>
+>> In the next week, I will try to learn how to input stuff into the WIki
+>> and I'll also try to make a list of things in Rtips that I think are
+>> most valuable.
+>>
+>> Honestly, some of the tips I have are pretty old or out of date.
+>>
+>>
+>> PJ
+>>
+>> On 6/9/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>     
+>>> Hello all,
+>>>
+>>> First, I would like to answer to Paul Johnson. The decision to separate
+>>> Rtips into sections and have one page per tip is motivated both by
+>>> technical reasons (already discussed, a wiki is more efficient with
+>>> separate small pages than a big one), and for practical reasons. When
+>>> Rtips remains rather small and managed by one people, like your current
+>>> version of it, it is much easier to handle in one big page. Now, imagine
+>>> that the R Wiki tips section gains popularity and that (just imagine!)
+>>> hundreds of authors write thousands of tips. How would you manage a
+>>> single web page containing these thousands of tips? How do you find tips
+>>> related to, say, handling of data frames, in this big page? How will
+>>> someone with a low-speed Internet connexion get the last tip that he is
+>>> interested in, from this long page (he has to download all the rest first)?
+>>>
+>>> I think that both presentations (several little page versus a single
+>>> large one) have pros and cons. The suggestion to make a digest of the
+>>> tips in the R Wiki, as an alternate presentation, makes much sense in
+>>> this context. Romain Fran?ois proposed a script for that. A good
+>>> starting basis to automate the creation of that "Rtips digest". Would
+>>> you be happy with this solution?
+>>>
+>>> Regarding the progress made with the R Wiki. This was also a very busy
+>>> time for me. I did my best to finish the Wiki engine for the UseR!2006
+>>> workshop. I still have a couple of aspects to finalize (presentation
+>>> with the sidebar, the Rdconv --wiki is *almost* done, plus a couple of
+>>> other details).
+>>>
+>>> Anyway, whatever where we are now, we should officially launch the R
+>>> Wiki next week at the UseR!2006 workshop. A presentation is planned on
+>>> thursday (see
+>>> http://www.r-project.org/useR-2006/Abstracts/Grosjean.pdf). It would be
+>>> also an occasion to recruit other volunteers to help in migrating
+>>> material to the Wiki. I think that the priority is to write some initial
+>>> material for the empty sections, like "getting-started:what-is-r",
+>>> "getting-started:faq" (this is rather easy: it is the wiki version of
+>>> the various official FAQ documents, but with the possibility to append
+>>> comments for the wiki users), "getting-started:case-studies",
+>>> "guides:books". Another priority is to migrate material from the first R
+>>> Wiki by Detlef Steuer.
+>>>
+>>> Thank you to all wiki authors or "migrators". The progress is slower
+>>> than expected, but we have already achieved a pretty good result, I think.
+>>>
+>>> Best,
+>>>
+>>> Philippe
+>>>
+>>> ..............................................<?}))><........
+>>>   ) ) ) ) )
+>>> ( ( ( ( (    Prof. Philippe Grosjean
+>>>   ) ) ) ) )
+>>> ( ( ( ( (    Numerical Ecology of Aquatic Systems
+>>>   ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+>>> ( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>>>   ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+>>> ( ( ( ( (
+>>>   ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+>>> ( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>>>   ) ) ) ) )
+>>> ( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>>>   ) ) ) ) )          http://www.sciviews.org
+>>> ( ( ( ( (
+>>> ..............................................................
+>>>
+>>> Nick Drew wrote:
+>>>       
+>>>> Like others, I've been busy and not made the kind of progress
+>>>> of converting Rtips to the R Wiki that I've wanted to. I had hoped to have
+>>>> section 1 (Data input/output) done by now, but there is still
+>>>> 1.5 - 1.7 left on that section.
+>>>>
+>>>> I'm willing to continue to help with this. I will finish section 1
+>>>> by  the end of next week. However, I don't see me making
+>>>> much progress during our warm summer months here in Oregon.
+>>>>
+>>>> Perhaps we could generate a list of which sections of
+>>>> Rtips have been converted. Then others would know where to
+>>>> continue if they desire.
+>>>>
+>>>> ~Nick
+>>>>
+>>>> -----Original Message-----
+>>>> From: r-sig-wiki-bounces at r-project.org
+>>>> [mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+>>>> Sent: Friday, June 09, 2006 4:02 AM
+>>>> To: Paul Johnson
+>>>> Cc: r-sig-wiki at r-project.org
+>>>> Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+>>>>
+>>>>
+>>>>    Having seen no answer thus far:
+>>>>
+>>>>     Parts but not all of Rtips have been migrated to the R wiki
+>>>> (I'd make a wild guess of about 30-50%.)  My personal preference
+>>>> would be migration.  Apparently DocuWiki doesn't have a "single
+>>>> page" view, but there was some discussion on the list about how
+>>>> to run a script etc. to take a snapshot -- see the April archives
+>>>> and Romain Francois' code at
+>>>> http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+>>>> If you were willing (once the migration is complete) to run
+>>>> this as a script on your server (say daily) and post the results ...
+>>>>
+>>>>     Work on the Wiki has slowed down once again (perhaps inevitable
+>>>> since so many people are busy).  I'd really like to encourage
+>>>> list-readers to keep at it -- would people be willing to make
+>>>> some kind of nominal deadline for at least getting the rest
+>>>> of R-tips moved over/volunteer for sections?
+>>>>
+>>>>    cheers
+>>>>      Ben Bolker
+>>>>
+>>>>
+>>>> Paul Johnson wrote:
+>>>>
+>>>>         
+>>>>> I have this gmail account but can't manage it very well.  Too many
+>>>>> messages, too many lists, blah, blah...
+>>>>>
+>>>>> Anyway, I just noticed several messages in this list debating the
+>>>>> question of whether I should maintain Rtips or try to migrate the rest
+>>>>> of the content into the R Wiki.  What is that status now?
+>>>>>
+>>>>> My opinion is that some of the things in Rtips are quite seriously
+>>>>> useful, especially "how to save graphs" and "use predict with
+>>>>> regression" but many of the things are tidbits that I accumulated for
+>>>>> one use and never used again.
+>>>>>
+>>>>> I do think it is good if users can just view all the tips on a single
+>>>>> page, as some readers suggested.  The one who said I should keep
+>>>>> separate content on Rtips seemed to think the big drawback of the Wiki
+>>>>> was the sub-compartmentlization of information into little pages, and
+>>>>> there is some truth in that.  But I've seen other Wiki programs that
+>>>>> could just display all content in a single www post.
+>>>>>
+>>>>> I'm sorry I've not been paying attention, but now it is summer and I
+>>>>> have some time while preparing to teach stats again in the fall, and
+>>>>> so if you (all) tell me what needs to be done, I will do it.
+>>>>>
+>>>>>           
+>>>> _______________________________________________
+>>>> R-sig-wiki mailing list
+>>>> R-sig-wiki at r-project.org
+>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>
+>>>> _______________________________________________
+>>>> R-sig-wiki mailing list
+>>>> R-sig-wiki at r-project.org
+>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>
+>>>>
+>>>>         
+>>>       
+>> --
+>> Paul E. Johnson
+>> Professor, Political Science
+>> 1541 Lilac Lane, Room 504
+>> University of Kansas
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+>>     
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+>
+>   
+
+
+-- 
+visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr               |
+| Doctorant INRIA Futurs / EDF                                  |
++---------------------------------------------------------------+
+
+
+From pauljohn32 at gmail.com  Sat Jun 10 04:16:17 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Fri, 9 Jun 2006 21:16:17 -0500
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <44898F4E.70106@free.fr>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>
+	<44896FF7.8050305@sciviews.org>
+	<13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+	<971536df0606090715h1373a9a7t8991bdbe922236b1@mail.gmail.com>
+	<44898F4E.70106@free.fr>
+Message-ID: <13e802630606091916q70c0cf77ie33b757d67ef86e3@mail.gmail.com>
+
+I'm trying to re-tool the script to make a more presentable piece of
+html.  I'm down to a place where I am stuck, and it is a simple manner
+of handling strings.
+
+There is a vector of strings, some of which are heading/separators
+with ==== What ===== and others areh "   tips:..." .  It is called
+"cleanedlines" below.
+
+I want a for loop that goes over each item, and if it is a tip, it
+should do one thing, but if it is a header, it should do another
+thing.
+
+My problem is that I can't figure what kind of "if" statement is
+supposed to work to check if it is a tip. I tried "grep" to check, but
+it fails. grep on tips returns numeric(0), and the if statement can't
+understand that.  To prove I tried, here's some code that does not
+work.
+
+for (item in cleanedlines) {
+  itsaheading <- grep("====", item, value= F)
+  if (1 == itsaheading) {
+    reviseditem <- gsub("====","<H2>",item)
+    print(reviseditem)
+  }else{
+     print (item)
+  }
+}
+
+Throw me a bone! or a tip :)
+
+
+cleanedlines
+[1] "====== R Wiki - Tips ======"
+ [2] "==== Data ===="
+ [3] "   tips:data-io:aggregate_values|Aggregate values, one for each
+line: ''by()''"
+ [4] "   tips:data-io:export_table|Export data out of R:
+''write.table()'', ''write()'',"
+ [5] "   tips:data-io:import_table|Bring raw numbers into R:
+''read.table()''"
+ [6] "   tips:data-io:ms_windows|Data to/from MS Excel, Access, etc.:
+''read.delim()'', ''scan()'', ''RODBC package''"
+ [7] "   tips:data-io:spss|Data to/from SPSS: ''read.spss()'',
+''write.foreign()'', ''spss.get()''"
+ [8] "   tips:data-frames:access_columns|Use subscripting to select
+rows/columns"
+ [9] "   tips:data-frames:new_aggregate|Create new data frame to hold
+aggregate values for each factor"
+
+On 6/9/06, Romain Francois <francoisromain at free.fr> wrote:
+> Le 09.06.2006 16:15, Gabor Grothendieck a ?crit :
+> > I find that your tips page is easier to read
+> > than the automatically generated one although
+> > that could likely be solved ultimately be improvements
+> > to the script.
+> >
+> > I do find all the various colours somewhat distracting
+> > and hard to read on the generated web page.  (this is
+> > also true of the rest of the wiki too)
+> >
+> >
+> You sould define a user style sheet like that one (this is firefox, I
+> don't know how to do it in other browsers)
+>
+> @-moz-document url-prefix("http://wiki.r-project.org"){
+>   *{color:black !important;}
+> }
+>
+>
+>
+> > I suggest you maintain your page until the script
+> > gets to the point where its comparable in legibility
+> > to your hand done one.
+> >
+> > On 6/9/06, Paul Johnson <pauljohn32 at gmail.com> wrote:
+> >
+> >> I've just run the alltips program and did generate a big html file.
+> >>
+> >> http://pj.freefaculty.org/R/alltips.html
+> >>
+> >> That piece of programming is very amazing to me. How in the heck can a
+> >> stat program on my laptop cobble together a web page?  If R had a
+> >> function to write a file onto a remote site , this could be completely
+> >> automated.
+> >>
+> >> I could post something like that on a regular basis. That certainly
+> >> proves it is possible.
+> >>
+> >> So far, I've noticed some problems.
+> >>
+> >> 1. Links inside alltips.html don't work.  They point internally to
+> >> places in the Wiki, not to anchors in alltips itself.
+> >>
+> >> 2. Is there a way to have numbers generated for these tips?  So that
+> >> we can refer to them by number?
+> >>
+> >> 3.   The tips appear without logical sequencing in alltips.html.  I
+> >> wish there were a way to designate the placement.  I don't expect
+> >> there is a Wiki solution for that, however.
+> >>
+> >>
+> >> In the next week, I will try to learn how to input stuff into the WIki
+> >> and I'll also try to make a list of things in Rtips that I think are
+> >> most valuable.
+> >>
+> >> Honestly, some of the tips I have are pretty old or out of date.
+> >>
+> >>
+> >> PJ
+> >>
+> >> On 6/9/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> >>
+> >>> Hello all,
+> >>>
+> >>> First, I would like to answer to Paul Johnson. The decision to separate
+> >>> Rtips into sections and have one page per tip is motivated both by
+> >>> technical reasons (already discussed, a wiki is more efficient with
+> >>> separate small pages than a big one), and for practical reasons. When
+> >>> Rtips remains rather small and managed by one people, like your current
+> >>> version of it, it is much easier to handle in one big page. Now, imagine
+> >>> that the R Wiki tips section gains popularity and that (just imagine!)
+> >>> hundreds of authors write thousands of tips. How would you manage a
+> >>> single web page containing these thousands of tips? How do you find tips
+> >>> related to, say, handling of data frames, in this big page? How will
+> >>> someone with a low-speed Internet connexion get the last tip that he is
+> >>> interested in, from this long page (he has to download all the rest first)?
+> >>>
+> >>> I think that both presentations (several little page versus a single
+> >>> large one) have pros and cons. The suggestion to make a digest of the
+> >>> tips in the R Wiki, as an alternate presentation, makes much sense in
+> >>> this context. Romain Fran?ois proposed a script for that. A good
+> >>> starting basis to automate the creation of that "Rtips digest". Would
+> >>> you be happy with this solution?
+> >>>
+> >>> Regarding the progress made with the R Wiki. This was also a very busy
+> >>> time for me. I did my best to finish the Wiki engine for the UseR!2006
+> >>> workshop. I still have a couple of aspects to finalize (presentation
+> >>> with the sidebar, the Rdconv --wiki is *almost* done, plus a couple of
+> >>> other details).
+> >>>
+> >>> Anyway, whatever where we are now, we should officially launch the R
+> >>> Wiki next week at the UseR!2006 workshop. A presentation is planned on
+> >>> thursday (see
+> >>> http://www.r-project.org/useR-2006/Abstracts/Grosjean.pdf). It would be
+> >>> also an occasion to recruit other volunteers to help in migrating
+> >>> material to the Wiki. I think that the priority is to write some initial
+> >>> material for the empty sections, like "getting-started:what-is-r",
+> >>> "getting-started:faq" (this is rather easy: it is the wiki version of
+> >>> the various official FAQ documents, but with the possibility to append
+> >>> comments for the wiki users), "getting-started:case-studies",
+> >>> "guides:books". Another priority is to migrate material from the first R
+> >>> Wiki by Detlef Steuer.
+> >>>
+> >>> Thank you to all wiki authors or "migrators". The progress is slower
+> >>> than expected, but we have already achieved a pretty good result, I think.
+> >>>
+> >>> Best,
+> >>>
+> >>> Philippe
+> >>>
+> >>> ..............................................<?}))><........
+> >>>   ) ) ) ) )
+> >>> ( ( ( ( (    Prof. Philippe Grosjean
+> >>>   ) ) ) ) )
+> >>> ( ( ( ( (    Numerical Ecology of Aquatic Systems
+> >>>   ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+> >>> ( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+> >>>   ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+> >>> ( ( ( ( (
+> >>>   ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+> >>> ( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+> >>>   ) ) ) ) )
+> >>> ( ( ( ( (    web:   http://www.umh.ac.be/~econum
+> >>>   ) ) ) ) )          http://www.sciviews.org
+> >>> ( ( ( ( (
+> >>> ..............................................................
+> >>>
+> >>> Nick Drew wrote:
+> >>>
+> >>>> Like others, I've been busy and not made the kind of progress
+> >>>> of converting Rtips to the R Wiki that I've wanted to. I had hoped to have
+> >>>> section 1 (Data input/output) done by now, but there is still
+> >>>> 1.5 - 1.7 left on that section.
+> >>>>
+> >>>> I'm willing to continue to help with this. I will finish section 1
+> >>>> by  the end of next week. However, I don't see me making
+> >>>> much progress during our warm summer months here in Oregon.
+> >>>>
+> >>>> Perhaps we could generate a list of which sections of
+> >>>> Rtips have been converted. Then others would know where to
+> >>>> continue if they desire.
+> >>>>
+> >>>> ~Nick
+> >>>>
+> >>>> -----Original Message-----
+> >>>> From: r-sig-wiki-bounces at r-project.org
+> >>>> [mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+> >>>> Sent: Friday, June 09, 2006 4:02 AM
+> >>>> To: Paul Johnson
+> >>>> Cc: r-sig-wiki at r-project.org
+> >>>> Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+> >>>>
+> >>>>
+> >>>>    Having seen no answer thus far:
+> >>>>
+> >>>>     Parts but not all of Rtips have been migrated to the R wiki
+> >>>> (I'd make a wild guess of about 30-50%.)  My personal preference
+> >>>> would be migration.  Apparently DocuWiki doesn't have a "single
+> >>>> page" view, but there was some discussion on the list about how
+> >>>> to run a script etc. to take a snapshot -- see the April archives
+> >>>> and Romain Francois' code at
+> >>>> http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+> >>>> If you were willing (once the migration is complete) to run
+> >>>> this as a script on your server (say daily) and post the results ...
+> >>>>
+> >>>>     Work on the Wiki has slowed down once again (perhaps inevitable
+> >>>> since so many people are busy).  I'd really like to encourage
+> >>>> list-readers to keep at it -- would people be willing to make
+> >>>> some kind of nominal deadline for at least getting the rest
+> >>>> of R-tips moved over/volunteer for sections?
+> >>>>
+> >>>>    cheers
+> >>>>      Ben Bolker
+> >>>>
+> >>>>
+> >>>> Paul Johnson wrote:
+> >>>>
+> >>>>
+> >>>>> I have this gmail account but can't manage it very well.  Too many
+> >>>>> messages, too many lists, blah, blah...
+> >>>>>
+> >>>>> Anyway, I just noticed several messages in this list debating the
+> >>>>> question of whether I should maintain Rtips or try to migrate the rest
+> >>>>> of the content into the R Wiki.  What is that status now?
+> >>>>>
+> >>>>> My opinion is that some of the things in Rtips are quite seriously
+> >>>>> useful, especially "how to save graphs" and "use predict with
+> >>>>> regression" but many of the things are tidbits that I accumulated for
+> >>>>> one use and never used again.
+> >>>>>
+> >>>>> I do think it is good if users can just view all the tips on a single
+> >>>>> page, as some readers suggested.  The one who said I should keep
+> >>>>> separate content on Rtips seemed to think the big drawback of the Wiki
+> >>>>> was the sub-compartmentlization of information into little pages, and
+> >>>>> there is some truth in that.  But I've seen other Wiki programs that
+> >>>>> could just display all content in a single www post.
+> >>>>>
+> >>>>> I'm sorry I've not been paying attention, but now it is summer and I
+> >>>>> have some time while preparing to teach stats again in the fall, and
+> >>>>> so if you (all) tell me what needs to be done, I will do it.
+> >>>>>
+> >>>>>
+> >>>> _______________________________________________
+> >>>> R-sig-wiki mailing list
+> >>>> R-sig-wiki at r-project.org
+> >>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >>>>
+> >>>> _______________________________________________
+> >>>> R-sig-wiki mailing list
+> >>>> R-sig-wiki at r-project.org
+> >>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >>>>
+> >>>>
+> >>>>
+> >>>
+> >> --
+> >> Paul E. Johnson
+> >> Professor, Political Science
+> >> 1541 Lilac Lane, Room 504
+> >> University of Kansas
+> >>
+> >> _______________________________________________
+> >> R-sig-wiki mailing list
+> >> R-sig-wiki at r-project.org
+> >> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >>
+> >>
+> >
+> > _______________________________________________
+> > R-sig-wiki mailing list
+> > R-sig-wiki at r-project.org
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >
+> >
+> >
+>
+>
+> --
+> visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+> mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
+> +---------------------------------------------------------------+
+> | Romain FRANCOIS - http://francoisromain.free.fr               |
+> | Doctorant INRIA Futurs / EDF                                  |
+> +---------------------------------------------------------------+
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From pauljohn32 at gmail.com  Sat Jun 10 06:08:07 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Fri, 9 Jun 2006 23:08:07 -0500
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <13e802630606091916q70c0cf77ie33b757d67ef86e3@mail.gmail.com>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>
+	<44896FF7.8050305@sciviews.org>
+	<13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+	<971536df0606090715h1373a9a7t8991bdbe922236b1@mail.gmail.com>
+	<44898F4E.70106@free.fr>
+	<13e802630606091916q70c0cf77ie33b757d67ef86e3@mail.gmail.com>
+Message-ID: <13e802630606092108h4c8c1d74p65c81be2bf826dc2@mail.gmail.com>
+
+Nevermind.  Found a trial and error solution for testing numeric(0)
+
+
+I'm getting closer to an "alltips.html" output I can enjoy.
+
+http://pj.freefaculty.org/R/alltips.html
+
+I really think we should consider showing only this main document, or
+perhaps even just this one
+
+http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+
+to visitors on the web site.  Only people who want to edit things
+should ever have to look at the Wiki part.
+
+Why?  Now there is a tangle of menus.  I got lost several times
+pointing on links and tables of contents and couldn't find my way
+around.  You know if I'm lost, visitors will be lost too.
+
+My alltips version  has the "fonts too small" problem that affects the
+Wiki because this just steals the style sheet, and you are fixing
+that, right?  There are some unexpected "tables of contents" that
+appear throughout. I can't say why, but will find out.  And there is
+some crap at the top and bottom of this document that I'm going to
+eliminate, I'm not sure how, but you better bet it will be tedious and
+stupid.  Because, this code makes me feel tedious and stupid.
+
+Anyway, the internal links work.  And here's how I did this:
+
+# head of the page
+wikihead <-
+ c("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"",
+   " \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">",
+   "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\"",
+   " lang=\"en\" dir=\"ltr\">", "<head>",
+   "  <meta http-equiv=\"Content-Type\" content=\"text/html;
+charset=utf-8\" />",
+   "  <title>All R wiki tips</title>", "",
+   "  <link rel=\"stylesheet\" media=\"screen\" type=\"text/css\" ",
+   "  href=\"http://wiki.r-project.org/rwiki/lib/exe/css.php\" />",
+   "  <link rel=\"stylesheet\" media=\"print\" type=\"text/css\" ",
+   "   href=\"http://wiki.r-project.org/rwiki/lib/exe/css.php?print=1\" />",
+   "",
+   "</head>",
+   "<body>")
+
+
+
+
+rawimport <- readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&do=export_raw")
+
+htmlout <- "alltips.html"
+
+
+cat( wikihead, file=htmlout, sep="\n")
+
+whatlinkstoatip <-  grep('\\* \\[\\[', rawimport)
+
+majorHeadings <- grep('====', rawimport)
+
+
+whatlinkstoatip <- sort(c(whatlinkstoatip, majorHeadings))
+
+cleanedlines <- gsub( " \\* \\[\\[","", gsub("]]", "" ,
+rawimport[whatlinkstoatip]))
+
+
+# tiplist  <- strsplit( gsub('    \\* \\[\\[', '',
+rawimport[whatlinkstoatip]),'\\|')
+
+
+#tipnames <- unlist(lapply(tiplist, function(x){
+#  gsub('\\]\\].*','',x[2])
+#}))
+
+
+
+## tiplinks <- unlist(lapply(tiplist,'[', 1))
+
+# write a table of contents in the
+# beginning of the file
+
+is.numeric0 <- function(x){length(x)==0 & is.numeric(x)}
+
+cat('<h1>Table of Contents</h1>\n', file=htmlout, append=TRUE)
+##for(i in seq(along=tipnames)){
+#  cat('<a href="#', tiplinks[i],
+#      '">', tipnames[i],'</a>, \n',
+#      sep="", file=htmlout, append=T)
+#}
+#cat('...\n', file=htmlout, append=TRUE)
+
+
+
+for (item in cleanedlines) {
+  itsaheading <- is.numeric0 (grep("====", item ))
+  if (isTRUE(itsaheading)) {
+    print (item)
+    tipitem <- unlist( strsplit ( item, "\\|" ) )
+    print(tipitem)
+
+    tipName <- gsub("\ ","",tipitem[1])
+    tipTitle <- tipitem[2]
+    dlthis <- paste("http://wiki.r-project.org/rwiki/doku.php?id=",
+tipName, "&do=export_xhtml",sep="")
+    print(dlthis)
+    xhtml <- readLines(dlthis)
+    content <- ( grep('<body', xhtml)+1) :   ( grep('</body', xhtml)+1)
+    cat('<a href="#', tipName,'">', tipTitle,'</a><br>\n', sep="",
+file=htmlout, append=TRUE)
+   }else{
+    reviseditem <- sub("====","<H2>",item)
+    reviseditem <- sub("====","</H2>",reviseditem)
+    cat(reviseditem, file=htmlout, append=TRUE, sep="\n")
+  }
+}
+
+
+
+for (item in cleanedlines) {
+  itsaheading <- is.numeric0 (grep("====", item ))
+  if (isTRUE(itsaheading)) {
+    print (item)
+    tipitem <- unlist( strsplit ( item, "\\|" ) )
+    print(tipitem)
+
+    tipName <- gsub("\ ","",tipitem[1])
+    tipTitle <- tipitem[2]
+    dlthis <- paste("http://wiki.r-project.org/rwiki/doku.php?id=",
+tipName, "&do=export_xhtml",sep="")
+    print(dlthis)
+    xhtml <- readLines(dlthis)
+    content <- ( grep('<body', xhtml)+1) :   ( grep('</body', xhtml)+1)
+    cat('<a name="', tipName,'" id="', tipName,'>tipTitle</a>\n',
+sep="", file=htmlout, append=TRUE)
+    cat(xhtml[content], file=htmlout, append=TRUE, sep="\n")
+  }else{
+    reviseditem <- sub("====","<H2>",item)
+    reviseditem <- sub("====","</H2>",reviseditem)
+    cat(reviseditem, file=htmlout, append=TRUE, sep="\n")
+  }
+}
+
+
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From pauljohn32 at gmail.com  Sun Jun 11 02:30:13 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Sat, 10 Jun 2006 19:30:13 -0500
+Subject: [R-wiki] New R tip sheet: it doesn't get any better than this :)
+Message-ID: <13e802630606101730t292df862s20aae618c4408222@mail.gmail.com>
+
+OK, I'm traveling for 9 days after today, and so I have to stop
+playing with the tip sheet generator and report my progress.
+Consider, for your entertainment:
+
+http://pj.freefaculty.org/R/alltips.html
+
+I did not "hand edit" that in any way. It is the pure and simple
+output from the attached R program.
+
+There are some things that still bewitch me.  Obviously, I don't
+understand how to use the Wiki's CSS.  I can't understand why the
+content of the individual tips is formatted so differently from the
+rest of the page.  Also, I cannot for the life of me figure a way to
+remove the small tables of contents that appear in some of the
+answers.  Can you explain?
+
+I do a lot more C and Perl than R, and the use of pattern matching in
+R is no quite the same as I'm used to.
+
+I'll be able to check email on Tuesday night in case you have feedback.
+
+PJ
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: alltips2.R
+Type: application/octet-stream
+Size: 5059 bytes
+Desc: not available
+Url : https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060610/68a20194/attachment.obj 
+
+From phgrosjean at sciviews.org  Sun Jun 11 10:12:13 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 11 Jun 2006 10:12:13 +0200
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+In-Reply-To: <13e802630606091916q70c0cf77ie33b757d67ef86e3@mail.gmail.com>
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>	<44896FF7.8050305@sciviews.org>	<13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>	<971536df0606090715h1373a9a7t8991bdbe922236b1@mail.gmail.com>	<44898F4E.70106@free.fr>
+	<13e802630606091916q70c0cf77ie33b757d67ef86e3@mail.gmail.com>
+Message-ID: <448BD05D.7080303@sciviews.org>
+
+Paul Johnson wrote:
+> I'm trying to re-tool the script to make a more presentable piece of
+> html.  I'm down to a place where I am stuck, and it is a simple manner
+> of handling strings.
+> 
+> There is a vector of strings, some of which are heading/separators
+> with ==== What ===== and others areh "   tips:..." .  It is called
+> "cleanedlines" below.
+> 
+> I want a for loop that goes over each item, and if it is a tip, it
+> should do one thing, but if it is a header, it should do another
+> thing.
+> 
+> My problem is that I can't figure what kind of "if" statement is
+> supposed to work to check if it is a tip. I tried "grep" to check, but
+> it fails. grep on tips returns numeric(0), and the if statement can't
+> understand that.  To prove I tried, here's some code that does not
+> work.
+> 
+> for (item in cleanedlines) {
+>   itsaheading <- grep("====", item, value= F)
+>   if (1 == itsaheading) {
+>     reviseditem <- gsub("====","<H2>",item)
+>     print(reviseditem)
+>   }else{
+>      print (item)
+>   }
+> }
+> 
+> Throw me a bone! or a tip :)
+
+I would do something like:
+
+for (item in cleanedlines) {
+     if (length(grep("====", item)) > 0)
+         item <- gsub("====", "<H2>", item)
+     print(item)
+}
+
+Best,
+
+Philippe Grosjean
+
+> 
+> cleanedlines
+> [1] "====== R Wiki - Tips ======"
+>  [2] "==== Data ===="
+>  [3] "   tips:data-io:aggregate_values|Aggregate values, one for each
+> line: ''by()''"
+>  [4] "   tips:data-io:export_table|Export data out of R:
+> ''write.table()'', ''write()'',"
+>  [5] "   tips:data-io:import_table|Bring raw numbers into R:
+> ''read.table()''"
+>  [6] "   tips:data-io:ms_windows|Data to/from MS Excel, Access, etc.:
+> ''read.delim()'', ''scan()'', ''RODBC package''"
+>  [7] "   tips:data-io:spss|Data to/from SPSS: ''read.spss()'',
+> ''write.foreign()'', ''spss.get()''"
+>  [8] "   tips:data-frames:access_columns|Use subscripting to select
+> rows/columns"
+>  [9] "   tips:data-frames:new_aggregate|Create new data frame to hold
+> aggregate values for each factor"
+> 
+> On 6/9/06, Romain Francois <francoisromain at free.fr> wrote:
+> 
+>>Le 09.06.2006 16:15, Gabor Grothendieck a ?crit :
+>>
+>>>I find that your tips page is easier to read
+>>>than the automatically generated one although
+>>>that could likely be solved ultimately be improvements
+>>>to the script.
+>>>
+>>>I do find all the various colours somewhat distracting
+>>>and hard to read on the generated web page.  (this is
+>>>also true of the rest of the wiki too)
+>>>
+>>>
+>>
+>>You sould define a user style sheet like that one (this is firefox, I
+>>don't know how to do it in other browsers)
+>>
+>>@-moz-document url-prefix("http://wiki.r-project.org"){
+>>  *{color:black !important;}
+>>}
+>>
+>>
+>>
+>>
+>>>I suggest you maintain your page until the script
+>>>gets to the point where its comparable in legibility
+>>>to your hand done one.
+>>>
+>>>On 6/9/06, Paul Johnson <pauljohn32 at gmail.com> wrote:
+>>>
+>>>
+>>>>I've just run the alltips program and did generate a big html file.
+>>>>
+>>>>http://pj.freefaculty.org/R/alltips.html
+>>>>
+>>>>That piece of programming is very amazing to me. How in the heck can a
+>>>>stat program on my laptop cobble together a web page?  If R had a
+>>>>function to write a file onto a remote site , this could be completely
+>>>>automated.
+>>>>
+>>>>I could post something like that on a regular basis. That certainly
+>>>>proves it is possible.
+>>>>
+>>>>So far, I've noticed some problems.
+>>>>
+>>>>1. Links inside alltips.html don't work.  They point internally to
+>>>>places in the Wiki, not to anchors in alltips itself.
+>>>>
+>>>>2. Is there a way to have numbers generated for these tips?  So that
+>>>>we can refer to them by number?
+>>>>
+>>>>3.   The tips appear without logical sequencing in alltips.html.  I
+>>>>wish there were a way to designate the placement.  I don't expect
+>>>>there is a Wiki solution for that, however.
+>>>>
+>>>>
+>>>>In the next week, I will try to learn how to input stuff into the WIki
+>>>>and I'll also try to make a list of things in Rtips that I think are
+>>>>most valuable.
+>>>>
+>>>>Honestly, some of the tips I have are pretty old or out of date.
+>>>>
+>>>>
+>>>>PJ
+>>>>
+>>>>On 6/9/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>>>
+>>>>
+>>>>>Hello all,
+>>>>>
+>>>>>First, I would like to answer to Paul Johnson. The decision to separate
+>>>>>Rtips into sections and have one page per tip is motivated both by
+>>>>>technical reasons (already discussed, a wiki is more efficient with
+>>>>>separate small pages than a big one), and for practical reasons. When
+>>>>>Rtips remains rather small and managed by one people, like your current
+>>>>>version of it, it is much easier to handle in one big page. Now, imagine
+>>>>>that the R Wiki tips section gains popularity and that (just imagine!)
+>>>>>hundreds of authors write thousands of tips. How would you manage a
+>>>>>single web page containing these thousands of tips? How do you find tips
+>>>>>related to, say, handling of data frames, in this big page? How will
+>>>>>someone with a low-speed Internet connexion get the last tip that he is
+>>>>>interested in, from this long page (he has to download all the rest first)?
+>>>>>
+>>>>>I think that both presentations (several little page versus a single
+>>>>>large one) have pros and cons. The suggestion to make a digest of the
+>>>>>tips in the R Wiki, as an alternate presentation, makes much sense in
+>>>>>this context. Romain Fran?ois proposed a script for that. A good
+>>>>>starting basis to automate the creation of that "Rtips digest". Would
+>>>>>you be happy with this solution?
+>>>>>
+>>>>>Regarding the progress made with the R Wiki. This was also a very busy
+>>>>>time for me. I did my best to finish the Wiki engine for the UseR!2006
+>>>>>workshop. I still have a couple of aspects to finalize (presentation
+>>>>>with the sidebar, the Rdconv --wiki is *almost* done, plus a couple of
+>>>>>other details).
+>>>>>
+>>>>>Anyway, whatever where we are now, we should officially launch the R
+>>>>>Wiki next week at the UseR!2006 workshop. A presentation is planned on
+>>>>>thursday (see
+>>>>>http://www.r-project.org/useR-2006/Abstracts/Grosjean.pdf). It would be
+>>>>>also an occasion to recruit other volunteers to help in migrating
+>>>>>material to the Wiki. I think that the priority is to write some initial
+>>>>>material for the empty sections, like "getting-started:what-is-r",
+>>>>>"getting-started:faq" (this is rather easy: it is the wiki version of
+>>>>>the various official FAQ documents, but with the possibility to append
+>>>>>comments for the wiki users), "getting-started:case-studies",
+>>>>>"guides:books". Another priority is to migrate material from the first R
+>>>>>Wiki by Detlef Steuer.
+>>>>>
+>>>>>Thank you to all wiki authors or "migrators". The progress is slower
+>>>>>than expected, but we have already achieved a pretty good result, I think.
+>>>>>
+>>>>>Best,
+>>>>>
+>>>>>Philippe
+>>>>>
+>>>>>..............................................<?}))><........
+>>>>>  ) ) ) ) )
+>>>>>( ( ( ( (    Prof. Philippe Grosjean
+>>>>>  ) ) ) ) )
+>>>>>( ( ( ( (    Numerical Ecology of Aquatic Systems
+>>>>>  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+>>>>>( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>>>>>  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+>>>>>( ( ( ( (
+>>>>>  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+>>>>>( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>>>>>  ) ) ) ) )
+>>>>>( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>>>>>  ) ) ) ) )          http://www.sciviews.org
+>>>>>( ( ( ( (
+>>>>>..............................................................
+>>>>>
+>>>>>Nick Drew wrote:
+>>>>>
+>>>>>
+>>>>>>Like others, I've been busy and not made the kind of progress
+>>>>>>of converting Rtips to the R Wiki that I've wanted to. I had hoped to have
+>>>>>>section 1 (Data input/output) done by now, but there is still
+>>>>>>1.5 - 1.7 left on that section.
+>>>>>>
+>>>>>>I'm willing to continue to help with this. I will finish section 1
+>>>>>>by  the end of next week. However, I don't see me making
+>>>>>>much progress during our warm summer months here in Oregon.
+>>>>>>
+>>>>>>Perhaps we could generate a list of which sections of
+>>>>>>Rtips have been converted. Then others would know where to
+>>>>>>continue if they desire.
+>>>>>>
+>>>>>>~Nick
+>>>>>>
+>>>>>>-----Original Message-----
+>>>>>>From: r-sig-wiki-bounces at r-project.org
+>>>>>>[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Ben Bolker
+>>>>>>Sent: Friday, June 09, 2006 4:02 AM
+>>>>>>To: Paul Johnson
+>>>>>>Cc: r-sig-wiki at r-project.org
+>>>>>>Subject: Re: [R-wiki] R Wiki: What do you want me to do now about tips?
+>>>>>>
+>>>>>>
+>>>>>>   Having seen no answer thus far:
+>>>>>>
+>>>>>>    Parts but not all of Rtips have been migrated to the R wiki
+>>>>>>(I'd make a wild guess of about 30-50%.)  My personal preference
+>>>>>>would be migration.  Apparently DocuWiki doesn't have a "single
+>>>>>>page" view, but there was some discussion on the list about how
+>>>>>>to run a script etc. to take a snapshot -- see the April archives
+>>>>>>and Romain Francois' code at
+>>>>>>http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips .
+>>>>>>If you were willing (once the migration is complete) to run
+>>>>>>this as a script on your server (say daily) and post the results ...
+>>>>>>
+>>>>>>    Work on the Wiki has slowed down once again (perhaps inevitable
+>>>>>>since so many people are busy).  I'd really like to encourage
+>>>>>>list-readers to keep at it -- would people be willing to make
+>>>>>>some kind of nominal deadline for at least getting the rest
+>>>>>>of R-tips moved over/volunteer for sections?
+>>>>>>
+>>>>>>   cheers
+>>>>>>     Ben Bolker
+>>>>>>
+>>>>>>
+>>>>>>Paul Johnson wrote:
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>>I have this gmail account but can't manage it very well.  Too many
+>>>>>>>messages, too many lists, blah, blah...
+>>>>>>>
+>>>>>>>Anyway, I just noticed several messages in this list debating the
+>>>>>>>question of whether I should maintain Rtips or try to migrate the rest
+>>>>>>>of the content into the R Wiki.  What is that status now?
+>>>>>>>
+>>>>>>>My opinion is that some of the things in Rtips are quite seriously
+>>>>>>>useful, especially "how to save graphs" and "use predict with
+>>>>>>>regression" but many of the things are tidbits that I accumulated for
+>>>>>>>one use and never used again.
+>>>>>>>
+>>>>>>>I do think it is good if users can just view all the tips on a single
+>>>>>>>page, as some readers suggested.  The one who said I should keep
+>>>>>>>separate content on Rtips seemed to think the big drawback of the Wiki
+>>>>>>>was the sub-compartmentlization of information into little pages, and
+>>>>>>>there is some truth in that.  But I've seen other Wiki programs that
+>>>>>>>could just display all content in a single www post.
+>>>>>>>
+>>>>>>>I'm sorry I've not been paying attention, but now it is summer and I
+>>>>>>>have some time while preparing to teach stats again in the fall, and
+>>>>>>>so if you (all) tell me what needs to be done, I will do it.
+>>>>>>>
+>>>>>>>
+>>>>>>
+>>>>>>_______________________________________________
+>>>>>>R-sig-wiki mailing list
+>>>>>>R-sig-wiki at r-project.org
+>>>>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>>>
+>>>>>>_______________________________________________
+>>>>>>R-sig-wiki mailing list
+>>>>>>R-sig-wiki at r-project.org
+>>>>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>
+>>>>--
+>>>>Paul E. Johnson
+>>>>Professor, Political Science
+>>>>1541 Lilac Lane, Room 504
+>>>>University of Kansas
+>>>>
+>>>>_______________________________________________
+>>>>R-sig-wiki mailing list
+>>>>R-sig-wiki at r-project.org
+>>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>
+>>>>
+>>>
+>>>_______________________________________________
+>>>R-sig-wiki mailing list
+>>>R-sig-wiki at r-project.org
+>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>
+>>>
+>>>
+>>
+>>
+>>--
+>>visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+>>mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
+>>+---------------------------------------------------------------+
+>>| Romain FRANCOIS - http://francoisromain.free.fr               |
+>>| Doctorant INRIA Futurs / EDF                                  |
+>>+---------------------------------------------------------------+
+>>
+>>_______________________________________________
+>>R-sig-wiki mailing list
+>>R-sig-wiki at r-project.org
+>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+> 
+> 
+>
+
+
+From asr at ufl.edu  Mon Jun 12 03:07:26 2006
+From: asr at ufl.edu (Allen S. Rout)
+Date: 11 Jun 2006 21:07:26 -0400
+Subject: [R-wiki] R Wiki: What do you want me to do now about tips?
+References: <MBEPIIKLODKFDMIPFOGACEAGEDAA.ndrew@efn.org>
+	<44896FF7.8050305@sciviews.org>
+	<13e802630606090630u3bd554a2td7e049226fe9a33d@mail.gmail.com>
+	<448980A9.7000907@sciviews.org>
+Message-ID: <86lks3yyep.fsf@ufl.edu>
+
+Philippe Grosjean <phgrosjean at sciviews.org> writes:
+
+> Paul Johnson wrote:
+> > I've just run the alltips program and did generate a big html file.
+> > 
+> > http://pj.freefaculty.org/R/alltips.html
+> > 
+> > 3.   The tips appear without logical sequencing in alltips.html.  I
+> > wish there were a way to designate the placement.  I don't expect
+> > there is a Wiki solution for that, however.
+> 
+> Yes, this is a first draft certainly. Also, the various styles must be 
+> refined (R code prints too small on my machine).
+
+> One solution would be to select a list of relevant tips and sort them. 
+> This would certainly be possible to do.
+
+With stylized section titling, or a separate assertion in the body of
+a page ("This is R Tip 4.32") you could exert local control over that
+ordering.  The same data could be used to generate a TOC of the tips. 
+
+
+- Allen S. Rout
+
+
+From phgrosjean at sciviews.org  Mon Jun 12 12:33:52 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 12 Jun 2006 12:33:52 +0200
+Subject: [R-wiki] Clean up of the Wiki and new navigation sidebars
+Message-ID: <448D4310.7080004@sciviews.org>
+
+Hello all,
+
+Really sorry for the short time that remains before we officially launch 
+the R Wiki (at UseR!2006, that is, this week!)
+
+I have been working hard this week-end to clean up the Wiki. I also had 
+to reorganize some pages. So, if you don't find one of your pages, it is 
+because it was relocated into a more suitable section (according to the 
+organization we decided). Look at the "recent changes" or "search" to 
+spot it.
+
+A big issue that I had also to solve is to find a better navigation 
+system than the buggy index in the sidebar. So, there is a big change in 
+this aspect. Please, try the new navigation pages/sidebars, and comment 
+on it. However, I will not been able to discuss much, nor to make deep 
+changes before the symposium. Probably, the best would be to keep your 
+remarks for a live discussion with me at Vienna, for those who go there.
+
+Regarding, the "wikified" version of the R documentation, the Rdconv 
+--wiki is now almost finished. I am too short to wikify the thousands of 
+R online help pages before the symposium, but that will done in the next 
+one or two months.
+
+THANKS AGAIN TO ALL COLLABORATORS: you all did a great job! My own 
+impression is that we have now a good basis of a R Wiki that is stable, 
+feature-rich, relatively well-organized, and ready to sustain grow 
+(hopefully) in the future.
+
+Best,
+
+Philippe Grosjean
+-- 
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+( ( ( ( (
+  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+  ) ) ) ) )
+( ( ( ( (    web:   http://www.umh.ac.be/~econum
+  ) ) ) ) )          http://www.sciviews.org
+( ( ( ( (
+..............................................................
+
+
+From ndrew at efn.org  Mon Jun 12 14:10:47 2006
+From: ndrew at efn.org (Nick Drew)
+Date: Mon, 12 Jun 2006 05:10:47 -0700
+Subject: [R-wiki] Clean up of the Wiki and new navigation sidebars
+In-Reply-To: <448D4310.7080004@sciviews.org>
+Message-ID: <MBEPIIKLODKFDMIPFOGACEBLEDAA.ndrew@efn.org>
+
+Philippe, I think the changes to the start page and the sidebars are
+improvements. Thank you.
+
+Also, I'd encourage you and others who have the privedge of attending
+UseR!2006 to "talk up" the Wiki. In other words, be vocal proponents about
+it & encourage others to participate.
+
+Thanks!
+
+~Nick
+
+-----Original Message-----
+From: r-sig-wiki-bounces at r-project.org
+[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of Philippe Grosjean
+Sent: Monday, June 12, 2006 2:34 AM
+To: r-sig-wiki at r-project.org
+Subject: [R-wiki] Clean up of the Wiki and new navigation sidebars
+
+
+Hello all,
+
+Really sorry for the short time that remains before we officially launch
+the R Wiki (at UseR!2006, that is, this week!)
+
+I have been working hard this week-end to clean up the Wiki. I also had
+to reorganize some pages. So, if you don't find one of your pages, it is
+because it was relocated into a more suitable section (according to the
+organization we decided). Look at the "recent changes" or "search" to
+spot it.
+
+A big issue that I had also to solve is to find a better navigation
+system than the buggy index in the sidebar. So, there is a big change in
+this aspect. Please, try the new navigation pages/sidebars, and comment
+on it. However, I will not been able to discuss much, nor to make deep
+changes before the symposium. Probably, the best would be to keep your
+remarks for a live discussion with me at Vienna, for those who go there.
+
+Regarding, the "wikified" version of the R documentation, the Rdconv
+--wiki is now almost finished. I am too short to wikify the thousands of
+R online help pages before the symposium, but that will done in the next
+one or two months.
+
+THANKS AGAIN TO ALL COLLABORATORS: you all did a great job! My own
+impression is that we have now a good basis of a R Wiki that is stable,
+feature-rich, relatively well-organized, and ready to sustain grow
+(hopefully) in the future.
+
+Best,
+
+Philippe Grosjean
+--
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+( ( ( ( (
+  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+  ) ) ) ) )
+( ( ( ( (    web:   http://www.umh.ac.be/~econum
+  ) ) ) ) )          http://www.sciviews.org
+( ( ( ( (
+..............................................................
+
+_______________________________________________
+R-sig-wiki mailing list
+R-sig-wiki at r-project.org
+https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+
+From francoisromain at free.fr  Mon Jun 12 16:59:14 2006
+From: francoisromain at free.fr (francoisromain at free.fr)
+Date: Mon, 12 Jun 2006 16:59:14 +0200
+Subject: [R-wiki] Clean up of the Wiki and new navigation sidebars
+In-Reply-To: <448D4310.7080004@sciviews.org>
+References: <448D4310.7080004@sciviews.org>
+Message-ID: <1150124354.448d814259374@imp3-g19.free.fr>
+
+Quoting Philippe Grosjean <phgrosjean at sciviews.org>:
+
+> Hello all,
+>
+> Really sorry for the short time that remains before we officially launch
+> the R Wiki (at UseR!2006, that is, this week!)
+>
+> I have been working hard this week-end to clean up the Wiki. I also had
+> to reorganize some pages. So, if you don't find one of your pages, it is
+> because it was relocated into a more suitable section (according to the
+> organization we decided). Look at the "recent changes" or "search" to
+> spot it.
+>
+> A big issue that I had also to solve is to find a better navigation
+> system than the buggy index in the sidebar. So, there is a big change in
+> this aspect. Please, try the new navigation pages/sidebars, and comment
+> on it. However, I will not been able to discuss much, nor to make deep
+> changes before the symposium. Probably, the best would be to keep your
+> remarks for a live discussion with me at Vienna, for those who go there.
+>
+> Regarding, the "wikified" version of the R documentation, the Rdconv
+> --wiki is now almost finished. I am too short to wikify the thousands of
+> R online help pages before the symposium, but that will done in the next
+> one or two months.
+
+
+Will you try do do at least one or two packages (as a test) before useR! ?
+
+
+> THANKS AGAIN TO ALL COLLABORATORS: you all did a great job! My own
+> impression is that we have now a good basis of a R Wiki that is stable,
+> feature-rich, relatively well-organized, and ready to sustain grow
+> (hopefully) in the future.
+>
+> Best,
+>
+> Philippe Grosjean
+
+Hi,
+
+Actually, whenever I turn on my computer, I go on the wiki page to check what's
+new in town. And this week-end, mostly yesterday, I just wondered if you
+haven't been swallowed by the wiki engine.
+
+You did great job. Thanks for putting so much energy (and time obviously) on
+that wiki. Now that you learn the wiki how to walk, we shall all make it run.
+
+See you in Vienna,
+
+Romain
+
+
+From bolker at zoo.ufl.edu  Mon Jun 12 18:43:26 2006
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Mon, 12 Jun 2006 12:43:26 -0400
+Subject: [R-wiki] Clean up of the Wiki and new navigation sidebars
+In-Reply-To: <1150124354.448d814259374@imp3-g19.free.fr>
+References: <448D4310.7080004@sciviews.org>
+	<1150124354.448d814259374@imp3-g19.free.fr>
+Message-ID: <448D99AE.4000402@zoo.ufl.edu>
+
+
+  I agree, it looks really nice.
+
+  My only suggestion (if possible, at some point) is that [e.g.]
+from inside the tips page, when you expand a section, that the
+full titles rather than just the names of the links appear.
+For example: tips/Matrices & arrays shows
+
+array, collapse_matrix, combine_mats, ...
+
+ it would be nice if it could show
+
+Creating multidimensional matrices: array()
+Create one long vector from a matrix
+
+etc.
+
+  If this is simply a matter of hand-editing, I can go ahead and
+start working on it -- but it doesn't look that way. It looks
+like it's generated by the indexmenu plugin.
+
+  cheers
+    Ben
+
+
+-- 
+620B Bartram Hall                            bolker at zoo.ufl.edu
+Zoology Department, University of Florida    http://www.zoo.ufl.edu/bolker
+Box 118525                                   (ph)  352-392-5697
+Gainesville, FL 32611-8525                   (fax) 352-392-3704
+
+
+From phgrosjean at sciviews.org  Mon Jun 12 19:01:01 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 12 Jun 2006 19:01:01 +0200
+Subject: [R-wiki] Clean up of the Wiki and new navigation sidebars
+In-Reply-To: <448D99AE.4000402@zoo.ufl.edu>
+References: <448D4310.7080004@sciviews.org>
+	<1150124354.448d814259374@imp3-g19.free.fr>
+	<448D99AE.4000402@zoo.ufl.edu>
+Message-ID: <448D9DCD.9000107@sciviews.org>
+
+Ben Bolker wrote:
+>   I agree, it looks really nice.
+> 
+>   My only suggestion (if possible, at some point) is that [e.g.]
+> from inside the tips page, when you expand a section, that the
+> full titles rather than just the names of the links appear.
+> For example: tips/Matrices & arrays shows
+> 
+> array, collapse_matrix, combine_mats, ...
+> 
+>  it would be nice if it could show
+> 
+> Creating multidimensional matrices: array()
+> Create one long vector from a matrix
+> 
+> etc.
+> 
+>   If this is simply a matter of hand-editing, I can go ahead and
+> start working on it -- but it doesn't look that way. It looks
+> like it's generated by the indexmenu plugin.
+> 
+>   cheers
+>     Ben
+
+Yes, it would be certainly better to have the fully spelled title of the 
+page. As you noticed, this page is now automatically updated, thanks to 
+the indexmenu plugin (just add new pages, and they appear automatically 
+in the menu).
+
+I should be able to read the page title and substitute it in the list, 
+but it requires to hack the indexmenu plugin. I will not do that soon, 
+but I put an item in the todo list.
+Best,
+
+Philippe Grosjean
+
+
+From pauljohn32 at gmail.com  Thu Jun 15 20:49:21 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Thu, 15 Jun 2006 12:49:21 -0600
+Subject: [R-wiki] R tip extract from Wiki
+Message-ID: <13e802630606151149h22d6123av802aa3490cc1d43c@mail.gmail.com>
+
+I thought I posted this on Saturday, but did not see it come across
+the e-mail list and didn't get any mail about it.
+
+Consider, for your entertainment:
+
+http://pj.freefaculty.org/R/alltips.html
+
+I did not "hand edit" that in any way. It is the pure and simple
+output from the attached R program.
+
+There are some things that still bewitch me.  Obviously, I don't
+understand how to use the Wiki's CSS.  I can't understand why the
+content of the individual tips is formatted so differently from the
+rest of the page.  Also, I cannot for the life of me figure a way to
+remove the small tables of contents that appear in some of the
+answers.  Can you explain?
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: alltips2.R
+Type: application/octet-stream
+Size: 5059 bytes
+Desc: not available
+Url : https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060615/0c8fdf22/attachment.obj 
+
+From bolker at ufl.edu  Thu Jun 15 22:53:06 2006
+From: bolker at ufl.edu (Ben Bolker)
+Date: Thu, 15 Jun 2006 16:53:06 -0400
+Subject: [R-wiki] mangled/misplaced wiki text ...
+Message-ID: <4491C8B2.2000808@ufl.edu>
+
+
+  for a few of the "tips" sections, I wrote some short
+overview/introduction sections.  For example,
+
+http://wiki.r-project.org/rwiki/doku.php?id=tips:stats-distrib&s=distribution
+
+ I have two questions about this:
+ (1) it doesn't appear to fit very well into the new indexing scheme:
+should I just add these as "introduction" links/tips?
+  (2) the page above in particular seems to have been mangled somehow
+I don't understand; when I edit/preview the page it looks fine, but
+when I save it it comes back in raw format ... ???
+
+  cheers
+   Ben
+
+
+From pauljohn32 at gmail.com  Fri Jun 16 03:18:53 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Thu, 15 Jun 2006 19:18:53 -0600
+Subject: [R-wiki] mangled/misplaced wiki text ...
+In-Reply-To: <4491C8B2.2000808@ufl.edu>
+References: <4491C8B2.2000808@ufl.edu>
+Message-ID: <13e802630606151818w70452032ha77da7a971ec6c2@mail.gmail.com>
+
+Wow! that is weird.  I logged into the Wiki and your page was just
+unformatted stuff all jammed together.  Then I opened the page for
+editing, added one blank space, then previewed it and it looked fine,
+so I saved the page and 'voila' it was all formatted and fixed.
+
+I notice in the output of the newest version of the alltips script:
+
+http://pj.freefaculty.org/R/alltips.html
+
+That there are several tips with the same "no formatting" problem.
+
+However, when I go to those particular pages, they display normally.
+
+I wonder if it is a web server problem?
+
+pj
+
+On 6/15/06, Ben Bolker <bolker at ufl.edu> wrote:
+>
+>   for a few of the "tips" sections, I wrote some short
+> overview/introduction sections.  For example,
+>
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:stats-distrib&s=distribution
+>
+>  I have two questions about this:
+>  (1) it doesn't appear to fit very well into the new indexing scheme:
+> should I just add these as "introduction" links/tips?
+>   (2) the page above in particular seems to have been mangled somehow
+> I don't understand; when I edit/preview the page it looks fine, but
+> when I save it it comes back in raw format ... ???
+>
+>   cheers
+>    Ben
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From phgrosjean at sciviews.org  Fri Jun 16 12:38:36 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 16 Jun 2006 12:38:36 +0200
+Subject: [R-wiki] mangled/misplaced wiki text ...
+In-Reply-To: <13e802630606151818w70452032ha77da7a971ec6c2@mail.gmail.com>
+References: <4491C8B2.2000808@ufl.edu>
+	<13e802630606151818w70452032ha77da7a971ec6c2@mail.gmail.com>
+Message-ID: <44928A2C.8050203@sciviews.org>
+
+
+Paul Johnson wrote:
+> Wow! that is weird.  I logged into the Wiki and your page was just
+> unformatted stuff all jammed together.  Then I opened the page for
+> editing, added one blank space, then previewed it and it looked fine,
+> so I saved the page and 'voila' it was all formatted and fixed.
+> 
+> I notice in the output of the newest version of the alltips script:
+> 
+> http://pj.freefaculty.org/R/alltips.html
+> 
+> That there are several tips with the same "no formatting" problem.
+> 
+> However, when I go to those particular pages, they display normally.
+> 
+> I wonder if it is a web server problem?
+> 
+> pj
+
+This is due to the upgrade of the wiki engine. The old one used a simple 
+cache system, while the new one uses a more sophisticated double caching 
+mechanism. It causes some problems, solved after editing and resaving 
+the pages. I have fixed all guilty pages myself, that's why they are 
+fine now.
+Best,
+
+Philippe Grosjean
+
+> On 6/15/06, Ben Bolker <bolker at ufl.edu> wrote:
+> 
+>>  for a few of the "tips" sections, I wrote some short
+>>overview/introduction sections.  For example,
+>>
+>>http://wiki.r-project.org/rwiki/doku.php?id=tips:stats-distrib&s=distribution
+>>
+>> I have two questions about this:
+>> (1) it doesn't appear to fit very well into the new indexing scheme:
+>>should I just add these as "introduction" links/tips?
+>>  (2) the page above in particular seems to have been mangled somehow
+>>I don't understand; when I edit/preview the page it looks fine, but
+>>when I save it it comes back in raw format ... ???
+>>
+>>  cheers
+>>   Ben
+>>
+>>_______________________________________________
+>>R-sig-wiki mailing list
+>>R-sig-wiki at r-project.org
+>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+> 
+> 
+>
+
+
+From phgrosjean at sciviews.org  Fri Jun 16 12:43:34 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 16 Jun 2006 12:43:34 +0200
+Subject: [R-wiki] mangled/misplaced wiki text ...
+In-Reply-To: <4491C8B2.2000808@ufl.edu>
+References: <4491C8B2.2000808@ufl.edu>
+Message-ID: <44928B56.2040907@sciviews.org>
+
+Ben Bolker wrote:
+>   for a few of the "tips" sections, I wrote some short
+> overview/introduction sections.  For example,
+> 
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:stats-distrib&s=distribution
+> 
+>  I have two questions about this:
+>  (1) it doesn't appear to fit very well into the new indexing scheme:
+> should I just add these as "introduction" links/tips?
+>   (2) the page above in particular seems to have been mangled somehow
+> I don't understand; when I edit/preview the page it looks fine, but
+> when I save it it comes back in raw format ... ???
+> 
+>   cheers
+>    Ben
+
+The index is generated automatically from all pages in a given 
+namespace. by creating a page tips:stats-distrib, you don't put it in 
+the tips:stats-distri (take care here: distri, not distrib!). My 
+suggestion would be to call your pages tips:stats-distri:0verview (with 
+zero, not 'o'). That way: (1) it appears in the index, and (2), it 
+appears in the first position. I took the liberty to move your page at 
+that location, so, you can see the results.
+Best,
+
+Philippe Grosjean
+
+
+From ndrew at efn.org  Mon Jun 19 03:00:17 2006
+From: ndrew at efn.org (Nick Drew)
+Date: Sun, 18 Jun 2006 18:00:17 -0700
+Subject: [R-wiki] Status of R tips conversion
+Message-ID: <MBEPIIKLODKFDMIPFOGAOEFFEDAA.ndrew@efn.org>
+
+An embedded and charset-unspecified text was scrubbed...
+Name: not available
+Url: https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060618/7e39927c/attachment.pl 
+
+From phgrosjean at sciviews.org  Mon Jun 19 11:23:41 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 19 Jun 2006 11:23:41 +0200
+Subject: [R-wiki] Status of R tips conversion
+In-Reply-To: <MBEPIIKLODKFDMIPFOGAOEFFEDAA.ndrew@efn.org>
+References: <MBEPIIKLODKFDMIPFOGAOEFFEDAA.ndrew@efn.org>
+Message-ID: <44966D1D.3080504@sciviews.org>
+
+Hi Nick,
+
+Thank you. I have done Rtip 1.7, see: 
+http://wiki.r-project.org/rwiki/doku.php?id=tips:data-manip:cbind_different_row_size. 
+So, it looks like section 1 is done.
+
+The Rtips conversion status is a nice initiative. We should certainly 
+update it, according to the tips we move!
+Best,
+
+Philippe Grosjean
+
+
+Nick Drew wrote:
+> Folks, I finally finished migrating section 1 of Paul Johnson's R tips over
+> to the wiki. I was not able to get tip 1.7 to work correctly so if someone
+> wants to take a shot at it please feel free to do so.
+> 
+> I will continue to add various R tips as my time permits this Summer.
+> 
+> Also, I just notice a section on the wiki called Rtips conversion status
+> (http://wiki.r-project.org/rwiki/doku.php?id=misc:rtips-status). How is this
+> to be completed or used? Are we to make a note upon completion of a certain
+> section?
+> 
+> ~Nick
+> 
+> 	[[alternative HTML version deleted]]
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+>
+
+
+From john.maindonald at anu.edu.au  Mon Jun 19 11:45:37 2006
+From: john.maindonald at anu.edu.au (John Maindonald)
+Date: Mon, 19 Jun 2006 19:45:37 +1000
+Subject: [R-wiki] Printable version of file containing all tips
+Message-ID: <DDD49A26-AEDF-4859-B924-3AEEDDA01ED4@anu.edu.au>
+
+Is it readily possible to get a consolidated file (pdf or html  
+or ...) that has
+all the tips?
+
+John Maindonald             email: john.maindonald at anu.edu.au
+phone : +61 2 (6125)3473    fax  : +61 2(6125)5549
+Mathematical Sciences Institute, Room 1194,
+John Dedman Mathematical Sciences Building (Building 27)
+Australian National University, Canberra ACT 0200.
+
+
+From phgrosjean at sciviews.org  Mon Jun 19 12:28:07 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 19 Jun 2006 12:28:07 +0200
+Subject: [R-wiki] Wiki pages in other formats - caveats
+Message-ID: <44967C37.2040801@sciviews.org>
+
+Hello,
+
+I just want to mention a problem with providing wiki pages in a 
+different format (many people ask for the R tips in a single HTML or PDF 
+page). Accessing tips, or any other pages, in a different format 
+**breaks the potential to edit easily the original pages**. It is the 
+strength of the Wiki (every reader can easily become an author) that is 
+lost. All people that prefer to read the R tips in a single HTML, or PDF 
+page will **not** tend to contribute to the writing of those tips (they 
+could even ignore totally the original Wiki site). We could then arrive 
+to the situation that a limited number of "wiki freaks" actually do the 
+work (in editing the Wiki pages) for a large group of readers being pure 
+passive consummers of HTML or PDF "digests" of these pages.
+
+It is a little bit (with some exageration!) like if R was **not** Open 
+Source and only the R Core Team had access to the code, and then, they 
+spread only binaries. R would never be what it is without the Open 
+Source approach (meaning easy and direct access to the code; just type 
+the name of a R function in your running R session, for instance).
+
+For the Wiki, it is the same: the Wiki can only grow if people use it as 
+it should be: reading pages **directly in the Wiki**, and being only one 
+button click away (the 'Edit this page' button appearing on any Wiki 
+page) from contributing to it,... otherwise, we got much less 
+contributors and the Wiki dies from a lack of fresh material to keep it 
+alive.
+
+Those days, Internet is widespread enough to be considered as widely 
+available. So, it is not a major drawback to have to connect to the R 
+Wiki site to read those pages. Moreover, I made much effort to get a 
+better navigation, especially in the tips sections... and I received no 
+comment on it, so, I consider that everyone is happy with the new 
+sidebars navigation system ;-)
+
+To conclude: **do prefer reading the R Wiki pages in native format, 
+rather that in HTML or PDF "digest" form!** It is the whole Wiki concept 
+that depends upon your acceptation of this approach: to be always one 
+button-click away from editing what you are reading.
+
+Thanks,
+
+Philippe Grosjean
+
+
+From Philippe.Grosjean at umh.ac.be  Thu Jun 22 09:54:01 2006
+From: Philippe.Grosjean at umh.ac.be (Philippe Grosjean)
+Date: Thu, 22 Jun 2006 09:54:01 +0200
+Subject: [R-wiki] New challenge - any idea?
+Message-ID: <449A4C99.6060001@umh.ac.be>
+
+Hello R Wiki Team!
+
+Just to mention that we have now a daily backup of the Wiki. So, it 
+should be safe: if you notice a problem due to a bad attack of the 
+server (a Wiki is always rather sensitive, since everybody can edit the 
+content!), just tell me, and I can restore the whole server in seconds!
+
+Otherwise, it should be nice to have a new challenge. The last one 
+(about Benford's Law) did not rise much enthousiasm, although Kevin 
+Wright did a nice job in solving it!
+
+It seems that code optimisation is favorite, although I am sure that 
+graph/plot challenges will have their adepts too!
+
+So, any idea?
+
+Best,
+
+Philippe
+-- 
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Belgium
+( ( ( ( (
+..............................................................
+
+
+From pauljohn32 at gmail.com  Thu Jun 22 18:56:21 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Thu, 22 Jun 2006 11:56:21 -0500
+Subject: [R-wiki] Wiki pages in other formats - caveats
+In-Reply-To: <44967C37.2040801@sciviews.org>
+References: <44967C37.2040801@sciviews.org>
+Message-ID: <13e802630606220956x661a160egdb0eff3aa407ae0e@mail.gmail.com>
+
+I would respectfully disagree.  The Wiki is for editing, not
+necessarily for presentation.  We have to remember that 99% of people
+who will stumble into the Wiki are new users who probably won't want
+to add content.  It is very unhelpful to have to point and click to
+see every little thing, and people quickly become bewildered/confused.
+
+I'd rather just show users an output document, such as a new and
+better alltips, and in the preface of that document, we should make
+sure experts know they can add stuff.  We should make sure that any
+other "all in one" output points back to the wiki, preferably with
+"edit this content" links.
+
+And then the alltips document could be re-generated frequently to
+reflect the Wiki content.  Depending on how much CPU you can spare, we
+could regenerate it for each and every addition.
+
+PJ
+
+PS: I'm still asking for feedback on the markup and presentation  of
+the newest alltips here:
+
+http://pj.freefaculty.org/R/alltips.html
+
+in light of Philippe's concern, I'm going to see what I can do about
+putting in "edit this item" links for everything.  I've not done that
+with this particular Wiki/CGI framework, but I've done it with others
+and doubt it will kill me.
+
+On 6/19/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Hello,
+>
+> I just want to mention a problem with providing wiki pages in a
+> different format (many people ask for the R tips in a single HTML or PDF
+> page). Accessing tips, or any other pages, in a different format
+> **breaks the potential to edit easily the original pages**. It is the
+> strength of the Wiki (every reader can easily become an author) that is
+> lost. All people that prefer to read the R tips in a single HTML, or PDF
+> page will **not** tend to contribute to the writing of those tips (they
+> could even ignore totally the original Wiki site). We could then arrive
+> to the situation that a limited number of "wiki freaks" actually do the
+> work (in editing the Wiki pages) for a large group of readers being pure
+> passive consummers of HTML or PDF "digests" of these pages.
+>
+> It is a little bit (with some exageration!) like if R was **not** Open
+> Source and only the R Core Team had access to the code, and then, they
+> spread only binaries. R would never be what it is without the Open
+> Source approach (meaning easy and direct access to the code; just type
+> the name of a R function in your running R session, for instance).
+>
+> For the Wiki, it is the same: the Wiki can only grow if people use it as
+> it should be: reading pages **directly in the Wiki**, and being only one
+> button click away (the 'Edit this page' button appearing on any Wiki
+> page) from contributing to it,... otherwise, we got much less
+> contributors and the Wiki dies from a lack of fresh material to keep it
+> alive.
+>
+> Those days, Internet is widespread enough to be considered as widely
+> available. So, it is not a major drawback to have to connect to the R
+> Wiki site to read those pages. Moreover, I made much effort to get a
+> better navigation, especially in the tips sections... and I received no
+> comment on it, so, I consider that everyone is happy with the new
+> sidebars navigation system ;-)
+>
+> To conclude: **do prefer reading the R Wiki pages in native format,
+> rather that in HTML or PDF "digest" form!** It is the whole Wiki concept
+> that depends upon your acceptation of this approach: to be always one
+> button-click away from editing what you are reading.
+>
+> Thanks,
+>
+> Philippe Grosjean
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From phgrosjean at sciviews.org  Thu Jun 22 20:30:29 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Thu, 22 Jun 2006 20:30:29 +0200
+Subject: [R-wiki] Wiki pages in other formats - caveats
+In-Reply-To: <13e802630606220956x661a160egdb0eff3aa407ae0e@mail.gmail.com>
+References: <44967C37.2040801@sciviews.org>
+	<13e802630606220956x661a160egdb0eff3aa407ae0e@mail.gmail.com>
+Message-ID: <449AE1C5.6030000@sciviews.org>
+
+Ok,
+We don't have to agree, necessarily. What is important is to provide the 
+material in ways that each reader can find the format that best suits 
+his way of navigating/reading the tips.
+
+For the "table of content" problem, it can be easily solved by reworking 
+the CSS file and hidding styles associated with it (Romain Fran?ois did 
+this for the sidebar). Unfortunately, I cannot work this out myself this 
+week. Note that you can also rework the CSS file for other styles 
+(larger font and a line above H1 titles, for instance, to better 
+separate each tip on the page, or put a margin on the left...).
+
+I still see a couple of unformatted tips in your last document. Was it 
+generated lately?
+
+Best,
+
+Philippe Grosjean
+
+Paul Johnson wrote:
+> I would respectfully disagree.  The Wiki is for editing, not
+> necessarily for presentation.  We have to remember that 99% of people
+> who will stumble into the Wiki are new users who probably won't want
+> to add content.  It is very unhelpful to have to point and click to
+> see every little thing, and people quickly become bewildered/confused.
+> 
+> I'd rather just show users an output document, such as a new and
+> better alltips, and in the preface of that document, we should make
+> sure experts know they can add stuff.  We should make sure that any
+> other "all in one" output points back to the wiki, preferably with
+> "edit this content" links.
+> 
+> And then the alltips document could be re-generated frequently to
+> reflect the Wiki content.  Depending on how much CPU you can spare, we
+> could regenerate it for each and every addition.
+> 
+> PJ
+> 
+> PS: I'm still asking for feedback on the markup and presentation  of
+> the newest alltips here:
+> 
+> http://pj.freefaculty.org/R/alltips.html
+> 
+> in light of Philippe's concern, I'm going to see what I can do about
+> putting in "edit this item" links for everything.  I've not done that
+> with this particular Wiki/CGI framework, but I've done it with others
+> and doubt it will kill me.
+> 
+> On 6/19/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> 
+>>Hello,
+>>
+>>I just want to mention a problem with providing wiki pages in a
+>>different format (many people ask for the R tips in a single HTML or PDF
+>>page). Accessing tips, or any other pages, in a different format
+>>**breaks the potential to edit easily the original pages**. It is the
+>>strength of the Wiki (every reader can easily become an author) that is
+>>lost. All people that prefer to read the R tips in a single HTML, or PDF
+>>page will **not** tend to contribute to the writing of those tips (they
+>>could even ignore totally the original Wiki site). We could then arrive
+>>to the situation that a limited number of "wiki freaks" actually do the
+>>work (in editing the Wiki pages) for a large group of readers being pure
+>>passive consummers of HTML or PDF "digests" of these pages.
+>>
+>>It is a little bit (with some exageration!) like if R was **not** Open
+>>Source and only the R Core Team had access to the code, and then, they
+>>spread only binaries. R would never be what it is without the Open
+>>Source approach (meaning easy and direct access to the code; just type
+>>the name of a R function in your running R session, for instance).
+>>
+>>For the Wiki, it is the same: the Wiki can only grow if people use it as
+>>it should be: reading pages **directly in the Wiki**, and being only one
+>>button click away (the 'Edit this page' button appearing on any Wiki
+>>page) from contributing to it,... otherwise, we got much less
+>>contributors and the Wiki dies from a lack of fresh material to keep it
+>>alive.
+>>
+>>Those days, Internet is widespread enough to be considered as widely
+>>available. So, it is not a major drawback to have to connect to the R
+>>Wiki site to read those pages. Moreover, I made much effort to get a
+>>better navigation, especially in the tips sections... and I received no
+>>comment on it, so, I consider that everyone is happy with the new
+>>sidebars navigation system ;-)
+>>
+>>To conclude: **do prefer reading the R Wiki pages in native format,
+>>rather that in HTML or PDF "digest" form!** It is the whole Wiki concept
+>>that depends upon your acceptation of this approach: to be always one
+>>button-click away from editing what you are reading.
+>>
+>>Thanks,
+>>
+>>Philippe Grosjean
+>>
+>>_______________________________________________
+>>R-sig-wiki mailing list
+>>R-sig-wiki at r-project.org
+>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+> 
+> 
+>
+
+
+From bolker at zoo.ufl.edu  Thu Jun 22 21:53:00 2006
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Thu, 22 Jun 2006 15:53:00 -0400
+Subject: [R-wiki] Wiki pages in other formats - caveats
+In-Reply-To: <449AE1C5.6030000@sciviews.org>
+References: <44967C37.2040801@sciviews.org>	<13e802630606220956x661a160egdb0eff3aa407ae0e@mail.gmail.com>
+	<449AE1C5.6030000@sciviews.org>
+Message-ID: <449AF51C.7030402@zoo.ufl.edu>
+
+Philippe Grosjean wrote:
+
+> 
+> I still see a couple of unformatted tips in your last document. Was it 
+> generated lately?
+> 
+
+  Gives a date of June 10 at the top.
+
+  There seem to be missing bits, which seem to have been there before
+June 10 -- e.g. nothing shows up under "matrices & arrays", when there
+are really a number of pages there in the wiki.
+
+  I would feel better about pointing out issues like this if Paul
+would be willing to re-generate the page so we would know we were
+dealing with a recent version.
+
+  cheers
+    Ben
+
+-- 
+620B Bartram Hall                            bolker at zoo.ufl.edu
+Zoology Department, University of Florida    http://www.zoo.ufl.edu/bolker
+Box 118525                                   (ph)  352-392-5697
+Gainesville, FL 32611-8525                   (fax) 352-3
+
+
+From tplate at acm.org  Sat Jun 24 01:14:42 2006
+From: tplate at acm.org (Tony Plate)
+Date: Fri, 23 Jun 2006 17:14:42 -0600
+Subject: [R-wiki] New challenge - any idea?
+In-Reply-To: <449A4C99.6060001@umh.ac.be>
+References: <449A4C99.6060001@umh.ac.be>
+Message-ID: <449C75E2.5030708@acm.org>
+
+How about something like the shortest set of examples that show the 
+different ways that   the formula, data & weights arguments can be 
+supplied to m<-lm(...) predict(m,...) (& the pitfalls)?  Part of the 
+point of this would be to illustrate the non-standard evaluations rules 
+for the weights arguments, and the circumstances in which arguments 
+supplied to lm() in m<-lm(...) must still be available when calling 
+predict(m,...).
+
+-- Tony Plate
+
+
+Philippe Grosjean wrote:
+> Hello R Wiki Team!
+> 
+> Just to mention that we have now a daily backup of the Wiki. So, it 
+> should be safe: if you notice a problem due to a bad attack of the 
+> server (a Wiki is always rather sensitive, since everybody can edit the 
+> content!), just tell me, and I can restore the whole server in seconds!
+> 
+> Otherwise, it should be nice to have a new challenge. The last one 
+> (about Benford's Law) did not rise much enthousiasm, although Kevin 
+> Wright did a nice job in solving it!
+> 
+> It seems that code optimisation is favorite, although I am sure that 
+> graph/plot challenges will have their adepts too!
+> 
+> So, any idea?
+> 
+> Best,
+> 
+> Philippe
+
+
+From pauljohn32 at gmail.com  Sat Jun 24 06:41:29 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Fri, 23 Jun 2006 23:41:29 -0500
+Subject: [R-wiki] Wiki pages in other formats - caveats
+In-Reply-To: <449AF51C.7030402@zoo.ufl.edu>
+References: <44967C37.2040801@sciviews.org>
+	<13e802630606220956x661a160egdb0eff3aa407ae0e@mail.gmail.com>
+	<449AE1C5.6030000@sciviews.org> <449AF51C.7030402@zoo.ufl.edu>
+Message-ID: <13e802630606232141s4fdae460j711074d543dd9e5@mail.gmail.com>
+
+It looks like I have some re-working to do.
+
+Unfortunately, this command that starts off the whole script
+
+
+rawimport <- readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&do=export_raw")
+
+now returns a different kind of thing than it returned before.
+
+
+Now it returns a vector like this
+
+
+[19] "==== Statistics ===="
+[20] "++++ Basic (mainly descriptive) | {{indexmenu>tips:stats-basic}}
+++++"
+[21] "++++ Distributions | {{indexmenu>tips:stats-distri}} ++++"
+[22] "++++ Inference (parametric) | {{indexmenu>tips:stats-inference}}
+++++"
+[23] "++++ Nonparametric stats | {{indexmenu>tips:stats-nonpar}} ++++"
+[24] "++++ Models & regressions | {{indexmenu>tips:stats-models}}
+++++"
+[25] "++++ Multivariate stats | {{indexmenu>tips:stats-multivariate}}
+++++"
+[26] "++++ Time series | {{indexmenu>tips:stats-ts}} ++++"
+
+Whereas before it had just two levels.
+
+So I need to look in the Wiki and see if the original alltips.R
+program has been revised to take this into account, see how it works
+around this change.
+
+I'll check back with you later.
+
+pj
+
+On 6/22/06, Ben Bolker <bolker at zoo.ufl.edu> wrote:
+> Philippe Grosjean wrote:
+>
+> >
+> > I still see a couple of unformatted tips in your last document. Was it
+> > generated lately?
+> >
+>
+>   Gives a date of June 10 at the top.
+>
+>   There seem to be missing bits, which seem to have been there before
+> June 10 -- e.g. nothing shows up under "matrices & arrays", when there
+> are really a number of pages there in the wiki.
+>
+>   I would feel better about pointing out issues like this if Paul
+> would be willing to re-generate the page so we would know we were
+> dealing with a recent version.
+>
+>   cheers
+>     Ben
+>
+> --
+> 620B Bartram Hall                            bolker at zoo.ufl.edu
+> Zoology Department, University of Florida    http://www.zoo.ufl.edu/bolker
+> Box 118525                                   (ph)  352-392-5697
+> Gainesville, FL 32611-8525                   (fax) 352-3
+>
+
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From pauljohn32 at gmail.com  Sat Jun 24 07:08:43 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Sat, 24 Jun 2006 00:08:43 -0500
+Subject: [R-wiki] is tips:tips auto generated somehow? New alltips.html
+	generated
+Message-ID: <13e802630606232208j78e2c3edn87d8fdf9d60dd3d5@mail.gmail.com>
+
+I still don't understand php as well as I do perl for CGI, so some
+things about the R wiki surprise me.  Maybe I oppose javascript too
+much.  Or, well, I don't want to require users to turn it on.
+
+In the current tips:tips, javascript is required to see the listing of
+sub-items.
+
+But the beauty of Wiki is that the older version is still present, and
+this Wiki has a very special property that you can call an old version
+explicity! Very interesting. So in the alltips script, I can still use
+the old revision explicitly:
+
+
+rawimport <- readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&rev=1150068302&do=export_raw")
+
+And then the script runs as before.
+
+So here's that new summary sheet that Ben asked for is here
+
+http://pj.freefaculty.org/R/alltips.html
+
+But what worries me is that tips:tips appears (to my limited
+understanding) to be a static collection of headings, and I don't
+understand how it will grow with the Wiki itself.  Maybe tips:tips
+was/is not up-to-date?  Perhaps this explains why some topics seem
+missing?
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From ggrothendieck at gmail.com  Sat Jun 24 07:40:37 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sat, 24 Jun 2006 01:40:37 -0400
+Subject: [R-wiki] is tips:tips auto generated somehow? New alltips.html
+	generated
+In-Reply-To: <13e802630606232208j78e2c3edn87d8fdf9d60dd3d5@mail.gmail.com>
+References: <13e802630606232208j78e2c3edn87d8fdf9d60dd3d5@mail.gmail.com>
+Message-ID: <971536df0606232240sf748d46tef2e5df3cdf45a16@mail.gmail.com>
+
+It would be nice to number the sections.
+
+On 6/24/06, Paul Johnson <pauljohn32 at gmail.com> wrote:
+> I still don't understand php as well as I do perl for CGI, so some
+> things about the R wiki surprise me.  Maybe I oppose javascript too
+> much.  Or, well, I don't want to require users to turn it on.
+>
+> In the current tips:tips, javascript is required to see the listing of
+> sub-items.
+>
+> But the beauty of Wiki is that the older version is still present, and
+> this Wiki has a very special property that you can call an old version
+> explicity! Very interesting. So in the alltips script, I can still use
+> the old revision explicitly:
+>
+>
+> rawimport <- readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&rev=1150068302&do=export_raw")
+>
+> And then the script runs as before.
+>
+> So here's that new summary sheet that Ben asked for is here
+>
+> http://pj.freefaculty.org/R/alltips.html
+>
+> But what worries me is that tips:tips appears (to my limited
+> understanding) to be a static collection of headings, and I don't
+> understand how it will grow with the Wiki itself.  Maybe tips:tips
+> was/is not up-to-date?  Perhaps this explains why some topics seem
+> missing?
+>
+> --
+> Paul E. Johnson
+> Professor, Political Science
+> 1541 Lilac Lane, Room 504
+> University of Kansas
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From john.maindonald at anu.edu.au  Sat Jun 24 09:16:23 2006
+From: john.maindonald at anu.edu.au (John Maindonald)
+Date: Sat, 24 Jun 2006 17:16:23 +1000
+Subject: [R-wiki] Wiki pages in other formats - caveats
+In-Reply-To: <mailman.23.1151056807.16041.r-sig-wiki@r-project.org>
+References: <mailman.23.1151056807.16041.r-sig-wiki@r-project.org>
+Message-ID: <0E2C3FD3-8F48-48E6-9585-E3FD4A6C3E46@anu.edu.au>
+
+There's another point.  The way I use such lists is to quickly scan  
+it to
+see if what I want is present.  Or, I may just be browsing to get an  
+idea
+of the style and content.  I do not want to have to click repeatedly  
+to do
+this.  A broad idea of what is there is useful background once I get
+around to adding my own contributions.
+
+Adding "edit this item" links seems a very good way to go.  I would not
+want it to kill you, though; you are doing too useful a job!
+John Maindonald
+
+
+
+John Maindonald             email: john.maindonald at anu.edu.au
+phone : +61 2 (6125)3473    fax  : +61 2(6125)5549
+Mathematical Sciences Institute, Room 1194,
+John Dedman Mathematical Sciences Building (Building 27)
+Australian National University, Canberra ACT 0200.
+
+
+On 23 Jun 2006, at 8:00 PM, r-sig-wiki-request at r-project.org wrote:
+
+> Date: Thu, 22 Jun 2006 11:56:21 -0500
+> From: "Paul Johnson" <pauljohn32 at gmail.com>
+> Subject: Re: [R-wiki] Wiki pages in other formats - caveats
+> To: r-sig-wiki at r-project.org
+> Message-ID:
+> 	<13e802630606220956x661a160egdb0eff3aa407ae0e at mail.gmail.com>
+> Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+>
+> I would respectfully disagree.  The Wiki is for editing, not
+> necessarily for presentation.  We have to remember that 99% of people
+> who will stumble into the Wiki are new users who probably won't want
+> to add content.  It is very unhelpful to have to point and click to
+> see every little thing, and people quickly become bewildered/confused.
+>
+> I'd rather just show users an output document, such as a new and
+> better alltips, and in the preface of that document, we should make
+> sure experts know they can add stuff.  We should make sure that any
+> other "all in one" output points back to the wiki, preferably with
+> "edit this content" links.
+>
+> And then the alltips document could be re-generated frequently to
+> reflect the Wiki content.  Depending on how much CPU you can spare, we
+> could regenerate it for each and every addition.
+>
+> PJ
+>
+> PS: I'm still asking for feedback on the markup and presentation  of
+> the newest alltips here:
+>
+> http://pj.freefaculty.org/R/alltips.html
+>
+> in light of Philippe's concern, I'm going to see what I can do about
+> putting in "edit this item" links for everything.  I've not done that
+> with this particular Wiki/CGI framework, but I've done it with others
+> and doubt it will kill me.
+>
+> On 6/19/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>> Hello,
+>>
+>> I just want to mention a problem with providing wiki pages in a
+>> different format (many people ask for the R tips in a single HTML  
+>> or PDF
+>> page). Accessing tips, or any other pages, in a different format
+>> **breaks the potential to edit easily the original pages**. It is the
+>> strength of the Wiki (every reader can easily become an author)  
+>> that is
+>> lost. All people that prefer to read the R tips in a single HTML,  
+>> or PDF
+>> page will **not** tend to contribute to the writing of those tips  
+>> (they
+>> could even ignore totally the original Wiki site). We could then  
+>> arrive
+>> to the situation that a limited number of "wiki freaks" actually  
+>> do the
+>> work (in editing the Wiki pages) for a large group of readers  
+>> being pure
+>> passive consummers of HTML or PDF "digests" of these pages.
+>>
+>> It is a little bit (with some exageration!) like if R was **not**  
+>> Open
+>> Source and only the R Core Team had access to the code, and then,  
+>> they
+>> spread only binaries. R would never be what it is without the Open
+>> Source approach (meaning easy and direct access to the code; just  
+>> type
+>> the name of a R function in your running R session, for instance).
+>>
+>> For the Wiki, it is the same: the Wiki can only grow if people use  
+>> it as
+>> it should be: reading pages **directly in the Wiki**, and being  
+>> only one
+>> button click away (the 'Edit this page' button appearing on any Wiki
+>> page) from contributing to it,... otherwise, we got much less
+>> contributors and the Wiki dies from a lack of fresh material to  
+>> keep it
+>> alive.
+>>
+>> Those days, Internet is widespread enough to be considered as widely
+>> available. So, it is not a major drawback to have to connect to the R
+>> Wiki site to read those pages. Moreover, I made much effort to get a
+>> better navigation, especially in the tips sections... and I  
+>> received no
+>> comment on it, so, I consider that everyone is happy with the new
+>> sidebars navigation system ;-)
+>>
+>> To conclude: **do prefer reading the R Wiki pages in native format,
+>> rather that in HTML or PDF "digest" form!** It is the whole Wiki  
+>> concept
+>> that depends upon your acceptation of this approach: to be always one
+>> button-click away from editing what you are reading.
+>>
+>> Thanks,
+>>
+>> Philippe Grosjean
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+>
+>
+> -- 
+> Paul E. Johnson
+> Professor, Political Science
+> 1541 Lilac Lane, Room 504
+> University of Kansas
+
+
+From Philippe.Grosjean at umh.ac.be  Tue Jun 27 12:29:43 2006
+From: Philippe.Grosjean at umh.ac.be (Philippe Grosjean)
+Date: Tue, 27 Jun 2006 12:29:43 +0200
+Subject: [R-wiki] New developers section on the R Wiki
+Message-ID: <44A10897.5010709@umh.ac.be>
+
+Hello all,
+
+There is a new section on the R Wiki (hhtp://wiki.r-project.org) 
+dedicated to discussions around various R developments 
+(http://wiki.r-project.org/rwiki/doku.php?id=developers:developers).
+
+Any R developer is free to create a page, or a whole subsection to 
+discuss particular R developement aspects. This is of course purely 
+optional. In particular, R Core Team members use to maintain their own 
+development section at http://developer.r-project.org/.
+
+Note also that, if you create a page on the R Wiki, it is to share a 
+discussion about your developements with other useRs/developeRs. If your 
+intention is just to inform people about your own developments, you 
+should better write an HTML page on your own Web site (read-only for the 
+other useRs/developeRs).
+Best,
+
+Philippe Grosjean
+
+(Sorry for possible cross-posting)
+-- 
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Belgium
+( ( ( ( (
+..............................................................
+
+
+From jeff.horner at vanderbilt.edu  Tue Jun 27 17:49:34 2006
+From: jeff.horner at vanderbilt.edu (Jeffrey Horner)
+Date: Tue, 27 Jun 2006 10:49:34 -0500
+Subject: [R-wiki] Packages outside of CRAN and Bioconductor
+Message-ID: <44A1538E.4050304@vanderbilt.edu>
+
+Hello all,
+
+Where's the appropriate place to create pages for these? I've got some 
+notes on packages like GDD from rosuda.org that I'd like to place in the 
+wiki, and I'd also like to create a page for RApache.
+
+Thanks for all the hard work on the wiki.
+-- 
+Jeffrey Horner       Computer Systems Analyst         School of Medicine
+615-322-8606         Department of Biostatistics   Vanderbilt University
+
+
+From pauljohn32 at gmail.com  Tue Jun 27 19:58:22 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Tue, 27 Jun 2006 12:58:22 -0500
+Subject: [R-wiki] Can't understand how to insert wiki pages and make
+	(oldstyle) alltips work
+Message-ID: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+
+I put in my first wiki page and found it difficult. I guessed on how
+to create a page and that worked.  I navigated to the graphics section
+and want to insert a tip at the beginning of the basic graphics
+section.  So I put a number 0 on the start of the tip name.
+
+http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:0savegraphs
+
+I can'd understand how I put a title on that item and how it is
+supposed to be integrated into the left-side menus and also how to
+make it show up in the output of the alltips sorts of script.
+
+A command of this type:
+rawimport <- readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&rev=1150068302&do=export_raw")
+
+does not harvest all the current topics, but rather displays a static
+list from a while ago.
+
+Any help?
+
+I got really stumped for a while because my browser had javascript
+turned off and one cannot even browse the wiki without it.
+
+pj
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From bolker at ufl.edu  Tue Jun 27 22:23:11 2006
+From: bolker at ufl.edu (Ben Bolker)
+Date: Tue, 27 Jun 2006 16:23:11 -0400
+Subject: [R-wiki] Can't understand how to insert wiki pages and
+ make	(oldstyle) alltips work
+In-Reply-To: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+References: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+Message-ID: <44A193AF.7060203@ufl.edu>
+
+  I'm not sure I understand all your questions, but I'll give it
+a try.
+
+  First of all, "0savegraphs" *does* show up, in the expandable
+index generated in tips:tips, and in the "full contents" section
+at the bottom of graphics-base.
+
+  It doesn't show up in the top half of tips:graphics-base, because
+that list is not automatically generated -- it's hand-coded.
+You can edit the page to add your title to the list.
+
+  Ideally/eventually the Wiki code will be extended so that
+the "Full content" and other lists include the title of the
+page (e.g. "How to save graphs in a file"), instead of or
+in addition to the name of the page ("0savegraphs").
+
+   I don't see a left-side/index bar list at the level of
+these sub-pages, don't know how they work.
+
+   For your other question: it looks like the old list you're
+getting is because you have a rev= command in your URL?  Perhaps try
+
+
+rawimport <-
+readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&do=export_raw")
+
+(just guessing)?
+
+   cheers
+     Ben
+
+
+Paul Johnson wrote:
+> I put in my first wiki page and found it difficult. I guessed on how
+> to create a page and that worked.  I navigated to the graphics section
+> and want to insert a tip at the beginning of the basic graphics
+> section.  So I put a number 0 on the start of the tip name.
+> 
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:0savegraphs
+> 
+> I can'd understand how I put a title on that item and how it is
+> supposed to be integrated into the left-side menus and also how to
+> make it show up in the output of the alltips sorts of script.
+> 
+> A command of this type:
+> rawimport <- readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&rev=1150068302&do=export_raw")
+> 
+> does not harvest all the current topics, but rather displays a static
+> list from a while ago.
+> 
+> Any help?
+> 
+> I got really stumped for a while because my browser had javascript
+> turned off and one cannot even browse the wiki without it.
+> 
+> pj
+>
+
+
+From pauljohn32 at gmail.com  Wed Jun 28 06:47:18 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Tue, 27 Jun 2006 23:47:18 -0500
+Subject: [R-wiki] Can't understand how to insert wiki pages and make
+	(oldstyle) alltips work
+In-Reply-To: <44A193AF.7060203@ufl.edu>
+References: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+	<44A193AF.7060203@ufl.edu>
+Message-ID: <13e802630606272147t55c4f73dp186c2c1999002f35@mail.gmail.com>
+
+Thanks. I put in my own menu item under Base (standard) graphics here:
+
+http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base
+
+Now I just need help from Phillipe on making the rawexport do what it used to.
+
+On 6/27/06, Ben Bolker <bolker at ufl.edu> wrote:
+> rawimport <-
+> readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&do=export_raw")
+>
+> (just guessing)?
+>
+Well, not any more.  It returns the major headings, not the titles
+individual items (like it used to).
+Here is what you get now:
+
+> rawimport
+ [1] "====== R Wiki - Tips ======"
+ [2] "A collection of short pages with R code examples (\"snippets\")
+((This section is inspired and initially filled with the excellent
+material from //Paul Johnson// known as
+[[http://www.ku.edu/~pauljohn/R/Rtips.html#1.1|Rtips]].))..."
+ [3] ""
+ [4] "<note classic>"
+ [5] "For those who migrate Paul Johnson's Rtips, please, update the
+[[misc:rtips-status|Rtips status]] page."
+ [6] "</note>"
+ [7] ""
+ [8] "==== Data ===="
+ [9] "++++ Input-output | {{indexmenu>tips:data-io}} ++++"
+[10] "++++ Data frames | {{indexmenu>tips:data-frames}} ++++"
+[11] "++++ Lists | {{indexmenu>tips:data-lists}} ++++"
+[12] "++++ Matrices & arrays | {{indexmenu>tips:data-matrices}} ++++"
+[13] "++++ Vectors | {{indexmenu>tips:data-vectors}} ++++"
+[14] "++++ Factors | {{indexmenu>tips:data-factors}} ++++"
+[15] "++++ Manipulation | {{indexmenu>tips:data-manip}} ++++"
+[16] "++++ Databases | {{indexmenu>tips:data-bases}} ++++"
+
+[and so forth]
+
+The items are hidden behind "{indexmenu>...".
+
+I need is some http:// style way to get the menuitems that you see
+when you click. Those items are there hidden in the html, javascript
+reveals them.
+
+I think I could download the html output and postprocess it in Perl (a
+more comfortable zone for me than R, actually), but I really think
+that won't be necessary.
+
+While I'm asking about http:// uses, suppose I want to create another
+page that has a link that points at the right to edit an item.  In the
+Wiki's current format, one must click log in and then the edit button
+appears.
+
+I need a one step way to ask to edit a particular item, at which point
+the user is asked for a username & password.  Something like a
+"revise" option to pass through in the CGI part of the URL.
+
+http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:0savegraphs&revise=true
+
+Possible?  I've seen that in Perl based Wiki programs, but don't know
+about this Php/Javascript kind.
+
+pj
+
+pj
+
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From phgrosjean at sciviews.org  Wed Jun 28 10:39:05 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 28 Jun 2006 10:39:05 +0200
+Subject: [R-wiki] Can't understand how to insert wiki pages and
+ make	(oldstyle) alltips work
+In-Reply-To: <13e802630606272147t55c4f73dp186c2c1999002f35@mail.gmail.com>
+References: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>	<44A193AF.7060203@ufl.edu>
+	<13e802630606272147t55c4f73dp186c2c1999002f35@mail.gmail.com>
+Message-ID: <44A24029.6020505@sciviews.org>
+
+Hello Paul,
+
+I think that Ben answered your question correctly, and I will give a 
+little bit more explanation on how and why the Wiki works like that:
+
+1) "I even can't navigate the Wiki with javascript turned off". Well, I 
+must say I always use Javascript with reasonable security levels. so, I 
+tend to assume what works on my computer should work on other ones! Now, 
+turning javascript off is aq legitimate right,... and the Wiki should 
+work that way. Most of javascript parts (like ASCIIMathML, for instance) 
+could be turned into a php of server-side javascript code. The only 
+javascript that MUST be executed on the client is the folding of table 
+of contents. This is why you cannot navigate without javascript: because 
+you cannot unfold sections to reveal their content. I must work on this 
+and unfold all sections by default in case javascript is not activated. 
+I put those aspects on the TODO list, but not as a top priority.
+
+2) There are three ways to create a new wiki page: (1) type its "path", 
+like 'tips:graphics-base:0savegraphs' in the search box, click 'search' 
+and then, create the page, (2) do the same, but type the whole URL in 
+the navigator: 
+'http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:0savegraphs'. 
+A little bit more painful, but same results, (3) create a link to your 
+nex page at the right location, then navigate to it and click 'Create 
+this page' on the screen telling that the page does not exists. The 
+third way is *warmly recommended*. So, if you navigate to 
+tips:graphics-base and add you link with explicit description on the 
+page, then, everything is right: your page appears everywhere it should 
+be (tips:tips, description and full content (page names) of 
+tips:graphics-base). That way, it is very easy to both keep coherence on 
+the site and create new tips.
+
+3) List of pages, not descriptions in tips:tips and "full content" 
+section: this is managed automatically by a plugin. As already 
+sugfgested (Ben Bolker?), it should be better to have the full 
+decription of the page there. I need to rework the plugin for that. This 
+is on the TODO list. Current navigation in tips is the best I can do 
+with current version of this index plugin.
+
+4) "I got only old versions with:
+rawimport <- 
+readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&rev=1150068302&do=export_raw")"
+You should know that the Wiki keeps ALL versions of ALL documents. An 
+URL lile this does retrieves a given old version of tips:tips. So, don't 
+be surprized if it is not up-to-date!
+
+5) "rawimport <- 
+readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&do=export_raw")
+Well, not any more.  It returns the major headings, not the titles 
+individual items (like it used to)." You have certainly noticed that 
+tips:tips was deeply reworked to match the new and more flexible 
+navigation system. The problem is: your script should NOT be based on 
+the content of any page to retrieve an INDEX of pages! If you want to 
+get the index of all pages in a given section, you should navigate to 
+this particular index. The difficulty is that the index cannot be 
+exported in raw format. So, we need to retrieve the xHTML version. That 
+complicates a little bit the search. Here is the function that does the 
+job. That function is safe now, since the way the index is displayed 
+will not change, on the contrary of wiki pages:
+
+"getWikiTipsIndex" <-
+function() {
+	## First of all, we need to get the list of all subsections in tips
+	stips <- readLines("http://wiki.r-project.org/rwiki/doku.php?id=&idx=tips")
+	# Keep only lines related to tips sections
+	stips <- stips[grep("idx=tips:", stips)]
+	# Retrieve the sections from these lines
+	stips <- sub("^.*(idx=tips:[^\"]*).*$", "\\1", stips)
+	
+	# Cycle through all the tips subsections and retrieve the list of pages
+	ltips <- character(0)
+	for(st in stips) {
+		Ltips <- readLines(paste("http://wiki.r-project.org/rwiki/doku.php?id=",
+			st, sep = "&"))
+		# Keep only lines related to tips pages in that section
+		Ltips <- Ltips[grep("<li class=\"level3\">", Ltips)]
+		if (!is.null(Ltips) && length(Ltips) > 0) {
+			# Retrieve the path to the pages from that list
+			ltips <- c(ltips, sub("^.*id=(tips:[^\"]*).*$", "\\1", Ltips))
+		}	
+	}
+	return(ltips)
+}
+
+getWikiTipsIndex()
+
+I'll write or update a page about this. Note that such a function (plus 
+your code to generate the classic appearance of Rtips) should be 
+collected together with othert useful R Wiki functions to constitute the 
+future rwiki package.
+I hop I answered all your questions clearly enough.
+Best,
+
+Philippe Grosjean
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+( ( ( ( (
+  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+  ) ) ) ) )
+( ( ( ( (    web:   http://www.umh.ac.be/~econum
+  ) ) ) ) )          http://www.sciviews.org
+( ( ( ( (
+..............................................................
+
+Paul Johnson wrote:
+> Thanks. I put in my own menu item under Base (standard) graphics here:
+> 
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base
+> 
+> Now I just need help from Phillipe on making the rawexport do what it used to.
+> 
+> On 6/27/06, Ben Bolker <bolker at ufl.edu> wrote:
+> 
+>>rawimport <-
+>>readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&do=export_raw")
+>>
+>>(just guessing)?
+>>
+> 
+> Well, not any more.  It returns the major headings, not the titles
+> individual items (like it used to).
+> Here is what you get now:
+> 
+> 
+>>rawimport
+> 
+>  [1] "====== R Wiki - Tips ======"
+>  [2] "A collection of short pages with R code examples (\"snippets\")
+> ((This section is inspired and initially filled with the excellent
+> material from //Paul Johnson// known as
+> [[http://www.ku.edu/~pauljohn/R/Rtips.html#1.1|Rtips]].))..."
+>  [3] ""
+>  [4] "<note classic>"
+>  [5] "For those who migrate Paul Johnson's Rtips, please, update the
+> [[misc:rtips-status|Rtips status]] page."
+>  [6] "</note>"
+>  [7] ""
+>  [8] "==== Data ===="
+>  [9] "++++ Input-output | {{indexmenu>tips:data-io}} ++++"
+> [10] "++++ Data frames | {{indexmenu>tips:data-frames}} ++++"
+> [11] "++++ Lists | {{indexmenu>tips:data-lists}} ++++"
+> [12] "++++ Matrices & arrays | {{indexmenu>tips:data-matrices}} ++++"
+> [13] "++++ Vectors | {{indexmenu>tips:data-vectors}} ++++"
+> [14] "++++ Factors | {{indexmenu>tips:data-factors}} ++++"
+> [15] "++++ Manipulation | {{indexmenu>tips:data-manip}} ++++"
+> [16] "++++ Databases | {{indexmenu>tips:data-bases}} ++++"
+> 
+> [and so forth]
+> 
+> The items are hidden behind "{indexmenu>...".
+> 
+> I need is some http:// style way to get the menuitems that you see
+> when you click. Those items are there hidden in the html, javascript
+> reveals them.
+> 
+> I think I could download the html output and postprocess it in Perl (a
+> more comfortable zone for me than R, actually), but I really think
+> that won't be necessary.
+> 
+> While I'm asking about http:// uses, suppose I want to create another
+> page that has a link that points at the right to edit an item.  In the
+> Wiki's current format, one must click log in and then the edit button
+> appears.
+> 
+> I need a one step way to ask to edit a particular item, at which point
+> the user is asked for a username & password.  Something like a
+> "revise" option to pass through in the CGI part of the URL.
+> 
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:0savegraphs&revise=true
+> 
+> Possible?  I've seen that in Perl based Wiki programs, but don't know
+> about this Php/Javascript kind.
+> 
+> pj
+> 
+> pj
+> 
+>
+
+
+From phgrosjean at sciviews.org  Wed Jun 28 10:42:21 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 28 Jun 2006 10:42:21 +0200
+Subject: [R-wiki] Can't understand how to insert wiki pages and
+ make	(oldstyle) alltips work
+In-Reply-To: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+References: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+Message-ID: <44A240ED.6020800@sciviews.org>
+
+... Oh, I forgot to tell: it should be rather easy to change 
+getWikiTipsIndex() to make it sort sections in a given order: just 
+provide an argument with a list of sections in the order you want. It is 
+a little bit more difficult to do for pages, since the list is less 
+static, but you can imagine at least to have an argument telling which 
+pages you want on the top of the list.
+Best,
+
+Philippe Grosjean
+
+
+Paul Johnson wrote:
+> I put in my first wiki page and found it difficult. I guessed on how
+> to create a page and that worked.  I navigated to the graphics section
+> and want to insert a tip at the beginning of the basic graphics
+> section.  So I put a number 0 on the start of the tip name.
+> 
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base:0savegraphs
+> 
+> I can'd understand how I put a title on that item and how it is
+> supposed to be integrated into the left-side menus and also how to
+> make it show up in the output of the alltips sorts of script.
+> 
+> A command of this type:
+> rawimport <- readLines("http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&rev=1150068302&do=export_raw")
+> 
+> does not harvest all the current topics, but rather displays a static
+> list from a while ago.
+> 
+> Any help?
+> 
+> I got really stumped for a while because my browser had javascript
+> turned off and one cannot even browse the wiki without it.
+> 
+> pj
+>
+
+
+From phgrosjean at sciviews.org  Wed Jun 28 21:04:23 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 28 Jun 2006 21:04:23 +0200
+Subject: [R-wiki] Collecting all R Wiki tips together - new version
+In-Reply-To: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+References: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+Message-ID: <44A2D2B7.1050307@sciviews.org>
+
+Hello Paul, hello all,
+
+I have tried to take your remarks into account and to polish the 
+functions that Romain Fran?ois cooked to collect all R tips into a 
+single page. The result is in 
+http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips.
+
+There is still one missing feature: the 'headers' argument that helps 
+organize the pages into subsections in a given order (not just in 
+alphabetical order). This is not that simple to do... so, I leave it for 
+another time (or another developer?).
+
+These function will go the future rwiki package. They will be useful for 
+other purposes, like creating a complete manual from the collection of a 
+series of Wiki pages together. A logical (but not so easy to do) 
+extension would be to create a single pdf file, instead of a HTML file. 
+In the meantime, it is still possible to import the created HTML page 
+into Microsoft Word, or OpenOffice Writer and to create the PDF from there.
+
+We are still at the beginning of the R Wiki era ;-) Thus, we have only 
+basic tools available. Be patient for the rest (or do it by yourself)!
+
+Best,
+
+Philippe
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Belgium
+( ( ( ( (
+..............................................................
+
+
+From pauljohn32 at gmail.com  Thu Jun 29 09:20:45 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Thu, 29 Jun 2006 02:20:45 -0500
+Subject: [R-wiki] Collecting all R Wiki tips together - new version
+In-Reply-To: <44A2D2B7.1050307@sciviews.org>
+References: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>
+	<44A2D2B7.1050307@sciviews.org>
+Message-ID: <13e802630606290020h6e178fdcqebe8e9ec271d4f02@mail.gmail.com>
+
+OK, I've been testing this and found a small typo in your code (extra
+comma), but logged in and fixed it.  Now the program runs for me.
+
+I see the problem with Headers.  That is a tough one.
+
+I considered just manually designing a page with hard coded headers
+and then use your function for each one, but it generates separate
+html pages as output.  I think I can fix that by re-working your
+function a bit, but I'm hesitant to work too hard on this because the
+situation is so fluid.  (You know, the "old way" alltips you started
+and I continued did actually work, headers and all.)
+
+I have a question about your html output.  In  your item listings, you
+have both "name" and "id" declared, but with the same values. Example
+
+<a name="
+tips:data-io:aggregate_values
+" id="
+tips:data-io:aggregate_values
+"></a>
+
+To the best of my understanding, the "id" here is superflous, or
+perhaps even incorrect.  There is no CSS information associated with
+the specific tip "tips:data-io:aggregate_values" is there?
+
+pj
+
+On 6/28/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Hello Paul, hello all,
+>
+> I have tried to take your remarks into account and to polish the
+> functions that Romain Fran?ois cooked to collect all R tips into a
+> single page. The result is in
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips.
+>
+> T
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+
+
+From phgrosjean at sciviews.org  Thu Jun 29 12:42:43 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Thu, 29 Jun 2006 12:42:43 +0200
+Subject: [R-wiki] Collecting all R Wiki tips together - new version
+In-Reply-To: <13e802630606290020h6e178fdcqebe8e9ec271d4f02@mail.gmail.com>
+References: <13e802630606271058s2af79ab9t7cc42dcb14428165@mail.gmail.com>	<44A2D2B7.1050307@sciviews.org>
+	<13e802630606290020h6e178fdcqebe8e9ec271d4f02@mail.gmail.com>
+Message-ID: <44A3AEA3.5080904@sciviews.org>
+
+Paul Johnson wrote:
+> OK, I've been testing this and found a small typo in your code (extra
+> comma), but logged in and fixed it.  Now the program runs for me.
+> 
+> I see the problem with Headers.  That is a tough one.
+> 
+> I considered just manually designing a page with hard coded headers
+> and then use your function for each one, but it generates separate
+> html pages as output.  I think I can fix that by re-working your
+> function a bit, but I'm hesitant to work too hard on this because the
+> situation is so fluid.  (You know, the "old way" alltips you started
+> and I continued did actually work, headers and all.)
+
+Well, this could be a solution: design the table of content manually. 
+This could be easily added in the function (add a toc = NULL argument; 
+if NULL, it generates the TOC, if it is a file or character string, use 
+it instead -and then, extract the name of pages to include from your own 
+TOC-). However, with this mechanism, you loose the benefit of not 
+including missing pages in the TOC.
+
+> I have a question about your html output.  In  your item listings, you
+> have both "name" and "id" declared, but with the same values. Example
+> 
+> <a name="
+> tips:data-io:aggregate_values
+> " id="
+> tips:data-io:aggregate_values
+> "></a>
+> 
+> To the best of my understanding, the "id" here is superflous, or
+> perhaps even incorrect.  There is no CSS information associated with
+> the specific tip "tips:data-io:aggregate_values" is there?
+
+Well, I just reuse formattings done by the Wiki engine. With the new 
+version of DokuWiki, both CSS and javascript modules associated with the 
+page are build dynamically through php code. Also, it results in pretty 
+unreadable files (everything on a single line, cryptic variable names, 
+etc.). The goal of this cryptic code is not to make it less readable, 
+but to shorten the file so that it load faster. However, the consequence 
+is that it is also more difficult to track what and how things are 
+actually used. So, for security, I decided to specify both 'name' and 
+'id'. But otherwise, I agree with you that they are probably redundant.
+
+Philippe
+
+> pj
+> 
+> On 6/28/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> 
+>>Hello Paul, hello all,
+>>
+>>I have tried to take your remarks into account and to polish the
+>>functions that Romain Fran?ois cooked to collect all R tips into a
+>>single page. The result is in
+>>http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips.
+>>
+>>T
+> 
+>
+
+
+From pauljohn32 at gmail.com  Thu Jun 29 21:30:32 2006
+From: pauljohn32 at gmail.com (Paul Johnson)
+Date: Thu, 29 Jun 2006 14:30:32 -0500
+Subject: [R-wiki] found way to get headers, still need a little help
+Message-ID: <13e802630606291230j595279deibe6c9e1a09722e32@mail.gmail.com>
+
+I'm attaching "alltips3.R", on which I have worked pretty hard.  This
+combines the "rawexport" feature to get the headings, with the newer
+getWikiIndex functions to do the dirty work.  It breaks up the big
+functions in the alltips script that Phillipe posted and then shows at
+least one way to make all of the moving pieces fit together and
+produce a full tipsheet with headers.
+
+If tips:tips or the rawexport of it change, of course this will break. (sigh).
+
+I'm baffled about a couple of things.
+
+1. When I browse this page, it is a bit slow and I get this repeated error
+
+"Warning: Unresponsive Script" A script on this page may be busy, or
+it may have stopped responding. You can stop the script now, or you
+can continue to see if the script will continue"
+
+I just have the HEAD information from the current alltips here, but
+I'm wondering why I need any javascript at all.
+
+2. I Do NOT understand why some tip items are indented more than others.
+
+Take a look at the content under:
+
+Exchanging data between R and MS Windows apps (Excel, etc)
+
+Is the indentation happening because the author of the tip put special
+html into his entry?
+
+I'll figure out why minor headings don't show in the TOC.  And I need
+to convert the titles of the tips themselves to <h3>.
+
+-- 
+Paul E. Johnson
+Professor, Political Science
+1541 Lilac Lane, Room 504
+University of Kansas
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: alltips3.R
+Type: application/octet-stream
+Size: 11005 bytes
+Desc: not available
+Url : https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060629/22f46382/attachment.obj 
+
+From phgrosjean at sciviews.org  Thu Jun 29 22:43:04 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Thu, 29 Jun 2006 22:43:04 +0200
+Subject: [R-wiki] found way to get headers, still need a little help
+In-Reply-To: <13e802630606291230j595279deibe6c9e1a09722e32@mail.gmail.com>
+References: <13e802630606291230j595279deibe6c9e1a09722e32@mail.gmail.com>
+Message-ID: <44A43B58.7010109@sciviews.org>
+
+Paul Johnson wrote:
+> I'm attaching "alltips3.R", on which I have worked pretty hard.  This
+> combines the "rawexport" feature to get the headings, with the newer
+> getWikiIndex functions to do the dirty work.  It breaks up the big
+> functions in the alltips script that Phillipe posted and then shows at
+> least one way to make all of the moving pieces fit together and
+> produce a full tipsheet with headers.
+> 
+> If tips:tips or the rawexport of it change, of course this will break. 
+> (sigh).
+
+I haven't look at it yet, but as I said, I would not trust tips:tips 
+because it may change again in the future, although not until a couple 
+of months for sure. So, you are safe for nerar future :-)
+
+> I'm baffled about a couple of things.
+> 
+> 1. When I browse this page, it is a bit slow and I get this repeated error
+> 
+> "Warning: Unresponsive Script" A script on this page may be busy, or
+> it may have stopped responding. You can stop the script now, or you
+> can continue to see if the script will continue"
+
+Web sites based on html pages must be designed with a series of SHORT 
+pages LINKED together. The "alltips.html" page is so large (hundreds of 
+equivalently printed pages) that you reach limits web browsers designers 
+would never imagine someone would reach. The format for single, long 
+documents on the web is PDF, not HTML. I am afraid there is little we 
+can do here.
+
+> I just have the HEAD information from the current alltips here, but
+> I'm wondering why I need any javascript at all.
+
+Footnotes and mathematical equations, are example of items that use 
+JavaScript on the wiki pages.
+
+> 2. I Do NOT understand why some tip items are indented more than others.
+
+Indentation reflect level of the headers (h1 = no indentation, h2 = 
+slight indentation, h3 = larger indentation, etc.)
+
+> Take a look at the content under:
+> 
+> Exchanging data between R and MS Windows apps (Excel, etc)
+> 
+> Is the indentation happening because the author of the tip put special
+> html into his entry?
+
+It is a style decide on purpose.
+
+> I'll figure out why minor headings don't show in the TOC.  And I need
+> to convert the titles of the tips themselves to <h3>.
+
+In the function, I collect only the first H1 title. However, it is 
+possible to collect, let's say, all H1, H2 and H3 levels. You will end 
+up with a pretty large TOC, but why not? Just look at the code to 
+collect H1 titles and modify it to collect other title levels, if you like.
+
+Best,
+
+Philippe
+
+

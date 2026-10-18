@@ -1,0 +1,1194 @@
+From bolker at zoo.ufl.edu  Mon May  1 20:50:18 2006
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Mon, 01 May 2006 14:50:18 -0400
+Subject: [R-wiki] [Fwd: Wiki for R]
+Message-ID: <4456586A.6010702@zoo.ufl.edu>
+
+
+   a vote of confidence ...
+
+-------- Original Message --------
+Subject: Wiki for R
+Date: Sun, 30 Apr 2006 22:33:51 -0400
+From: Farrel Buchinsky <fjbuch at gmail.com>
+To: tplate at acm.org, bolker at zoo.ufl.edu
+
+I found your names on the Wiki and assumed that you are amongst the
+driving forces behind the Wiki.
+
+I just wanted to say that it is amazingly good. It looks like it is
+very new and needs to be fleshed out a lot but it is still
+unbelievable. It is written in plain English so that at least it is
+approachable if one happens to a human rather than a machine.
+
+Love it?
+
+Until now Peter Dalgaard's book was my only salvation. It appears as
+if I have just found a second. Thank you.
+
+--
+Farrel Buchinsky
+Mobile: (412) 779-1073
+116 Gilda Street
+Pittsburgh, PA 15217
+
+-- 
+620B Bartram Hall                            bolker at zoo.ufl.edu
+Zoology Department, University of Florida    http://www.zoo.ufl.edu/bolker
+Box 118525                                   (ph)  352-392-5697
+Gainesville, FL 32611-8525                   (fax) 352-392-3704
+
+
+From phgrosjean at sciviews.org  Thu May  4 10:55:43 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Thu, 04 May 2006 10:55:43 +0200
+Subject: [R-wiki] Modification in ACL in the R Wiki site
+Message-ID: <4459C18F.2070906@sciviews.org>
+
+Hello,
+
+I have now adjusted ACL to deny modification of pages by anonymous 
+users. So, you have now "Show pagesource" at the top left and bottom 
+instead of "Edit this page" if you do not log in to the Wiki site.
+Best,
+
+Philippe Grosjean
+-- 
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+( ( ( ( (
+  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+  ) ) ) ) )
+( ( ( ( (    web:   http://www.umh.ac.be/~econum
+  ) ) ) ) )          http://www.sciviews.org
+( ( ( ( (
+..............................................................
+
+
+From gregor.gorjanc at bfro.uni-lj.si  Thu May  4 13:21:48 2006
+From: gregor.gorjanc at bfro.uni-lj.si (Gregor Gorjanc)
+Date: Thu, 04 May 2006 13:21:48 +0200
+Subject: [R-wiki] R-sig-wiki Digest, Vol 5, Issue 2
+In-Reply-To: <mailman.23.1146736807.26222.r-sig-wiki@r-project.org>
+References: <mailman.23.1146736807.26222.r-sig-wiki@r-project.org>
+Message-ID: <4459E3CC.7050504@bfro.uni-lj.si>
+
+r-sig-wiki-request at r-project.org wrote:
+> Send R-sig-wiki mailing list submissions to
+> 	r-sig-wiki at r-project.org
+> 
+> To subscribe or unsubscribe via the World Wide Web, visit
+> 	https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> or, via email, send a message with subject or body 'help' to
+> 	r-sig-wiki-request at r-project.org
+> 
+> You can reach the person managing the list at
+> 	r-sig-wiki-owner at r-project.org
+> 
+> When replying, please edit your Subject line so it is more specific
+> than "Re: Contents of R-sig-wiki digest..."
+> 
+> 
+> Today's Topics:
+> 
+>    1. Modification in ACL in the R Wiki site (Philippe Grosjean)
+> 
+> 
+> ----------------------------------------------------------------------
+> 
+> Message: 1
+> Date: Thu, 04 May 2006 10:55:43 +0200
+> From: Philippe Grosjean <phgrosjean at sciviews.org>
+> Subject: [R-wiki] Modification in ACL in the R Wiki site
+> To: r-sig-wiki at r-project.org
+> Message-ID: <4459C18F.2070906 at sciviews.org>
+> Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+> 
+> Hello,
+> 
+> I have now adjusted ACL to deny modification of pages by anonymous 
+> users. So, you have now "Show pagesource" at the top left and bottom 
+> instead of "Edit this page" if you do not log in to the Wiki site.
+> Best,
+> 
+> Philippe Grosjean
+
+Nice. This will probably stop most of "vandalism".
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From gregor.gorjanc at gmail.com  Sun May 14 00:52:29 2006
+From: gregor.gorjanc at gmail.com (Gregor Gorjanc)
+Date: Sun, 14 May 2006 00:52:29 +0200
+Subject: [R-wiki] Scrambled pages
+Message-ID: <4466632D.1010502@bfro.uni-lj.si>
+
+Hi!
+
+I just noticed that some pages are scrambled. Any clues why?
+
+http://wiki.r-project.org/rwiki/doku.php?id=getting-started:installation:installation
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From phgrosjean at sciviews.org  Sun May 14 10:42:44 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 14 May 2006 10:42:44 +0200
+Subject: [R-wiki] Scrambled pages
+In-Reply-To: <4466632D.1010502@bfro.uni-lj.si>
+References: <4466632D.1010502@bfro.uni-lj.si>
+Message-ID: <4466ED84.80007@sciviews.org>
+
+Hello Gregor,
+
+Yes, indeed, several pages were not correctly displayed. This is due a 
+change in the caching mechanisms in the Wiki engine (I have recently 
+upgraded it). Now, there is a double-caching mechanism which is much 
+more efficient. However, it appears that the new mechanisms is sometimes 
+fooled by caches written by the old engine. The solution is to refresh 
+the faulty page in the cache. This is very easy to do. Just add 
+"&purge=true" at the end of the URL and reload the page. The problem 
+should be fixed permanently then.
+Best,
+
+Philippe Grosjean
+
+Gregor Gorjanc wrote:
+> Hi!
+> 
+> I just noticed that some pages are scrambled. Any clues why?
+> 
+> http://wiki.r-project.org/rwiki/doku.php?id=getting-started:installation:installation
+>
+
+
+From gregor.gorjanc at gmail.com  Sun May 14 11:00:33 2006
+From: gregor.gorjanc at gmail.com (Gregor Gorjanc)
+Date: Sun, 14 May 2006 11:00:33 +0200
+Subject: [R-wiki] Scrambled pages
+In-Reply-To: <4466ED84.80007@sciviews.org>
+References: <4466632D.1010502@bfro.uni-lj.si> <4466ED84.80007@sciviews.org>
+Message-ID: <4466F1B1.6020205@bfro.uni-lj.si>
+
+Philippe Grosjean wrote:
+> Hello Gregor,
+> 
+> Yes, indeed, several pages were not correctly displayed. This is due a
+> change in the caching mechanisms in the Wiki engine (I have recently
+> upgraded it). Now, there is a double-caching mechanism which is much
+> more efficient. However, it appears that the new mechanisms is sometimes
+> fooled by caches written by the old engine. The solution is to refresh
+> the faulty page in the cache. This is very easy to do. Just add
+> "&purge=true" at the end of the URL and reload the page. The problem
+> should be fixed permanently then.
+> Best,
+> 
+> Philippe Grosjean
+> 
+
+Thanks. The page is OK now and also some others, but it is good you sent
+xsolution here for the archive.
+
+> Gregor Gorjanc wrote:
+> 
+>> Hi!
+>>
+>> I just noticed that some pages are scrambled. Any clues why?
+>>
+>> http://wiki.r-project.org/rwiki/doku.php?id=getting-started:installation:installation
+>>
+>>
+> 
+
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From bolker at ufl.edu  Thu May 18 15:57:04 2006
+From: bolker at ufl.edu (Ben Bolker)
+Date: Thu, 18 May 2006 09:57:04 -0400
+Subject: [R-wiki] [R] sparklines
+In-Reply-To: <159E544A-C396-4FA0-B008-2E5929A27543@soc.soton.ac.uk>
+References: <73AA6295-9262-4527-B323-2F2AB796B8BB@mac.com>
+	<F02FD17C-1485-422D-BF62-0D8CA47768AD@soc.soton.ac.uk>
+	<loom.20060517T192807-829@post.gmane.org>
+	<159E544A-C396-4FA0-B008-2E5929A27543@soc.soton.ac.uk>
+Message-ID: <446C7D30.8070807@ufl.edu>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Robin Hankin wrote:
+> Hi Ben
+> 
+> yes, the wiki is the best place.  What is the best way to include Rnw
+> text while letting the user see the resulting  pdf file?
+> 
+> 
+> best wishes
+> 
+> 
+> Robin
+
+  that's a really good question.  The very very best solution
+would be an Sweave driver that produced Wiki code.  The next
+best, which I might be able to hack up, is to run
+latex2wiki ( http://wiki.loria.fr/wiki/Latex2wiki ) on the
+Sweave'd output, possibly incorporating a few lines to
+convert Schunks into code input and output chunks ...
+
+  any enthusiastic hackers out there?
+
+  Ben
+
+> 
+> 
+> On 17 May 2006, at 18:28, Ben Bolker wrote:
+> 
+>> Robin Hankin <r.hankin <at> noc.soton.ac.uk> writes:
+>>
+>>>
+>>> Hi everyone
+>>>
+>>> well, quite a few people were interested in my little sparklines
+>>> example,
+>>> and one suggestion was to post it on a webpage.
+>>>
+>>> What would be a good place to post it?
+>>
+>>   on the wiki?  http://wiki.r-project.org
+>>
+>>   Ben Bolker
+>>
+>> ______________________________________________
+>> R-help at stat.math.ethz.ch mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-help
+>> PLEASE do read the posting guide!
+>> http://www.R-project.org/posting-guide.html
+> 
+> -- 
+> Robin Hankin
+> Uncertainty Analyst
+> National Oceanography Centre, Southampton
+> European Way, Southampton SO14 3ZH, UK
+>  tel  023-8059-7743
+> 
+> 
+> 
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFEbH0Wc0dX2AfwOJkRAlIAAKDp1YUXG3XvxquV4tmOuuoQiVH+DgCeM2Zc
+xh4Rxyd7Tum1r3uQRzwr0mU=
+=oklv
+-----END PGP SIGNATURE-----
+
+
+From bolker at ufl.edu  Thu May 18 15:57:18 2006
+From: bolker at ufl.edu (Ben Bolker)
+Date: Thu, 18 May 2006 09:57:18 -0400
+Subject: [R-wiki] [R] sparklines
+In-Reply-To: <159E544A-C396-4FA0-B008-2E5929A27543@soc.soton.ac.uk>
+References: <73AA6295-9262-4527-B323-2F2AB796B8BB@mac.com>
+	<F02FD17C-1485-422D-BF62-0D8CA47768AD@soc.soton.ac.uk>
+	<loom.20060517T192807-829@post.gmane.org>
+	<159E544A-C396-4FA0-B008-2E5929A27543@soc.soton.ac.uk>
+Message-ID: <446C7D3E.5070903@ufl.edu>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Robin Hankin wrote:
+> Hi Ben
+> 
+> yes, the wiki is the best place.  What is the best way to include Rnw
+> text while letting the user see the resulting  pdf file?
+> 
+> 
+> best wishes
+> 
+> 
+> Robin
+
+  that's a really good question.  The very very best solution
+would be an Sweave driver that produced Wiki code.  The next
+best, which I might be able to hack up, is to run
+latex2wiki ( http://wiki.loria.fr/wiki/Latex2wiki ) on the
+Sweave'd output, possibly incorporating a few lines to
+convert Schunks into code input and output chunks ...
+
+  any enthusiastic hackers out there?
+
+  Ben
+
+> 
+> 
+> On 17 May 2006, at 18:28, Ben Bolker wrote:
+> 
+>> Robin Hankin <r.hankin <at> noc.soton.ac.uk> writes:
+>>
+>>>
+>>> Hi everyone
+>>>
+>>> well, quite a few people were interested in my little sparklines
+>>> example,
+>>> and one suggestion was to post it on a webpage.
+>>>
+>>> What would be a good place to post it?
+>>
+>>   on the wiki?  http://wiki.r-project.org
+>>
+>>   Ben Bolker
+>>
+>> ______________________________________________
+>> R-help at stat.math.ethz.ch mailing list
+>> https://stat.ethz.ch/mailman/listinfo/r-help
+>> PLEASE do read the posting guide!
+>> http://www.R-project.org/posting-guide.html
+> 
+> -- 
+> Robin Hankin
+> Uncertainty Analyst
+> National Oceanography Centre, Southampton
+> European Way, Southampton SO14 3ZH, UK
+>  tel  023-8059-7743
+> 
+> 
+> 
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFEbH0Wc0dX2AfwOJkRAlIAAKDp1YUXG3XvxquV4tmOuuoQiVH+DgCeM2Zc
+xh4Rxyd7Tum1r3uQRzwr0mU=
+=oklv
+-----END PGP SIGNATURE-----
+
+
+From Roger.Bivand at nhh.no  Thu May 18 18:12:35 2006
+From: Roger.Bivand at nhh.no (Roger Bivand)
+Date: Thu, 18 May 2006 18:12:35 +0200 (CEST)
+Subject: [R-wiki] [R] sparklines
+In-Reply-To: <446C7D3E.5070903@ufl.edu>
+Message-ID: <Pine.LNX.4.44.0605181800530.18228-100000@reclus.nhh.no>
+
+On Thu, 18 May 2006, Ben Bolker wrote:
+
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Robin Hankin wrote:
+> > Hi Ben
+> > 
+> > yes, the wiki is the best place.  What is the best way to include Rnw
+> > text while letting the user see the resulting  pdf file?
+> > 
+> > 
+> > best wishes
+> > 
+> > 
+> > Robin
+> 
+>   that's a really good question.  The very very best solution
+> would be an Sweave driver that produced Wiki code.  The next
+> best, which I might be able to hack up, is to run
+> latex2wiki ( http://wiki.loria.fr/wiki/Latex2wiki ) on the
+> Sweave'd output, possibly incorporating a few lines to
+> convert Schunks into code input and output chunks ...
+> 
+>   any enthusiastic hackers out there?
+
+I'm not really an example of the above (too old for wiki?), but the
+Sweave() driver in the R2HTML package might be a starting point at least a
+lot nearer than going to LaTeX and back (unless MathML is needed). There's
+an example of output at
+
+http://spatial.nhh.no/R/etc/capabilities.RHnw.html
+
+which we could move to the wiki if need be.
+
+Another example is on:
+
+http://r-spatial.sourceforge.net/xtra/xtra.RHnw.html
+
+with source:
+
+http://r-spatial.cvs.sourceforge.net/r-spatial/spweb/htdocs/xtra/xtra.RHnw?revision=1.8&view=markup
+
+(NB: I had to edit width= height= with no values out of the output *.html 
+for <img ...> to display on IE)
+
+Roger
+
+> 
+>   Ben
+> 
+> > 
+> > 
+> > On 17 May 2006, at 18:28, Ben Bolker wrote:
+> > 
+> >> Robin Hankin <r.hankin <at> noc.soton.ac.uk> writes:
+> >>
+> >>>
+> >>> Hi everyone
+> >>>
+> >>> well, quite a few people were interested in my little sparklines
+> >>> example,
+> >>> and one suggestion was to post it on a webpage.
+> >>>
+> >>> What would be a good place to post it?
+> >>
+> >>   on the wiki?  http://wiki.r-project.org
+> >>
+> >>   Ben Bolker
+> >>
+> >> ______________________________________________
+> >> R-help at stat.math.ethz.ch mailing list
+> >> https://stat.ethz.ch/mailman/listinfo/r-help
+> >> PLEASE do read the posting guide!
+> >> http://www.R-project.org/posting-guide.html
+> > 
+> > -- 
+> > Robin Hankin
+> > Uncertainty Analyst
+> > National Oceanography Centre, Southampton
+> > European Way, Southampton SO14 3ZH, UK
+> >  tel  023-8059-7743
+> > 
+> > 
+> > 
+> 
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.3 (GNU/Linux)
+> Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+> 
+> iD8DBQFEbH0Wc0dX2AfwOJkRAlIAAKDp1YUXG3XvxquV4tmOuuoQiVH+DgCeM2Zc
+> xh4Rxyd7Tum1r3uQRzwr0mU=
+> =oklv
+> -----END PGP SIGNATURE-----
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+
+-- 
+Roger Bivand
+Economic Geography Section, Department of Economics, Norwegian School of
+Economics and Business Administration, Helleveien 30, N-5045 Bergen,
+Norway. voice: +47 55 95 93 55; fax +47 55 95 95 43
+e-mail: Roger.Bivand at nhh.no
+
+
+From phgrosjean at sciviews.org  Fri May 19 10:42:39 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 19 May 2006 10:42:39 +0200
+Subject: [R-wiki] [R] sparklines
+In-Reply-To: <Pine.LNX.4.44.0605181800530.18228-100000@reclus.nhh.no>
+References: <Pine.LNX.4.44.0605181800530.18228-100000@reclus.nhh.no>
+Message-ID: <446D84FF.50407@sciviews.org>
+
+Hello,
+
+Indeed, this would be very nice if someone could write a "SWeave2wiki" 
+driver, perhaps inspired from the R2HTML "Sweave2HTML" driver. Eric 
+Lecoutre (author of R2HTML) told me how easy it was to write such a 
+driver, thanks to the good design of SWeave.
+
+I am currently working on the Rdconv adaptation to create wiki versions 
+of R help pages. This is a priority for me, altogether with the 
+refinement of the wiki pages presentation and navigation to get rid of 
+the unpleasant "index" at left.
+
+And, as you have perhaps noticed, I can invest myself only a relatively 
+limited time to such developments, currently. Thus, any help is warmly 
+welcome.
+Best,
+
+Philippe Grosjean
+
+Thus, any help
+
+Roger Bivand wrote:
+> On Thu, 18 May 2006, Ben Bolker wrote:
+> 
+> 
+>>-----BEGIN PGP SIGNED MESSAGE-----
+>>Hash: SHA1
+>>
+>>Robin Hankin wrote:
+>>
+>>>Hi Ben
+>>>
+>>>yes, the wiki is the best place.  What is the best way to include Rnw
+>>>text while letting the user see the resulting  pdf file?
+>>>
+>>>
+>>>best wishes
+>>>
+>>>
+>>>Robin
+>>
+>>  that's a really good question.  The very very best solution
+>>would be an Sweave driver that produced Wiki code.  The next
+>>best, which I might be able to hack up, is to run
+>>latex2wiki ( http://wiki.loria.fr/wiki/Latex2wiki ) on the
+>>Sweave'd output, possibly incorporating a few lines to
+>>convert Schunks into code input and output chunks ...
+>>
+>>  any enthusiastic hackers out there?
+> 
+> 
+> I'm not really an example of the above (too old for wiki?), but the
+> Sweave() driver in the R2HTML package might be a starting point at least a
+> lot nearer than going to LaTeX and back (unless MathML is needed). There's
+> an example of output at
+> 
+> http://spatial.nhh.no/R/etc/capabilities.RHnw.html
+> 
+> which we could move to the wiki if need be.
+> 
+> Another example is on:
+> 
+> http://r-spatial.sourceforge.net/xtra/xtra.RHnw.html
+> 
+> with source:
+> 
+> http://r-spatial.cvs.sourceforge.net/r-spatial/spweb/htdocs/xtra/xtra.RHnw?revision=1.8&view=markup
+> 
+> (NB: I had to edit width= height= with no values out of the output *.html 
+> for <img ...> to display on IE)
+> 
+> Roger
+> 
+> 
+>>  Ben
+>>
+>>
+>>>
+>>>On 17 May 2006, at 18:28, Ben Bolker wrote:
+>>>
+>>>
+>>>>Robin Hankin <r.hankin <at> noc.soton.ac.uk> writes:
+>>>>
+>>>>
+>>>>>Hi everyone
+>>>>>
+>>>>>well, quite a few people were interested in my little sparklines
+>>>>>example,
+>>>>>and one suggestion was to post it on a webpage.
+>>>>>
+>>>>>What would be a good place to post it?
+>>>>
+>>>>  on the wiki?  http://wiki.r-project.org
+>>>>
+>>>>  Ben Bolker
+>>>>
+>>>>______________________________________________
+>>>>R-help at stat.math.ethz.ch mailing list
+>>>>https://stat.ethz.ch/mailman/listinfo/r-help
+>>>>PLEASE do read the posting guide!
+>>>>http://www.R-project.org/posting-guide.html
+>>>
+>>>-- 
+>>>Robin Hankin
+>>>Uncertainty Analyst
+>>>National Oceanography Centre, Southampton
+>>>European Way, Southampton SO14 3ZH, UK
+>>> tel  023-8059-7743
+>>>
+>>>
+>>>
+>>
+>>-----BEGIN PGP SIGNATURE-----
+>>Version: GnuPG v1.4.3 (GNU/Linux)
+>>Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+>>
+>>iD8DBQFEbH0Wc0dX2AfwOJkRAlIAAKDp1YUXG3XvxquV4tmOuuoQiVH+DgCeM2Zc
+>>xh4Rxyd7Tum1r3uQRzwr0mU=
+>>=oklv
+>>-----END PGP SIGNATURE-----
+>>
+>>_______________________________________________
+>>R-sig-wiki mailing list
+>>R-sig-wiki at r-project.org
+>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+> 
+>
+
+
+From bolker at ufl.edu  Fri May 19 19:27:16 2006
+From: bolker at ufl.edu (Ben Bolker)
+Date: Fri, 19 May 2006 13:27:16 -0400
+Subject: [R-wiki] [R] sparklines
+In-Reply-To: <446D84FF.50407@sciviews.org>
+References: <Pine.LNX.4.44.0605181800530.18228-100000@reclus.nhh.no>
+	<446D84FF.50407@sciviews.org>
+Message-ID: <446DFFF4.4030806@ufl.edu>
+
+Philippe Grosjean wrote:
+> Hello,
+> 
+> Indeed, this would be very nice if someone could write a "SWeave2wiki"
+> driver, perhaps inspired from the R2HTML "Sweave2HTML" driver. Eric
+> Lecoutre (author of R2HTML) told me how easy it was to write such a
+> driver, thanks to the good design of SWeave.
+> 
+
+> Philippe Grosjean
+
+   It occurs to me there are actually two different tasks/programs here.
+One is an Sweave driver for Wiki, which would allow one to maintain
+wiki files with embedded R code that was executed, created figures,
+etc..  The other (which is what Robin needs) converts from an existing
+vignette (Sweave/Latex) to a wikified version; for this it's best (I
+think) to work from the Sweave'd tex file and convert it to Wiki;
+this is basically just regular expression conversion (which is what
+all the existing latex2wiki scripts I've seen have been); it would
+take a little bit of twiddling in Perl/Python/R ... ? but shouldn't
+be too hard.  I will take a crack when I get a chance but no-one
+should be holding their breath ...
+
+   cheers
+     Ben
+
+b
+
+
+From francoisromain at free.fr  Mon May 22 23:10:48 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Mon, 22 May 2006 23:10:48 +0200
+Subject: [R-wiki] firefox search plugin
+Message-ID: <447228D8.3090503@free.fr>
+
+Hi,
+
+I've just added a search plugin for the wiki in mycroft :
+http://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search
+
+Romain
+
+-- 
+visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr               |
+| Doctorant INRIA Futurs / EDF                                  |
++---------------------------------------------------------------+
+
+
+From francoisromain at free.fr  Tue May 23 10:09:36 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Tue, 23 May 2006 10:09:36 +0200
+Subject: [R-wiki] firefox search plugin
+In-Reply-To: <447228D8.3090503@free.fr>
+References: <447228D8.3090503@free.fr>
+Message-ID: <4472C340.7050202@free.fr>
+
+Le 22.05.2006 23:10, Romain Francois a ?crit :
+> Hi,
+>
+> I've just added a search plugin for the wiki in mycroft :
+> http://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search
+>   
+And I've updated it so it works in the advanced search sidebar.
+
+http://mycroft.mozdev.org/download.html?name=wiki.r-project.org&category=all&country=all&language=all&submitform=Search&sherlock=yes&skipcache=yes&newchange=yes
+
+It seems that the old one is still displayed, so select the one without 
+an "S" symbol.
+
+Good day
+
+-- 
+visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr               |
+| Doctorant INRIA Futurs / EDF                                  |
++---------------------------------------------------------------+
+
+
+From phgrosjean at sciviews.org  Tue May 23 17:51:44 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Tue, 23 May 2006 17:51:44 +0200
+Subject: [R-wiki] firefox search plugin
+In-Reply-To: <447228D8.3090503@free.fr>
+References: <447228D8.3090503@free.fr>
+Message-ID: <44732F90.4060901@sciviews.org>
+
+Hello Romain,
+
+This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I 
+mean, it installs neatly, but when I try to use the R wiki search box, 
+nothing happens.
+Best,
+
+Philippe
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+( ( ( ( (
+  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+  ) ) ) ) )
+( ( ( ( (    web:   http://www.umh.ac.be/~econum
+  ) ) ) ) )          http://www.sciviews.org
+( ( ( ( (
+..............................................................
+
+Romain Francois wrote:
+> Hi,
+> 
+> I've just added a search plugin for the wiki in mycroft :
+> http://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search
+> 
+> Romain
+>
+
+
+From damian.betebenner at bc.edu  Tue May 23 18:13:35 2006
+From: damian.betebenner at bc.edu (Damian Betebenner)
+Date: Tue, 23 May 2006 12:13:35 -0400
+Subject: [R-wiki] firefox search plugin
+In-Reply-To: <44732F90.4060901@sciviews.org>
+References: <447228D8.3090503@free.fr>
+ <44732F90.4060901@sciviews.org>
+Message-ID: <web-9313811@be1.bc.edu>
+
+Interesting.
+
+I'm using Firefox 1.5.0.1 under SuSE 9.2 x86_64 and it appears to work fine.
+
+Regards,
+
+Damian
+
+
+ |  On Tue, 23 May 2006 17:51:44 +0200
+ |  Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>>Hello Romain,
+>>>
+>>>This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I 
+>>>mean, it installs neatly, but when I try to use the R wiki search box, 
+>>>nothing happens.
+>>>Best,
+>>>
+>>>Philippe
+>>>
+>>>..............................................<?}))><........
+>>>  ) ) ) ) )
+>>>( ( ( ( (    Prof. Philippe Grosjean
+>>>  ) ) ) ) )
+>>>( ( ( ( (    Numerical Ecology of Aquatic Systems
+>>>  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+>>>( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>>>  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+>>>( ( ( ( (
+>>>  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+>>>( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>>>  ) ) ) ) )
+>>>( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>>>  ) ) ) ) )          http://www.sciviews.org
+>>>( ( ( ( (
+>>>..............................................................
+>>>
+>>>Romain Francois wrote:
+>>>> Hi,
+>>>> 
+>>>> I've just added a search plugin for the wiki in mycroft :
+>>>> http://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search
+>>>> 
+>>>> Romain
+>>>>
+>>>
+>>>_______________________________________________
+>>>R-sig-wiki mailing list
+>>>R-sig-wiki at r-project.org
+>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+Damian Betebenner
+Educational Research, Measurement & Evaluation
+Lynch School of Education
+Boston College
+Chestnut Hill, MA 02467
+
+(617) 552 4491
+
+
+From francoisromain at free.fr  Tue May 23 19:02:03 2006
+From: francoisromain at free.fr (francoisromain at free.fr)
+Date: Tue, 23 May 2006 19:02:03 +0200
+Subject: [R-wiki] firefox search plugin
+In-Reply-To: <44732F90.4060901@sciviews.org>
+References: <447228D8.3090503@free.fr> <44732F90.4060901@sciviews.org>
+Message-ID: <1148403723.4473400b1a4c2@imp1-g19.free.fr>
+
+Selon Philippe Grosjean <phgrosjean at sciviews.org>:
+
+> Hello Romain,
+>
+> This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I
+> mean, it installs neatly, but when I try to use the R wiki search box,
+> nothing happens.
+> Best,
+
+It's weird,
+
+I've tested this one :
+http://mycroft.mozdev.org/download.html?name=wiki.r-project&sherlock=yes&submitform=Search
+ on windows xp (sp1) with firefox 1.5.0.3.
+It works like a charm.
+
+Maybe you need to restart firefox.
+
+Are other people having issues with that plugin ?
+
+Romain
+
+> Philippe
+>
+> ..............................................<?}))><........
+>   ) ) ) ) )
+> ( ( ( ( (    Prof. Philippe Grosjean
+>   ) ) ) ) )
+> ( ( ( ( (    Numerical Ecology of Aquatic Systems
+>   ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+> ( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>   ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+> ( ( ( ( (
+>   ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+> ( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>   ) ) ) ) )
+> ( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>   ) ) ) ) )          http://www.sciviews.org
+> ( ( ( ( (
+> ..............................................................
+>
+> Romain Francois wrote:
+> > Hi,
+> >
+> > I've just added a search plugin for the wiki in mycroft :
+> >
+>
+http://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search
+> >
+> > Romain
+> >
+>
+>
+
+
+From gregor.gorjanc at gmail.com  Wed May 24 14:03:26 2006
+From: gregor.gorjanc at gmail.com (Gregor Gorjanc)
+Date: Wed, 24 May 2006 14:03:26 +0200
+Subject: [R-wiki] firefox search plugin
+Message-ID: <44744B8E.9020802@bfro.uni-lj.si>
+
+> Selon Philippe Grosjean <phgrosjean at sciviews.org>:
+> 
+> 
+>>> Hello Romain,
+>>>
+>>> This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I
+>>> mean, it installs neatly, but when I try to use the R wiki search box,
+>>> nothing happens.
+>>> Best,
+> 
+> 
+> It's weird,
+> 
+> I've tested this one :
+> http://mycroft.mozdev.org/download.html?name=wiki.r-project&sherlock=yes&submitform=Search
+>  on windows xp (sp1) with firefox 1.5.0.3.
+> It works like a charm.
+> 
+> Maybe you need to restart firefox.
+> 
+> Are other people having issues with that plugin ?
+> 
+> Romain
+> 
+
+Hi!
+
+I installed it yesterday and it works for me nicely under Firefox
+1.5.0.3, Debian GNU Linux. It worked even without restarting Firefox.
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From phgrosjean at sciviews.org  Wed May 24 14:14:27 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 24 May 2006 14:14:27 +0200
+Subject: [R-wiki] firefox search plugin
+In-Reply-To: <1148403723.4473400b1a4c2@imp1-g19.free.fr>
+References: <447228D8.3090503@free.fr> <44732F90.4060901@sciviews.org>
+	<1148403723.4473400b1a4c2@imp1-g19.free.fr>
+Message-ID: <44744E23.2000004@sciviews.org>
+
+francoisromain at free.fr wrote:
+> Selon Philippe Grosjean <phgrosjean at sciviews.org>:
+> 
+> 
+>>Hello Romain,
+>>
+>>This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I
+>>mean, it installs neatly, but when I try to use the R wiki search box,
+>>nothing happens.
+>>Best,
+> 
+> 
+> It's weird,
+> 
+> I've tested this one :
+> http://mycroft.mozdev.org/download.html?name=wiki.r-project&sherlock=yes&submitform=Search
+>  on windows xp (sp1) with firefox 1.5.0.3.
+> It works like a charm.
+> 
+> Maybe you need to restart firefox.
+
+Oh, you are right. When I restart Firefox it works like a charm.
+Thanks!
+
+Philippe
+
+> Are other people having issues with that plugin ?
+> 
+> Romain
+> 
+> 
+>>Philippe
+>>
+>>..............................................<?}))><........
+>>  ) ) ) ) )
+>>( ( ( ( (    Prof. Philippe Grosjean
+>>  ) ) ) ) )
+>>( ( ( ( (    Numerical Ecology of Aquatic Systems
+>>  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+>>( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>>  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+>>( ( ( ( (
+>>  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+>>( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>>  ) ) ) ) )
+>>( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>>  ) ) ) ) )          http://www.sciviews.org
+>>( ( ( ( (
+>>..............................................................
+>>
+>>Romain Francois wrote:
+>>
+>>>Hi,
+>>>
+>>>I've just added a search plugin for the wiki in mycroft :
+>>>
+>>
+> http://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search
+> 
+>>>Romain
+>>>
+>>
+>>
+> 
+> 
+> 
+>
+
+
+From phgrosjean at sciviews.org  Wed May 24 15:16:30 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Wed, 24 May 2006 15:16:30 +0200
+Subject: [R-wiki] firefox search plugin
+In-Reply-To: <44744E23.2000004@sciviews.org>
+References: <447228D8.3090503@free.fr>
+	<44732F90.4060901@sciviews.org>	<1148403723.4473400b1a4c2@imp1-g19.free.fr>
+	<44744E23.2000004@sciviews.org>
+Message-ID: <44745CAE.70301@sciviews.org>
+
+I have now added a link to it in 
+http://wiki.r-project.org/rwiki/doku.php?id=wiki:usage.
+Thank you, Romain.
+
+PhG
+
+..............................................<?}))><........
+  ) ) ) ) )
+( ( ( ( (    Prof. Philippe Grosjean
+  ) ) ) ) )
+( ( ( ( (    Numerical Ecology of Aquatic Systems
+  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+( ( ( ( (
+  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+  ) ) ) ) )
+( ( ( ( (    web:   http://www.umh.ac.be/~econum
+  ) ) ) ) )          http://www.sciviews.org
+( ( ( ( (
+..............................................................
+
+Philippe Grosjean wrote:
+> francoisromain at free.fr wrote:
+> 
+>>Selon Philippe Grosjean <phgrosjean at sciviews.org>:
+>>
+>>
+>>
+>>>Hello Romain,
+>>>
+>>>This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I
+>>>mean, it installs neatly, but when I try to use the R wiki search box,
+>>>nothing happens.
+>>>Best,
+>>
+>>
+>>It's weird,
+>>
+>>I've tested this one :
+>>http://mycroft.mozdev.org/download.html?name=wiki.r-project&sherlock=yes&submitform=Search
+>> on windows xp (sp1) with firefox 1.5.0.3.
+>>It works like a charm.
+>>
+>>Maybe you need to restart firefox.
+> 
+> 
+> Oh, you are right. When I restart Firefox it works like a charm.
+> Thanks!
+> 
+> Philippe
+> 
+> 
+>>Are other people having issues with that plugin ?
+>>
+>>Romain
+>>
+>>
+>>
+>>>Philippe
+>>>
+>>>..............................................<?}))><........
+>>> ) ) ) ) )
+>>>( ( ( ( (    Prof. Philippe Grosjean
+>>> ) ) ) ) )
+>>>( ( ( ( (    Numerical Ecology of Aquatic Systems
+>>> ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)
+>>>( ( ( ( (    Academie Universitaire Wallonie-Bruxelles
+>>> ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium
+>>>( ( ( ( (
+>>> ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54
+>>>( ( ( ( (    email: Philippe.Grosjean at umh.ac.be
+>>> ) ) ) ) )
+>>>( ( ( ( (    web:   http://www.umh.ac.be/~econum
+>>> ) ) ) ) )          http://www.sciviews.org
+>>>( ( ( ( (
+>>>..............................................................
+>>>
+>>>Romain Francois wrote:
+>>>
+>>>
+>>>>Hi,
+>>>>
+>>>>I've just added a search plugin for the wiki in mycroft :
+>>>>
+>>>
+>>http://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search
+>>
+>>
+>>>>Romain
+>>>>
+>>>
+>>>
+>>
+>>
+>>
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+>
+
+

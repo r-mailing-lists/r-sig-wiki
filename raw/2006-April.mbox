@@ -1,0 +1,3820 @@
+From hb at maths.lth.se  Thu Apr  6 16:02:38 2006
+From: hb at maths.lth.se (Henrik Bengtsson)
+Date: Thu, 6 Apr 2006 16:02:38 +0200
+Subject: [R-wiki] Code-snippet bug
+Message-ID: <59d7961d0604060702m474d9168mb5230ef66f4c1a59@mail.gmail.com>
+
+You might already have notices - there is something wrong with the
+code snippets.  For instance, under "RTFM"
+http://wiki.r-project.org/rwiki/doku.php?id=guides:stats-with-r:01intro-to-r
+the code snippet reads
+
+ > help.search">help.search("stem")
+ > apropos("stem")
+
+Thanks
+
+/Henrik
+
+
+From hb at maths.lth.se  Thu Apr  6 16:12:48 2006
+From: hb at maths.lth.se (Henrik Bengtsson)
+Date: Thu, 6 Apr 2006 16:12:48 +0200
+Subject: [R-wiki] Wiki and R namespaces
+Message-ID: <59d7961d0604060712k3a4ef433p3ab8a66100a75948@mail.gmail.com>
+
+More feedback:
+
+The word 'namespace' will most certainly be confusing in the R-wiki. 
+When I went to "rdoc" to see help on R functions, I though
+"namespaces" referred to R namespaces and that the sentence "This is
+an index over all available pages ordered by namespaces" was simply a
+mistake.  Then I saw the same on the front page and realized my
+mistake.
+
+I think it is clearer write "Wiki namespaces" or even "Wiki (not R)
+namespaces" whereever using the word.
+
+/Henrik
+
+
+From maechler at stat.math.ethz.ch  Thu Apr  6 22:26:07 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Thu, 6 Apr 2006 22:26:07 +0200
+Subject: [R-wiki] Wiki and R namespaces
+In-Reply-To: <59d7961d0604060712k3a4ef433p3ab8a66100a75948@mail.gmail.com>
+References: <59d7961d0604060712k3a4ef433p3ab8a66100a75948@mail.gmail.com>
+Message-ID: <17461.31071.190863.867465@stat.math.ethz.ch>
+
+>>>>> "HenrikB" == Henrik Bengtsson <hb at maths.lth.se>
+>>>>>     on Thu, 6 Apr 2006 16:12:48 +0200 writes:
+
+    HenrikB> More feedback: The word 'namespace' will most
+    HenrikB> certainly be confusing in the R-wiki.  When I went
+    HenrikB> to "rdoc" to see help on R functions, I though
+    HenrikB> "namespaces" referred to R namespaces and that the
+    HenrikB> sentence "This is an index over all available pages
+    HenrikB> ordered by namespaces" was simply a mistake.  Then
+    HenrikB> I saw the same on the front page and realized my
+    HenrikB> mistake.
+
+    HenrikB> I think it is clearer write "Wiki namespaces" or
+    HenrikB> even "Wiki (not R) namespaces" whereever using the
+    HenrikB> word.
+
+I agree.
+
+In spite of the fact, Philippe has already spent a tremendous
+amount of work on this which I appreciate deeply, let me take
+the opportunity to say even more on this topic:
+
+More generally, I think there's currently still a bit too much
+visible "on Wiki" instead of "on R".
+The normal person approach to R-Wiki should be to find a place
+were one finds lots of useful information about R.
+Only when exploring this information the user should find out
+about the possibility to *add* information her/him - self or
+about how the wiki is organized ``internally''.
+I think this is the approach that has made Wikipedia so
+attractive.
+
+Martin
+
+
+From phgrosjean at sciviews.org  Fri Apr  7 09:14:09 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 07 Apr 2006 09:14:09 +0200
+Subject: [R-wiki] Code-snippet bug
+In-Reply-To: <59d7961d0604060702m474d9168mb5230ef66f4c1a59@mail.gmail.com>
+References: <59d7961d0604060702m474d9168mb5230ef66f4c1a59@mail.gmail.com>
+Message-ID: <44361141.80009@sciviews.org>
+
+Yes, I have noticed. This bug appeared when I switched from GeSHi 
+1.0.7.6 to 1.0.7.7 on the new server. I will look at it and find what's 
+wrong, or roll-back to 1.0.7.6.
+Thanks,
+
+Philippe Grosjean
+
+
+Henrik Bengtsson wrote:
+> You might already have notices - there is something wrong with the
+> code snippets.  For instance, under "RTFM"
+> http://wiki.r-project.org/rwiki/doku.php?id=guides:stats-with-r:01intro-to-r
+> the code snippet reads
+> 
+>  > help.search">help.search("stem")
+>  > apropos("stem")
+> 
+> Thanks
+> 
+> /Henrik
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+>
+
+
+From phgrosjean at sciviews.org  Fri Apr  7 09:18:53 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 07 Apr 2006 09:18:53 +0200
+Subject: [R-wiki] Wiki and R namespaces
+In-Reply-To: <17461.31071.190863.867465@stat.math.ethz.ch>
+References: <59d7961d0604060712k3a4ef433p3ab8a66100a75948@mail.gmail.com>
+	<17461.31071.190863.867465@stat.math.ethz.ch>
+Message-ID: <4436125D.5040907@sciviews.org>
+
+Martin Maechler wrote:
+>>>>>>"HenrikB" == Henrik Bengtsson <hb at maths.lth.se>
+>>>>>>    on Thu, 6 Apr 2006 16:12:48 +0200 writes:
+> 
+> 
+>     HenrikB> More feedback: The word 'namespace' will most
+>     HenrikB> certainly be confusing in the R-wiki.  When I went
+>     HenrikB> to "rdoc" to see help on R functions, I though
+>     HenrikB> "namespaces" referred to R namespaces and that the
+>     HenrikB> sentence "This is an index over all available pages
+>     HenrikB> ordered by namespaces" was simply a mistake.  Then
+>     HenrikB> I saw the same on the front page and realized my
+>     HenrikB> mistake.
+> 
+>     HenrikB> I think it is clearer write "Wiki namespaces" or
+>     HenrikB> even "Wiki (not R) namespaces" whereever using the
+>     HenrikB> word.
+
+This is noted (I am currently in holydays with limited access to the 
+Internet, but I will look at this as soon as possible).
+
+> I agree.
+> 
+> In spite of the fact, Philippe has already spent a tremendous
+> amount of work on this which I appreciate deeply, let me take
+> the opportunity to say even more on this topic:
+> 
+> More generally, I think there's currently still a bit too much
+> visible "on Wiki" instead of "on R".
+> The normal person approach to R-Wiki should be to find a place
+> were one finds lots of useful information about R.
+> Only when exploring this information the user should find out
+> about the possibility to *add* information her/him - self or
+> about how the wiki is organized ``internally''.
+> I think this is the approach that has made Wikipedia so
+> attractive.
+> 
+> Martin
+
+I suppose it is a consequence on being mostly focused on the development 
+of the R-specific Wiki engine features... and on the limited number of 
+pages dealing with R itself (thanks to many contributors). Martin, do 
+you really think that the [[start]] page focuses too much on the Wiki, 
+and not enough on R?
+
+OK, I'll consider this and make "Wiki technical pages" a little bit less 
+invasive on R Wiki.
+
+Best,
+
+Philippe Grosjean
+
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+>
+
+
+From phgrosjean at sciviews.org  Fri Apr  7 09:52:29 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 07 Apr 2006 09:52:29 +0200
+Subject: [R-wiki] Wiki and R namespaces
+In-Reply-To: <59d7961d0604060712k3a4ef433p3ab8a66100a75948@mail.gmail.com>
+References: <59d7961d0604060712k3a4ef433p3ab8a66100a75948@mail.gmail.com>
+Message-ID: <44361A3D.1040005@sciviews.org>
+
+I have just changed namespace to Wiki namespace (with an additional 
+footnote explaining what a Wiki namespace is) all over the Wiki.
+Best,
+
+Philippe Grosjean
+
+
+Henrik Bengtsson wrote:
+> More feedback:
+> 
+> The word 'namespace' will most certainly be confusing in the R-wiki. 
+> When I went to "rdoc" to see help on R functions, I though
+> "namespaces" referred to R namespaces and that the sentence "This is
+> an index over all available pages ordered by namespaces" was simply a
+> mistake.  Then I saw the same on the front page and realized my
+> mistake.
+> 
+> I think it is clearer write "Wiki namespaces" or even "Wiki (not R)
+> namespaces" whereever using the word.
+> 
+> /Henrik
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> 
+>
+
+
+From phgrosjean at sciviews.org  Fri Apr  7 10:09:38 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 07 Apr 2006 10:09:38 +0200
+Subject: [R-wiki] Code-snippet bug
+In-Reply-To: <59d7961d0604060702m474d9168mb5230ef66f4c1a59@mail.gmail.com>
+References: <59d7961d0604060702m474d9168mb5230ef66f4c1a59@mail.gmail.com>
+Message-ID: <44361E42.40402@sciviews.org>
+
+Henrik Bengtsson wrote:
+> You might already have notices - there is something wrong with the
+> code snippets.  For instance, under "RTFM"
+> http://wiki.r-project.org/rwiki/doku.php?id=guides:stats-with-r:01intro-to-r
+> the code snippet reads
+> 
+>  > help.search">help.search("stem")
+>  > apropos("stem")
+> 
+> Thanks
+> 
+> /Henrik
+
+This is corrected now.
+Thanks,
+
+Philippe Grosjean
+
+
+From maechler at stat.math.ethz.ch  Fri Apr  7 14:51:14 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Fri, 7 Apr 2006 14:51:14 +0200
+Subject: [R-wiki] Wiki and R namespaces
+In-Reply-To: <4436125D.5040907@sciviews.org>
+References: <59d7961d0604060712k3a4ef433p3ab8a66100a75948@mail.gmail.com>
+	<17461.31071.190863.867465@stat.math.ethz.ch>
+	<4436125D.5040907@sciviews.org>
+Message-ID: <17462.24642.864713.815407@stat.math.ethz.ch>
+
+>>>>> "PhGr" == Philippe Grosjean <phgrosjean at sciviews.org>
+>>>>>     on Fri, 07 Apr 2006 09:18:53 +0200 writes:
+
+    PhGr> Martin Maechler wrote:
+    >>>>>>> "HenrikB" == Henrik Bengtsson <hb at maths.lth.se> on
+    >>>>>>> Thu, 6 Apr 2006 16:12:48 +0200 writes:
+    >>
+    HenrikB> More feedback: The word 'namespace' will most
+    HenrikB> certainly be confusing in the R-wiki.  When I went
+    HenrikB> to "rdoc" to see help on R functions, I though
+    HenrikB> "namespaces" referred to R namespaces and that the
+    HenrikB> sentence "This is an index over all available pages
+    HenrikB> ordered by namespaces" was simply a mistake.  Then
+    HenrikB> I saw the same on the front page and realized my
+    HenrikB> mistake.
+    >>
+    HenrikB> I think it is clearer write "Wiki namespaces" or
+    HenrikB> even "Wiki (not R) namespaces" whereever using the
+    HenrikB> word.
+
+    PhGr> This is noted (I am currently in holydays with limited
+    PhGr> access to the Internet, but I will look at this as
+    PhGr> soon as possible).
+
+    >> I agree.
+    >> 
+    >> In spite of the fact, Philippe has already spent a
+    >> tremendous amount of work on this which I appreciate
+    >> deeply, let me take the opportunity to say even more on
+    >> this topic:
+    >> 
+    >> More generally, I think there's currently still a bit too
+    >> much visible "on Wiki" instead of "on R".  The normal
+    >> person approach to R-Wiki should be to find a place were
+    >> one finds lots of useful information about R.  Only when
+    >> exploring this information the user should find out about
+    >> the possibility to *add* information her/him - self or
+    >> about how the wiki is organized ``internally''.  I think
+    >> this is the approach that has made Wikipedia so
+    >> attractive.
+    >> 
+    >> Martin
+
+    PhGr> I suppose it is a consequence on being mostly focused
+    PhGr> on the development of the R-specific Wiki engine
+    PhGr> features... 
+indeed.  very sensibly, even logically.
+    PhGr> and on the limited number of pages dealing
+    PhGr> with R itself (thanks to many contributors). 
+
+    PhGr> Martin, do you really think that the [[start]] page focuses
+    PhGr> too much on the Wiki, and not enough on R?
+
+yes, even that one:
+
+- If I read from left to right, 
+  I see  "Edit this Page",  "Old Revisions", "Recent Changes"
+  and only then Search [........].
+
+  I think the normal entry should not see the three options above
+  on the top line, but rather on the bottom of the page (maybe
+  even only after scrolling to that bottom).
+
+- The lefthand side (navigation?) index is much too easily
+  leading completely astray:
+
+  If I click at the first item, " |>  getting started"
+  two things happen:
+
+   1) The "getting started" is expanded into subitems (=the expected action)
+
+   2) The nice content of the start page itself is replaced by
+      the 'Index' menu -- so I now have the same (``technical, non-R'')
+      index menu: both in the left menu, and as main content.
+    
+   Since I don't like that, I now click on the [[Start]]
+   `button' (top-left, inside the nice graphic)
+   but I do **NOT** get to the top, but to a completely useless
+   (from an average R user's point of view) page with title  'Backlinks'
+   http://wiki.r-project.org/rwiki/doku.php?id=start&do=backlink
+
+The last one is probably a buglet in your setup;
+but in any case, the left-handside navigation "looks and feels" 
+``technical'', not R-related but ``wiki-author related'' inspite
+of its items ("getting started", .. "tips", "packages", ...)
+that sound promising and related to R.
+
+    PhGr> OK, I'll consider this and make "Wiki technical pages"
+    PhGr> a little bit less invasive on R Wiki.
+
+    PhGr> Best,
+
+    PhGr> Philippe Grosjean
+
+
+From bolker at zoo.ufl.edu  Tue Apr 11 19:37:01 2006
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Tue, 11 Apr 2006 13:37:01 -0400
+Subject: [R-wiki] tips formats
+Message-ID: <443BE93D.3010601@zoo.ufl.edu>
+
+
+   a question for the list:
+
+   comparing the format of
+
+1. http://wiki.r-project.org/rwiki/doku.php?id=tips:data-vectors
+
+(all subtopics within the page as level-2 headers, index at top
+points to anchors within the page)
+
+and
+
+2. http://wiki.r-project.org/rwiki/doku.php?id=tips:data-matrices
+
+(subtopics as links to separate pages)
+
+   which do people prefer/think is better? I think I prefer #1
+(it's closer to Rtips, broader rather than deeper, and facilitates
+browsing), but I'd like suggestions before I go and reformat
+the rest of the tips:data sections (matrices, frames, io, lists,
+manip, and misc have subpages now).
+
+   Unless someone wants to write a script that will do the conversion?
+It would probably only take a few lines of Perl ...
+
+   Ben Bolker
+
+-- 
+620B Bartram Hall                            bolker at zoo.ufl.edu
+Zoology Department, University of Florida    http://www.zoo.ufl.edu/bolker
+Box 118525                                   (ph)  352-392-5697
+Gainesville, FL 32611-8525                   (fax) 352-392-3704
+
+
+From francoisromain at free.fr  Sat Apr 15 14:53:37 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Sat, 15 Apr 2006 14:53:37 +0200
+Subject: [R-wiki] personnal pages on wiki
+Message-ID: <4440ECD1.6060808@free.fr>
+
+Hi,
+
+What is the general feeling about adding a personnal page inside the wiki.
+I'll like to create a page, maybe under misc:people, where i could write 
+the pages i like in the wiki, my (short) todo list, etc ...
+
+I prefer to ask here first. Maybe it is better to create that kind of 
+pages somewhere else.
+
+Romain
+
+-- 
+visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr               |
+| Doctorant INRIA Futurs / EDF                                  |
++---------------------------------------------------------------+
+
+
+From damian.betebenner at bc.edu  Sat Apr 15 17:31:21 2006
+From: damian.betebenner at bc.edu (Damian Betebenner)
+Date: Sat, 15 Apr 2006 11:31:21 -0400
+Subject: [R-wiki] personnal pages on wiki
+In-Reply-To: <4440ECD1.6060808@free.fr>
+References: <4440ECD1.6060808@free.fr>
+Message-ID: <web-8474302@be2.bc.edu>
+
+All,
+
+I don't believe there is anything in place to prevent one from doing this anyway---correct? Perhaps
+I can't index my personal page under Misc. 
+
+I've wanted to create a page on how to create Wiki-like syntax highlighting using Sweave. Should 
+I just start my own Sweave page and go to town?
+
+Damian
+
+
+ |  On Sat, 15 Apr 2006 14:53:37 +0200
+ |  Romain Francois <francoisromain at free.fr> wrote:
+>>>Hi,
+>>>
+>>>What is the general feeling about adding a personnal page inside the wiki.
+>>>I'll like to create a page, maybe under misc:people, where i could write 
+>>>the pages i like in the wiki, my (short) todo list, etc ...
+>>>
+>>>I prefer to ask here first. Maybe it is better to create that kind of 
+>>>pages somewhere else.
+>>>
+>>>Romain
+>>>
+>>>-- 
+>>>visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+>>>mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
+>>>+---------------------------------------------------------------+
+>>>| Romain FRANCOIS - http://francoisromain.free.fr               |
+>>>| Doctorant INRIA Futurs / EDF                                  |
+>>>+---------------------------------------------------------------+
+>>>
+>>>_______________________________________________
+>>>R-sig-wiki mailing list
+>>>R-sig-wiki at r-project.org
+>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+Damian Betebenner
+Educational Research, Measurement & Evaluation
+Lynch School of Education
+Boston College
+Chestnut Hill, MA 02467
+
+(617) 552 4491
+
+
+From ggrothendieck at gmail.com  Sat Apr 15 17:56:27 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sat, 15 Apr 2006 11:56:27 -0400
+Subject: [R-wiki] personnal pages on wiki
+In-Reply-To: <4440ECD1.6060808@free.fr>
+References: <4440ECD1.6060808@free.fr>
+Message-ID: <971536df0604150856x5bdf8235iba766dce55358a7f@mail.gmail.com>
+
+The only problem I see is that "your" page could be edited by other
+people and you might not want that if its "your" page.
+
+On 4/15/06, Romain Francois <francoisromain at free.fr> wrote:
+> Hi,
+>
+> What is the general feeling about adding a personnal page inside the wiki.
+> I'll like to create a page, maybe under misc:people, where i could write
+> the pages i like in the wiki, my (short) todo list, etc ...
+>
+> I prefer to ask here first. Maybe it is better to create that kind of
+> pages somewhere else.
+>
+> Romain
+>
+> --
+> visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+> mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
+> +---------------------------------------------------------------+
+> | Romain FRANCOIS - http://francoisromain.free.fr               |
+> | Doctorant INRIA Futurs / EDF                                  |
+> +---------------------------------------------------------------+
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From gregor.gorjanc at gmail.com  Mon Apr 17 23:13:34 2006
+From: gregor.gorjanc at gmail.com (Gregor Gorjanc)
+Date: Mon, 17 Apr 2006 23:13:34 +0200
+Subject: [R-wiki] personnal pages on wiki
+Message-ID: <444404FE.9040700@bfro.uni-lj.si>
+
+Hi,
+
+> Gabor Grothendieck
+> The only problem I see is that "your" page could be edited by other
+> people and you might not want that if its "your" page.
+> 
+> On 4/15/06, Romain Francois <francoisromain at free.fr> wrote:
+>> Hi,
+>> 
+>> What is the general feeling about adding a personnal page inside the
+>> wiki. I'll like to create a page, maybe under misc:people, where i
+>> could write the pages i like in the wiki, my (short) todo list, etc
+>> ...
+>> 
+>> I prefer to ask here first. Maybe it is better to create that kind of
+>>  pages somewhere else.
+
+I was thinkig about this also. I often create simple HOWTO's, and random
+code snipets that do not fit anywhere. They are only on my disk and I
+belive would serve better if I would share them to others. So I would
+vote for existence of personal pages. Can I create one? I also agree
+with Gabor. Is there any mechanism to lock page or at least some parts
+that you "insist" to stay under your control.
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From francoisromain at free.fr  Mon Apr 17 23:34:10 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Mon, 17 Apr 2006 23:34:10 +0200
+Subject: [R-wiki] personnal pages on wiki
+In-Reply-To: <444404FE.9040700@bfro.uni-lj.si>
+References: <444404FE.9040700@bfro.uni-lj.si>
+Message-ID: <444409D2.8000109@free.fr>
+
+Le 17.04.2006 23:13, Gregor Gorjanc a ?crit :
+> Hi,
+>
+>   
+>> Gabor Grothendieck
+>> The only problem I see is that "your" page could be edited by other
+>> people and you might not want that if its "your" page.
+>>
+>> On 4/15/06, Romain Francois <francoisromain at free.fr> wrote:
+>>     
+>>> Hi,
+>>>
+>>> What is the general feeling about adding a personnal page inside the
+>>> wiki. I'll like to create a page, maybe under misc:people, where i
+>>> could write the pages i like in the wiki, my (short) todo list, etc
+>>> ...
+>>>
+>>> I prefer to ask here first. Maybe it is better to create that kind of
+>>>  pages somewhere else.
+>>>       
+>
+> I was thinkig about this also. I often create simple HOWTO's, and random
+> code snipets that do not fit anywhere. They are only on my disk and I
+> belive would serve better if I would share them to others. So I would
+> vote for existence of personal pages. Can I create one? I also agree
+> with Gabor. Is there any mechanism to lock page or at least some parts
+> that you "insist" to stay under your control.
+>   
+Hi,
+
+If you want to put something on the wiki that can't be modified by 
+others, then don't put it in the wiki. Write the part that can be 
+modified in the wiki, the other part elsewhere and link the two parts.
+
+What i asked is not really a space that is 100% mine (i have that 
+elsewhere, and it is not wiki-like), but a space to put my wiki todo 
+list. I don't really think people would like to change its content anyway.
+
+-- 
+visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr               |
+| Doctorant INRIA Futurs / EDF                                  |
++---------------------------------------------------------------+
+
+
+From drewbrewit at yahoo.com  Mon Apr 17 01:06:02 2006
+From: drewbrewit at yahoo.com (Drew)
+Date: Sun, 16 Apr 2006 16:06:02 -0700 (PDT)
+Subject: [R-wiki] personnal pages on wiki
+Message-ID: <20060416230602.10818.qmail@web50902.mail.yahoo.com>
+
+Perhaps there is a way to download a copy of the R
+Wiki to install locally
+on one's machine. Then an individual could have a
+personal wiki for their
+own project specific code. If the person finishes
+developing a certain piece
+of code and/or wants to share, he/she could push a
+button and upload it to
+the LIVE R wiki.
+
+However, this might require one to have both Apache &
+PHP installed which
+some users may not have. Perhaps there is a way to
+combine the convenience
+of TiddlyWiki (http://www.tiddlywiki.com/) with the
+power of DokuWiki to
+fill this niche.
+
+~Nick Drew
+
+-----Original Message-----
+From: r-sig-wiki-bounces at r-project.org
+[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of
+Romain Francois
+Sent: Saturday, April 15, 2006 4:54 AM
+To: r-sig-wiki at r-project.org
+Subject: [R-wiki] personnal pages on wiki
+
+
+Hi,
+
+What is the general feeling about adding a personnal
+page inside the wiki.
+I'll like to create a page, maybe under misc:people,
+where i could write
+the pages i like in the wiki, my (short) todo list,
+etc ...
+
+I prefer to ask here first. Maybe it is better to
+create that kind of
+pages somewhere else.
+
+Romain
+
+--
+visit the R Graph Gallery :
+http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released :
+http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr     
+         |
+| Doctorant INRIA Futurs / EDF                        
+         |
++---------------------------------------------------------------+
+
+_______________________________________________
+R-sig-wiki mailing list
+R-sig-wiki at r-project.org
+https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+
+From phgrosjean at sciviews.org  Tue Apr 18 07:54:20 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Tue, 18 Apr 2006 07:54:20 +0200
+Subject: [R-wiki] tips formats
+In-Reply-To: <443BE93D.3010601@zoo.ufl.edu>
+References: <443BE93D.3010601@zoo.ufl.edu>
+Message-ID: <44447F0C.40908@sciviews.org>
+
+Ben Bolker wrote:
+>    a question for the list:
+> 
+>    comparing the format of
+> 
+> 1. http://wiki.r-project.org/rwiki/doku.php?id=tips:data-vectors
+> 
+> (all subtopics within the page as level-2 headers, index at top
+> points to anchors within the page)
+> 
+> and
+> 
+> 2. http://wiki.r-project.org/rwiki/doku.php?id=tips:data-matrices
+> 
+> (subtopics as links to separate pages)
+> 
+>    which do people prefer/think is better? I think I prefer #1
+> (it's closer to Rtips, broader rather than deeper, and facilitates
+> browsing), but I'd like suggestions before I go and reformat
+> the rest of the tips:data sections (matrices, frames, io, lists,
+> manip, and misc have subpages now).
+> 
+>    Unless someone wants to write a script that will do the conversion?
+> It would probably only take a few lines of Perl ...
+> 
+>    Ben Bolker
+
+
+Wiki pages are rather free. So, something in between those two is 
+acceptable. However, 
+http://wiki.r-project.org/rwiki/doku.php?id=tips:data-vectors is *not* a 
+good idea! Tips should remain short pages. Here you tend to write long 
+pages, and noly one page per Wiki namespace in the tips section. This 
+brings an additional overload to the server which has to deliver all the 
+page everytime, even if people are looking for a specific section in 
+that page. So, 
+http://wiki.r-project.org/rwiki/doku.php?id=tips:data-matrices 
+(subtopics as links to separate pages) is the appropriate format.
+
+Note also that I have added a new plugin to *automatically* generate the 
+index of a given Wiki namespace. This means that you don't need to 
+manually edit tips:data-matrices everytime you add a tip there (i.e., a 
+*separate* page)! I will show you an example, but not before next 
+week... Too much urgent work this week.
+Best,
+
+Philippe Grosjean
+
+
+From phgrosjean at sciviews.org  Tue Apr 18 08:00:31 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Tue, 18 Apr 2006 08:00:31 +0200
+Subject: [R-wiki] personnal pages on wiki
+In-Reply-To: <4440ECD1.6060808@free.fr>
+References: <4440ECD1.6060808@free.fr>
+Message-ID: <4444807F.8080902@sciviews.org>
+
+Romain Francois wrote:
+> Hi,
+> 
+> What is the general feeling about adding a personnal page inside the wiki.
+> I'll like to create a page, maybe under misc:people, where i could write 
+> the pages i like in the wiki, my (short) todo list, etc ...
+> 
+> I prefer to ask here first. Maybe it is better to create that kind of 
+> pages somewhere else.
+> 
+> Romain
+
+
+Just as it could be fine to propose homepage for CRAN package 
+maintainers (the 'packages' section), I could add a 'users' section with 
+personal homepages, too. Itr is possible to parameterize ACL so that 
+only the user and the Wiki administrators can write on these pages 
+(which remains visible, but read-only for the other users). Note also 
+that I will release the whole Wiki engine as soon as it will be done. 
+This could be used to build personal Wiki pages. So, two possibles 
+issues for this.
+Best,
+
+philippe Grosjean
+
+
+From phgrosjean at sciviews.org  Tue Apr 18 08:05:51 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Tue, 18 Apr 2006 08:05:51 +0200
+Subject: [R-wiki] personnal pages on wiki
+In-Reply-To: <444404FE.9040700@bfro.uni-lj.si>
+References: <444404FE.9040700@bfro.uni-lj.si>
+Message-ID: <444481BF.30005@sciviews.org>
+
+Gregor Gorjanc wrote:
+> Hi,
+> 
+> 
+>>Gabor Grothendieck
+>>The only problem I see is that "your" page could be edited by other
+>>people and you might not want that if its "your" page.
+>>
+>>On 4/15/06, Romain Francois <francoisromain at free.fr> wrote:
+>>
+>>>Hi,
+>>>
+>>>What is the general feeling about adding a personnal page inside the
+>>>wiki. I'll like to create a page, maybe under misc:people, where i
+>>>could write the pages i like in the wiki, my (short) todo list, etc
+>>>...
+>>>
+>>>I prefer to ask here first. Maybe it is better to create that kind of
+>>> pages somewhere else.
+> 
+> 
+> I was thinkig about this also. I often create simple HOWTO's, and random
+> code snipets that do not fit anywhere. They are only on my disk and I
+> belive would serve better if I would share them to others. So I would
+> vote for existence of personal pages. Can I create one? I also agree
+> with Gabor. Is there any mechanism to lock page or at least some parts
+> that you "insist" to stay under your control.
+
+The best way is to get your things organized and fit in one section of 
+tips... otherwise, how will people use your 'unorganized' code snippets?
+
+Otherwise, feel free to add your user page. Please, do it by creating a 
+page with your exact pseudo (as you registered in the Wiki), and uder a 
+new 'users' section. To do so, just type 'users:mypseudo' in the search 
+box, click 'search', and then 'create this page' in the result page.
+best,
+
+Philippe Grosjean
+
+
+From ggrothendieck at gmail.com  Tue Apr 18 13:52:23 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Tue, 18 Apr 2006 07:52:23 -0400
+Subject: [R-wiki] tips formats
+In-Reply-To: <44447F0C.40908@sciviews.org>
+References: <443BE93D.3010601@zoo.ufl.edu> <44447F0C.40908@sciviews.org>
+Message-ID: <971536df0604180452g58dcec52lb7e7152ef48f7a6a@mail.gmail.com>
+
+On 4/18/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Ben Bolker wrote:
+> >    a question for the list:
+> >
+> >    comparing the format of
+> >
+> > 1. http://wiki.r-project.org/rwiki/doku.php?id=tips:data-vectors
+> >
+> > (all subtopics within the page as level-2 headers, index at top
+> > points to anchors within the page)
+> >
+> > and
+> >
+> > 2. http://wiki.r-project.org/rwiki/doku.php?id=tips:data-matrices
+> >
+> > (subtopics as links to separate pages)
+> >
+> >    which do people prefer/think is better? I think I prefer #1
+> > (it's closer to Rtips, broader rather than deeper, and facilitates
+> > browsing), but I'd like suggestions before I go and reformat
+> > the rest of the tips:data sections (matrices, frames, io, lists,
+> > manip, and misc have subpages now).
+> >
+> >    Unless someone wants to write a script that will do the conversion?
+> > It would probably only take a few lines of Perl ...
+> >
+> >    Ben Bolker
+>
+>
+> Wiki pages are rather free. So, something in between those two is
+> acceptable. However,
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:data-vectors is *not* a
+> good idea! Tips should remain short pages. Here you tend to write long
+> pages, and noly one page per Wiki namespace in the tips section. This
+> brings an additional overload to the server which has to deliver all the
+> page everytime, even if people are looking for a specific section in
+> that page. So,
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:data-matrices
+> (subtopics as links to separate pages) is the appropriate format.
+>
+> Note also that I have added a new plugin to *automatically* generate the
+> index of a given Wiki namespace. This means that you don't need to
+> manually edit tips:data-matrices everytime you add a tip there (i.e., a
+> *separate* page)! I will show you an example, but not before next
+> week... Too much urgent work this week.
+> Best,
+>
+
+I generally prefer the long pages since its a pain to have navigate
+all the short pages and one can use ctrl-F to find what they are
+looking for.
+
+
+From bolker at zoo.ufl.edu  Tue Apr 18 15:58:28 2006
+From: bolker at zoo.ufl.edu (Ben Bolker)
+Date: Tue, 18 Apr 2006 09:58:28 -0400
+Subject: [R-wiki] tips formats
+In-Reply-To: <971536df0604180452g58dcec52lb7e7152ef48f7a6a@mail.gmail.com>
+References: <443BE93D.3010601@zoo.ufl.edu> <44447F0C.40908@sciviews.org>
+	<971536df0604180452g58dcec52lb7e7152ef48f7a6a@mail.gmail.com>
+Message-ID: <4444F084.6040905@zoo.ufl.edu>
+
+
+    OK, if it's a technical issue rather than a stylistic one
+(too hard on the server), I will work on reformatting tips:data-vectors
+(and a "surprises" page that I started to do in the same format).
+
+   thanks
+     Ben
+
+Gabor Grothendieck wrote:
+> On 4/18/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> 
+>>Ben Bolker wrote:
+>>
+>>>   a question for the list:
+>>>
+>>>   comparing the format of
+>>>
+>>>1. http://wiki.r-project.org/rwiki/doku.php?id=tips:data-vectors
+>>>
+>>>(all subtopics within the page as level-2 headers, index at top
+>>>points to anchors within the page)
+>>>
+>>>and
+>>>
+>>>2. http://wiki.r-project.org/rwiki/doku.php?id=tips:data-matrices
+>>>
+>>>(subtopics as links to separate pages)
+>>>
+>>>   which do people prefer/think is better? I think I prefer #1
+>>>(it's closer to Rtips, broader rather than deeper, and facilitates
+>>>browsing), but I'd like suggestions before I go and reformat
+>>>the rest of the tips:data sections (matrices, frames, io, lists,
+>>>manip, and misc have subpages now).
+>>>
+>>>   Unless someone wants to write a script that will do the conversion?
+>>>It would probably only take a few lines of Perl ...
+>>>
+>>>   Ben Bolker
+>>
+>>
+>>Wiki pages are rather free. So, something in between those two is
+>>acceptable. However,
+>>http://wiki.r-project.org/rwiki/doku.php?id=tips:data-vectors is *not* a
+>>good idea! Tips should remain short pages. Here you tend to write long
+>>pages, and noly one page per Wiki namespace in the tips section. This
+>>brings an additional overload to the server which has to deliver all the
+>>page everytime, even if people are looking for a specific section in
+>>that page. So,
+>>http://wiki.r-project.org/rwiki/doku.php?id=tips:data-matrices
+>>(subtopics as links to separate pages) is the appropriate format.
+>>
+>>Note also that I have added a new plugin to *automatically* generate the
+>>index of a given Wiki namespace. This means that you don't need to
+>>manually edit tips:data-matrices everytime you add a tip there (i.e., a
+>>*separate* page)! I will show you an example, but not before next
+>>week... Too much urgent work this week.
+>>Best,
+>>
+> 
+> 
+> I generally prefer the long pages since its a pain to have navigate
+> all the short pages and one can use ctrl-F to find what they are
+> looking for.
+
+
+-- 
+620B Bartram Hall                            bolker at zoo.ufl.edu
+Zoology Department, University of Florida    http://www.zoo.ufl.edu/bolker
+Box 118525                                   (ph)  352-392-5697
+Gainesville, FL 32611-8525                   (fax) 352-392-3704
+
+
+From gelman at stat.columbia.edu  Thu Apr 20 04:18:40 2006
+From: gelman at stat.columbia.edu (Andrew Gelman)
+Date: Wed, 19 Apr 2006 22:18:40 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <4446D3D1.6010001@ufl.edu>
+References: <4446D3D1.6010001@ufl.edu>
+Message-ID: <4446EF80.3090506@stat.columbia.edu>
+
+dear ben,
+
+as the author of two 600-page books i can appreciate the difficulties of 
+trying to be inclusive!  it's a paradox of the faq that as it becomes 
+more inclusive, it becomes harder to use.  thanks in any case for 
+organizing this!
+
+yours
+andrew
+
+Ben Bolker wrote:
+
+>
+>   Andrew Gelman posted a link to "Rtips" on his web site.  Gregor
+> (Gorjanc???) pointed out that they were being moved to the Wiki,
+> and Andrew said he preferred the simpler page [see below].  This 
+> disturbs me ... I'd hate to maintain two different versions, and
+> I'm uncomfortable with the idea that we're putting the information
+> in a format where it is *less* accessible (at least to some readers). 
+> Is there any way we can tweak the design of the Wiki so more people like
+> Andrew will find it useful?
+>    Revisiting the discussion from a couple of days ago, where
+> Phillipe said that the "one big page" model was going to be too
+> hard on the server -- is there any way to make it easier?  Can
+> pages be cached?  Or should we all donate money toward upgrading?
+> (I do wonder a bit how well the server will manage if this
+> all takes off and it starts getting thousands of hits a day ...)
+>
+>   [in the mean time I have added an explicit link to R tips in the Wiki]
+>
+>   cheers
+>      Ben
+>
+> -------------------------
+> Comments
+>
+> Hello!
+>
+> These pages are now being moved to R wiki.
+>
+> Posted by: Gregor at April 17, 2006 11:53 PM
+>
+> Gregor,
+>
+> I find the R Wiki a bit overwhelming and actually prefer Johnson's 
+> simpler page. For me, there's a point at which the nonlinearity of 
+> hyperlinks just adds confusion. Perhaps this is one reason I still 
+> write books.
+>
+> I hope Johnson continues to maintain his webpage, or else I hope the 
+> Wiki people put in a prominent link to the old version.
+>
+> Posted by: Andrew [TypeKey Profile Page] at April 18, 2006 06:17 AM
+
+
+-- 
+Andrew Gelman
+Professor, Department of Statistics
+Professor, Department of Political Science
+gelman at stat.columbia.edu
+www.stat.columbia.edu/~gelman
+
+Statistics department office:
+  Social Work Bldg (Amsterdam Ave at 122 St), Room 1016
+  212-851-2142
+Political Science department office:
+  International Affairs Bldg (Amsterdam Ave at 118 St), Room 731
+  212-854-7075
+
+Mailing address:
+  1255 Amsterdam Ave, Room 1016
+  Columbia University
+  New York, NY 10027-5904
+  212-851-2142
+  (fax) 212-851-2164
+
+
+From bolker at ufl.edu  Thu Apr 20 02:20:33 2006
+From: bolker at ufl.edu (Ben Bolker)
+Date: Wed, 19 Apr 2006 20:20:33 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+Message-ID: <4446D3D1.6010001@ufl.edu>
+
+
+   Andrew Gelman posted a link to "Rtips" on his web site.  Gregor
+(Gorjanc???) pointed out that they were being moved to the Wiki,
+and Andrew said he preferred the simpler page [see below].  This 
+disturbs me ... I'd hate to maintain two different versions, and
+I'm uncomfortable with the idea that we're putting the information
+in a format where it is *less* accessible (at least to some readers). 
+Is there any way we can tweak the design of the Wiki so more people like
+Andrew will find it useful?
+    Revisiting the discussion from a couple of days ago, where
+Phillipe said that the "one big page" model was going to be too
+hard on the server -- is there any way to make it easier?  Can
+pages be cached?  Or should we all donate money toward upgrading?
+(I do wonder a bit how well the server will manage if this
+all takes off and it starts getting thousands of hits a day ...)
+
+   [in the mean time I have added an explicit link to R tips in the Wiki]
+
+   cheers
+      Ben
+
+-------------------------
+Comments
+
+Hello!
+
+These pages are now being moved to R wiki.
+
+Posted by: Gregor at April 17, 2006 11:53 PM
+
+Gregor,
+
+I find the R Wiki a bit overwhelming and actually prefer Johnson's 
+simpler page. For me, there's a point at which the nonlinearity of 
+hyperlinks just adds confusion. Perhaps this is one reason I still write 
+books.
+
+I hope Johnson continues to maintain his webpage, or else I hope the 
+Wiki people put in a prominent link to the old version.
+
+Posted by: Andrew [TypeKey Profile Page] at April 18, 2006 06:17 AM
+
+
+From phgrosjean at sciviews.org  Fri Apr 21 14:47:50 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Fri, 21 Apr 2006 14:47:50 +0200
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <4446EF80.3090506@stat.columbia.edu>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+Message-ID: <4448D476.3050401@sciviews.org>
+
+Hi,
+Although I am ready to consider your point of view, I think I don't 
+understand it very well.
+
+1) Rtips is, by definition, a collection of short R code snippets. They 
+are, of course, collected together in a logical way (i.e., sections with 
+tips dealing with similar topics). Now, *why the hell would you like to 
+have a linear presentation of these tips???* (is this what you mean by: 
+"the nonlinearity of hyperlinks just adds confusion." ?) The best way to 
+access these tips is by looking at keywords (the search box) and reading 
+the tips related to your particular problem. So, why would you need a 
+linear reading from tip A to tip Z? Who do read Rtips linearly from the 
+first one to the last one? They are not made to be read like a book,... 
+just because they are different and they serve a different purpose.
+
+2) People critisize the fact that you have "disturing" items in the Wiki 
+pages, that is mainly the top and bottom light blue toolbars with 
+buttons like "Edit this page", "Old revisions", etc. These make part of 
+a Wiki system, which allows you to edit and add material to these pages 
+yourself. This is the main difference between a plain Web site and a 
+Wiki site. Another difference is that, being the result of the work of 
+several authors, a Wiki site tend often to be less organized than a Web 
+site. We made a huge effort to get R Wiki well-organized, but always 
+remember the differences between a Wiki site and a Web site.
+
+3) The "one big page" model is not just hard for the server (indeed, all 
+pages are cached by the Wiki engine), but they are harder to maintain in 
+the Wiki approach: remember that all versions of Wiki pages are kept on 
+the server, with revision history, etc. This mechanism is very efficient 
+with lots of small pages (which is what a Wiki is designed for), but 
+much less for one big page like: http://pj.freefaculty.org/R/Rtips.html. 
+Everytime you change something in one tip, the version of the whole big 
+page is archived. Also, when you track changes (revision history, RSS 
+feed), you have warnings that "RTips was changed", no mather *which* tip 
+was actually changed. So both RSS feed and revision history summary 
+become rather inefficient when you tend to write large pages with many 
+different topics in them. A Wiki is really designed to work with many 
+pages, each dealing with a single particular topic. Now, you can flow 
+linearly from one tip to the next one, if you like, by adding a "next 
+tip" link at the end of each page.
+
+4) I certainly hope that duplications (Web site versus same info in the 
+Wiki) will be resolved. RTips has much to gain to be in a Wiki. One big 
+reason is its maintenance. R is evolving quickly, and it is a huge work 
+for authors/maintainers of R code AND R documents to keep them updated. 
+Usually, R documentation (outside of the official R doc, I mean) is not 
+updated regularly and is thus rapidly inconsitent with the current 
+version of R. On the Wiki, any reader that founds a problem, an 
+incompatibility, etc. can fix it. This brings a lot of help to the 
+initial author(s) that did already a big job, but do not necessarily 
+have the time to reread and retest all R code in their document for 
+every new version of R (every 6 months).
+
+So, yes, I hope that RTips on the Wiki will evolve with the output of 
+other people and will become even more complete and up-to-date than it 
+is in the original Web version. I would be in favor of complete close of 
+the Web site version, with a redirection to the Wiki, but that is up to 
+the Rtips author, of course. The fact is that the Wiki version would 
+differ from the more static Web version (incompatibilites with new R 
+versions and bug fixed, new tips added, etc.). So, why to point readers 
+to an old, outdated version of a document? Point your readers to the 
+latest version, that is, the Wiki one (well, once all RTips will be 
+wikified)!
+
+So, now, for people that do not like the presentation of the Wiki pages, 
+I would suggest to build a web page with both a "linear" table of 
+content (for instance in a frame at left and numbered tips as in the 
+original RTips page), that points te the HTML version of Wiki pages (at 
+right). To get HTML version of a Wiki page, you add '&do=export_xhtml' 
+at the end of the URL. For instance, one RTip like:
+
+http://wiki.r-project.org/rwiki/doku.php?id=tips:data-frames:recode_column
+
+can be accessed as if it was a plain Web page using this URL:
+
+http://wiki.r-project.org/rwiki/doku.php?id=tips:data-frames:recode_column&do=export_xhtml
+
+Best,
+
+Philippe Grosjean
+
+
+Andrew Gelman wrote:
+> dear ben,
+> 
+> as the author of two 600-page books i can appreciate the difficulties of 
+> trying to be inclusive!  it's a paradox of the faq that as it becomes 
+> more inclusive, it becomes harder to use.  thanks in any case for 
+> organizing this!
+> 
+> yours
+> andrew
+> 
+> Ben Bolker wrote:
+> 
+> 
+>>  Andrew Gelman posted a link to "Rtips" on his web site.  Gregor
+>>(Gorjanc???) pointed out that they were being moved to the Wiki,
+>>and Andrew said he preferred the simpler page [see below].  This 
+>>disturbs me ... I'd hate to maintain two different versions, and
+>>I'm uncomfortable with the idea that we're putting the information
+>>in a format where it is *less* accessible (at least to some readers). 
+>>Is there any way we can tweak the design of the Wiki so more people like
+>>Andrew will find it useful?
+>>   Revisiting the discussion from a couple of days ago, where
+>>Phillipe said that the "one big page" model was going to be too
+>>hard on the server -- is there any way to make it easier?  Can
+>>pages be cached?  Or should we all donate money toward upgrading?
+>>(I do wonder a bit how well the server will manage if this
+>>all takes off and it starts getting thousands of hits a day ...)
+>>
+>>  [in the mean time I have added an explicit link to R tips in the Wiki]
+>>
+>>  cheers
+>>     Ben
+>>
+>>-------------------------
+>>Comments
+>>
+>>Hello!
+>>
+>>These pages are now being moved to R wiki.
+>>
+>>Posted by: Gregor at April 17, 2006 11:53 PM
+>>
+>>Gregor,
+>>
+>>I find the R Wiki a bit overwhelming and actually prefer Johnson's 
+>>simpler page. For me, there's a point at which the nonlinearity of 
+>>hyperlinks just adds confusion. Perhaps this is one reason I still 
+>>write books.
+>>
+>>I hope Johnson continues to maintain his webpage, or else I hope the 
+>>Wiki people put in a prominent link to the old version.
+>>
+>>Posted by: Andrew [TypeKey Profile Page] at April 18, 2006 06:17 AM
+> 
+> 
+>
+
+
+From ggrothendieck at gmail.com  Fri Apr 21 15:11:47 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Fri, 21 Apr 2006 09:11:47 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <4448D476.3050401@sciviews.org>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+	<4448D476.3050401@sciviews.org>
+Message-ID: <971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+
+On 4/21/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Hi,
+> Although I am ready to consider your point of view, I think I don't
+> understand it very well.
+>
+> 1) Rtips is, by definition, a collection of short R code snippets. They
+> are, of course, collected together in a logical way (i.e., sections with
+> tips dealing with similar topics). Now, *why the hell would you like to
+> have a linear presentation of these tips???* (is this what you mean by:
+> "the nonlinearity of hyperlinks just adds confusion." ?) The best way to
+> access these tips is by looking at keywords (the search box) and reading
+> the tips related to your particular problem.
+
+The best way is to browse, not search, since its hard to know exactly
+what one wants.  If its all on one page or a small number of pages then its
+easy to do but if one has to search for it it makes it much harder. I
+would therefore agree with the posters who indicated that the original
+one page Rtips was a superior organization.
+
+One idea is to have it on one or a small number of Wiki pages and have a program
+that collects them altogether in a document that can be downloaded.  That
+program could be run periodically to provide a snapshot, e.g. once a week
+or once a month.
+
+
+From tplate at blackmesacapital.com  Fri Apr 21 17:19:26 2006
+From: tplate at blackmesacapital.com (Tony Plate)
+Date: Fri, 21 Apr 2006 09:19:26 -0600
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu>
+	<4446EF80.3090506@stat.columbia.edu>	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+Message-ID: <4448F7FE.4060903@blackmesacapital.com>
+
+My feeling too is that having more on a single page makes for much 
+easier browsing when you don't know exactly what you're looking for, or 
+when the terminology is unfamiliar (both of which are likely to be true 
+for many users of the Wiki).
+
+However, maybe this can be partially addressed by having larger index 
+pages, each one pointing to many different small example pages.  I'm not 
+sure how well this could work.  If each example could be concisely 
+described in a few words it might work well (then those few words could 
+be used on the index page).
+
+-- Tony Plate
+
+Gabor Grothendieck wrote:
+> On 4/21/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> 
+>>Hi,
+>>Although I am ready to consider your point of view, I think I don't
+>>understand it very well.
+>>
+>>1) Rtips is, by definition, a collection of short R code snippets. They
+>>are, of course, collected together in a logical way (i.e., sections with
+>>tips dealing with similar topics). Now, *why the hell would you like to
+>>have a linear presentation of these tips???* (is this what you mean by:
+>>"the nonlinearity of hyperlinks just adds confusion." ?) The best way to
+>>access these tips is by looking at keywords (the search box) and reading
+>>the tips related to your particular problem.
+> 
+> 
+> The best way is to browse, not search, since its hard to know exactly
+> what one wants.  If its all on one page or a small number of pages then its
+> easy to do but if one has to search for it it makes it much harder. I
+> would therefore agree with the posters who indicated that the original
+> one page Rtips was a superior organization.
+> 
+> One idea is to have it on one or a small number of Wiki pages and have a program
+> that collects them altogether in a document that can be downloaded.  That
+> program could be run periodically to provide a snapshot, e.g. once a week
+> or once a month.
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From damian.betebenner at bc.edu  Fri Apr 21 17:36:14 2006
+From: damian.betebenner at bc.edu (Damian Betebenner)
+Date: Fri, 21 Apr 2006 11:36:14 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <4448F7FE.4060903@blackmesacapital.com>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com>
+Message-ID: <web-8563043@be2.bc.edu>
+
+It's interesting how idiosyncratic people's browsing techniques are.
+My tendencies follow two distinct patterns:
+
+1. I go to the website and use a search function to find what I want (note: for websites built on a single
+page, that manifests itself by doing a wordsearch within the browser)
+
+2. I take advantage of any "directory structure" that the website has to push/aid me toward what I'm looking
+for (and perhaps find the critical key word that I can use for a search).
+
+The Wiki, for me, seems to perform better than the single page on both accounts. 
+
+But the biggest advantage of the Wiki, for me, is that is radically simplifies sharing and
+does so in a fashion that allows one to have a lots of "tricks" (math syntax, syntax highlighting,
+command hyperlinks,  figures, ...)
+
+Just my $.02
+
+Damian
+
+
+ |  On Fri, 21 Apr 2006 09:19:26 -0600
+ |  Tony Plate <tplate at blackmesacapital.com> wrote:
+>>>My feeling too is that having more on a single page makes for much 
+>>>easier browsing when you don't know exactly what you're looking for, or 
+>>>when the terminology is unfamiliar (both of which are likely to be true 
+>>>for many users of the Wiki).
+>>>
+>>>However, maybe this can be partially addressed by having larger index 
+>>>pages, each one pointing to many different small example pages.  I'm not 
+>>>sure how well this could work.  If each example could be concisely 
+>>>described in a few words it might work well (then those few words could 
+>>>be used on the index page).
+>>>
+>>>-- Tony Plate
+>>>
+>>>Gabor Grothendieck wrote:
+>>>> On 4/21/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>>> 
+>>>>>Hi,
+>>>>>Although I am ready to consider your point of view, I think I don't
+>>>>>understand it very well.
+>>>>>
+>>>>>1) Rtips is, by definition, a collection of short R code snippets. They
+>>>>>are, of course, collected together in a logical way (i.e., sections with
+>>>>>tips dealing with similar topics). Now, *why the hell would you like to
+>>>>>have a linear presentation of these tips???* (is this what you mean by:
+>>>>>"the nonlinearity of hyperlinks just adds confusion." ?) The best way to
+>>>>>access these tips is by looking at keywords (the search box) and reading
+>>>>>the tips related to your particular problem.
+>>>> 
+>>>> 
+>>>> The best way is to browse, not search, since its hard to know exactly
+>>>> what one wants.  If its all on one page or a small number of pages then its
+>>>> easy to do but if one has to search for it it makes it much harder. I
+>>>> would therefore agree with the posters who indicated that the original
+>>>> one page Rtips was a superior organization.
+>>>> 
+>>>> One idea is to have it on one or a small number of Wiki pages and have a program
+>>>> that collects them altogether in a document that can be downloaded.  That
+>>>> program could be run periodically to provide a snapshot, e.g. once a week
+>>>> or once a month.
+>>>> 
+>>>> _______________________________________________
+>>>> R-sig-wiki mailing list
+>>>> R-sig-wiki at r-project.org
+>>>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>
+>>>
+>>>_______________________________________________
+>>>R-sig-wiki mailing list
+>>>R-sig-wiki at r-project.org
+>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+
+
+From phgrosjean at sciviews.org  Sun Apr 23 09:56:15 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 23 Apr 2006 09:56:15 +0200
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <4448F7FE.4060903@blackmesacapital.com>
+References: <4446D3D1.6010001@ufl.edu>
+	<4446EF80.3090506@stat.columbia.edu>	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com>
+Message-ID: <444B331F.50601@sciviews.org>
+
+Tony Plate wrote:
+ > [...] (see hereunder for full post)
+ > However, maybe this can be partially addressed by having larger index
+ > pages, each one pointing to many different small example pages. [...]
+
+Exactly! Speaking about "browsing" the tips, the key is not to have all 
+tips on one page, but an index, table of content, summary, or 
+whatever-you-call-it page. You browse that page and click on the links 
+you want. This is more effective than browsing tens of thousands of 
+lines to discover that the tips you are looking for is the forelast one, 
+that is, the 9,999th one!
+
+It seems that it would be good to (re)read 
+http://wiki.r-project.org/rwiki/doku.php?id=wiki:authoring, the Wiki 
+authoring guide:
+
+...
+
+=== Can I compile my own table of content? ===
+
+Question:
+
+     I want to collate together a series of Wiki pages by creating an 
+original table of content. I want to do this to prepare a course or a 
+tutorial targetting a specific audience. I don?t want to write that 
+document from scratch, and I think that a couple of R Wiki pages just 
+correspond to what I need. Can I do that?
+
+Answer: Yes, you can. All material on the R Wiki is licensed under the 
+Creative Commons Attribution-NonCommercial-ShareAlike License Version 
+2.5. This means that you can collect material together providing: (1) 
+you indicate respective authors, (2) this is not intended for commercial 
+use, and (3) you compilation is redistributed under a similar license.
+
+There are three ways to collect together Wiki pages:
+
+    1. Export the pages of interest as XHTML, by appending 
+&do=export_xhtml at the end of the URL and reload it. You can copy and 
+paste the page(s) either in your favorite HTML editor, or in a word 
+processor like OpenOffice Writer or Microsoft Word (do not forget to 
+point to the R Wiki as the origin of the material).
+
+    2. Link to the pages of interest from your own Web or Wiki site.
+
+    3. But if you think your table of content could be interesting for 
+other R users, please, share it by adding it directly into this R Wiki.
+
+Those who want to provide a tool to automate the collation of several 
+Wiki pages and compile an unique PDF file are warmly welcome to 
+contribute. However, I think it is, in all cases, much better to work 
+only with the original pages on the Wiki. A leading concept of the Wiki 
+is to stimulate every reader to become an author. This is easy to do 
+when you read the original Wiki page (just click 'Edit this page' on the 
+top or bottom left of the page). For sure, readers of the PDF version 
+are less likely to contribute, since the access to the editable Wiki 
+page is not straightforward for them (and they may even not know that 
+there is a Wiki equivalent of the PDF)!
+
+To conclude, I think that many proposals these times are done by people 
+that do not like the Wiki presentation and would prefer a Web or PDF 
+presentation. The later two are incompatible with the leading idea of 
+the Wiki that every reader can easily become an author. Applying the 
+proposed changes to the Wiki will certainly lead to a more "Webish" or 
+"PDFish" look&feel of R Wiki, but it will almost certainly break the 
+initial idea of a place for *collaboratiove writing of R documentation*.
+Best,
+
+Philippe Grosjean
+
+Tony Plate wrote:
+> My feeling too is that having more on a single page makes for much 
+> easier browsing when you don't know exactly what you're looking for, or 
+> when the terminology is unfamiliar (both of which are likely to be true 
+> for many users of the Wiki).
+> 
+> However, maybe this can be partially addressed by having larger index 
+> pages, each one pointing to many different small example pages.  I'm not 
+> sure how well this could work.  If each example could be concisely 
+> described in a few words it might work well (then those few words could 
+> be used on the index page).
+> 
+> -- Tony Plate
+> 
+> Gabor Grothendieck wrote:
+> 
+>> On 4/21/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>
+>>> Hi,
+>>> Although I am ready to consider your point of view, I think I don't
+>>> understand it very well.
+>>>
+>>> 1) Rtips is, by definition, a collection of short R code snippets. They
+>>> are, of course, collected together in a logical way (i.e., sections with
+>>> tips dealing with similar topics). Now, *why the hell would you like to
+>>> have a linear presentation of these tips???* (is this what you mean by:
+>>> "the nonlinearity of hyperlinks just adds confusion." ?) The best way to
+>>> access these tips is by looking at keywords (the search box) and reading
+>>> the tips related to your particular problem.
+>>
+>>
+>>
+>> The best way is to browse, not search, since its hard to know exactly
+>> what one wants.  If its all on one page or a small number of pages 
+>> then its
+>> easy to do but if one has to search for it it makes it much harder. I
+>> would therefore agree with the posters who indicated that the original
+>> one page Rtips was a superior organization.
+>>
+>> One idea is to have it on one or a small number of Wiki pages and have 
+>> a program
+>> that collects them altogether in a document that can be downloaded.  That
+>> program could be run periodically to provide a snapshot, e.g. once a week
+>> or once a month.
+>>
+>> _______________________________________________
+>> R-sig-wiki mailing list
+>> R-sig-wiki at r-project.org
+>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>
+> 
+> 
+>
+
+
+From ggrothendieck at gmail.com  Sun Apr 23 11:57:24 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sun, 23 Apr 2006 05:57:24 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <444B331F.50601@sciviews.org>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com> <444B331F.50601@sciviews.org>
+Message-ID: <971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+
+On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Tony Plate wrote:
+>  > [...] (see hereunder for full post)
+>  > However, maybe this can be partially addressed by having larger index
+>  > pages, each one pointing to many different small example pages. [...]
+>
+> Exactly! Speaking about "browsing" the tips, the key is not to have all
+> tips on one page, but an index, table of content, summary, or
+> whatever-you-call-it page. You browse that page and click on the links
+> you want. This is more effective than browsing tens of thousands of
+> lines to discover that the tips you are looking for is the forelast one,
+> that is, the 9,999th one!
+>
+
+You want to browse the code itself, not just an index.  The way
+you learn R is to look at a lot of code and not by having to waste
+time jumping to dozens or hundreds of different pages.
+
+
+From phgrosjean at sciviews.org  Sun Apr 23 12:21:19 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 23 Apr 2006 12:21:19 +0200
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>	
+	<4448D476.3050401@sciviews.org>	
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>	
+	<4448F7FE.4060903@blackmesacapital.com>
+	<444B331F.50601@sciviews.org>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+Message-ID: <444B551F.9030501@sciviews.org>
+
+Gabor Grothendieck wrote:
+> On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> 
+>>Tony Plate wrote:
+>> > [...] (see hereunder for full post)
+>> > However, maybe this can be partially addressed by having larger index
+>> > pages, each one pointing to many different small example pages. [...]
+>>
+>>Exactly! Speaking about "browsing" the tips, the key is not to have all
+>>tips on one page, but an index, table of content, summary, or
+>>whatever-you-call-it page. You browse that page and click on the links
+>>you want. This is more effective than browsing tens of thousands of
+>>lines to discover that the tips you are looking for is the forelast one,
+>>that is, the 9,999th one!
+>>
+> 
+> 
+> You want to browse the code itself, not just an index.  The way
+> you learn R is to look at a lot of code and not by having to waste
+> time jumping to dozens or hundreds of different pages.
+
+So, are you telling me that you put somehow the whole code of R in a 
+*single* file and that you are happy browsing it that way??? Stop 
+kidding, please :-O
+
+PhG
+
+
+From gavin.simpson at ucl.ac.uk  Sun Apr 23 12:28:22 2006
+From: gavin.simpson at ucl.ac.uk (Gavin Simpson)
+Date: Sun, 23 Apr 2006 11:28:22 +0100
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com> <444B331F.50601@sciviews.org>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+Message-ID: <1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+
+On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+> On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> > Tony Plate wrote:
+> >  > [...] (see hereunder for full post)
+> >  > However, maybe this can be partially addressed by having larger index
+> >  > pages, each one pointing to many different small example pages. [...]
+> >
+> > Exactly! Speaking about "browsing" the tips, the key is not to have all
+> > tips on one page, but an index, table of content, summary, or
+> > whatever-you-call-it page. You browse that page and click on the links
+> > you want. This is more effective than browsing tens of thousands of
+> > lines to discover that the tips you are looking for is the forelast one,
+> > that is, the 9,999th one!
+> >
+> 
+> You want to browse the code itself, not just an index.  The way
+> you learn R is to look at a lot of code and not by having to waste
+> time jumping to dozens or hundreds of different pages.
+
+Gabor
+
+/you/ might learn R best that way, but I doubt many people will. From my
+own experience and from teaching R to colleagues and with students on
+short courses is that they like a reasonable grounding in the basics to
+allow them to get started, and then when they started doing their own
+thing they want to ask "how do I do x?" Scanning a list of tips allows
+them to drill down to the few items that sound like they might answer
+their question. People don't want to read page after page of code -
+especially on a screen - just to find the one sentence or line of code
+that will help them solve their immediate problem.
+
+G
+
+> 
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+-- 
+%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+ *Note new Address and Fax and Telephone numbers from 10th April 2006*
+%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+Gavin Simpson                     [t] +44 (0)20 7679 0522
+ECRC                              [f] +44 (0)20 7679 0565
+UCL Department of Geography
+Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+Gower Street
+London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+
+
+From ggrothendieck at gmail.com  Sun Apr 23 12:32:18 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sun, 23 Apr 2006 06:32:18 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <444B551F.9030501@sciviews.org>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com> <444B331F.50601@sciviews.org>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+	<444B551F.9030501@sciviews.org>
+Message-ID: <971536df0604230332l772f819cxf9ff972380e426b3@mail.gmail.com>
+
+On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Gabor Grothendieck wrote:
+> > On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> >
+> >>Tony Plate wrote:
+> >> > [...] (see hereunder for full post)
+> >> > However, maybe this can be partially addressed by having larger index
+> >> > pages, each one pointing to many different small example pages. [...]
+> >>
+> >>Exactly! Speaking about "browsing" the tips, the key is not to have all
+> >>tips on one page, but an index, table of content, summary, or
+> >>whatever-you-call-it page. You browse that page and click on the links
+> >>you want. This is more effective than browsing tens of thousands of
+> >>lines to discover that the tips you are looking for is the forelast one,
+> >>that is, the 9,999th one!
+> >>
+> >
+> >
+> > You want to browse the code itself, not just an index.  The way
+> > you learn R is to look at a lot of code and not by having to waste
+> > time jumping to dozens or hundreds of different pages.
+>
+> So, are you telling me that you put somehow the whole code of R in a
+> *single* file and that you are happy browsing it that way??? Stop
+> kidding, please :-O
+>
+
+At least for tips, yes.  I think a single file, with thousands of lines if
+need be, is best.
+
+Although this may be too much work, what would be attractive from
+the viewpoint of someone trying to use it is that, assuming
+the tips are one per page, would be to have a program that reorganizes
+them all into a single document.  I am not sure if this implies storing
+them in a database or what the technical solution would be.
+
+
+From ggrothendieck at gmail.com  Sun Apr 23 12:35:03 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sun, 23 Apr 2006 06:35:03 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com> <444B331F.50601@sciviews.org>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+Message-ID: <971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+
+Each tip should be one (or a small number of lines) for the description
+and one line (or a small number of lines) for the answer -- not pages.
+Look at Paul Johnson's original organization and its quite clear its
+superior for both browsing and searching.
+
+On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+> On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+> > On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> > > Tony Plate wrote:
+> > >  > [...] (see hereunder for full post)
+> > >  > However, maybe this can be partially addressed by having larger index
+> > >  > pages, each one pointing to many different small example pages. [...]
+> > >
+> > > Exactly! Speaking about "browsing" the tips, the key is not to have all
+> > > tips on one page, but an i
+ndex, table of content, summary, or
+> > > whatever-you-call-it page. You browse that page and click on the links
+> > > you want. This is more effective than browsing tens of thousands of
+> > > lines to discover that the tips you are looking for is the forelast one,
+> > > that is, the 9,999th one!
+> > >
+> >
+> > You want to browse the code itself, not just an index.  The way
+> > you learn R is to look at a lot of code and not by having to waste
+> > time jumping to dozens or hundreds of different pages.
+>
+> Gabor
+>
+> /you/ might learn R best that way, but I doubt many people will. From my
+> own experience and from teaching R to colleagues and with students on
+> short courses is that they like a reasonable grounding in the basics to
+> allow them to get started, and then when they started doing their own
+> thing they want to ask "how do I do x?" Scanning a list of tips allows
+> them to drill down to the few items that sound like they might answer
+> their question. People don't want to read page after page of code -
+> especially on a screen - just to find the one sentence or line of code
+> that will help them solve their immediate problem.
+>
+> G
+>
+> >
+> > _______________________________________________
+> > R-sig-wiki mailing list
+> > R-sig-wiki at r-project.org
+> > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> --
+> %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>  *Note new Address and Fax and Telephone numbers from 10th April 2006*
+> %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> Gavin Simpson                     [t] +44 (0)20 7679 0522
+> ECRC                              [f] +44 (0)20 7679 0565
+> UCL Department of Geography
+> Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+> Gower Street
+> London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+> WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+> %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>
+>
+
+
+From gavin.simpson at ucl.ac.uk  Sun Apr 23 13:03:56 2006
+From: gavin.simpson at ucl.ac.uk (Gavin Simpson)
+Date: Sun, 23 Apr 2006 12:03:56 +0100
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com> <444B331F.50601@sciviews.org>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+Message-ID: <1145790236.24735.46.camel@dhcppc2.my.nat.localnet>
+
+On Sun, 2006-04-23 at 06:35 -0400, Gabor Grothendieck wrote:
+> Each tip should be one (or a small number of lines) for the description
+> and one line (or a small number of lines) for the answer -- not pages.
+
+The Rtips web page I looked at (original) has a table of contents which
+are hyperlinks to the actual tips in the same page - which is many
+screen-heights on my monitor. I would approach this by scanning the ToC
+for things that sounded like they might help me with a problem, and
+click on the links one at a time, clicking Back to return to the list so
+I could easily choose the next tip I wanted to look at (rather than
+scrolling through the page to find the actual tips I wanted).
+
+I don't see how the Wiki is any different here? Except that the
+individual tips are stored as separate pages to which the ToC links
+point to rather than to anchors within the same page. My approach to
+this resource would be no different from the original RTips. I don't
+think that many people would scroll through the entirety of Paul's RTips
+page in a single sitting , do you?
+
+Given the additional benefits of having version control on the revisions
+and other advantages of having individual pages for each tip, I don't
+think the minor change in format is too great a problem. YMMV.
+
+> Look at Paul Johnson's original organization and its quite clear its
+> superior for both browsing and searching.
+
+In your opinion. It is difficult to compare the two resources as not all
+of the tips have been placed in the wiki yet, but I don't see what the
+difference is unless you like sitting down in front of your machine and
+reading page after page of tips.
+
+My main issue with all this is that to get to the wiki version of RTips,
+I had to choose tips in the index, then tips again. Not the easiest in
+navigation! If this section is meant to be separate because it is to
+become a wikified version of Paul's RTips, then why is it listed as tips
+> tips? Shouldn't there be one tips section with various sub-headings,
+and Paul's RTips tips listed alongside other user-supplied tips within
+those sub-headings? Each tip from RTips could have a small note at the
+top to say this is from RTips by Paul Johnson (link to his page) etc. to
+denote the provenance.
+
+Maybe the authors of the separate R web resources didn't want this to
+happen, but it doesn't make sense to have lots of <insert_name>Tips
+sections in the wiki, there should be one for this kind of tip/snippet.
+
+G
+
+> 
+> On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+> > On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+> > > On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> > > > Tony Plate wrote:
+> > > >  > [...] (see hereunder for full post)
+> > > >  > However, maybe this can be partially addressed by having larger index
+> > > >  > pages, each one pointing to many different small example pages. [...]
+> > > >
+> > > > Exactly! Speaking about "browsing" the tips, the key is not to have all
+> > > > tips on one page, but an i
+> ndex, table of content, summary, or
+> > > > whatever-you-call-it page. You browse that page and click on the links
+> > > > you want. This is more effective than browsing tens of thousands of
+> > > > lines to discover that the tips you are looking for is the forelast one,
+> > > > that is, the 9,999th one!
+> > > >
+> > >
+> > > You want to browse the code itself, not just an index.  The way
+> > > you learn R is to look at a lot of code and not by having to waste
+> > > time jumping to dozens or hundreds of different pages.
+> >
+> > Gabor
+> >
+> > /you/ might learn R best that way, but I doubt many people will. From my
+> > own experience and from teaching R to colleagues and with students on
+> > short courses is that they like a reasonable grounding in the basics to
+> > allow them to get started, and then when they started doing their own
+> > thing they want to ask "how do I do x?" Scanning a list of tips allows
+> > them to drill down to the few items that sound like they might answer
+> > their question. People don't want to read page after page of code -
+> > especially on a screen - just to find the one sentence or line of code
+> > that will help them solve their immediate problem.
+> >
+> > G
+> >
+> > >
+> > > _______________________________________________
+> > > R-sig-wiki mailing list
+> > > R-sig-wiki at r-project.org
+> > > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> > --
+> > %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >  *Note new Address and Fax and Telephone numbers from 10th April 2006*
+> > %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> > Gavin Simpson                     [t] +44 (0)20 7679 0522
+> > ECRC                              [f] +44 (0)20 7679 0565
+> > UCL Department of Geography
+> > Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+> > Gower Street
+> > London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+> > WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+> > %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >
+> >
+-- 
+%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+ *Note new Address and Fax and Telephone numbers from 10th April 2006*
+%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+Gavin Simpson                     [t] +44 (0)20 7679 0522
+ECRC                              [f] +44 (0)20 7679 0565
+UCL Department of Geography
+Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+Gower Street
+London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+
+
+From ggrothendieck at gmail.com  Sun Apr 23 13:09:21 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sun, 23 Apr 2006 07:09:21 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>
+	<4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com> <444B331F.50601@sciviews.org>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+Message-ID: <971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>
+
+In thinking about this some more perhaps one possibliity would be to have
+an index which incluldes the answer.  That would allow one to browse the
+key code and also see an expanded wiki discussion.
+
+e.g.
+
+1.1 Bring raw numbers into R: scan(myfile)
+1.2 Basic notation on data access: iris[1,2]
+1.3 Exchange data between R and Excel/other progs: read.xls(excelfile)
+ [also robdc, foreign and Hmisc packages]
+1.4 Merge data frames: merge(ds1, ds1, by = c("city", "x1"),all=TRUE)
+
+
+On 4/23/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:
+> Each tip should be one (or a small number of lines) for the description
+> and one line (or a small number of lines) for the answer -- not pages.
+> Look at Paul Johnson's original organization and its quite clear its
+> superior for both browsing and searching.
+>
+> On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+> > On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+> > > On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> > > > Tony Plate wrote:
+> > > >  > [...] (see hereunder for full post)
+> > > >  > However, maybe this can be partially addressed by having larger index
+> > > >  > pages, each one pointing to many different small example pages. [...]
+> > > >
+> > > > Exactly! Speaking about "browsing" the tips, the key is not to have all
+> > > > tips on one page, but an i
+> ndex, table of content, summary, or
+> > > > whatever-you-call-it page. You browse that page and click on the links
+> > > > you want. This is more effective than browsing tens of thousands of
+> > > > lines to discover that the tips you are looking for is the forelast one,
+> > > > that is, the 9,999th one!
+> > > >
+> > >
+> > > You want to browse the code itself, not just an index.  The way
+> > > you learn R is to look at a lot of code and not by having to waste
+> > > time jumping to dozens or hundreds of different pages.
+> >
+> > Gabor
+> >
+> > /you/ might learn R best that way, but I doubt many people will. From my
+> > own experience and from teaching R to colleagues and with students on
+> > short courses is that they like a reasonable grounding in the basics to
+> > allow them to get started, and then when they started doing their own
+> > thing they want to ask "how do I do x?" Scanning a list of tips allows
+> > them to drill down to the few items that sound like they might answer
+> > their question. People don't want to read page after page of code -
+> > especially on a screen - just to find the one sentence or line of code
+> > that will help them solve their immediate problem.
+> >
+> > G
+> >
+> > >
+> > > _______________________________________________
+> > > R-sig-wiki mailing list
+> > > R-sig-wiki at r-project.org
+> > > https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> > --
+> > %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >  *Note new Address and Fax and Telephone numbers from 10th April 2006*
+> > %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> > Gavin Simpson                     [t] +44 (0)20 7679 0522
+> > ECRC                              [f] +44 (0)20 7679 0565
+> > UCL Department of Geography
+> > Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+> > Gower Street
+> > London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+> > WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+> > %~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >
+> >
+>
+
+
+From phgrosjean at sciviews.org  Sun Apr 23 14:08:54 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 23 Apr 2006 14:08:54 +0200
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu> <4446EF80.3090506@stat.columbia.edu>	
+	<4448D476.3050401@sciviews.org>	
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>	
+	<4448F7FE.4060903@blackmesacapital.com>
+	<444B331F.50601@sciviews.org>	
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>	
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>	
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+	<971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>
+Message-ID: <444B6E56.7050603@sciviews.org>
+
+Gabor Grothendieck wrote:
+> In thinking about this some more perhaps one possibliity would be to have
+> an index which incluldes the answer.  That would allow one to browse the
+> key code and also see an expanded wiki discussion.
+> 
+> e.g.
+> 
+> 1.1 Bring raw numbers into R: scan(myfile)
+> 1.2 Basic notation on data access: iris[1,2]
+> 1.3 Exchange data between R and Excel/other progs: read.xls(excelfile)
+>  [also robdc, foreign and Hmisc packages]
+> 1.4 Merge data frames: merge(ds1, ds1, by = c("city", "x1"),all=TRUE)
+
+Hum, hum... you mean, something like: 
+http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+
+:-)
+
+PhG
+
+
+> On 4/23/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:
+> 
+>>Each tip should be one (or a small number of lines) for the description
+>>and one line (or a small number of lines) for the answer -- not pages.
+>>Look at Paul Johnson's original organization and its quite clear its
+>>superior for both browsing and searching.
+>>
+>>On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+>>
+>>>On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+>>>
+>>>>On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>>>
+>>>>>Tony Plate wrote:
+>>>>> > [...] (see hereunder for full post)
+>>>>> > However, maybe this can be partially addressed by having larger index
+>>>>> > pages, each one pointing to many different small example pages. [...]
+>>>>>
+>>>>>Exactly! Speaking about "browsing" the tips, the key is not to have all
+>>>>>tips on one page, but an i
+>>
+>>ndex, table of content, summary, or
+>>
+>>>>>whatever-you-call-it page. You browse that page and click on the links
+>>>>>you want. This is more effective than browsing tens of thousands of
+>>>>>lines to discover that the tips you are looking for is the forelast one,
+>>>>>that is, the 9,999th one!
+>>>>>
+>>>>
+>>>>You want to browse the code itself, not just an index.  The way
+>>>>you learn R is to look at a lot of code and not by having to waste
+>>>>time jumping to dozens or hundreds of different pages.
+>>>
+>>>Gabor
+>>>
+>>>/you/ might learn R best that way, but I doubt many people will. From my
+>>>own experience and from teaching R to colleagues and with students on
+>>>short courses is that they like a reasonable grounding in the basics to
+>>>allow them to get started, and then when they started doing their own
+>>>thing they want to ask "how do I do x?" Scanning a list of tips allows
+>>>them to drill down to the few items that sound like they might answer
+>>>their question. People don't want to read page after page of code -
+>>>especially on a screen - just to find the one sentence or line of code
+>>>that will help them solve their immediate problem.
+>>>
+>>>G
+>>>
+>>>
+>>>>_______________________________________________
+>>>>R-sig-wiki mailing list
+>>>>R-sig-wiki at r-project.org
+>>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>
+>>>--
+>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>> *Note new Address and Fax and Telephone numbers from 10th April 2006*
+>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>>Gavin Simpson                     [t] +44 (0)20 7679 0522
+>>>ECRC                              [f] +44 (0)20 7679 0565
+>>>UCL Department of Geography
+>>>Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+>>>Gower Street
+>>>London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+>>>WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>>
+>>>
+>>
+> 
+>
+
+
+From ggrothendieck at gmail.com  Sun Apr 23 14:20:46 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sun, 23 Apr 2006 08:20:46 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <444B6E56.7050603@sciviews.org>
+References: <4446D3D1.6010001@ufl.edu> <4448D476.3050401@sciviews.org>
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>
+	<4448F7FE.4060903@blackmesacapital.com> <444B331F.50601@sciviews.org>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+	<971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>
+	<444B6E56.7050603@sciviews.org>
+Message-ID: <971536df0604230520h5a054287oefa95543c968ede1@mail.gmail.com>
+
+Yes, possibly with some elaboration in certain cases.  By the way,
+that is not the page you get if you click on tips after going to
+wiki.r-project.org and clicking on tips to the left.
+
+On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Gabor Grothendieck wrote:
+> > In thinking about this some more perhaps one possibliity would be to have
+> > an index which incluldes the answer.  That would allow one to browse the
+> > key code and also see an expanded wiki discussion.
+> >
+> > e.g.
+> >
+> > 1.1 Bring raw numbers into R: scan(myfile)
+> > 1.2 Basic notation on data access: iris[1,2]
+> > 1.3 Exchange data between R and Excel/other progs: read.xls(excelfile)
+> >  [also robdc, foreign and Hmisc packages]
+> > 1.4 Merge data frames: merge(ds1, ds1, by = c("city", "x1"),all=TRUE)
+>
+> Hum, hum... you mean, something like:
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+>
+> :-)
+>
+> PhG
+>
+>
+> > On 4/23/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:
+> >
+> >>Each tip should be one (or a small number of lines) for the description
+> >>and one line (or a small number of lines) for the answer -- not pages.
+> >>Look at Paul Johnson's original organization and its quite clear its
+> >>superior for both browsing and searching.
+> >>
+> >>On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+> >>
+> >>>On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+> >>>
+> >>>>On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> >>>>
+> >>>>>Tony Plate wrote:
+> >>>>> > [...] (see hereunder for full post)
+> >>>>> > However, maybe this can be partially addressed by having larger index
+> >>>>> > pages, each one pointing to many different small example pages. [...]
+> >>>>>
+> >>>>>Exactly! Speaking about "browsing" the tips, the key is not to have all
+> >>>>>tips on one page, but an i
+> >>
+> >>ndex, table of content, summary, or
+> >>
+> >>>>>whatever-you-call-it page. You browse that page and click on the links
+> >>>>>you want. This is more effective than browsing tens of thousands of
+> >>>>>lines to discover that the tips you are looking for is the forelast one,
+> >>>>>that is, the 9,999th one!
+> >>>>>
+> >>>>
+> >>>>You want to browse the code itself, not just an index.  The way
+> >>>>you learn R is to look at a lot of code and not by having to waste
+> >>>>time jumping to dozens or hundreds of different pages.
+> >>>
+> >>>Gabor
+> >>>
+> >>>/you/ might learn R best that way, but I doubt many people will. From my
+> >>>own experience and from teaching R to colleagues and with students on
+> >>>short courses is that they like a reasonable grounding in the basics to
+> >>>allow them to get started, and then when they started doing their own
+> >>>thing they want to ask "how do I do x?" Scanning a list of tips allows
+> >>>them to drill down to the few items that sound like they might answer
+> >>>their question. People don't want to read page after page of code -
+> >>>especially on a screen - just to find the one sentence or line of code
+> >>>that will help them solve their immediate problem.
+> >>>
+> >>>G
+> >>>
+> >>>
+> >>>>_______________________________________________
+> >>>>R-sig-wiki mailing list
+> >>>>R-sig-wiki at r-project.org
+> >>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >>>
+> >>>--
+> >>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>> *Note new Address and Fax and Telephone numbers from 10th April 2006*
+> >>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>>Gavin Simpson                     [t] +44 (0)20 7679 0522
+> >>>ECRC                              [f] +44 (0)20 7679 0565
+> >>>UCL Department of Geography
+> >>>Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+> >>>Gower Street
+> >>>London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+> >>>WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+> >>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>>
+> >>>
+> >>
+> >
+> >
+>
+>
+
+
+From phgrosjean at sciviews.org  Sun Apr 23 14:35:52 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 23 Apr 2006 14:35:52 +0200
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604230520h5a054287oefa95543c968ede1@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu> <4448D476.3050401@sciviews.org>	
+	<971536df0604210611x8368f93i1c6182ad1f965a22@mail.gmail.com>	
+	<4448F7FE.4060903@blackmesacapital.com>
+	<444B331F.50601@sciviews.org>	
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>	
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>	
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>	
+	<971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>	
+	<444B6E56.7050603@sciviews.org>
+	<971536df0604230520h5a054287oefa95543c968ede1@mail.gmail.com>
+Message-ID: <444B74A8.5020707@sciviews.org>
+
+Gabor Grothendieck wrote:
+> Yes, possibly with some elaboration in certain cases.  By the way,
+> that is not the page you get if you click on tips after going to
+> wiki.r-project.org and clicking on tips to the left.
+
+How many times do I need to tell that the left pane displays, by 
+default, the complete index of all wiki pages, but this will be replaced 
+by more useful 'sidebars'. We haven't done these sidebars yet. So, this 
+part of the site must still be considered as work in progress.
+
+Now, here is what happens when you navigate through pages:
+1) You enter in http://wiki.r-project.org, right?
+
+2) You read this page (considering you are visiting the site the first 
+time... otherwise, you would have bookmarked 'tips:tips', I suppose) and 
+see:
+
+...
+
+Tips & Tricks
+
+A large compendium of _shorter pages_ describing details of how 
+particular commands can be used and giving examples of useful code.
+...
+
+with "shorter pages" being a link pointing to that 'tips:tips' page. So, 
+what simpler can I do?
+
+PhG
+
+
+> On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> 
+>>Gabor Grothendieck wrote:
+>>
+>>>In thinking about this some more perhaps one possibliity would be to have
+>>>an index which incluldes the answer.  That would allow one to browse the
+>>>key code and also see an expanded wiki discussion.
+>>>
+>>>e.g.
+>>>
+>>>1.1 Bring raw numbers into R: scan(myfile)
+>>>1.2 Basic notation on data access: iris[1,2]
+>>>1.3 Exchange data between R and Excel/other progs: read.xls(excelfile)
+>>> [also robdc, foreign and Hmisc packages]
+>>>1.4 Merge data frames: merge(ds1, ds1, by = c("city", "x1"),all=TRUE)
+>>
+>>Hum, hum... you mean, something like:
+>>http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+>>
+>>:-)
+>>
+>>PhG
+>>
+>>
+>>
+>>>On 4/23/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:
+>>>
+>>>
+>>>>Each tip should be one (or a small number of lines) for the description
+>>>>and one line (or a small number of lines) for the answer -- not pages.
+>>>>Look at Paul Johnson's original organization and its quite clear its
+>>>>superior for both browsing and searching.
+>>>>
+>>>>On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+>>>>
+>>>>
+>>>>>On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+>>>>>
+>>>>>
+>>>>>>On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>>>>>
+>>>>>>
+>>>>>>>Tony Plate wrote:
+>>>>>>>
+>>>>>>>>[...] (see hereunder for full post)
+>>>>>>>>However, maybe this can be partially addressed by having larger index
+>>>>>>>>pages, each one pointing to many different small example pages. [...]
+>>>>>>>
+>>>>>>>Exactly! Speaking about "browsing" the tips, the key is not to have all
+>>>>>>>tips on one page, but an i
+>>>>
+>>>>ndex, table of content, summary, or
+>>>>
+>>>>
+>>>>>>>whatever-you-call-it page. You browse that page and click on the links
+>>>>>>>you want. This is more effective than browsing tens of thousands of
+>>>>>>>lines to discover that the tips you are looking for is the forelast one,
+>>>>>>>that is, the 9,999th one!
+>>>>>>>
+>>>>>>
+>>>>>>You want to browse the code itself, not just an index.  The way
+>>>>>>you learn R is to look at a lot of code and not by having to waste
+>>>>>>time jumping to dozens or hundreds of different pages.
+>>>>>
+>>>>>Gabor
+>>>>>
+>>>>>/you/ might learn R best that way, but I doubt many people will. From my
+>>>>>own experience and from teaching R to colleagues and with students on
+>>>>>short courses is that they like a reasonable grounding in the basics to
+>>>>>allow them to get started, and then when they started doing their own
+>>>>>thing they want to ask "how do I do x?" Scanning a list of tips allows
+>>>>>them to drill down to the few items that sound like they might answer
+>>>>>their question. People don't want to read page after page of code -
+>>>>>especially on a screen - just to find the one sentence or line of code
+>>>>>that will help them solve their immediate problem.
+>>>>>
+>>>>>G
+>>>>>
+>>>>>
+>>>>>
+>>>>>>_______________________________________________
+>>>>>>R-sig-wiki mailing list
+>>>>>>R-sig-wiki at r-project.org
+>>>>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>>
+>>>>>--
+>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>>>>*Note new Address and Fax and Telephone numbers from 10th April 2006*
+>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>>>>Gavin Simpson                     [t] +44 (0)20 7679 0522
+>>>>>ECRC                              [f] +44 (0)20 7679 0565
+>>>>>UCL Department of Geography
+>>>>>Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+>>>>>Gower Street
+>>>>>London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+>>>>>WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>>>>
+>>>>>
+>>>>
+>>>
+>>
+> 
+>
+
+
+From ggrothendieck at gmail.com  Sun Apr 23 14:48:44 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sun, 23 Apr 2006 08:48:44 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <444B74A8.5020707@sciviews.org>
+References: <4446D3D1.6010001@ufl.edu> <4448F7FE.4060903@blackmesacapital.com>
+	<444B331F.50601@sciviews.org>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+	<971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>
+	<444B6E56.7050603@sciviews.org>
+	<971536df0604230520h5a054287oefa95543c968ede1@mail.gmail.com>
+	<444B74A8.5020707@sciviews.org>
+Message-ID: <971536df0604230548i40a432e0xee6b2f56df80bf4d@mail.gmail.com>
+
+Its too much to expect that people are going to read everything that is
+there.  They just want to get to where they are going as fast as possible
+and to read the entire page and then figure out you have to click on the
+word shorter is subtle, complicated and time consuming.  To make it
+doubly confusing if you do click on tips to the left you get to something
+so there is no reason to suspect that there is a better alternative.
+
+On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Gabor Grothendieck wrote:
+> > Yes, possibly with some elaboration in certain cases.  By the way,
+> > that is not the page you get if you click on tips after going to
+> > wiki.r-project.org and clicking on tips to the left.
+>
+> How many times do I need to tell that the left pane displays, by
+> default, the complete index of all wiki pages, but this will be replaced
+> by more useful 'sidebars'. We haven't done these sidebars yet. So, this
+> part of the site must still be considered as work in progress.
+>
+> Now, here is what happens when you navigate through pages:
+> 1) You enter in http://wiki.r-project.org, right?
+>
+> 2) You read this page (considering you are visiting the site the first
+> time... otherwise, you would have bookmarked 'tips:tips', I suppose) and
+> see:
+>
+> ...
+>
+> Tips & Tricks
+>
+> A large compendium of _shorter pages_ describing details of how
+> particular commands can be used and giving examples of useful code.
+> ...
+>
+> with "shorter pages" being a link pointing to that 'tips:tips' page. So,
+> what simpler can I do?
+>
+> PhG
+>
+>
+> > On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> >
+> >>Gabor Grothendieck wrote:
+> >>
+> >>>In thinking about this some more perhaps one possibliity would be to have
+> >>>an index which incluldes the answer.  That would allow one to browse the
+> >>>key code and also see an expanded wiki discussion.
+> >>>
+> >>>e.g.
+> >>>
+> >>>1.1 Bring raw numbers into R: scan(myfile)
+> >>>1.2 Basic notation on data access: iris[1,2]
+> >>>1.3 Exchange data between R and Excel/other progs: read.xls(excelfile)
+> >>> [also robdc, foreign and Hmisc packages]
+> >>>1.4 Merge data frames: merge(ds1, ds1, by = c("city", "x1"),all=TRUE)
+> >>
+> >>Hum, hum... you mean, something like:
+> >>http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+> >>
+> >>:-)
+> >>
+> >>PhG
+> >>
+> >>
+> >>
+> >>>On 4/23/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:
+> >>>
+> >>>
+> >>>>Each tip should be one (or a small number of lines) for the description
+> >>>>and one line (or a small number of lines) for the answer -- not pages.
+> >>>>Look at Paul Johnson's original organization and its quite clear its
+> >>>>superior for both browsing and searching.
+> >>>>
+> >>>>On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+> >>>>
+> >>>>
+> >>>>>On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+> >>>>>
+> >>>>>
+> >>>>>>On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> >>>>>>
+> >>>>>>
+> >>>>>>>Tony Plate wrote:
+> >>>>>>>
+> >>>>>>>>[...] (see hereunder for full post)
+> >>>>>>>>However, maybe this can be partially addressed by having larger index
+> >>>>>>>>pages, each one pointing to many different small example pages. [...]
+> >>>>>>>
+> >>>>>>>Exactly! Speaking about "browsing" the tips, the key is not to have all
+> >>>>>>>tips on one page, but an i
+> >>>>
+> >>>>ndex, table of content, summary, or
+> >>>>
+> >>>>
+> >>>>>>>whatever-you-call-it page. You browse that page and click on the links
+> >>>>>>>you want. This is more effective than browsing tens of thousands of
+> >>>>>>>lines to discover that the tips you are looking for is the forelast one,
+> >>>>>>>that is, the 9,999th one!
+> >>>>>>>
+> >>>>>>
+> >>>>>>You want to browse the code itself, not just an index.  The way
+> >>>>>>you learn R is to look at a lot of code and not by having to waste
+> >>>>>>time jumping to dozens or hundreds of different pages.
+> >>>>>
+> >>>>>Gabor
+> >>>>>
+> >>>>>/you/ might learn R best that way, but I doubt many people will. From my
+> >>>>>own experience and from teaching R to colleagues and with students on
+> >>>>>short courses is that they like a reasonable grounding in the basics to
+> >>>>>allow them to get started, and then when they started doing their own
+> >>>>>thing they want to ask "how do I do x?" Scanning a list of tips allows
+> >>>>>them to drill down to the few items that sound like they might answer
+> >>>>>their question. People don't want to read page after page of code -
+> >>>>>especially on a screen - just to find the one sentence or line of code
+> >>>>>that will help them solve their immediate problem.
+> >>>>>
+> >>>>>G
+> >>>>>
+> >>>>>
+> >>>>>
+> >>>>>>_______________________________________________
+> >>>>>>R-sig-wiki mailing list
+> >>>>>>R-sig-wiki at r-project.org
+> >>>>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >>>>>
+> >>>>>--
+> >>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>>>>*Note new Address and Fax and Telephone numbers from 10th April 2006*
+> >>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>>>>Gavin Simpson                     [t] +44 (0)20 7679 0522
+> >>>>>ECRC                              [f] +44 (0)20 7679 0565
+> >>>>>UCL Department of Geography
+> >>>>>Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+> >>>>>Gower Street
+> >>>>>London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+> >>>>>WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+> >>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>>>>
+> >>>>>
+> >>>>
+> >>>
+> >>
+> >
+> >
+>
+>
+
+
+From phgrosjean at sciviews.org  Sun Apr 23 15:20:06 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Sun, 23 Apr 2006 15:20:06 +0200
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604230548i40a432e0xee6b2f56df80bf4d@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu> <4448F7FE.4060903@blackmesacapital.com>	
+	<444B331F.50601@sciviews.org>	
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>	
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>	
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>	
+	<971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>	
+	<444B6E56.7050603@sciviews.org>	
+	<971536df0604230520h5a054287oefa95543c968ede1@mail.gmail.com>	
+	<444B74A8.5020707@sciviews.org>
+	<971536df0604230548i40a432e0xee6b2f56df80bf4d@mail.gmail.com>
+Message-ID: <444B7F06.1040202@sciviews.org>
+
+Gabor Grothendieck wrote:
+> Its too much to expect that people are going to read everything that is
+> there.  They just want to get to where they are going as fast as possible
+> and to read the entire page and then figure out you have to click on the
+> word shorter is subtle, complicated and time consuming. 
+
+Not my fault! The start page I proposed was one screen height, with only 
+five links (one for each main section in the Wiki), and less that 50 
+words in total. So, quick to read, easy to spot where to go, etc. But 
+them, many people told me that this starting page was rather 
+uninformative and that one needed more about what is inside each 
+section... so, this is done! And yes, this necessarily dilutes content.
+
+As a betgter compromize, I intend to rework that start page using folded 
+sections that you can unfold by clicking on them. So, the first 
+presentation will be similar to my original page, with the possibility 
+to get more details right on this starting page.
+
+PhG
+
+> To make it
+> doubly confusing if you do click on tips to the left you get to something
+> so there is no reason to suspect that there is a better alternative.
+> 
+> On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> 
+>>Gabor Grothendieck wrote:
+>>
+>>>Yes, possibly with some elaboration in certain cases.  By the way,
+>>>that is not the page you get if you click on tips after going to
+>>>wiki.r-project.org and clicking on tips to the left.
+>>
+>>How many times do I need to tell that the left pane displays, by
+>>default, the complete index of all wiki pages, but this will be replaced
+>>by more useful 'sidebars'. We haven't done these sidebars yet. So, this
+>>part of the site must still be considered as work in progress.
+>>
+>>Now, here is what happens when you navigate through pages:
+>>1) You enter in http://wiki.r-project.org, right?
+>>
+>>2) You read this page (considering you are visiting the site the first
+>>time... otherwise, you would have bookmarked 'tips:tips', I suppose) and
+>>see:
+>>
+>>...
+>>
+>>Tips & Tricks
+>>
+>>A large compendium of _shorter pages_ describing details of how
+>>particular commands can be used and giving examples of useful code.
+>>...
+>>
+>>with "shorter pages" being a link pointing to that 'tips:tips' page. So,
+>>what simpler can I do?
+>>
+>>PhG
+>>
+>>
+>>
+>>>On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>>
+>>>
+>>>>Gabor Grothendieck wrote:
+>>>>
+>>>>
+>>>>>In thinking about this some more perhaps one possibliity would be to have
+>>>>>an index which incluldes the answer.  That would allow one to browse the
+>>>>>key code and also see an expanded wiki discussion.
+>>>>>
+>>>>>e.g.
+>>>>>
+>>>>>1.1 Bring raw numbers into R: scan(myfile)
+>>>>>1.2 Basic notation on data access: iris[1,2]
+>>>>>1.3 Exchange data between R and Excel/other progs: read.xls(excelfile)
+>>>>>[also robdc, foreign and Hmisc packages]
+>>>>>1.4 Merge data frames: merge(ds1, ds1, by = c("city", "x1"),all=TRUE)
+>>>>
+>>>>Hum, hum... you mean, something like:
+>>>>http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+>>>>
+>>>>:-)
+>>>>
+>>>>PhG
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>>On 4/23/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:
+>>>>>
+>>>>>
+>>>>>
+>>>>>>Each tip should be one (or a small number of lines) for the description
+>>>>>>and one line (or a small number of lines) for the answer -- not pages.
+>>>>>>Look at Paul Johnson's original organization and its quite clear its
+>>>>>>superior for both browsing and searching.
+>>>>>>
+>>>>>>On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>>On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>>On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>
+>>>>>>>>>Tony Plate wrote:
+>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>>>[...] (see hereunder for full post)
+>>>>>>>>>>However, maybe this can be partially addressed by having larger index
+>>>>>>>>>>pages, each one pointing to many different small example pages. [...]
+>>>>>>>>>
+>>>>>>>>>Exactly! Speaking about "browsing" the tips, the key is not to have all
+>>>>>>>>>tips on one page, but an i
+>>>>>>
+>>>>>>ndex, table of content, summary, or
+>>>>>>
+>>>>>>
+>>>>>>
+>>>>>>>>>whatever-you-call-it page. You browse that page and click on the links
+>>>>>>>>>you want. This is more effective than browsing tens of thousands of
+>>>>>>>>>lines to discover that the tips you are looking for is the forelast one,
+>>>>>>>>>that is, the 9,999th one!
+>>>>>>>>>
+>>>>>>>>
+>>>>>>>>You want to browse the code itself, not just an index.  The way
+>>>>>>>>you learn R is to look at a lot of code and not by having to waste
+>>>>>>>>time jumping to dozens or hundreds of different pages.
+>>>>>>>
+>>>>>>>Gabor
+>>>>>>>
+>>>>>>>/you/ might learn R best that way, but I doubt many people will. From my
+>>>>>>>own experience and from teaching R to colleagues and with students on
+>>>>>>>short courses is that they like a reasonable grounding in the basics to
+>>>>>>>allow them to get started, and then when they started doing their own
+>>>>>>>thing they want to ask "how do I do x?" Scanning a list of tips allows
+>>>>>>>them to drill down to the few items that sound like they might answer
+>>>>>>>their question. People don't want to read page after page of code -
+>>>>>>>especially on a screen - just to find the one sentence or line of code
+>>>>>>>that will help them solve their immediate problem.
+>>>>>>>
+>>>>>>>G
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>>>_______________________________________________
+>>>>>>>>R-sig-wiki mailing list
+>>>>>>>>R-sig-wiki at r-project.org
+>>>>>>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>>>>>>>
+>>>>>>>--
+>>>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>>>>>>*Note new Address and Fax and Telephone numbers from 10th April 2006*
+>>>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>>>>>>Gavin Simpson                     [t] +44 (0)20 7679 0522
+>>>>>>>ECRC                              [f] +44 (0)20 7679 0565
+>>>>>>>UCL Department of Geography
+>>>>>>>Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+>>>>>>>Gower Street
+>>>>>>>London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+>>>>>>>WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+>>>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+>>>>>>>
+>>>>>>>
+>>>>>>
+>>>
+>>
+> 
+>
+
+
+From ggrothendieck at gmail.com  Sun Apr 23 15:43:07 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Sun, 23 Apr 2006 09:43:07 -0400
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <444B7F06.1040202@sciviews.org>
+References: <4446D3D1.6010001@ufl.edu>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+	<971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>
+	<444B6E56.7050603@sciviews.org>
+	<971536df0604230520h5a054287oefa95543c968ede1@mail.gmail.com>
+	<444B74A8.5020707@sciviews.org>
+	<971536df0604230548i40a432e0xee6b2f56df80bf4d@mail.gmail.com>
+	<444B7F06.1040202@sciviews.org>
+Message-ID: <971536df0604230643oc60c593o7a6fa3af8bd4573f@mail.gmail.com>
+
+I think the most important thing is that if you click on tips in the left
+hand pane that you get to the table of contents discussed here
+rather than the uninformative one.  It should not be necessary to
+read the page at all whether it uses folding or not.
+
+On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> Gabor Grothendieck wrote:
+> > Its too much to expect that people are going to read everything that is
+> > there.  They just want to get to where they are going as fast as possible
+> > and to read the entire page and then figure out you have to click on the
+> > word shorter is subtle, complicated and time consuming.
+>
+> Not my fault! The start page I proposed was one screen height, with only
+> five links (one for each main section in the Wiki), and less that 50
+> words in total. So, quick to read, easy to spot where to go, etc. But
+> them, many people told me that this starting page was rather
+> uninformative and that one needed more about what is inside each
+> section... so, this is done! And yes, this necessarily dilutes content.
+>
+> As a betgter compromize, I intend to rework that start page using folded
+> sections that you can unfold by clicking on them. So, the first
+> presentation will be similar to my original page, with the possibility
+> to get more details right on this starting page.
+>
+> PhG
+>
+> > To make it
+> > doubly confusing if you do click on tips to the left you get to something
+> > so there is no reason to suspect that there is a better alternative.
+> >
+> > On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> >
+> >>Gabor Grothendieck wrote:
+> >>
+> >>>Yes, possibly with some elaboration in certain cases.  By the way,
+> >>>that is not the page you get if you click on tips after going to
+> >>>wiki.r-project.org and clicking on tips to the left.
+> >>
+> >>How many times do I need to tell that the left pane displays, by
+> >>default, the complete index of all wiki pages, but this will be replaced
+> >>by more useful 'sidebars'. We haven't done these sidebars yet. So, this
+> >>part of the site must still be considered as work in progress.
+> >>
+> >>Now, here is what happens when you navigate through pages:
+> >>1) You enter in http://wiki.r-project.org, right?
+> >>
+> >>2) You read this page (considering you are visiting the site the first
+> >>time... otherwise, you would have bookmarked 'tips:tips', I suppose) and
+> >>see:
+> >>
+> >>...
+> >>
+> >>Tips & Tricks
+> >>
+> >>A large compendium of _shorter pages_ describing details of how
+> >>particular commands can be used and giving examples of useful code.
+> >>...
+> >>
+> >>with "shorter pages" being a link pointing to that 'tips:tips' page. So,
+> >>what simpler can I do?
+> >>
+> >>PhG
+> >>
+> >>
+> >>
+> >>>On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> >>>
+> >>>
+> >>>>Gabor Grothendieck wrote:
+> >>>>
+> >>>>
+> >>>>>In thinking about this some more perhaps one possibliity would be to have
+> >>>>>an index which incluldes the answer.  That would allow one to browse the
+> >>>>>key code and also see an expanded wiki discussion.
+> >>>>>
+> >>>>>e.g.
+> >>>>>
+> >>>>>1.1 Bring raw numbers into R: scan(myfile)
+> >>>>>1.2 Basic notation on data access: iris[1,2]
+> >>>>>1.3 Exchange data between R and Excel/other progs: read.xls(excelfile)
+> >>>>>[also robdc, foreign and Hmisc packages]
+> >>>>>1.4 Merge data frames: merge(ds1, ds1, by = c("city", "x1"),all=TRUE)
+> >>>>
+> >>>>Hum, hum... you mean, something like:
+> >>>>http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+> >>>>
+> >>>>:-)
+> >>>>
+> >>>>PhG
+> >>>>
+> >>>>
+> >>>>
+> >>>>
+> >>>>>On 4/23/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:
+> >>>>>
+> >>>>>
+> >>>>>
+> >>>>>>Each tip should be one (or a small number of lines) for the description
+> >>>>>>and one line (or a small number of lines) for the answer -- not pages.
+> >>>>>>Look at Paul Johnson's original organization and its quite clear its
+> >>>>>>superior for both browsing and searching.
+> >>>>>>
+> >>>>>>On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk> wrote:
+> >>>>>>
+> >>>>>>
+> >>>>>>
+> >>>>>>>On Sun, 2006-04-23 at 05:57 -0400, Gabor Grothendieck wrote:
+> >>>>>>>
+> >>>>>>>
+> >>>>>>>
+> >>>>>>>>On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:
+> >>>>>>>>
+> >>>>>>>>
+> >>>>>>>>
+> >>>>>>>>>Tony Plate wrote:
+> >>>>>>>>>
+> >>>>>>>>>
+> >>>>>>>>>>[...] (see hereunder for full post)
+> >>>>>>>>>>However, maybe this can be partially addressed by having larger index
+> >>>>>>>>>>pages, each one pointing to many different small example pages. [...]
+> >>>>>>>>>
+> >>>>>>>>>Exactly! Speaking about "browsing" the tips, the key is not to have all
+> >>>>>>>>>tips on one page, but an i
+> >>>>>>
+> >>>>>>ndex, table of content, summary, or
+> >>>>>>
+> >>>>>>
+> >>>>>>
+> >>>>>>>>>whatever-you-call-it page. You browse that page and click on the links
+> >>>>>>>>>you want. This is more effective than browsing tens of thousands of
+> >>>>>>>>>lines to discover that the tips you are looking for is the forelast one,
+> >>>>>>>>>that is, the 9,999th one!
+> >>>>>>>>>
+> >>>>>>>>
+> >>>>>>>>You want to browse the code itself, not just an index.  The way
+> >>>>>>>>you learn R is to look at a lot of code and not by having to waste
+> >>>>>>>>time jumping to dozens or hundreds of different pages.
+> >>>>>>>
+> >>>>>>>Gabor
+> >>>>>>>
+> >>>>>>>/you/ might learn R best that way, but I doubt many people will. From my
+> >>>>>>>own experience and from teaching R to colleagues and with students on
+> >>>>>>>short courses is that they like a reasonable grounding in the basics to
+> >>>>>>>allow them to get started, and then when they started doing their own
+> >>>>>>>thing they want to ask "how do I do x?" Scanning a list of tips allows
+> >>>>>>>them to drill down to the few items that sound like they might answer
+> >>>>>>>their question. People don't want to read page after page of code -
+> >>>>>>>especially on a screen - just to find the one sentence or line of code
+> >>>>>>>that will help them solve their immediate problem.
+> >>>>>>>
+> >>>>>>>G
+> >>>>>>>
+> >>>>>>>
+> >>>>>>>
+> >>>>>>>
+> >>>>>>>>_______________________________________________
+> >>>>>>>>R-sig-wiki mailing list
+> >>>>>>>>R-sig-wiki at r-project.org
+> >>>>>>>>https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+> >>>>>>>
+> >>>>>>>--
+> >>>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>>>>>>*Note new Address and Fax and Telephone numbers from 10th April 2006*
+> >>>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>>>>>>Gavin Simpson                     [t] +44 (0)20 7679 0522
+> >>>>>>>ECRC                              [f] +44 (0)20 7679 0565
+> >>>>>>>UCL Department of Geography
+> >>>>>>>Pearson Building                  [e] gavin.simpsonATNOSPAMucl.ac.uk
+> >>>>>>>Gower Street
+> >>>>>>>London, UK                        [w] http://www.ucl.ac.uk/~ucfagls/cv/
+> >>>>>>>WC1E 6BT                          [w] http://www.ucl.ac.uk/~ucfagls/
+> >>>>>>>%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%~%
+> >>>>>>>
+> >>>>>>>
+> >>>>>>
+> >>>
+> >>
+> >
+> >
+>
+>
+
+
+From maechler at stat.math.ethz.ch  Mon Apr 24 08:33:59 2006
+From: maechler at stat.math.ethz.ch (Martin Maechler)
+Date: Mon, 24 Apr 2006 08:33:59 +0200
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <971536df0604230643oc60c593o7a6fa3af8bd4573f@mail.gmail.com>
+References: <4446D3D1.6010001@ufl.edu>
+	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>
+	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>
+	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>
+	<971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>
+	<444B6E56.7050603@sciviews.org>
+	<971536df0604230520h5a054287oefa95543c968ede1@mail.gmail.com>
+	<444B74A8.5020707@sciviews.org>
+	<971536df0604230548i40a432e0xee6b2f56df80bf4d@mail.gmail.com>
+	<444B7F06.1040202@sciviews.org>
+	<971536df0604230643oc60c593o7a6fa3af8bd4573f@mail.gmail.com>
+Message-ID: <17484.29015.844376.446830@stat.math.ethz.ch>
+
+>>>>> "Gabor" == Gabor Grothendieck <ggrothendieck at gmail.com>
+>>>>>     on Sun, 23 Apr 2006 09:43:07 -0400 writes:
+
+    Gabor> I think the most important thing is that if you click
+    Gabor> on tips in the left hand pane that you get to the
+    Gabor> table of contents discussed here rather than the
+    Gabor> uninformative one.  It should not be necessary to
+    Gabor> read the page at all whether it uses folding or not.
+
+I agree with Gabor:
+Philippe, maybe you and I (to some extent) belong to the small
+and diminishing (up to extinction) part of the population who do
+read and even like to read and do this even with web pages (and
+R help pages!)
+The vast (and growing) majority of the population are *scanning*
+web pages until they've found something that seems somewhat
+relevant and is "clickable"...
+
+And, I have to admit that indeed, the scanning strategy is
+often more effective than the reading one..
+Martin
+
+    Gabor> On 4/23/06, Philippe Grosjean
+    Gabor> <phgrosjean at sciviews.org> wrote:
+    >> Gabor Grothendieck wrote: > Its too much to expect that
+    >> people are going to read everything that is > there.
+    >> They just want to get to where they are going as fast as
+    >> possible > and to read the entire page and then figure
+    >> out you have to click on the > word shorter is subtle,
+    >> complicated and time consuming.
+    >> 
+    >> Not my fault! The start page I proposed was one screen
+    >> height, with only five links (one for each main section
+    >> in the Wiki), and less that 50 words in total. So, quick
+    >> to read, easy to spot where to go, etc. But them, many
+    >> people told me that this starting page was rather
+    >> uninformative and that one needed more about what is
+    >> inside each section... so, this is done! And yes, this
+    >> necessarily dilutes content.
+    >> 
+    >> As a betgter compromize, I intend to rework that start
+    >> page using folded sections that you can unfold by
+    >> clicking on them. So, the first presentation will be
+    >> similar to my original page, with the possibility to get
+    >> more details right on this starting page.
+    >> 
+    >> PhG
+    >> 
+    >> > To make it > doubly confusing if you do click on tips
+    >> to the left you get to something > so there is no reason
+    >> to suspect that there is a better alternative.
+    >> >
+    >> > On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org>
+    >> wrote:
+    >> >
+    >> >>Gabor Grothendieck wrote:
+    >> >>
+    >> >>>Yes, possibly with some elaboration in certain cases.
+    >> By the way, >>>that is not the page you get if you click
+    >> on tips after going to >>>wiki.r-project.org and clicking
+    >> on tips to the left.
+    >> >>
+    >> >>How many times do I need to tell that the left pane
+    >> displays, by >>default, the complete index of all wiki
+    >> pages, but this will be replaced >>by more useful
+    >> 'sidebars'. We haven't done these sidebars yet. So, this
+    >> >>part of the site must still be considered as work in
+    >> progress.
+    >> >>
+    >> >>Now, here is what happens when you navigate through
+    >> pages: >>1) You enter in http://wiki.r-project.org,
+    >> right?
+    >> >>
+    >> >>2) You read this page (considering you are visiting the
+    >> site the first >>time... otherwise, you would have
+    >> bookmarked 'tips:tips', I suppose) and >>see:
+    >> >>
+    >> >>...
+    >> >>
+    >> >>Tips & Tricks
+    >> >>
+    >> >>A large compendium of _shorter pages_ describing
+    >> details of how >>particular commands can be used and
+    >> giving examples of useful code.  >>...
+    >> >>
+    >> >>with "shorter pages" being a link pointing to that
+    >> 'tips:tips' page. So, >>what simpler can I do?
+    >> >>
+    >> >>PhG
+    >> >>
+    >> >>
+    >> >>
+    >> >>>On 4/23/06, Philippe Grosjean
+    >> <phgrosjean at sciviews.org> wrote:
+    >> >>>
+    >> >>>
+    >> >>>>Gabor Grothendieck wrote:
+    >> >>>>
+    >> >>>>
+    >> >>>>>In thinking about this some more perhaps one
+    >> possibliity would be to have >>>>>an index which
+    >> incluldes the answer.  That would allow one to browse the
+    >> >>>>>key code and also see an expanded wiki discussion.
+    >> >>>>>
+    >> >>>>>e.g.
+    >> >>>>>
+    >> >>>>>1.1 Bring raw numbers into R: scan(myfile) >>>>>1.2
+    >> Basic notation on data access: iris[1,2] >>>>>1.3
+    >> Exchange data between R and Excel/other progs:
+    >> read.xls(excelfile) >>>>>[also robdc, foreign and Hmisc
+    >> packages] >>>>>1.4 Merge data frames: merge(ds1, ds1, by
+    >> = c("city", "x1"),all=TRUE)
+    >> >>>>
+    >> >>>>Hum, hum... you mean, something like:
+    >> >>>>http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+    >> >>>>
+    >> >>>>:-)
+    >> >>>>
+    >> >>>>PhG
+    >> >>>>
+    >> >>>>
+    >> >>>>
+    >> >>>>
+    >> >>>>>On 4/23/06, Gabor Grothendieck
+    >> <ggrothendieck at gmail.com> wrote:
+    >> >>>>>
+    >> >>>>>
+    >> >>>>>
+    >> >>>>>>Each tip should be one (or a small number of lines)
+    >> for the description >>>>>>and one line (or a small number
+    >> of lines) for the answer -- not pages.  >>>>>>Look at
+    >> Paul Johnson's original organization and its quite clear
+    >> its >>>>>>superior for both browsing and searching.
+    >> >>>>>>
+    >> >>>>>>On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk>
+    >> wrote:
+    >> >>>>>>
+    >> >>>>>>
+    >> >>>>>>
+    >> >>>>>>>On Sun, 2006-04-23 at 05:57 -0400, Gabor
+    >> Grothendieck wrote:
+    >> >>>>>>>
+    >> >>>>>>>
+    >> >>>>>>>
+    >> >>>>>>>>On 4/23/06, Philippe Grosjean
+    >> <phgrosjean at sciviews.org> wrote:
+    >> >>>>>>>>
+    >> >>>>>>>>
+    >> >>>>>>>>
+    >> >>>>>>>>>Tony Plate wrote:
+    >> >>>>>>>>>
+    >> >>>>>>>>>
+    >> >>>>>>>>>>[...] (see hereunder for full post)
+    >> >>>>>>>>>>However, maybe this can be partially addressed
+    >> by having larger index >>>>>>>>>>pages, each one pointing
+    >> to many different small example pages. [...]
+    >> >>>>>>>>>
+    >> >>>>>>>>>Exactly! Speaking about "browsing" the tips, the
+    >> key is not to have all >>>>>>>>>tips on one page, but an
+    >> i
+    >> >>>>>>
+    >> >>>>>>ndex, table of content, summary, or
+    >> >>>>>>
+    >> >>>>>>
+    >> >>>>>>
+    >> >>>>>>>>>whatever-you-call-it page. You browse that page
+    >> and click on the links >>>>>>>>>you want. This is more
+    >> effective than browsing tens of thousands of
+    >> >>>>>>>>>lines to discover that the tips you are looking
+    >> for is the forelast one, >>>>>>>>>that is, the 9,999th
+    >> one!
+    >> >>>>>>>>>
+    >> >>>>>>>>
+    >> >>>>>>>>You want to browse the code itself, not just an
+    >> index.  The way >>>>>>>>you learn R is to look at a lot
+    >> of code and not by having to waste >>>>>>>>time jumping
+    >> to dozens or hundreds of different pages.
+    >> >>>>>>>
+    >> >>>>>>>Gabor
+    >> >>>>>>>
+    >> >>>>>>>/you/ might learn R best that way, but I doubt
+    >> many people will. From my >>>>>>>own experience and from
+    >> teaching R to colleagues and with students on
+    >> >>>>>>>short courses is that they like a reasonable
+    >> grounding in the basics to >>>>>>>allow them to get
+    >> started, and then when they started doing their own
+    >> >>>>>>>thing they want to ask "how do I do x?" Scanning a
+    >> list of tips allows >>>>>>>them to drill down to the few
+    >> items that sound like they might answer >>>>>>>their
+    >> question. People don't want to read page after page of
+    >> code - >>>>>>>especially on a screen - just to find the
+    >> one sentence or line of code >>>>>>>that will help them
+    >> solve their immediate problem.
+    >> >>>>>>>
+    >> >>>>>>>G
+
+
+From phgrosjean at sciviews.org  Mon Apr 24 11:16:19 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 24 Apr 2006 11:16:19 +0200
+Subject: [R-wiki] Gelman's comments about R tips vs Wiki
+In-Reply-To: <17484.29015.844376.446830@stat.math.ethz.ch>
+References: <4446D3D1.6010001@ufl.edu>	<971536df0604230257o66ed2466pdbdbe6758e6e920@mail.gmail.com>	<1145788102.24735.26.camel@dhcppc2.my.nat.localnet>	<971536df0604230335o2c30a0e8w30efa524d690ac3d@mail.gmail.com>	<971536df0604230409r5f612a43m599be3b051536da5@mail.gmail.com>	<444B6E56.7050603@sciviews.org>	<971536df0604230520h5a054287oefa95543c968ede1@mail.gmail.com>	<444B74A8.5020707@sciviews.org>	<971536df0604230548i40a432e0xee6b2f56df80bf4d@mail.gmail.com>	<444B7F06.1040202@sciviews.org>	<971536df0604230643oc60c593o7a6fa3af8bd4573f@mail.gmail.com>
+	<17484.29015.844376.446830@stat.math.ethz.ch>
+Message-ID: <444C9763.7070904@sciviews.org>
+
+Could we come back to this discussion once I will have changed the start 
+page (with folded details) and when I will have a decent proposition for 
+sidebars in place of this ugly and buggy 'Index', please?
+Best,
+
+Philippe
+
+Martin Maechler wrote:
+>>>>>>"Gabor" == Gabor Grothendieck <ggrothendieck at gmail.com>
+>>>>>>    on Sun, 23 Apr 2006 09:43:07 -0400 writes:
+> 
+> 
+>     Gabor> I think the most important thing is that if you click
+>     Gabor> on tips in the left hand pane that you get to the
+>     Gabor> table of contents discussed here rather than the
+>     Gabor> uninformative one.  It should not be necessary to
+>     Gabor> read the page at all whether it uses folding or not.
+> 
+> I agree with Gabor:
+> Philippe, maybe you and I (to some extent) belong to the small
+> and diminishing (up to extinction) part of the population who do
+> read and even like to read and do this even with web pages (and
+> R help pages!)
+> The vast (and growing) majority of the population are *scanning*
+> web pages until they've found something that seems somewhat
+> relevant and is "clickable"...
+> 
+> And, I have to admit that indeed, the scanning strategy is
+> often more effective than the reading one..
+> Martin
+> 
+>     Gabor> On 4/23/06, Philippe Grosjean
+>     Gabor> <phgrosjean at sciviews.org> wrote:
+>     >> Gabor Grothendieck wrote: > Its too much to expect that
+>     >> people are going to read everything that is > there.
+>     >> They just want to get to where they are going as fast as
+>     >> possible > and to read the entire page and then figure
+>     >> out you have to click on the > word shorter is subtle,
+>     >> complicated and time consuming.
+>     >> 
+>     >> Not my fault! The start page I proposed was one screen
+>     >> height, with only five links (one for each main section
+>     >> in the Wiki), and less that 50 words in total. So, quick
+>     >> to read, easy to spot where to go, etc. But them, many
+>     >> people told me that this starting page was rather
+>     >> uninformative and that one needed more about what is
+>     >> inside each section... so, this is done! And yes, this
+>     >> necessarily dilutes content.
+>     >> 
+>     >> As a betgter compromize, I intend to rework that start
+>     >> page using folded sections that you can unfold by
+>     >> clicking on them. So, the first presentation will be
+>     >> similar to my original page, with the possibility to get
+>     >> more details right on this starting page.
+>     >> 
+>     >> PhG
+>     >> 
+>     >> > To make it > doubly confusing if you do click on tips
+>     >> to the left you get to something > so there is no reason
+>     >> to suspect that there is a better alternative.
+>     >> >
+>     >> > On 4/23/06, Philippe Grosjean <phgrosjean at sciviews.org>
+>     >> wrote:
+>     >> >
+>     >> >>Gabor Grothendieck wrote:
+>     >> >>
+>     >> >>>Yes, possibly with some elaboration in certain cases.
+>     >> By the way, >>>that is not the page you get if you click
+>     >> on tips after going to >>>wiki.r-project.org and clicking
+>     >> on tips to the left.
+>     >> >>
+>     >> >>How many times do I need to tell that the left pane
+>     >> displays, by >>default, the complete index of all wiki
+>     >> pages, but this will be replaced >>by more useful
+>     >> 'sidebars'. We haven't done these sidebars yet. So, this
+>     >> >>part of the site must still be considered as work in
+>     >> progress.
+>     >> >>
+>     >> >>Now, here is what happens when you navigate through
+>     >> pages: >>1) You enter in http://wiki.r-project.org,
+>     >> right?
+>     >> >>
+>     >> >>2) You read this page (considering you are visiting the
+>     >> site the first >>time... otherwise, you would have
+>     >> bookmarked 'tips:tips', I suppose) and >>see:
+>     >> >>
+>     >> >>...
+>     >> >>
+>     >> >>Tips & Tricks
+>     >> >>
+>     >> >>A large compendium of _shorter pages_ describing
+>     >> details of how >>particular commands can be used and
+>     >> giving examples of useful code.  >>...
+>     >> >>
+>     >> >>with "shorter pages" being a link pointing to that
+>     >> 'tips:tips' page. So, >>what simpler can I do?
+>     >> >>
+>     >> >>PhG
+>     >> >>
+>     >> >>
+>     >> >>
+>     >> >>>On 4/23/06, Philippe Grosjean
+>     >> <phgrosjean at sciviews.org> wrote:
+>     >> >>>
+>     >> >>>
+>     >> >>>>Gabor Grothendieck wrote:
+>     >> >>>>
+>     >> >>>>
+>     >> >>>>>In thinking about this some more perhaps one
+>     >> possibliity would be to have >>>>>an index which
+>     >> incluldes the answer.  That would allow one to browse the
+>     >> >>>>>key code and also see an expanded wiki discussion.
+>     >> >>>>>
+>     >> >>>>>e.g.
+>     >> >>>>>
+>     >> >>>>>1.1 Bring raw numbers into R: scan(myfile) >>>>>1.2
+>     >> Basic notation on data access: iris[1,2] >>>>>1.3
+>     >> Exchange data between R and Excel/other progs:
+>     >> read.xls(excelfile) >>>>>[also robdc, foreign and Hmisc
+>     >> packages] >>>>>1.4 Merge data frames: merge(ds1, ds1, by
+>     >> = c("city", "x1"),all=TRUE)
+>     >> >>>>
+>     >> >>>>Hum, hum... you mean, something like:
+>     >> >>>>http://wiki.r-project.org/rwiki/doku.php?id=tips:tips
+>     >> >>>>
+>     >> >>>>:-)
+>     >> >>>>
+>     >> >>>>PhG
+>     >> >>>>
+>     >> >>>>
+>     >> >>>>
+>     >> >>>>
+>     >> >>>>>On 4/23/06, Gabor Grothendieck
+>     >> <ggrothendieck at gmail.com> wrote:
+>     >> >>>>>
+>     >> >>>>>
+>     >> >>>>>
+>     >> >>>>>>Each tip should be one (or a small number of lines)
+>     >> for the description >>>>>>and one line (or a small number
+>     >> of lines) for the answer -- not pages.  >>>>>>Look at
+>     >> Paul Johnson's original organization and its quite clear
+>     >> its >>>>>>superior for both browsing and searching.
+>     >> >>>>>>
+>     >> >>>>>>On 4/23/06, Gavin Simpson <gavin.simpson at ucl.ac.uk>
+>     >> wrote:
+>     >> >>>>>>
+>     >> >>>>>>
+>     >> >>>>>>
+>     >> >>>>>>>On Sun, 2006-04-23 at 05:57 -0400, Gabor
+>     >> Grothendieck wrote:
+>     >> >>>>>>>
+>     >> >>>>>>>
+>     >> >>>>>>>
+>     >> >>>>>>>>On 4/23/06, Philippe Grosjean
+>     >> <phgrosjean at sciviews.org> wrote:
+>     >> >>>>>>>>
+>     >> >>>>>>>>
+>     >> >>>>>>>>
+>     >> >>>>>>>>>Tony Plate wrote:
+>     >> >>>>>>>>>
+>     >> >>>>>>>>>
+>     >> >>>>>>>>>>[...] (see hereunder for full post)
+>     >> >>>>>>>>>>However, maybe this can be partially addressed
+>     >> by having larger index >>>>>>>>>>pages, each one pointing
+>     >> to many different small example pages. [...]
+>     >> >>>>>>>>>
+>     >> >>>>>>>>>Exactly! Speaking about "browsing" the tips, the
+>     >> key is not to have all >>>>>>>>>tips on one page, but an
+>     >> i
+>     >> >>>>>>
+>     >> >>>>>>ndex, table of content, summary, or
+>     >> >>>>>>
+>     >> >>>>>>
+>     >> >>>>>>
+>     >> >>>>>>>>>whatever-you-call-it page. You browse that page
+>     >> and click on the links >>>>>>>>>you want. This is more
+>     >> effective than browsing tens of thousands of
+>     >> >>>>>>>>>lines to discover that the tips you are looking
+>     >> for is the forelast one, >>>>>>>>>that is, the 9,999th
+>     >> one!
+>     >> >>>>>>>>>
+>     >> >>>>>>>>
+>     >> >>>>>>>>You want to browse the code itself, not just an
+>     >> index.  The way >>>>>>>>you learn R is to look at a lot
+>     >> of code and not by having to waste >>>>>>>>time jumping
+>     >> to dozens or hundreds of different pages.
+>     >> >>>>>>>
+>     >> >>>>>>>Gabor
+>     >> >>>>>>>
+>     >> >>>>>>>/you/ might learn R best that way, but I doubt
+>     >> many people will. From my >>>>>>>own experience and from
+>     >> teaching R to colleagues and with students on
+>     >> >>>>>>>short courses is that they like a reasonable
+>     >> grounding in the basics to >>>>>>>allow them to get
+>     >> started, and then when they started doing their own
+>     >> >>>>>>>thing they want to ask "how do I do x?" Scanning a
+>     >> list of tips allows >>>>>>>them to drill down to the few
+>     >> items that sound like they might answer >>>>>>>their
+>     >> question. People don't want to read page after page of
+>     >> code - >>>>>>>especially on a screen - just to find the
+>     >> one sentence or line of code >>>>>>>that will help them
+>     >> solve their immediate problem.
+>     >> >>>>>>>
+>     >> >>>>>>>G
+> 
+> 
+>
+
+
+From francoisromain at free.fr  Mon Apr 24 19:19:48 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Mon, 24 Apr 2006 19:19:48 +0200
+Subject: [R-wiki] again the tips
+Message-ID: <444D08B4.4040900@free.fr>
+
+Hi all,
+
+What a funny and long discussion.
+I made an R wiki tip about  getting all tips in a single local html file.
+http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips
+
+While i'm on that topic, what about creating a wikiTips package that 
+would show tips on startup, 'Did you know ...'.
+The tips could be based on the one in the wiki, so the package could 
+regenerate itself from time to time.
+Then we encourage newcomers to install that package so that in the 
+beginning of each session, it gives a tip in a window or in the text...
+
+What do you think ?
+((I know that was discussed and 'firewalled' a while ago in R-help, but 
+...))
+
+
+-- 
+visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr               |
+| Doctorant INRIA Futurs / EDF                                  |
++---------------------------------------------------------------+
+
+
+From phgrosjean at sciviews.org  Mon Apr 24 19:26:58 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Mon, 24 Apr 2006 19:26:58 +0200
+Subject: [R-wiki] again the tips
+In-Reply-To: <444D08B4.4040900@free.fr>
+References: <444D08B4.4040900@free.fr>
+Message-ID: <444D0A62.1090702@sciviews.org>
+
+Yes, that could be php also and included in the Wiki engine. Anyway, if 
+it remains R code, it should certainly be included in the future RWiki 
+package, together with function to search on the Wiki from R, to 
+generate updated language files for GeSHi, etc.
+Best,
+
+Philippe Grosjean
+
+Romain Francois wrote:
+> Hi all,
+> 
+> What a funny and long discussion.
+> I made an R wiki tip about  getting all tips in a single local html file.
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips
+> 
+> While i'm on that topic, what about creating a wikiTips package that 
+> would show tips on startup, 'Did you know ...'.
+> The tips could be based on the one in the wiki, so the package could 
+> regenerate itself from time to time.
+> Then we encourage newcomers to install that package so that in the 
+> beginning of each session, it gives a tip in a window or in the text...
+> 
+> What do you think ?
+> ((I know that was discussed and 'firewalled' a while ago in R-help, but 
+> ...))
+> 
+>
+
+
+From ggrothendieck at gmail.com  Mon Apr 24 19:57:13 2006
+From: ggrothendieck at gmail.com (Gabor Grothendieck)
+Date: Mon, 24 Apr 2006 13:57:13 -0400
+Subject: [R-wiki] again the tips
+In-Reply-To: <444D08B4.4040900@free.fr>
+References: <444D08B4.4040900@free.fr>
+Message-ID: <971536df0604241057x52271625m2c759c4b00d0d988@mail.gmail.com>
+
+Great. Could you add a table of contents to this and
+make it a function possibly including
+
+wikihead <- "...
+..
+..."
+
+so that its entirely self contained without needing to
+place an external file in the right directory/folder.
+
+On 4/24/06, Romain Francois <francoisromain at free.fr> wrote:
+> Hi all,
+>
+> What a funny and long discussion.
+> I made an R wiki tip about  getting all tips in a single local html file.
+> http://wiki.r-project.org/rwiki/doku.php?id=tips:misc:alltips
+>
+> While i'm on that topic, what about creating a wikiTips package that
+> would show tips on startup, 'Did you know ...'.
+> The tips could be based on the one in the wiki, so the package could
+> regenerate itself from time to time.
+> Then we encourage newcomers to install that package so that in the
+> beginning of each session, it gives a tip in a window or in the text...
+>
+> What do you think ?
+> ((I know that was discussed and 'firewalled' a while ago in R-help, but
+> ...))
+>
+>
+> --
+> visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+> mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
+> +---------------------------------------------------------------+
+> | Romain FRANCOIS - http://francoisromain.free.fr               |
+> | Doctorant INRIA Futurs / EDF                                  |
+> +---------------------------------------------------------------+
+>
+> _______________________________________________
+> R-sig-wiki mailing list
+> R-sig-wiki at r-project.org
+> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki
+>
+
+
+From gregor.gorjanc at gmail.com  Tue Apr 25 01:40:00 2006
+From: gregor.gorjanc at gmail.com (Gregor Gorjanc)
+Date: Tue, 25 Apr 2006 01:40:00 +0200
+Subject: [R-wiki] Slow connection
+Message-ID: <444D61D0.20402@bfro.uni-lj.si>
+
+Hello!
+
+I am experiencing extremely slow connection to R wiki. This is permanent
+observation. Is it only me? If I would try to search for something in
+wiki and wait for so long I would probably abandon the idea. I can
+browse other (random) pages normaly.
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From phgrosjean at sciviews.org  Tue Apr 25 10:05:27 2006
+From: phgrosjean at sciviews.org (Philippe Grosjean)
+Date: Tue, 25 Apr 2006 10:05:27 +0200
+Subject: [R-wiki] Slow connection
+In-Reply-To: <444D61D0.20402@bfro.uni-lj.si>
+References: <444D61D0.20402@bfro.uni-lj.si>
+Message-ID: <444DD847.9030805@sciviews.org>
+
+Gregor Gorjanc wrote:
+> Hello!
+> 
+> I am experiencing extremely slow connection to R wiki. This is permanent
+> observation. Is it only me? If I would try to search for something in
+> wiki and wait for so long I would probably abandon the idea. I can
+> browse other (random) pages normaly.
+> 
+
+Hummm... I just check again the search feature on the Wiki. It takes me 
+less than 2 sec to get the whole result (but the page is constructed 
+pieces by pieces, and the firsts links appear almost immediatelly). This 
+is slower than Google, but still fine to me. Of course, this is an 
+access from my Intranet, thus testing the Wiki engine  mainly, not the 
+Internet traffic.
+
+Could you give me a little bit more info (trace route to the Wiki server 
+from your computer, how long does it take to display a Wiki page, to 
+display the search result, etc...).
+
+I introduced a project to my University to buy and install a faster 
+server and to put it as close as possible to the backbone. I received a 
+positive answer, unofficially, but you know... administration always 
+take longer!
+
+So, all these informations about how fast (or how slow) the R Wiki is, 
+are important at this stage. Does anyone else experience unbearable 
+slowlyness?
+
+Best,
+
+Philippe Grosjean
+
+
+From gregor.gorjanc at bfro.uni-lj.si  Tue Apr 25 11:42:11 2006
+From: gregor.gorjanc at bfro.uni-lj.si (Gregor Gorjanc)
+Date: Tue, 25 Apr 2006 11:42:11 +0200
+Subject: [R-wiki] Slow connection
+In-Reply-To: <444DD847.9030805@sciviews.org>
+References: <444D61D0.20402@bfro.uni-lj.si> <444DD847.9030805@sciviews.org>
+Message-ID: <444DEEF3.8000105@bfro.uni-lj.si>
+
+Philippe Grosjean wrote:
+> Gregor Gorjanc wrote:
+> 
+>> Hello!
+>>
+>> I am experiencing extremely slow connection to R wiki. This is permanent
+>> observation. Is it only me? If I would try to search for something in
+>> wiki and wait for so long I would probably abandon the idea. I can
+>> browse other (random) pages normaly.
+>>
+> 
+> Hummm... I just check again the search feature on the Wiki. It takes me
+> less than 2 sec to get the whole result (but the page is constructed
+> pieces by pieces, and the firsts links appear almost immediatelly). This
+> is slower than Google, but still fine to me. Of course, this is an
+> access from my Intranet, thus testing the Wiki engine  mainly, not the
+> Internet traffic.
+> 
+> Could you give me a little bit more info (trace route to the Wiki server
+> from your computer, how long does it take to display a Wiki page, to
+> display the search result, etc...).
+
+>From work:
+- open R-wiki 5 sec
+- search for debian 6 sec
+- open getting-started:installation:debian page 6 sec
+- click on first edit 12 sec
+- preview 5 sec
+- save 5 sec
+
+So this is not that much for each action, but it takes quite some time
+if you want to do all of them. Am I just to spoiled or ... At home, this
+is of course slower - I can not tell by how many, but I will report in
+the evening on this.
+
+Ping:
+$ ping wiki.r-project.org
+PING econum.umh.ac.be (193.190.194.5) 56(84) bytes of data.
+64 bytes from econum.umh.ac.be (193.190.194.5): icmp_seq=1 ttl=110
+time=54.6 ms
+64 bytes from econum.umh.ac.be (193.190.194.5): icmp_seq=2 ttl=110
+time=52.6 ms
+64 bytes from econum.umh.ac.be (193.190.194.5): icmp_seq=4 ttl=110
+time=70.2 ms
+64 bytes from econum.umh.ac.be (193.190.194.5): icmp_seq=5 ttl=110
+time=45.8 ms
+64 bytes from econum.umh.ac.be (193.190.194.5): icmp_seq=6 ttl=110
+time=44.1 ms
+
+Traceroute - I do not know, why it is not showing names:
+$ traceroute wiki.r-project.org
+traceroute to econum.umh.ac.be (193.190.194.5), 30 hops max, 40 byte packets
+ 1  * * *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+> I introduced a project to my University to buy and install a faster
+> server and to put it as close as possible to the backbone. I received a
+> positive answer, unofficially, but you know... administration always
+> take longer!
+
+Excellent, thank you for your time on this!
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+
+From francoisromain at free.fr  Tue Apr 25 13:53:02 2006
+From: francoisromain at free.fr (Romain Francois)
+Date: Tue, 25 Apr 2006 13:53:02 +0200
+Subject: [R-wiki] Slow connection
+In-Reply-To: <444DD847.9030805@sciviews.org>
+References: <444D61D0.20402@bfro.uni-lj.si> <444DD847.9030805@sciviews.org>
+Message-ID: <444E0D9E.2020701@free.fr>
+
+Le 25.04.2006 10:05, Philippe Grosjean a ?crit :
+> Gregor Gorjanc wrote:
+>   
+>> Hello!
+>>
+>> I am experiencing extremely slow connection to R wiki. This is permanent
+>> observation. Is it only me? If I would try to search for something in
+>> wiki and wait for so long I would probably abandon the idea. I can
+>> browse other (random) pages normaly.
+>>
+>>     
+>
+> Hummm... I just check again the search feature on the Wiki. It takes me 
+> less than 2 sec to get the whole result (but the page is constructed 
+> pieces by pieces, and the firsts links appear almost immediatelly). This 
+> is slower than Google, but still fine to me. Of course, this is an 
+> access from my Intranet, thus testing the Wiki engine  mainly, not the 
+> Internet traffic.
+>
+> Could you give me a little bit more info (trace route to the Wiki server 
+> from your computer, how long does it take to display a Wiki page, to 
+> display the search result, etc...).
+>
+> I introduced a project to my University to buy and install a faster 
+> server and to put it as close as possible to the backbone. I received a 
+> positive answer, unofficially, but you know... administration always 
+> take longer!
+>
+> So, all these informations about how fast (or how slow) the R Wiki is, 
+> are important at this stage. Does anyone else experience unbearable 
+> slowlyness?
+>
+>   
+Not me.
+
+> Best,
+>
+> Philippe Grosjean
+>   
+-- 
+visit the R Graph Gallery : http://addictedtor.free.fr/graphiques
+mixmod 1.7 is released : http://www-math.univ-fcomte.fr/mixmod/index.php
++---------------------------------------------------------------+
+| Romain FRANCOIS - http://francoisromain.free.fr               |
+| Doctorant INRIA Futurs / EDF                                  |
++---------------------------------------------------------------+
+
+
+From gregor.gorjanc at gmail.com  Tue Apr 25 22:36:40 2006
+From: gregor.gorjanc at gmail.com (Gregor Gorjanc)
+Date: Tue, 25 Apr 2006 22:36:40 +0200
+Subject: [R-wiki] Slow connection
+Message-ID: <444E8858.1070104@bfro.uni-lj.si>
+
+Hi
+
+>>From work:
+> - open R-wiki 5 sec
+> - search for debian 6 sec
+> - open getting-started:installation:debian page 6 sec
+> - click on first edit 12 sec
+> - preview 5 sec
+> - save 5 sec
+> 
+> So this is not that much for each action, but it takes quite some time
+> if you want to do all of them. Am I just to spoiled or ... At home, this
+> is of course slower - I can not tell by how many, but I will report in
+> the evening on this.
+
+Now, at home things look better. I appologize for starting this thread
+at all as another computer in home network was "sharing" some files and
+I did not know that ... I can browse R-wiki even faster than at work,
+where link is better, but it is evening/night here now and people sleep
+so this comparison ...
+
+-- 
+Lep pozdrav / With regards,
+    Gregor Gorjanc
+
+----------------------------------------------------------------------
+University of Ljubljana     PhD student
+Biotechnical Faculty
+Zootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan
+Groblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si
+
+SI-1230 Domzale             tel: +386 (0)1 72 17 861
+Slovenia, Europe            fax: +386 (0)1 72 17 888
+
+----------------------------------------------------------------------
+"One must learn by doing the thing; for though you think you know it,
+ you have no certainty until you try." Sophocles ~ 450 B.C.
+
+

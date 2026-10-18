@@ -1,0 +1,234 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2007-08",
+  "messages": [
+    {
+      "id": "msg-764ce6fbb85c",
+      "message_id": "<46B056FE.1050100@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2007-08-01T09:48:46Z",
+      "subject": "[R-wiki] R Wiki back again",
+      "subject_clean": "[R-wiki] R Wiki back again",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello all,\n\nSorry for the problem with the R Wiki that lasted several days. We had a \nmajor electric cut on the campus, and with a very limited staff due to \nholidays, it took longer than expected to recover. I am, myself, in \nholidays and only occasionally read my emails (every ten days, or so). \nThe server is now working again.\nBest,\n\nPhilippe Grosjean\n-- \n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Belgium\n( ( ( ( (\n..............................................................",
+      "body_snippet": "Hello all,\n\nSorry for the problem with the R Wiki that lasted several days. We had a \nmajor electric cut on the campus, and with a very limited staff due to \nholidays, it took longer than expected to ",
+      "thread_id": "thread-764ce6fbb85c",
+      "thread_depth": 0,
+      "month": "2007-08"
+    },
+    {
+      "id": "msg-fb71a80edda5",
+      "message_id": "<46C31B24.3090002@vanderbilt.edu>",
+      "from_name": "Jeffrey Horner",
+      "from_email_hash": "8b91e5b4000682951a703759aaef9fbaa2bc23dc141f7a1ef5c829c7c0d0d0de",
+      "date": "2007-08-15T15:26:28Z",
+      "subject": "[R-wiki] R syntax highlighting with Geshi",
+      "subject_clean": "[R-wiki] R syntax highlighting with Geshi",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi Philippe,\n\nCan you post to the wiki your R.php language file for Geshi?\n\nThanks,\n\nJeff\n-- \nhttp://biostat.mc.vanderbilt.edu/JeffreyHorner",
+      "body_snippet": "Hi Philippe,\n\nCan you post to the wiki your R.php language file for Geshi?\n\nThanks,\n\nJeff\n-- \nhttp://biostat.mc.vanderbilt.edu/JeffreyHorner",
+      "thread_id": "thread-fb71a80edda5",
+      "thread_depth": 0,
+      "month": "2007-08"
+    },
+    {
+      "id": "msg-1a0d1c985ba5",
+      "message_id": "<46D2BB97.5020208@zoo.ufl.edu>",
+      "from_name": "Ben Bolker",
+      "from_email_hash": "10af28d36bcdc09beaca76a608d7bee9f1f3e76c32aaecff390c982a8bb8ca4a",
+      "date": "2007-08-27T11:55:03Z",
+      "subject": "[R-wiki] graphics gallery in wiki?",
+      "subject_clean": "[R-wiki] graphics gallery in wiki?",
+      "in_reply_to": "<43F12876.1090102@sciviews.org>",
+      "references": [
+        "<43F0570E.5010906@pburns.seanet.com>",
+        "<43F0651C.6030701@sciviews.org>",
+        "<43F06CBA.2040907@free.fr>",
+        "<971536df0602130721r70fb3bf0i86ce76ba956ddaeb@mail.gmail.com>",
+        "<43F0BAB4.6010609@sciviews.org>",
+        "<43F0C191.7020402@free.fr>",
+        "<43F0CC5D.4060706@sciviews.org>",
+        "<43F0D039.5040101@free.fr>",
+        "<43F12876.1090102@sciviews.org>"
+      ],
+      "body_plain": "I put up a preliminary Sweave-to-wiki script on the wiki.\n   Comments and improvements are welcome.\n\n  http://wiki.r-project.org/rwiki/doku.php?id=developers:latex2wiki",
+      "body_snippet": "I put up a preliminary Sweave-to-wiki script on the wiki.\n   Comments and improvements are welcome.\n\n  http://wiki.r-project.org/rwiki/doku.php?id=developers:latex2wiki",
+      "thread_id": "thread-1a0d1c985ba5",
+      "thread_depth": 0,
+      "month": "2007-08"
+    },
+    {
+      "id": "msg-e1cbd735a27e",
+      "message_id": "<46D2BC42.9020200@zoo.ufl.edu>",
+      "from_name": "Ben Bolker",
+      "from_email_hash": "10af28d36bcdc09beaca76a608d7bee9f1f3e76c32aaecff390c982a8bb8ca4a",
+      "date": "2007-08-27T11:57:54Z",
+      "subject": "[R-wiki] Sweave to wiki script",
+      "subject_clean": "[R-wiki] Sweave to wiki script",
+      "in_reply_to": "<46D2BB97.5020208@zoo.ufl.edu>",
+      "references": [
+        "<43F0570E.5010906@pburns.seanet.com>",
+        "<43F0651C.6030701@sciviews.org>",
+        "<43F06CBA.2040907@free.fr>",
+        "<971536df0602130721r70fb3bf0i86ce76ba956ddaeb@mail.gmail.com>",
+        "<43F0BAB4.6010609@sciviews.org>",
+        "<43F0C191.7020402@free.fr>",
+        "<43F0CC5D.4060706@sciviews.org>",
+        "<43F0D039.5040101@free.fr>",
+        "<43F12876.1090102@sciviews.org>",
+        "<46D2BB97.5020208@zoo.ufl.edu>"
+      ],
+      "body_plain": "oops, sorry about the mistaken subject: line!\n\nBen Bolker wrote:\n>    I put up a preliminary Sweave-to-wiki script on the wiki.\n>    Comments and improvements are welcome.\n>\n>   http://wiki.r-project.org/rwiki/doku.php?id=developers:latex2wiki\n>\n> _______________________________________________\n> R-sig-wiki mailing list\n> R-sig-wiki at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n>",
+      "body_snippet": "oops, sorry about the mistaken subject: line!\n\nBen Bolker wrote:\n>    I put up a preliminary Sweave-to-wiki script on the wiki.\n>    Comments and improvements are welcome.\n>\n>   http://wiki.r-project.",
+      "thread_id": "thread-1a0d1c985ba5",
+      "thread_depth": 1,
+      "month": "2007-08"
+    },
+    {
+      "id": "msg-a8c66ec90d20",
+      "message_id": "<46D71918.8040904@zoo.ufl.edu>",
+      "from_name": "Ben Bolker",
+      "from_email_hash": "10af28d36bcdc09beaca76a608d7bee9f1f3e76c32aaecff390c982a8bb8ca4a",
+      "date": "2007-08-30T19:23:04Z",
+      "subject": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "subject_clean": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "awfully quiet around here ...\n  does anyone have opinions about this?\n\nBen Bolker wrote:\n>    I put up a preliminary Sweave-to-wiki script on the wiki.\n>    Comments and improvements are welcome.\n>\n>   http://wiki.r-project.org/rwiki/doku.php?id=developers:latex2wiki\n>\n> _______________________________________________\n> R-sig-wiki mailing list\n> R-sig-wiki at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n>",
+      "body_snippet": "awfully quiet around here ...\n  does anyone have opinions about this?\n\nBen Bolker wrote:\n>    I put up a preliminary Sweave-to-wiki script on the wiki.\n>    Comments and improvements are welcome.\n>\n> ",
+      "thread_id": "thread-a8c66ec90d20",
+      "thread_depth": 0,
+      "month": "2007-08"
+    },
+    {
+      "id": "msg-b8f30342648f",
+      "message_id": "<46D72C75.8060706@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2007-08-30T20:45:41Z",
+      "subject": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "subject_clean": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "in_reply_to": "<46D71918.8040904@zoo.ufl.edu>",
+      "references": [
+        "<46D71918.8040904@zoo.ufl.edu>"
+      ],
+      "body_plain": "Hi Ben,\n\nThis looks great (note that I wanted to test it first before \nanswering... still haven't found time for that)! However, I think that \nit is easier to work on Wiki page and eventually convert it to \nLaTeX/Sweave than in the other direction. So, do you mean you plan to \nwrite Wiki pages in LaTeX???\nBest,\n\nPhilippe\n\n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Belgium\n( ( ( ( (\n..............................................................\n\nBen Bolker wrote:\n>   awfully quiet around here ...\n>   does anyone have opinions about this?\n> \n> Ben Bolker wrote:\n>>    I put up a preliminary Sweave-to-wiki script on the wiki.\n>>    Comments and improvements are welcome.\n>>\n>>   http://wiki.r-project.org/rwiki/doku.php?id=developers:latex2wiki\n>>\n>> _______________________________________________\n>> R-sig-wiki mailing list\n>> R-sig-wiki at r-project.org\n>> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n>>\n> \n> _______________________________________________\n> R-sig-wiki mailing list\n> R-sig-wiki at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n>",
+      "body_snippet": "Hi Ben,\n\nThis looks great (note that I wanted to test it first before \nanswering... still haven't found time for that)! However, I think that \nit is easier to work on Wiki page and eventually convert ",
+      "thread_id": "thread-a8c66ec90d20",
+      "thread_depth": 1,
+      "month": "2007-08"
+    },
+    {
+      "id": "msg-8cc66f6386e0",
+      "message_id": "<18135.48736.329327.115788@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2007-08-31T07:08:16Z",
+      "subject": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "subject_clean": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "in_reply_to": "<46D72C75.8060706@sciviews.org>",
+      "references": [
+        "<46D71918.8040904@zoo.ufl.edu>",
+        "<46D72C75.8060706@sciviews.org>"
+      ],
+      "body_plain": ">>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>     on Thu, 30 Aug 2007 22:45:41 +0200 writes:\n\n    PhGr> Hi Ben,\n    PhGr> This looks great (note that I wanted to test it first before \n    PhGr> answering... still haven't found time for that)! However, I think that \n    PhGr> it is easier to work on Wiki page and eventually convert it to \n    PhGr> LaTeX/Sweave than in the other direction. So, do you mean you plan to \n    PhGr> write Wiki pages in LaTeX???\n\n[Excuse Ben, for answering in European time (while you're sleeping)]\n\nNo! Probably not at all.\n\nI see the very big potential use quite differently:\n\nMany of us are in academics where we are supposed to produce\npresentations and \"papers\".  The modern ones among us (:-) ;-))\nmay use Sweave to do both of this.\n\nHence: If Ben's tool \"works\", we now can pretty quickly put our\npresentations, e.g., from  UseR!2007, into the R-wicki without\nmuch extra work.\n\nThis seems a tremendously nice potential!\nBut then, as Philippe, I haven't found time yet to try it out...\n\nRegards,\nMartin",
+      "body_snippet": ">>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>     on Thu, 30 Aug 2007 22:45:41 +0200 writes:\n\n    PhGr> Hi Ben,\n    PhGr> This looks great (note that I wanted to test it first b",
+      "thread_id": "thread-a8c66ec90d20",
+      "thread_depth": 2,
+      "month": "2007-08"
+    },
+    {
+      "id": "msg-76ebb4cbdb1f",
+      "message_id": "<46D8002A.4020408@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2007-08-31T11:48:58Z",
+      "subject": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "subject_clean": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "in_reply_to": "<18135.48736.329327.115788@stat.math.ethz.ch>",
+      "references": [
+        "<46D71918.8040904@zoo.ufl.edu>",
+        "<46D72C75.8060706@sciviews.org>",
+        "<18135.48736.329327.115788@stat.math.ethz.ch>"
+      ],
+      "body_plain": "OK, that makes a lot of sense.\n\nPhG\n\nMartin Maechler wrote:\n>>>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>>     on Thu, 30 Aug 2007 22:45:41 +0200 writes:\n> \n>     PhGr> Hi Ben,\n>     PhGr> This looks great (note that I wanted to test it first before \n>     PhGr> answering... still haven't found time for that)! However, I think that \n>     PhGr> it is easier to work on Wiki page and eventually convert it to \n>     PhGr> LaTeX/Sweave than in the other direction. So, do you mean you plan to \n>     PhGr> write Wiki pages in LaTeX???\n> \n> [Excuse Ben, for answering in European time (while you're sleeping)]\n> \n> No! Probably not at all.\n> \n> I see the very big potential use quite differently:\n> \n> Many of us are in academics where we are supposed to produce\n> presentations and \"papers\".  The modern ones among us (:-) ;-))\n> may use Sweave to do both of this.\n> \n> Hence: If Ben's tool \"works\", we now can pretty quickly put our\n> presentations, e.g., from  UseR!2007, into the R-wicki without\n> much extra work.\n> \n> This seems a tremendously nice potential!\n> But then, as Philippe, I haven't found time yet to try it out...\n> \n> Regards,\n> Martin\n>",
+      "body_snippet": "OK, that makes a lot of sense.\n\nPhG\n\nMartin Maechler wrote:\n>>>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>>     on Thu, 30 Aug 2007 22:45:41 +0200 writes:\n> \n>     PhGr> Hi Ben,",
+      "thread_id": "thread-a8c66ec90d20",
+      "thread_depth": 3,
+      "month": "2007-08"
+    },
+    {
+      "id": "msg-114b6e9a84ff",
+      "message_id": "<46D80FB4.4050001@zoo.ufl.edu>",
+      "from_name": "Ben Bolker",
+      "from_email_hash": "10af28d36bcdc09beaca76a608d7bee9f1f3e76c32aaecff390c982a8bb8ca4a",
+      "date": "2007-08-31T12:55:16Z",
+      "subject": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "subject_clean": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "in_reply_to": "<46D8002A.4020408@sciviews.org>",
+      "references": [
+        "<46D71918.8040904@zoo.ufl.edu>",
+        "<46D72C75.8060706@sciviews.org>",
+        "<18135.48736.329327.115788@stat.math.ethz.ch>",
+        "<46D8002A.4020408@sciviews.org>"
+      ],
+      "body_plain": "Thanks, Martin.\n  A couple of other things: since I don't have DokuWiki installed\nlocally, developing wiki pages means being online.  And I know\nLaTeX much better than wiki code.  And the \"preview\" mode\nin the wiki is somewhat slow.\n\n  The code is definitely a draft-0, but I will try to improve it.\n\n  Ben\n\nPhilippe Grosjean wrote:\n> OK, that makes a lot of sense.\n>\n> PhG\n>\n> Martin Maechler wrote:\n>>>>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>>>     on Thu, 30 Aug 2007 22:45:41 +0200 writes:\n>>\n>>     PhGr> Hi Ben,\n>>     PhGr> This looks great (note that I wanted to test it first \n>> before     PhGr> answering... still haven't found time for that)! \n>> However, I think that     PhGr> it is easier to work on Wiki page and \n>> eventually convert it to     PhGr> LaTeX/Sweave than in the other \n>> direction. So, do you mean you plan to     PhGr> write Wiki pages in \n>> LaTeX???\n>>\n>> [Excuse Ben, for answering in European time (while you're sleeping)]\n>>\n>> No! Probably not at all.\n>>\n>> I see the very big potential use quite differently:\n>>\n>> Many of us are in academics where we are supposed to produce\n>> presentations and \"papers\".  The modern ones among us (:-) ;-))\n>> may use Sweave to do both of this.\n>>\n>> Hence: If Ben's tool \"works\", we now can pretty quickly put our\n>> presentations, e.g., from  UseR!2007, into the R-wicki without\n>> much extra work.\n>>\n>> This seems a tremendously nice potential!\n>> But then, as Philippe, I haven't found time yet to try it out...\n>>\n>> Regards,\n>> Martin\n>>",
+      "body_snippet": "Thanks, Martin.\n  A couple of other things: since I don't have DokuWiki installed\nlocally, developing wiki pages means being online.  And I know\nLaTeX much better than wiki code.  And the \"preview\" mo",
+      "thread_id": "thread-a8c66ec90d20",
+      "thread_depth": 4,
+      "month": "2007-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-764ce6fbb85c",
+      "subject": "[R-wiki] R Wiki back again",
+      "message_count": 1,
+      "participants": [
+        "Philippe Grosjean"
+      ],
+      "started": "2007-08-01T09:48:46Z",
+      "last_reply": "2007-08-01T09:48:46Z",
+      "root_message_id": "msg-764ce6fbb85c"
+    },
+    {
+      "id": "thread-fb71a80edda5",
+      "subject": "[R-wiki] R syntax highlighting with Geshi",
+      "message_count": 1,
+      "participants": [
+        "Jeffrey Horner"
+      ],
+      "started": "2007-08-15T15:26:28Z",
+      "last_reply": "2007-08-15T15:26:28Z",
+      "root_message_id": "msg-fb71a80edda5"
+    },
+    {
+      "id": "thread-1a0d1c985ba5",
+      "subject": "[R-wiki] graphics gallery in wiki?",
+      "message_count": 2,
+      "participants": [
+        "Ben Bolker"
+      ],
+      "started": "2007-08-27T11:55:03Z",
+      "last_reply": "2007-08-27T11:57:54Z",
+      "root_message_id": "msg-1a0d1c985ba5"
+    },
+    {
+      "id": "thread-a8c66ec90d20",
+      "subject": "[R-wiki] [Fwd: Sweave to wiki script]",
+      "message_count": 5,
+      "participants": [
+        "Ben Bolker",
+        "Martin Maechler",
+        "Philippe Grosjean"
+      ],
+      "started": "2007-08-30T19:23:04Z",
+      "last_reply": "2007-08-31T12:55:16Z",
+      "root_message_id": "msg-a8c66ec90d20"
+    }
+  ]
+}

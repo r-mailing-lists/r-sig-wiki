@@ -1,0 +1,203 @@
+{
+  "list": "r-sig-wiki",
+  "description": "",
+  "month": "2006-11",
+  "messages": [
+    {
+      "id": "msg-77d22a510482",
+      "message_id": "<454FFBD2.1070409@vanderbilt.edu>",
+      "from_name": "Jeffrey Horner",
+      "from_email_hash": "8b91e5b4000682951a703759aaef9fbaa2bc23dc141f7a1ef5c829c7c0d0d0de",
+      "date": "2006-11-07T03:21:54Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Just curious. I tried getting to wiki.r-project.org earlier in the day, \nand them someone on R-help mentioned that they also tried but couldn't \nreach it.\n\nJeff\n-- \nhttp://biostat.mc.vanderbilt.edu/JeffreyHorner",
+      "body_snippet": "Just curious. I tried getting to wiki.r-project.org earlier in the day, \nand them someone on R-help mentioned that they also tried but couldn't \nreach it.\n\nJeff\n-- \nhttp://biostat.mc.vanderbilt.edu/Je",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 0,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-8e463b247f23",
+      "message_id": "<loom.20061107T091359-832@post.gmane.org>",
+      "from_name": "Gregor Gorjanc",
+      "from_email_hash": "b39c75688faf9190a17a4a292fdf8f9ec6b9f34cb9f4caf4a9101153bea16442",
+      "date": "2006-11-07T08:14:22Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": null,
+      "references": [
+        "<454FFBD2.1070409@vanderbilt.edu>"
+      ],
+      "body_plain": "Jeffrey Horner <jeff.horner <at> vanderbilt.edu> writes:\n\n> \n> \n> Just curious. I tried getting to wiki.r-project.org earlier in the day, \n> and them someone on R-help mentioned that they also tried but couldn't \n> reach it.\n> \n> Jeff\n\nYep, I also can not reach it since sunday.\n\nGregor",
+      "body_snippet": "Jeffrey Horner <jeff.horner <at> vanderbilt.edu> writes:\n\n> \n> \n> Just curious. I tried getting to wiki.r-project.org earlier in the day, \n> and them someone on R-help mentioned that they also tried b",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 1,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-827a69b8f68c",
+      "message_id": "<17744.19304.776760.866785@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2006-11-07T09:01:28Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": "<loom.20061107T091359-832@post.gmane.org>",
+      "references": [
+        "<454FFBD2.1070409@vanderbilt.edu>",
+        "<loom.20061107T091359-832@post.gmane.org>"
+      ],
+      "body_plain": ">>>>> \"Gregor\" == Gregor Gorjanc <gregor.gorjanc at bfro.uni-lj.si>\n>>>>>     on Tue, 7 Nov 2006 08:14:22 +0000 (UTC) writes:\n\n    Gregor> Jeffrey Horner <jeff.horner <at> vanderbilt.edu> writes:\n    >> \n    >> \n    >> Just curious. I tried getting to wiki.r-project.org earlier in the day, \n    >> and them someone on R-help mentioned that they also tried but couldn't \n    >> reach it.\n    >> \n    >> Jeff\n\n    Gregor> Yep, I also can not reach it since sunday.\n\nYikes!!\n\nSo I guess, the reason is the now infamous  pan-European (slight\nexaggeration) blackout that hit about millions of people in\nEurope, and notably Belgium where the R-Wiki server is located.\n\nGregor, did you do something about it, e.g.,\nsending an urgent e-mail to Philippe Grosjean\n(with a 'CC' to this list).\n\nBTW: Philippe, I think you should try to think about the\n     following questions\n\n     - What happens if you are in vacation, sick,...\n     -  Who is your \"substitute\"?\n     - Is there a phone number for urgencies?\n     - What are the emergency measures (and who is responsible) if\n       the machine crashes?  Backup / Substitute machine / ... ?\n\nThe R-Wiki is too important to leave such questions\nunanswered.",
+      "body_snippet": ">>>>> \"Gregor\" == Gregor Gorjanc <gregor.gorjanc at bfro.uni-lj.si>\n>>>>>     on Tue, 7 Nov 2006 08:14:22 +0000 (UTC) writes:\n\n    Gregor> Jeffrey Horner <jeff.horner <at> vanderbilt.edu> writes:\n    ",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 2,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-e82f51052197",
+      "message_id": "<45504C4D.8010507@bfro.uni-lj.si>",
+      "from_name": "Gregor Gorjanc",
+      "from_email_hash": "b39c75688faf9190a17a4a292fdf8f9ec6b9f34cb9f4caf4a9101153bea16442",
+      "date": "2006-11-07T09:05:17Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": "<17744.19304.776760.866785@stat.math.ethz.ch>",
+      "references": [
+        "<454FFBD2.1070409@vanderbilt.edu>",
+        "<loom.20061107T091359-832@post.gmane.org>",
+        "<17744.19304.776760.866785@stat.math.ethz.ch>"
+      ],
+      "body_plain": "Martin Maechler wrote:\n...\n> So I guess, the reason is the now infamous  pan-European (slight\n> exaggeration) blackout that hit about millions of people in\n> Europe, and notably Belgium where the R-Wiki server is located.\n\nI was thinking in this direction, but did not informed Philippe. I\napologize for that, but I thought that it was obvious.\n\n> Gregor, did you do something about it, e.g.,\n> sending an urgent e-mail to Philippe Grosjean\n> (with a 'CC' to this list).\n> \n> BTW: Philippe, I think you should try to think about the\n>      following questions\n> \n>      - What happens if you are in vacation, sick,...\n>      -  Who is your \"substitute\"?\n>      - Is there a phone number for urgencies?\n>      - What are the emergency measures (and who is responsible) if\n>        the machine crashes?  Backup / Substitute machine / ... ?\n> \n> The R-Wiki is too important to leave such questions\n> unanswered.\n> \n\n\n-- \nLep pozdrav / With regards,\n    Gregor Gorjanc\n----------------------------------------------------------------------\nUniversity of Ljubljana     PhD student\nBiotechnical Faculty\nZootechnical Department     URI: http://www.bfro.uni-lj.si/MR/ggorjan\nGroblje 3                   mail: gregor.gorjanc <at> bfro.uni-lj.si\n\nSI-1230 Domzale             tel: +386 (0)1 72 17 861\nSlovenia, Europe            fax: +386 (0)1 72 17 888\n\n----------------------------------------------------------------------\n\"One must learn by doing the thing; for though you think you know it,\n you have no certainty until you try.\" Sophocles ~ 450 B.C.",
+      "body_snippet": "Martin Maechler wrote:\n...\n> So I guess, the reason is the now infamous  pan-European (slight\n> exaggeration) blackout that hit about millions of people in\n> Europe, and notably Belgium where the R-Wi",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 3,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-a46622af2999",
+      "message_id": "<455057AF.6050803@umh.ac.be>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "59ba6d77954f91c1a4c44c37f8744ecd38bec50e93323a77f525e96f2cf31206",
+      "date": "2006-11-07T09:53:51Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": "<17744.19304.776760.866785@stat.math.ethz.ch>",
+      "references": [
+        "<454FFBD2.1070409@vanderbilt.edu>",
+        "<loom.20061107T091359-832@post.gmane.org>",
+        "<17744.19304.776760.866785@stat.math.ethz.ch>"
+      ],
+      "body_plain": "Hello,\n\nIndeed, the R Wiki server is down. I am away from my office (meetings), \nbut I just phone to the computer department in charge of the servers at \nthe University. They are currently looking at the problem.\n\nTo answer to legitimate Martin's questions:\n >      - What happens if you are in vacation, sick,...\n\nAs I said, it is the computer staff of the University that is in charge \nof the servers. But, they have to be warned of the problem before they \ncan do something about it. Perhaps should we install a system that pols \nthe Wiki server regularly and issues a warning automatically when \nsomething happens? I cannot do this without discussion and acceptation \nof the computer staff and authorities... which is a long and \nadministrative process!\n\n >      -  Who is your \"substitute\"?\n\nJohan Debergues, Philippe Lievens, or the people in charge of the \nservers at the University at the time the problem occurs (emails of \npeople is simply Name.FamilyName at umh.ac.be).\n\n >      - Is there a phone number for urgencies?\n\n+32.65.37.34.97, which is the phone in my office, currently.\n\n >      - What are the emergency measures (and who is responsible) if\n >        the machine crashes?  Backup / Substitute machine / ... ?\n\nRegular (daily) backups of the Wiki content are made on another machine. \nI am in charge of that backup, and of restoring the machine in case it \ncrashes. We currently have no other emergency measures. In particular, \nwe have no substitute machine installed currently.\n\nWe certainly could secure the R Wiki much better. I am open to any \nsuggestion on this point.\n\nBest,\n\nPhilippe Grosjean\n\nP.S.: Please, do warn me in case of problems: I am not working 24h/day \nand 7d/week on the R Wiki. So, do not assume that I am aware of the \nproblem at the time you notice it! In particular, yesterday and today, I \nam in meetings, which makes me less prone to notice the problem rapidly!\n\n\nMartin Maechler wrote:\n>>>>>> \"Gregor\" == Gregor Gorjanc <gregor.gorjanc at bfro.uni-lj.si>\n>>>>>>     on Tue, 7 Nov 2006 08:14:22 +0000 (UTC) writes:\n> \n>     Gregor> Jeffrey Horner <jeff.horner <at> vanderbilt.edu> writes:\n>     >> \n>     >> \n>     >> Just curious. I tried getting to wiki.r-project.org earlier in the day, \n>     >> and them someone on R-help mentioned that they also tried but couldn't \n>     >> reach it.\n>     >> \n>     >> Jeff\n> \n>     Gregor> Yep, I also can not reach it since sunday.\n> \n> Yikes!!\n> \n> So I guess, the reason is the now infamous  pan-European (slight\n> exaggeration) blackout that hit about millions of people in\n> Europe, and notably Belgium where the R-Wiki server is located.\n> \n> Gregor, did you do something about it, e.g.,\n> sending an urgent e-mail to Philippe Grosjean\n> (with a 'CC' to this list).\n> \n> BTW: Philippe, I think you should try to think about the\n>      following questions\n> \n>      - What happens if you are in vacation, sick,...\n>      -  Who is your \"substitute\"?\n>      - Is there a phone number for urgencies?\n>      - What are the emergency measures (and who is responsible) if\n>        the machine crashes?  Backup / Substitute machine / ... ?\n> \n> The R-Wiki is too important to leave such questions\n> unanswered.\n> \n> \n>",
+      "body_snippet": "Hello,\n\nIndeed, the R Wiki server is down. I am away from my office (meetings), \nbut I just phone to the computer department in charge of the servers at \nthe University. They are currently looking at ",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 3,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-030ba6323412",
+      "message_id": "<4550636E.3030703@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2006-11-07T10:43:58Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": "<455057AF.6050803@umh.ac.be>",
+      "references": [
+        "<454FFBD2.1070409@vanderbilt.edu>",
+        "<loom.20061107T091359-832@post.gmane.org>",
+        "<17744.19304.776760.866785@stat.math.ethz.ch>",
+        "<455057AF.6050803@umh.ac.be>"
+      ],
+      "body_plain": "OK, here is the diagnostic: the server is physically damaged. I have \nbackups of the R Wiki site, but we are looking for a replacement server. \nWe are not likely to install it before tomorrow. Sorry for the \ninconvenience, we are doing our best to get a new server up and running \nas soon as possible.\nCheers,\n\nPhilippe Grosjean\n\nPhilippe Grosjean wrote:\n> Hello,\n> \n> Indeed, the R Wiki server is down. I am away from my office (meetings), \n> but I just phone to the computer department in charge of the servers at \n> the University. They are currently looking at the problem.\n> \n> To answer to legitimate Martin's questions:\n>  >      - What happens if you are in vacation, sick,...\n> \n> As I said, it is the computer staff of the University that is in charge \n> of the servers. But, they have to be warned of the problem before they \n> can do something about it. Perhaps should we install a system that pols \n> the Wiki server regularly and issues a warning automatically when \n> something happens? I cannot do this without discussion and acceptation \n> of the computer staff and authorities... which is a long and \n> administrative process!\n> \n>  >      -  Who is your \"substitute\"?\n> \n> Johan Debergues, Philippe Lievens, or the people in charge of the \n> servers at the University at the time the problem occurs (emails of \n> people is simply Name.FamilyName at umh.ac.be).\n> \n>  >      - Is there a phone number for urgencies?\n> \n> +32.65.37.34.97, which is the phone in my office, currently.\n> \n>  >      - What are the emergency measures (and who is responsible) if\n>  >        the machine crashes?  Backup / Substitute machine / ... ?\n> \n> Regular (daily) backups of the Wiki content are made on another machine. \n> I am in charge of that backup, and of restoring the machine in case it \n> crashes. We currently have no other emergency measures. In particular, \n> we have no substitute machine installed currently.\n> \n> We certainly could secure the R Wiki much better. I am open to any \n> suggestion on this point.\n> \n> Best,\n> \n> Philippe Grosjean\n> \n> P.S.: Please, do warn me in case of problems: I am not working 24h/day \n> and 7d/week on the R Wiki. So, do not assume that I am aware of the \n> problem at the time you notice it! In particular, yesterday and today, I \n> am in meetings, which makes me less prone to notice the problem rapidly!\n> \n> \n> Martin Maechler wrote:\n>>>>>>> \"Gregor\" == Gregor Gorjanc <gregor.gorjanc at bfro.uni-lj.si>\n>>>>>>>     on Tue, 7 Nov 2006 08:14:22 +0000 (UTC) writes:\n>>     Gregor> Jeffrey Horner <jeff.horner <at> vanderbilt.edu> writes:\n>>     >> \n>>     >> \n>>     >> Just curious. I tried getting to wiki.r-project.org earlier in the day, \n>>     >> and them someone on R-help mentioned that they also tried but couldn't \n>>     >> reach it.\n>>     >> \n>>     >> Jeff\n>>\n>>     Gregor> Yep, I also can not reach it since sunday.\n>>\n>> Yikes!!\n>>\n>> So I guess, the reason is the now infamous  pan-European (slight\n>> exaggeration) blackout that hit about millions of people in\n>> Europe, and notably Belgium where the R-Wiki server is located.\n>>\n>> Gregor, did you do something about it, e.g.,\n>> sending an urgent e-mail to Philippe Grosjean\n>> (with a 'CC' to this list).\n>>\n>> BTW: Philippe, I think you should try to think about the\n>>      following questions\n>>\n>>      - What happens if you are in vacation, sick,...\n>>      -  Who is your \"substitute\"?\n>>      - Is there a phone number for urgencies?\n>>      - What are the emergency measures (and who is responsible) if\n>>        the machine crashes?  Backup / Substitute machine / ... ?\n>>\n>> The R-Wiki is too important to leave such questions\n>> unanswered.\n>>\n>>\n>>\n> \n> _______________________________________________\n> R-sig-wiki mailing list\n> R-sig-wiki at r-project.org\n> https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n> \n>",
+      "body_snippet": "OK, here is the diagnostic: the server is physically damaged. I have \nbackups of the R Wiki site, but we are looking for a replacement server. \nWe are not likely to install it before tomorrow. Sorry f",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 4,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-83222bb38fc0",
+      "message_id": "<17744.27512.3224.417469@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2006-11-07T11:18:16Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": "<455057AF.6050803@umh.ac.be>",
+      "references": [
+        "<454FFBD2.1070409@vanderbilt.edu>",
+        "<loom.20061107T091359-832@post.gmane.org>",
+        "<17744.19304.776760.866785@stat.math.ethz.ch>",
+        "<455057AF.6050803@umh.ac.be>"
+      ],
+      "body_plain": "Thanks a lot, Philippe,\n\n>>>>> \"PhGr\" == Philippe Grosjean <Philippe.Grosjean at umh.ac.be>\n>>>>>     on Tue, 07 Nov 2006 10:53:51 +0100 writes:\n\n    PhGr> Hello,\n\n    PhGr> Indeed, the R Wiki server is down. I am away from my\n    PhGr> office (meetings), but I just phone to the computer\n    PhGr> department in charge of the servers at the\n    PhGr> University. They are currently looking at the problem.\n\n    PhGr> To answer to legitimate Martin's questions:\n    >> - What happens if you are in vacation, sick,...\n\n    PhGr> As I said, it is the computer staff of the University\n    PhGr> that is in charge of the servers. But, they have to be\n    PhGr> warned of the problem before they can do something\n    PhGr> about it. Perhaps should we install a system that pols\n    PhGr> the Wiki server regularly and issues a warning\n    PhGr> automatically when something happens? I cannot do this\n    PhGr> without discussion and acceptation of the computer\n    PhGr> staff and authorities... which is a long and\n    PhGr> administrative process!\n\nouch!  Yes, such polling systems are quite standard and a must\nfor reliable server maintenance.  Of course they will not be\n100% fool proof either.\n\n    >> -  Who is your \"substitute\"?\n\n    PhGr> Johan Debergues, Philippe Lievens, or the people in charge of the \n    PhGr> servers at the University at the time the problem occurs (emails of \n    PhGr> people is simply Name.FamilyName at umh.ac.be).\n\n    >> - Is there a phone number for urgencies?\n\n    PhGr> +32.65.37.34.97, which is the phone in my office, currently.\n\n    >> - What are the emergency measures (and who is responsible) if\n    >> the machine crashes?  Backup / Substitute machine / ... ?\n\n    PhGr> Regular (daily) backups of the Wiki content are made on another machine. \n    PhGr> I am in charge of that backup, and of restoring the machine in case it \n    PhGr> crashes. We currently have no other emergency measures. In particular, \n    PhGr> we have no substitute machine installed currently.\n\nThat sounds all reasonable. Thanks a lot!\n\nA substitute machine *installed* may be asking too much. \nHowever, having easy access to a spare machine which has the OS\npre-installed and on which you can restore the full the\nwiki-backup, maybe something to look at.\n\n    PhGr> We certainly could secure the R Wiki much better. I am open to any \n    PhGr> suggestion on this point.\n\n    PhGr> Best,\n\n    PhGr> Philippe Grosjean\n\n\n\n    PhGr> P.S.: Please, do warn me in case of problems: I am not\n    PhGr> working 24h/day and 7d/week on the R Wiki. So, do not\n    PhGr> assume that I am aware of the problem at the time you\n    PhGr> notice it! In particular, yesterday and today, I am in\n    PhGr> meetings, which makes me less prone to notice the\n    PhGr> problem rapidly!\n\nIndeed!  I hope you weren't stressed unnecessarily by my e-mail,\nand I hope this is now just clear to the audience:\n\nIn case of severe problems with the R-Wiki do contact Philippe\nGrosjean by \"personal\" e-mail (i.e. not just assuming he reads\nmailing lists).\n\nWith (a 2nd round of) thanks to Philippe,\nMartin",
+      "body_snippet": "Thanks a lot, Philippe,\n\n>>>>> \"PhGr\" == Philippe Grosjean <Philippe.Grosjean at umh.ac.be>\n>>>>>     on Tue, 07 Nov 2006 10:53:51 +0100 writes:\n\n    PhGr> Hello,\n\n    PhGr> Indeed, the R Wiki server ",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 4,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-1ee2bafc4247",
+      "message_id": "<45520BBC.4030803@sciviews.org>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "71b9dd5d435dd797c88b6e8e80adcc63b4c2764c443f0ceca36f80f3ecda8d9a",
+      "date": "2006-11-08T16:54:20Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": "<17744.27512.3224.417469@stat.math.ethz.ch>",
+      "references": [
+        "<454FFBD2.1070409@vanderbilt.edu>",
+        "<loom.20061107T091359-832@post.gmane.org>",
+        "<17744.19304.776760.866785@stat.math.ethz.ch>",
+        "<455057AF.6050803@umh.ac.be>",
+        "<17744.27512.3224.417469@stat.math.ethz.ch>"
+      ],
+      "body_plain": "Hello all,\n\nThe R Wiki site is now back again (hopefully, I have tested from the \nIntranet, but not from the Internet). The motherboard of the server was \nbroken. so, I had to send the server back for servicing. The R Wiki \nsite, is installed on a temporary replacement server for the moment.\nBest,\n\nPhilippe Grosjean\n\nMartin Maechler wrote:\n> Thanks a lot, Philippe,\n> \n>>>>>> \"PhGr\" == Philippe Grosjean <Philippe.Grosjean at umh.ac.be>\n>>>>>>     on Tue, 07 Nov 2006 10:53:51 +0100 writes:\n> \n>     PhGr> Hello,\n> \n>     PhGr> Indeed, the R Wiki server is down. I am away from my\n>     PhGr> office (meetings), but I just phone to the computer\n>     PhGr> department in charge of the servers at the\n>     PhGr> University. They are currently looking at the problem.\n> \n>     PhGr> To answer to legitimate Martin's questions:\n>     >> - What happens if you are in vacation, sick,...\n> \n>     PhGr> As I said, it is the computer staff of the University\n>     PhGr> that is in charge of the servers. But, they have to be\n>     PhGr> warned of the problem before they can do something\n>     PhGr> about it. Perhaps should we install a system that pols\n>     PhGr> the Wiki server regularly and issues a warning\n>     PhGr> automatically when something happens? I cannot do this\n>     PhGr> without discussion and acceptation of the computer\n>     PhGr> staff and authorities... which is a long and\n>     PhGr> administrative process!\n> \n> ouch!  Yes, such polling systems are quite standard and a must\n> for reliable server maintenance.  Of course they will not be\n> 100% fool proof either.\n> \n>     >> -  Who is your \"substitute\"?\n> \n>     PhGr> Johan Debergues, Philippe Lievens, or the people in charge of the \n>     PhGr> servers at the University at the time the problem occurs (emails of \n>     PhGr> people is simply Name.FamilyName at umh.ac.be).\n> \n>     >> - Is there a phone number for urgencies?\n> \n>     PhGr> +32.65.37.34.97, which is the phone in my office, currently.\n> \n>     >> - What are the emergency measures (and who is responsible) if\n>     >> the machine crashes?  Backup / Substitute machine / ... ?\n> \n>     PhGr> Regular (daily) backups of the Wiki content are made on another machine. \n>     PhGr> I am in charge of that backup, and of restoring the machine in case it \n>     PhGr> crashes. We currently have no other emergency measures. In particular, \n>     PhGr> we have no substitute machine installed currently.\n> \n> That sounds all reasonable. Thanks a lot!\n> \n> A substitute machine *installed* may be asking too much. \n> However, having easy access to a spare machine which has the OS\n> pre-installed and on which you can restore the full the\n> wiki-backup, maybe something to look at.\n> \n>     PhGr> We certainly could secure the R Wiki much better. I am open to any \n>     PhGr> suggestion on this point.\n> \n>     PhGr> Best,\n> \n>     PhGr> Philippe Grosjean\n> \n> \n> \n>     PhGr> P.S.: Please, do warn me in case of problems: I am not\n>     PhGr> working 24h/day and 7d/week on the R Wiki. So, do not\n>     PhGr> assume that I am aware of the problem at the time you\n>     PhGr> notice it! In particular, yesterday and today, I am in\n>     PhGr> meetings, which makes me less prone to notice the\n>     PhGr> problem rapidly!\n> \n> Indeed!  I hope you weren't stressed unnecessarily by my e-mail,\n> and I hope this is now just clear to the audience:\n> \n> In case of severe problems with the R-Wiki do contact Philippe\n> Grosjean by \"personal\" e-mail (i.e. not just assuming he reads\n> mailing lists).\n> \n> With (a 2nd round of) thanks to Philippe,\n> Martin\n> \n>",
+      "body_snippet": "Hello all,\n\nThe R Wiki site is now back again (hopefully, I have tested from the \nIntranet, but not from the Internet). The motherboard of the server was \nbroken. so, I had to send the server back for",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 5,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-27c7eb3d33e9",
+      "message_id": "<loom.20061109T063743-139@post.gmane.org>",
+      "from_name": "Gregor Gorjanc",
+      "from_email_hash": "b39c75688faf9190a17a4a292fdf8f9ec6b9f34cb9f4caf4a9101153bea16442",
+      "date": "2006-11-09T05:38:04Z",
+      "subject": "[R-wiki] Site down?",
+      "subject_clean": "[R-wiki] Site down?",
+      "in_reply_to": null,
+      "references": [
+        "<454FFBD2.1070409@vanderbilt.edu>",
+        "<loom.20061107T091359-832@post.gmane.org>",
+        "<17744.19304.776760.866785@stat.math.ethz.ch>",
+        "<455057AF.6050803@umh.ac.be>",
+        "<17744.27512.3224.417469@stat.math.ethz.ch>",
+        "<45520BBC.4030803@sciviews.org>"
+      ],
+      "body_plain": "Philippe Grosjean <phgrosjean <at> sciviews.org> writes:\n> \n> Hello all,\n> \n> The R Wiki site is now back again (hopefully, I have tested from the \n> Intranet, but not from the Internet). The motherboard of the server was \n> broken. so, I had to send the server back for servicing. The R Wiki \n> site, is installed on a temporary replacement server for the moment.\n\nI can confirm that it works\n\nGregor",
+      "body_snippet": "Philippe Grosjean <phgrosjean <at> sciviews.org> writes:\n> \n> Hello all,\n> \n> The R Wiki site is now back again (hopefully, I have tested from the \n> Intranet, but not from the Internet). The motherbo",
+      "thread_id": "thread-77d22a510482",
+      "thread_depth": 6,
+      "month": "2006-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-77d22a510482",
+      "subject": "[R-wiki] Site down?",
+      "message_count": 9,
+      "participants": [
+        "Gregor Gorjanc",
+        "Jeffrey Horner",
+        "Martin Maechler",
+        "Philippe Grosjean"
+      ],
+      "started": "2006-11-07T03:21:54Z",
+      "last_reply": "2006-11-09T05:38:04Z",
+      "root_message_id": "msg-77d22a510482"
+    }
+  ]
+}
