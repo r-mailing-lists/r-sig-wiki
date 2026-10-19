@@ -13,11 +13,14 @@
       "subject_clean": "[R-wiki] can I create Wiki pages for my local R User Group?",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20090902/ed8c0dac/attachment.pl>",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nURL: <https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20090902/ed8c0dac/attachment.pl>",
+      "body_plain": "Hi,\n\n\n\nwe have organized a new R user group in Madison, WI, USA.  I have edited the rugs:r_user_groups page to put in information about our group.  I would like to create a Wiki page for our meeting schedule, and possibly other related pages in the future.  Would it be appropriate to use the R Wiki for that?  If so, where in the name spaces should I put my page(s)?\n\n\n\nThanks.\n\n\n\nYury\n\n\n\n\n\n\n\n\n\n\n\n\n\n_________________________________________________________________\nGet back to school stuff for them and cashback for you.\n\nB_BackToSchool_Cashback_BTSCashback_1x1\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi,\n\n\n\nwe have organized a new R user group in Madison, WI, USA.  I have edited the rugs:r_user_groups page to put in information about our group.  I would like to create a Wiki page for our meeting s",
       "thread_id": "thread-493951959e4f",
       "thread_depth": 0,
-      "month": "2009-09"
+      "month": "2009-09",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20090902/ed8c0dac/attachment.pl"
+      ]
     },
     {
       "id": "msg-0517c9b4b263",

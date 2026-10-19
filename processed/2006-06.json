@@ -462,11 +462,14 @@
       "subject_clean": "[R-wiki] Status of R tips conversion",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060618/7e39927c/attachment.pl",
-      "body_snippet": "An embedded and charset-unspecified text was scrubbed...\nName: not available\nUrl: https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060618/7e39927c/attachment.pl",
+      "body_plain": "Folks, I finally finished migrating section 1 of Paul Johnson's R tips over\nto the wiki. I was not able to get tip 1.7 to work correctly so if someone\nwants to take a shot at it please feel free to do so.\n\nI will continue to add various R tips as my time permits this Summer.\n\nAlso, I just notice a section on the wiki called Rtips conversion status\n(http://wiki.r-project.org/rwiki/doku.php?id=misc:rtips-status). How is this\nto be completed or used? Are we to make a note upon completion of a certain\nsection?\n\n~Nick\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Folks, I finally finished migrating section 1 of Paul Johnson's R tips over\nto the wiki. I was not able to get tip 1.7 to work correctly so if someone\nwants to take a shot at it please feel free to do",
       "thread_id": "thread-a6f653bdef15",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "restored_from": [
+        "https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060618/7e39927c/attachment.pl"
+      ]
     },
     {
       "id": "msg-c6d8f7e1dcdf",
