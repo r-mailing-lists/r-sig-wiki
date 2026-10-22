@@ -17,7 +17,8 @@
       "body_snippet": "Dear all,\n\nwhat happened to the R wiki? The links on the R homepage \n(http://wiki.r-project.org) result in a 404 error. Has it been moved?\n\nkind regards\nPeter.\n\n-------------- next part --------------",
       "thread_id": "thread-26016a89732c",
       "thread_depth": 0,
-      "month": "2010-02"
+      "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-February/000388.html"
     },
     {
       "id": "msg-dbde5fed2eb3",
@@ -35,7 +36,8 @@
       "body_snippet": "Peter Konings wrote:\n> Dear all,\n> \n> what happened to the R wiki? The links on the R homepage\n> (http://wiki.r-project.org) result in a 404 error. Has it been moved?\n> \n> kind regards\n> Peter.\n> \n> _",
       "thread_id": "thread-26016a89732c",
       "thread_depth": 1,
-      "month": "2010-02"
+      "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-February/000389.html"
     },
     {
       "id": "msg-450a9dee7b82",
@@ -54,7 +56,8 @@
       "body_snippet": "Peter Dalgaard wrote:\n> Peter Konings wrote:\n>> Dear all,\n>>\n>> what happened to the R wiki? The links on the R homepage\n>> (http://wiki.r-project.org) result in a 404 error. Has it been moved?\n>>\n>> ",
       "thread_id": "thread-26016a89732c",
       "thread_depth": 2,
-      "month": "2010-02"
+      "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-February/000390.html"
     },
     {
       "id": "msg-316fc6dbe1cb",
@@ -74,7 +77,8 @@
       "body_snippet": "Thanks for your answers. I will use rwiki.sciviews.org for now; the R \nhomepage still has these dead links.\n\nPeter.\n\nOn 2/5/2010 1:55 PM, Philippe Grosjean wrote:\n>\n> Peter Dalgaard wrote:\n>> Peter Ko",
       "thread_id": "thread-26016a89732c",
       "thread_depth": 3,
-      "month": "2010-02"
+      "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-February/000391.html"
     },
     {
       "id": "msg-be921184a54c",
@@ -95,7 +99,8 @@
       "body_snippet": "Peter Konings wrote:\n> Thanks for your answers. I will use rwiki.sciviews.org for now; the R\n> homepage still has these dead links.\n\nJust in case it wasn't already obvious: There shouldn't be any chan",
       "thread_id": "thread-26016a89732c",
       "thread_depth": 4,
-      "month": "2010-02"
+      "month": "2010-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-February/000392.html"
     }
   ],
   "threads": [

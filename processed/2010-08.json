@@ -17,7 +17,8 @@
       "body_snippet": "The document 'Some hints for the R beginner'\nis gradually becoming more complete and gradually\ngaining momentum in terms of hits.\n\nOne of the more popular sub-pages is the jaRgon\npage even though ther",
       "thread_id": "thread-529c4a775107",
       "thread_depth": 0,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-August/000393.html"
     },
     {
       "id": "msg-019043cc28b7",
@@ -35,7 +36,8 @@
       "body_snippet": "So ... are you asking requesting commentary on whether this is a\ngood idea or not? (Seems so to me.)  Asking for for help in porting\nthis/volunteers to port it? (I might help, but I also might not fin",
       "thread_id": "thread-529c4a775107",
       "thread_depth": 1,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-August/000394.html"
     },
     {
       "id": "msg-f1ae79815516",
@@ -54,7 +56,8 @@
       "body_snippet": "Thanks for the good question, Ben.\n\nI'm looking for volunteers.  I'm\ndefinitely not going to have time to\nlearn enough wiki stuff to put the\nstructure in place.\n\nOnce the structure is there, I would\np",
       "thread_id": "thread-529c4a775107",
       "thread_depth": 2,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-August/000395.html"
     },
     {
       "id": "msg-db9a98a07e3d",
@@ -74,7 +77,8 @@
       "body_snippet": "One thing that can be done is to update the list of abbreviations to \ninclude R specific terms. The Wiki adds automatically a little tooltip \ntext with the definition that is activated each time the u",
       "thread_id": "thread-529c4a775107",
       "thread_depth": 3,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-August/000396.html"
     },
     {
       "id": "msg-d0cf1b2d2b3f",
@@ -95,7 +99,8 @@
       "body_snippet": "You make good points Philippe.  I stand my my original opinion that \nas long as everyone continues to answer posts to r-help it will \nremain a never-ending unorganized string of largely redundant \ninf",
       "thread_id": "thread-529c4a775107",
       "thread_depth": 4,
-      "month": "2010-08"
+      "month": "2010-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2010-August/000397.html"
     }
   ],
   "threads": [
