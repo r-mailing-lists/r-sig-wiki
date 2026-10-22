@@ -17,7 +17,8 @@
       "body_snippet": "Dieter Menne <dieter.menne <at> menne-biomed.de> writes:\n\n> \n> Dear friends of lmer,\n> \n> http://wiki.r-project.org/rwiki/doku.php?id=guides:lmer-tests\n> \n> I have put a transcript of the long thread ",
       "thread_id": "thread-1cd7f6b63c6a",
       "thread_depth": 0,
-      "month": "2006-10"
+      "month": "2006-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-October/000347.html"
     },
     {
       "id": "msg-e99ed194daa3",
@@ -36,7 +37,8 @@
       "body_snippet": ">>>>> \"Romain\" == Romain Francois <rfrancois at mango-solutions.com>\n>>>>>     on Fri, 27 Oct 2006 20:33:06 +0100 writes:\n\n    Romain> Gabor Grothendieck wrote:\n    >> It occurred to me that we could ",
       "thread_id": "thread-e99ed194daa3",
       "thread_depth": 0,
-      "month": "2006-10"
+      "month": "2006-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-October/000348.html"
     }
   ],
   "threads": [

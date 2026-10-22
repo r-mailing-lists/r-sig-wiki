@@ -17,7 +17,8 @@
       "body_snippet": "When I visit http://wiki.r-project.org/rwiki/doku.php?id=rdoc:base:seq , \nI see the following text:\n\n== Rwiki file not found! ==\n\nBe aware that due to the use of binary floating-point arithmetic, you ",
       "thread_id": "thread-22284762ef1c",
       "thread_depth": 0,
-      "month": "2007-03"
+      "month": "2007-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-March/000360.html"
     },
     {
       "id": "msg-e571a8efd41a",
@@ -35,7 +36,8 @@
       "body_snippet": "Hello,\n\nThis bug is known, but I did not found a workaround yet. Basically, the \nRDoc plugin includes the content of the corresponding help file on top \nof the wiki page. Unfortunately, the cache mech",
       "thread_id": "thread-22284762ef1c",
       "thread_depth": 1,
-      "month": "2007-03"
+      "month": "2007-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-March/000361.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "I was trying to upload a .svg file to the Wiki, but I couldn't see how \nto do it.\n\nI clicked the \"Add images or other files\" button and got a page (with \nthe category Mediafile Selection packages:cran",
       "thread_id": "thread-90d8beac8f4f",
       "thread_depth": 0,
-      "month": "2007-06"
+      "month": "2007-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-June/000362.html"
     },
     {
       "id": "msg-77c039c691d1",
@@ -35,7 +36,8 @@
       "body_snippet": "Hello Tony,\n\nThis is because the file format is not accepted. You should have a clear \nmessage in red telling that the \"upload is denied because the file \nextension is not accepted\" at the top of the ",
       "thread_id": "thread-90d8beac8f4f",
       "thread_depth": 1,
-      "month": "2007-06"
+      "month": "2007-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-June/000363.html"
     },
     {
       "id": "msg-7fd2d602ecb6",
@@ -54,7 +56,8 @@
       "body_snippet": "Philippe, thanks, I guess I missed the error message the first time \n(small font, different part of the screen from where the \"Upload\" button \nis...)\n\nI added a page to the wiki describing the RSVGTip",
       "thread_id": "thread-90d8beac8f4f",
       "thread_depth": 2,
-      "month": "2007-06"
+      "month": "2007-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-June/000364.html"
     },
     {
       "id": "msg-63b4994ab70d",
@@ -74,7 +77,8 @@
       "body_snippet": "If you want, I can place it myself...\nBest,\n\nPhilippe\n\n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical",
       "thread_id": "thread-90d8beac8f4f",
       "thread_depth": 3,
-      "month": "2007-06"
+      "month": "2007-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-June/000365.html"
     }
   ],
   "threads": [

@@ -24,7 +24,8 @@
       "body_snippet": "Ok, the mailing list should be working.\nI've subscribed all 22 names that have been on Philippe's\ncirculation list he had started yesterday.\n\nIt's \"plain vanilla mailman\" (with our site defaults),\nall",
       "thread_id": "thread-367130b1566e",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000000.html"
     },
     {
       "id": "msg-c880d24bd48e",
@@ -40,7 +41,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> Frank,\n>\n> Yes, indeed, TWiki is really a very powerful Wiki,... may be too\n> powerful and complex (for me, at least!). I considered this Wiki engine\n> too, but was not able",
       "thread_id": "thread-c880d24bd48e",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000001.html"
     },
     {
       "id": "msg-4bf57072d8c1",
@@ -56,7 +58,8 @@
       "body_snippet": "Hello,\n\nFor those who did not followed the discussion started in R-Help, there \nis a proposition to create a R Wiki, stimulated essentially by two facts:\n\n1) The traffic in R-Help is very high, with m",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000002.html"
     },
     {
       "id": "msg-cd5a4d60658f",
@@ -74,7 +77,8 @@
       "body_snippet": "One thought for the wiki might be to have a place where\npackage authors can logically put a home page for their\npackage or a link to their off-wiki home page if they\nhave one.",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000003.html"
     },
     {
       "id": "msg-43611e6e2492",
@@ -93,7 +97,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> One thought for the wiki might be to have a place where\n> package authors can logically put a home page for their\n> package or a link to their off-wiki home page if they\n> ",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000004.html"
     },
     {
       "id": "msg-4aae4d124b35",
@@ -109,7 +114,8 @@
       "body_snippet": "Just thought I would point out a few wikis for other languages:\n\n   Tcl - http://mini.net/tcl/\n        - this one has over 1000 pages\n\n  Common Lisp - http://www.cliki.net/index\n\n  PHP - http://www.ph",
       "thread_id": "thread-4aae4d124b35",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000005.html"
     },
     {
       "id": "msg-ad9355112936",
@@ -130,7 +136,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> What I was suggesting was not really a wiki feature but just that\n> there would be a (top level?) link to a page listing packages\n> that package authors could edit to add t",
       "thread_id": "thread-ad9355112936",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000006.html"
     },
     {
       "id": "msg-bfbb90e221dd",
@@ -148,7 +155,8 @@
       "body_snippet": "On 1/18/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> Another problem is: which Wiki engine to choose and which features to\n> propose. Indeed, there are more than 30 different wiki engin",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000007.html"
     },
     {
       "id": "msg-5ac7af026c8e",
@@ -170,7 +178,8 @@
       "body_snippet": "On 1/18/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> Gabor Grothendieck wrote:\n> > What I was suggesting was not really a wiki feature but just that\n> > there would be a (top level?) li",
       "thread_id": "thread-ad9355112936",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000008.html"
     },
     {
       "id": "msg-f1bc1110c42c",
@@ -189,7 +198,8 @@
       "body_snippet": "On 01/18/06 11:33, Gabor Grothendieck wrote:\n> Not sure if this changes anything but the version 4.0 beta of twiki claims\n> that it has \"much simpler\" installation:\n> \n> http://freshmeat.net/projects/",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000009.html"
     },
     {
       "id": "msg-ed3ad2f92fa4",
@@ -212,7 +222,8 @@
       "body_snippet": "2006/1/18, Gabor Grothendieck <ggrothendieck at gmail.com>:\n\n> I noticed your default home page for pastecs on the wiki.  Not sure if\n> this is feasible but the other things that would be nice would b",
       "thread_id": "thread-ad9355112936",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000010.html"
     },
     {
       "id": "msg-e21876ed54a1",
@@ -236,7 +247,8 @@
       "body_snippet": "Jean-Christophe BOUETTE wrote:\n> 2006/1/18, Gabor Grothendieck <ggrothendieck at gmail.com>:\n> \n> \n>>I noticed your default home page for pastecs on the wiki.  Not sure if\n>>this is feasible but the o",
       "thread_id": "thread-ad9355112936",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000011.html"
     },
     {
       "id": "msg-654f91e3527b",
@@ -254,7 +266,8 @@
       "body_snippet": "Arin Basu wrote:\n> Dear Prof Grosjean:\n> \n> Thank you for posting the very informative summary. I recently came across a wiki dedicated for using R for Macs. Here is the link:\n> \n> http://wiki.urbanek",
       "thread_id": "thread-654f91e3527b",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000012.html"
     },
     {
       "id": "msg-ecc380d4fb94",
@@ -279,7 +292,8 @@
       "body_snippet": "On 1/18/06, Frank E Harrell Jr <f.harrell at vanderbilt.edu> wrote:\n> >>- one of the problems with R packages is that there is no consistent\n> >>way to be advised of changes.  If package authors put t",
       "thread_id": "thread-ad9355112936",
       "thread_depth": 4,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000013.html"
     },
     {
       "id": "msg-8515cb6c4138",
@@ -299,7 +313,8 @@
       "body_snippet": "Jonathan Baron wrote:\n> On 01/18/06 11:33, Gabor Grothendieck wrote:\n> \n>>Not sure if this changes anything but the version 4.0 beta of twiki claims\n>>that it has \"much simpler\" installation:\n>>\n>>htt",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000014.html"
     },
     {
       "id": "msg-3f582378cb62",
@@ -325,7 +340,8 @@
       "body_snippet": "My mistake, I've got this working now. It presents really nicely in Firefox.\n\nOn 1/19/06, John Marsland <john.marsland at mac.com> wrote:\n> On 1/18/06, Frank E Harrell Jr <f.harrell at vanderbilt.edu>",
       "thread_id": "thread-ad9355112936",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000015.html"
     },
     {
       "id": "msg-785072f91545",
@@ -351,7 +367,8 @@
       "body_snippet": "John Marsland wrote:\n> On 1/18/06, Frank E Harrell Jr <f.harrell at vanderbilt.edu> wrote:\n> \n>>>>- one of the problems with R packages is that there is no consistent\n>>>>way to be advised of changes.",
       "thread_id": "thread-ad9355112936",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000016.html"
     },
     {
       "id": "msg-5c1c1076ad3c",
@@ -367,7 +384,8 @@
       "body_snippet": "A number of people have mentioned desiring the ability to comment on a\nparticular page.\n\nI spotted a rather nice plugin for DokuWiki called Discussion which\nallows this. It also allows discussion to b",
       "thread_id": "thread-5c1c1076ad3c",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000017.html"
     },
     {
       "id": "msg-a83f1c0d0c8b",
@@ -388,7 +406,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> Jonathan Baron wrote:\n> \n>>On 01/18/06 11:33, Gabor Grothendieck wrote:\n>>\n>>\n>>>Not sure if this changes anything but the version 4.0 beta of twiki claims\n>>>that it has \"m",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 4,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000018.html"
     },
     {
       "id": "msg-a253cae0ca5d",
@@ -414,7 +433,8 @@
       "body_snippet": "On 1/19/06, John Marsland <john.marsland at mac.com> wrote:\n> On 1/18/06, Frank E Harrell Jr <f.harrell at vanderbilt.edu> wrote:\n> > >>- one of the problems with R packages is that there is no consis",
       "thread_id": "thread-ad9355112936",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000019.html"
     },
     {
       "id": "msg-4d5153338da0",
@@ -435,7 +455,8 @@
       "body_snippet": "Not sure if you can assess this but the other item is the\nroadmap, activity and community since its not just where\nthe wiki is now but where it will be as time goes on.\n\nOn 1/19/06, Philippe Grosjean ",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 4,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000020.html"
     },
     {
       "id": "msg-6e609a2e8b68",
@@ -457,7 +478,8 @@
       "body_snippet": "I've just joined your list. While I've used TWiki, I have to admit it\nis a bit complicated in the install.  The only real substantial\nprobelm I've had with it is exorbitant use of CPU time.  The perl ",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000021.html"
     },
     {
       "id": "msg-550bb4f46ca9",
@@ -479,7 +501,8 @@
       "body_snippet": "One other item.  A new version of MediaWiki was released today.\nApparently there are some changes in the installer.\n\nhttp://sourceforge.net/project/shownotes.php?release_id=386609\n\nOn 1/19/06, Gabor G",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000022.html"
     },
     {
       "id": "msg-a2c5da645c97",
@@ -502,7 +525,8 @@
       "body_snippet": "On 01/19/06 11:14, Paul Johnson wrote:\n> And worse, or admins started running a google data base\n> for searches and when it gets to the TWiki pages , it goes berserk,\n> clicking all links and repeated",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 6,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000023.html"
     },
     {
       "id": "msg-f3427d4e2b90",
@@ -547,7 +571,8 @@
       "body_snippet": "Paul Johnson wrote:\n> I've just joined your list.\n\nWelcome Paul... and tanks again for accepting to feed the Wiki with your \nexcellent Rtips! By the way, I just tested the conversion here: \nhttp://www",
       "thread_id": "thread-4bf57072d8c1",
       "thread_depth": 6,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000025.html"
     },
     {
       "id": "msg-23743c1cd871",
@@ -563,7 +588,8 @@
       "body_snippet": "Paul Johnson wrote:\n > [...]\n > And people who add\n > things should have some control over who can edit their input.  If\n > Prof Harrell were to put in something, and he really does not want\n > other ",
       "thread_id": "thread-23743c1cd871",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000026.html"
     },
     {
       "id": "msg-af043ca1e7b1",
@@ -604,7 +630,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> Paul Johnson wrote:\n>  > [...]\n>  > And people who add\n>  > things should have some control over who can edit their input.  If\n>  > Prof Harrell were to put in something, an",
       "thread_id": "thread-23743c1cd871",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000028.html"
     },
     {
       "id": "msg-b46a371eca88",
@@ -643,7 +670,8 @@
       "body_snippet": "Hi wiki people,\n\nI don't know what tool is used for colouring the R scripts that go into \nthe wiki, probably highlight, the <span class=\"kw2\">... seem familiar ....\nI wonder if that may be possible th",
       "thread_id": "thread-35fcbd169346",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000030.html"
     },
     {
       "id": "msg-f91b36281982",
@@ -661,7 +689,8 @@
       "body_snippet": "Romain Francois wrote:\n> Hi wiki people,\n> \n> I don't know what tool is used for colouring the R scripts that go into \n> the wiki, probably highlight, the <span class=\"kw2\">... seem familiar ....\n> I ",
       "thread_id": "thread-35fcbd169346",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000031.html"
     },
     {
       "id": "msg-05f1f851b52b",
@@ -697,7 +726,8 @@
       "body_snippet": "Hello,\n\nAlthough the R Wiki site would primarily be dedicated to beginners, \nthere is already, and there will be in the future several pages dealing \nwith more advanced topics.\n\nIn order to spot this,",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000033.html"
     },
     {
       "id": "msg-9a6664fb5d31",
@@ -715,7 +745,8 @@
       "body_snippet": "I think having some identifier is a very good idea.\n\nI'm not convinced that the wiki should be dedicated to\nbeginners only.  In my vision subjects would have a\nlayered set of pages -- the main page wo",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000034.html"
     },
     {
       "id": "msg-c84e38ee8f79",
@@ -733,7 +764,8 @@
       "body_snippet": "What about a star rating 1-5?\n\nPhilippe Grosjean wrote:\n> Hello,\n> \n> Although the R Wiki site would primarily be dedicated to beginners, \n> there is already, and there will be in the future several p",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000035.html"
     },
     {
       "id": "msg-d4f9ad3ffec2",
@@ -752,7 +784,8 @@
       "body_snippet": "On Fri, 2006-01-27 at 21:47 +1100, paul sorenson wrote:\n> What about a star rating 1-5?\n\nI was thinking the same thing, but then I thought that stars convey some\nmeasure of quality, which is not what ",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000036.html"
     },
     {
       "id": "msg-91b0e39856cc",
@@ -772,7 +805,8 @@
       "body_snippet": "Yes, I think also that the stars is too much related with the rating of \nthe page in term of quality (because it is widely used that way in many \nweb sites).\n\nRegarding the bar, that was my first tria",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000037.html"
     },
     {
       "id": "msg-ecdd616dc973",
@@ -784,11 +818,12 @@
       "subject_clean": "[R-wiki] Bilan & TODOs",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hello,\n\nMy goal is still to release the R Wiki around the end of February.\nWe already made many progresses. Thanks to those who contribute!\n\nWe now have a Wiki engine that begins to be tailored for R content (with \nR code syntax highlighting, R function calltips, an embryo of context \nsensitive help for R functions, and several other nice stuff). However, \nthere is still much work to do. Here is the list:\n\n- Refine and test the proposed structure.\n\n- Import pages from Detlef Steuer's R Wiki.\n\n- Import Paul Johnson's 'Rtips' into the Wiki.\n\n- Import James Wettenhall's 'R tcltk examples' in the Wiki.\n\n- Import Vincent Zoonekynd's 'Statistics with R' in the Wiki.\n\n- Adapt the Rdconv perl script to write Wiki pages from .Rd files (Wiki \nformat of the R man pages).\n\n- Automate exportation of all .Rd pages from CRAN and Bioconductor and \ngenerate a 'Rindex.conf' file that maps functions names (and methods for \ngeneric functions) to corresponding man pages.\n\n- Implement a discussion plugin to allow adding comments to these man \npages (this would be a much better mechanism as the INCLUDE solution \ncurrently in test).\n\n- Create a 'rhelp.php' script that, given the name of a R function, \nextracts the corresponding man page from 'Rindex.conf' and redirects to \nthat page.\n\n- Create a 'calltip' plugin, derived from 'acronym' for inclusion of R \nfunctions calltips in the wiki pages.\n\n- Make an R exportation format of Wiki pages (indeed, all Wiki stuff is \njust commented out with \"#\", and the R code appears in a way it can be \ndirectly sourced in R. This should use the scheme doku.php?do=export_R, \nas there is already doku.php?do=export_XHTML for instance.\n\n- Enable line numbering in code blocks (a GeSHi feature, and it eases \ndiscussion of the code in the page)\n\n- Add legend to tables/figures/code block, number them and allow for a \nreference to them (use bookmarks)\n\n- Add a bookmark mechanism for (bibtex) citations too (+ direct link to \nAmazon for instance).\n\n- Create a RWiki package containing all the R functions required to \nmanage the wiki, plus a stand-alone version of the wiki engine.\n\n- Add sidebars with cleared table of contents for major pages.\n\n- Make a plugin that exports one or several pages compiled into a PDF \nmanual.\n\n- Eliminate the buggy 'text color' plugin and add a better one. Also, I \nwould like to propose plugins for better alternative syntaxes like \n^^...^^ for superscript in place of <sup>...</sup>, ,,...,, for \nsubscript in place of <sub>...</sub>, for instance (the alternative \nsyntax is found in other wiki engines).\n\n- If someone think that another Wiki engine than DokuWiki is more \nsuitable for the R Wiki, I am glad to consider its proposal, but ** (1)\nhe must implement all this in the alternate Wiki engine, (2) he must \ninstall the prototype Wiki under the alternate engine somewhere for \ntrial, and (3) he must argument and demonstrate (including benchmark for \nspeed and load support) that the alternate Wiki engine is better.\n\nI put this list on the Wiki at: \nhttp://www.sciviews.org/_rgui/wiki/doku.php?id=varia:todo.\nI would greatly appreciate help in these tasks. If you want to work on \none item, please, notify it in that Wiki page, so that we keep organized \nand synchronized.\nBest,\n\nPhilippe Grosjean\n-- \n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)\n( ( ( ( (    Academie Universitaire Wallonie-Bruxelles\n  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium\n( ( ( ( (\n  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54\n( ( ( ( (    email: Philippe.Grosjean at umh.ac.be\n  ) ) ) ) )\n( ( ( ( (    web:   http://www.umh.ac.be/~econum\n  ) ) ) ) )          http://www.sciviews.org\n( ( ( ( (\n..............................................................",
+      "body_plain": "Hello,\n\nMy goal is still to release the R Wiki around the end of February.\nWe already made many progresses. Thanks to those who contribute!\n\nWe now have a Wiki engine that begins to be tailored for R content (with \nR code syntax highlighting, R function calltips, an embryo of context \nsensitive help for R functions, and several other nice stuff). However, \nthere is still much work to do. Here is the list:\n\n- Refine and test the proposed structure.\n\n- Import pages from Detlef Steuer's R Wiki.\n\n- Import Paul Johnson's 'Rtips' into the Wiki.\n\n- Import James Wettenhall's 'R tcltk examples' in the Wiki.\n\n- Import Vincent Zoonekynd's 'Statistics with R' in the Wiki.\n\n- Adapt the Rdconv perl script to write Wiki pages from .Rd files (Wiki \nformat of the R man pages).\n\n- Automate exportation of all .Rd pages from CRAN and Bioconductor and \ngenerate a 'Rindex.conf' file that maps functions names (and methods for \ngeneric functions) to corresponding man pages.\n\n- Implement a discussion plugin to allow adding comments to these man \npages (this would be a much better mechanism as the INCLUDE solution \ncurrently in test).\n\n- Create a 'rhelp.php' script that, given the name of a R function, \nextracts the corresponding man page from 'Rindex.conf' and redirects to \nthat page.\n\n- Create a 'calltip' plugin, derived from 'acronym' for inclusion of R \nfunctions calltips in the wiki pages.\n\n- Make an R exportation format of Wiki pages (indeed, all Wiki stuff is \njust commented out with \"#\", and the R code appears in a way it can be \ndirectly sourced in R. This should use the scheme doku.php?do=export_R, \nas there is already doku.php?do=export_XHTML for instance.\n\n- Enable line numbering in code blocks (a GeSHi feature, and it eases \ndiscussion of the code in the page)\n\n- Add legend to tables/figures/code block, number them and allow for a \nreference to them (use bookmarks)\n\n- Add a bookmark mechanism for (bibtex) citations too (+ direct link to \nAmazon for instance).\n\n- Create a RWiki package containing all the R functions required to \nmanage the wiki, plus a stand-alone version of the wiki engine.\n\n- Add sidebars with cleared table of contents for major pages.\n\n- Make a plugin that exports one or several pages compiled into a PDF \nmanual.\n\n- Eliminate the buggy 'text color' plugin and add a better one. Also, I \nwould like to propose plugins for better alternative syntaxes like \n^^...^^ for superscript in place of <sup>...</sup>, ,,...,, for \nsubscript in place of <sub>...</sub>, for instance (the alternative \nsyntax is found in other wiki engines).\n\n- If someone think that another Wiki engine than DokuWiki is more \nsuitable for the R Wiki, I am glad to consider its proposal, but ** (1)\nhe must implement all this in the alternate Wiki engine, (2) he must \ninstall the prototype Wiki under the alternate engine somewhere for \ntrial, and (3) he must argument and demonstrate (including benchmark for \nspeed and load support) that the alternate Wiki engine is better.\n\nI put this list on the Wiki at: \nhttp://www.sciviews.org/_rgui/wiki/doku.php?id=varia:todo.\nI would greatly appreciate help in these tasks. If you want to work on \none item, please, notify it in that Wiki page, so that we keep organized \nand synchronized.\nBest,\n\nPhilippe Grosjean\n-- \n..............................................<°}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Pentagone (3D08)\n( ( ( ( (    Academie Universitaire Wallonie-Bruxelles\n  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons, Belgium\n( ( ( ( (\n  ) ) ) ) )   phone: + 32.65.37.34.97, fax: + 32.65.37.30.54\n( ( ( ( (    email: Philippe.Grosjean at umh.ac.be\n  ) ) ) ) )\n( ( ( ( (    web:   http://www.umh.ac.be/~econum\n  ) ) ) ) )          http://www.sciviews.org\n( ( ( ( (\n..............................................................",
       "body_snippet": "Hello,\n\nMy goal is still to release the R Wiki around the end of February.\nWe already made many progresses. Thanks to those who contribute!\n\nWe now have a Wiki engine that begins to be tailored for R ",
       "thread_id": "thread-ecdd616dc973",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000038.html"
     },
     {
       "id": "msg-2218e9154d58",
@@ -827,7 +862,8 @@
       "body_snippet": "Who puts these on the page?  I would be concerned that pages\nare mislabelled and also there is some question about whether\nthis is a valid categorization in the first place.\n\nAmazon allows one to comm",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 4,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000040.html"
     },
     {
       "id": "msg-d5ce9f5e4fb6",
@@ -846,7 +882,8 @@
       "body_snippet": ">>>>> \"PatBurns\" == Patrick Burns <pburns at pburns.seanet.com>\n>>>>>     on Fri, 27 Jan 2006 10:17:39 +0000 writes:\n\n    PatBurns> I think having some identifier is a very good idea.\n    PatBurns> I'",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000041.html"
     },
     {
       "id": "msg-3b27160651cc",
@@ -868,7 +905,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> Who puts these on the page?  I would be concerned that pages\n> are mislabelled and also there is some question about whether\n> this is a valid categorization in the first p",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000042.html"
     },
     {
       "id": "msg-637530bd2142",
@@ -891,7 +929,8 @@
       "body_snippet": "On 1/27/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> Gabor Grothendieck wrote:\n> > Who puts these on the page?  I would be concerned that pages\n> > are mislabelled and also there is som",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 6,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000043.html"
     },
     {
       "id": "msg-34be946e414c",
@@ -915,7 +954,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> On 1/27/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> \n>>Gabor Grothendieck wrote:\n>>\n>>>Who puts these on the page?  I would be concerned that pages\n>>>are m",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 7,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000044.html"
     },
     {
       "id": "msg-6c2bfb426e93",
@@ -935,7 +975,8 @@
       "body_snippet": "Martin Maechler wrote:\n>>>>>>\"PatBurns\" == Patrick Burns <pburns at pburns.seanet.com>\n>>>>>>    on Fri, 27 Jan 2006 10:17:39 +0000 writes:\n> \n> \n>     PatBurns> I think having some identifier is a ve",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000045.html"
     },
     {
       "id": "msg-f04e75e5ba79",
@@ -956,7 +997,8 @@
       "body_snippet": "Hi,\nI am currently working with the idea of ''rhelp.php'' which allows to \nlink any R function to its man page. Indeed, what we are trying to do \nhere is very close to the builtin DokuWiki 'search' fe",
       "thread_id": "thread-05f1f851b52b",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000046.html"
     },
     {
       "id": "msg-c3fabc30c2b1",
@@ -977,7 +1019,8 @@
       "body_snippet": "I was wondering what those icons were the first few times I saw them, \nand then it took me a little time to look them up.\n\nI suggest using just ordinary words in parenthesis or brackets, e.g.:\n\n[begin",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 4,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000047.html"
     },
     {
       "id": "msg-92bd6703dafc",
@@ -999,7 +1042,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> Hi,\n> I am currently working with the idea of ''rhelp.php'' which allows to \n> link any R function to its man page. Indeed, what we are trying to do \n> here is very close to",
       "thread_id": "thread-05f1f851b52b",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000048.html"
     },
     {
       "id": "msg-27074f3b9a04",
@@ -1021,7 +1065,8 @@
       "body_snippet": "Tony Plate wrote:\n> I was wondering what those icons were the first few times I saw them, \n> and then it took me a little time to look them up.\n\nThis really seems to me more a question of culture: peo",
       "thread_id": "thread-8995c66c7408",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000049.html"
     },
     {
       "id": "msg-75ed5e810e53",
@@ -1037,7 +1082,8 @@
       "body_snippet": "At the moment, it seems anyone can modify the wiki without logging in.  \nThese changes get logged (in \"recent changes\") as coming from a \nnumerical IP address, which is not very informative.  When peo",
       "thread_id": "thread-75ed5e810e53",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000050.html"
     },
     {
       "id": "msg-2f1579dd3c26",
@@ -1055,7 +1101,8 @@
       "body_snippet": "Tony Plate wrote:\n> At the moment, it seems anyone can modify the wiki without logging in.  \n> These changes get logged (in \"recent changes\") as coming from a \n> numerical IP address, which is not ver",
       "thread_id": "thread-75ed5e810e53",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000051.html"
     },
     {
       "id": "msg-5a02c90a238d",
@@ -1067,11 +1114,12 @@
       "subject_clean": "[R-wiki] Bilan & TODOs",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Philippe, thanks again for keeping this list\norganized.\n\nI have a suggestion for a wiki plugin. Although I do\nnot have the\nprogramming skills to create such a plugin myself I\nwill share it with this\nlist to see what others think. If others think it is\nworth doing (or at\nleast possible) then one or more of us can persue the\nidea further.\n\nIn a nutshell, the plugin/functionality I propose\nwould allow registered\nusers (of the wiki) to create a personal code library\nfor themselves. (Note:\nI use the word code here to refer to any R functions,\nscripts, data files,\ntips, etc. in general that the user finds useful.)\nUsers store their\npersonal R code library on their hard drive in text\nfiles organized in a\ndirectory structure that matches the structure of the\npublic code library\nthat will be developed on the R wiki. When user logs\nonto the wiki, the R\nwiki script/plugin collates user's personal code with\nthe public code\nlibrary on the wiki. In a single browser window, the\nuser sees both the\npublic code from the wiki and their personal code\nstored on their hard\ndrive. When the user wants to share their personal\ncode, they can click a\nbutton in their browser window which will make the\ncode a permenant part of\nthe wiki.\n\nRationale for such a plugin: How many of us have R\ncode laying around in\nvarious project folders that could be better used if\nit was easier to find?\nHow many of us have \"borrowed\" someone's code,\nmodified it to to suit our\nneeds, then developed and refined the code (e.g. a\nfunction) over time to\nthe point where it may now be useful to others? Such a\nfeature of the wiki\nwould allow users to share code more easily, but also\nincrease productivity\nbecause now every R user (beginners - advanced\nexperts) has easy access to\nthe code he/she needs on a daily basis to get work\ndone.\n\nOnce again, I have no programming skills outside of R\nso I don't know if\nwhat I propose is possible. I realize there is lots of\ndetails to such a\nproposal, and I don't pretend to know any of how this\nwould work (if it is\neven possible). I only share my idea because it has\nbeen a desire of mine\nfor so long to have an easy to use, browsable code\nlibrary that I can refer\nto daily. I would think that others would like such a\nfeature. If the R wiki\ncan make the use of R easier and save time and energy,\nthen I think such a\nfeature would greatly increase the value of R and the\nwiki.\n\n. . .  just my two cents.\n\n~Nick\n\n\n-----Original Message-----\nFrom: r-sig-wiki-bounces at r-project.org\n[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of\nPhilippe Grosjean\nSent: Friday, January 27, 2006 5:09 AM\nTo: r-sig-wiki at r-project.org\nSubject: [R-wiki] Bilan & TODOs\n\n\nHello,\n\nMy goal is still to release the R Wiki around the end\nof February.\nWe already made many progresses. Thanks to those who\ncontribute!\n\nWe now have a Wiki engine that begins to be tailored\nfor R content (with\nR code syntax highlighting, R function calltips, an\nembryo of context\nsensitive help for R functions, and several other nice\nstuff). However,\nthere is still much work to do. Here is the list:\n\n- Refine and test the proposed structure.\n\n- Import pages from Detlef Steuer's R Wiki.\n\n- Import Paul Johnson's 'Rtips' into the Wiki.\n\n- Import James Wettenhall's 'R tcltk examples' in the\nWiki.\n\n- Import Vincent Zoonekynd's 'Statistics with R' in\nthe Wiki.\n\n- Adapt the Rdconv perl script to write Wiki pages\nfrom .Rd files (Wiki\nformat of the R man pages).\n\n- Automate exportation of all .Rd pages from CRAN and\nBioconductor and\ngenerate a 'Rindex.conf' file that maps functions\nnames (and methods for\ngeneric functions) to corresponding man pages.\n\n- Implement a discussion plugin to allow adding\ncomments to these man\npages (this would be a much better mechanism as the\nINCLUDE solution\ncurrently in test).\n\n- Create a 'rhelp.php' script that, given the name of\na R function,\nextracts the corresponding man page from 'Rindex.conf'\nand redirects to\nthat page.\n\n- Create a 'calltip' plugin, derived from 'acronym'\nfor inclusion of R\nfunctions calltips in the wiki pages.\n\n- Make an R exportation format of Wiki pages (indeed,\nall Wiki stuff is\njust commented out with \"#\", and the R code appears in\na way it can be\ndirectly sourced in R. This should use the scheme\ndoku.php?do=export_R,\nas there is already doku.php?do=export_XHTML for\ninstance.\n\n- Enable line numbering in code blocks (a GeSHi\nfeature, and it eases\ndiscussion of the code in the page)\n\n- Add legend to tables/figures/code block, number them\nand allow for a\nreference to them (use bookmarks)\n\n- Add a bookmark mechanism for (bibtex) citations too\n(+ direct link to\nAmazon for instance).\n\n- Create a RWiki package containing all the R\nfunctions required to\nmanage the wiki, plus a stand-alone version of the\nwiki engine.\n\n- Add sidebars with cleared table of contents for\nmajor pages.\n\n- Make a plugin that exports one or several pages\ncompiled into a PDF\nmanual.\n\n- Eliminate the buggy 'text color' plugin and add a\nbetter one. Also, I\nwould like to propose plugins for better alternative\nsyntaxes like\n^^...^^ for superscript in place of <sup>...</sup>,\n,,...,, for\nsubscript in place of <sub>...</sub>, for instance\n(the alternative\nsyntax is found in other wiki engines).\n\n- If someone think that another Wiki engine than\nDokuWiki is more\nsuitable for the R Wiki, I am glad to consider its\nproposal, but ** (1)\nhe must implement all this in the alternate Wiki\nengine, (2) he must\ninstall the prototype Wiki under the alternate engine\nsomewhere for\ntrial, and (3) he must argument and demonstrate\n(including benchmark for\nspeed and load support) that the alternate Wiki engine\nis better.\n\nI put this list on the Wiki at:\nhttp://www.sciviews.org/_rgui/wiki/doku.php?id=varia:todo.\nI would greatly appreciate help in these tasks. If you\nwant to work on\none item, please, notify it in that Wiki page, so that\nwe keep organized\nand synchronized.\nBest,\n\nPhilippe Grosjean\n--\n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Pentagone\n(3D08)\n( ( ( ( (    Academie Universitaire Wallonie-Bruxelles\n  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons,\nBelgium\n( ( ( ( (\n  ) ) ) ) )   phone: + 32.65.37.34.97, fax: +\n32.65.37.30.54\n( ( ( ( (    email: Philippe.Grosjean at umh.ac.be\n  ) ) ) ) )\n( ( ( ( (    web:   http://www.umh.ac.be/~econum\n  ) ) ) ) )          http://www.sciviews.org\n( ( ( ( (\n..............................................................\n\n_______________________________________________\nR-sig-wiki mailing list\nR-sig-wiki at r-project.org\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-wiki",
+      "body_plain": "Philippe, thanks again for keeping this list\norganized.\n\nI have a suggestion for a wiki plugin. Although I do\nnot have the\nprogramming skills to create such a plugin myself I\nwill share it with this\nlist to see what others think. If others think it is\nworth doing (or at\nleast possible) then one or more of us can persue the\nidea further.\n\nIn a nutshell, the plugin/functionality I propose\nwould allow registered\nusers (of the wiki) to create a personal code library\nfor themselves. (Note:\nI use the word code here to refer to any R functions,\nscripts, data files,\ntips, etc. in general that the user finds useful.)\nUsers store their\npersonal R code library on their hard drive in text\nfiles organized in a\ndirectory structure that matches the structure of the\npublic code library\nthat will be developed on the R wiki. When user logs\nonto the wiki, the R\nwiki script/plugin collates user's personal code with\nthe public code\nlibrary on the wiki. In a single browser window, the\nuser sees both the\npublic code from the wiki and their personal code\nstored on their hard\ndrive. When the user wants to share their personal\ncode, they can click a\nbutton in their browser window which will make the\ncode a permenant part of\nthe wiki.\n\nRationale for such a plugin: How many of us have R\ncode laying around in\nvarious project folders that could be better used if\nit was easier to find?\nHow many of us have \"borrowed\" someone's code,\nmodified it to to suit our\nneeds, then developed and refined the code (e.g. a\nfunction) over time to\nthe point where it may now be useful to others? Such a\nfeature of the wiki\nwould allow users to share code more easily, but also\nincrease productivity\nbecause now every R user (beginners - advanced\nexperts) has easy access to\nthe code he/she needs on a daily basis to get work\ndone.\n\nOnce again, I have no programming skills outside of R\nso I don't know if\nwhat I propose is possible. I realize there is lots of\ndetails to such a\nproposal, and I don't pretend to know any of how this\nwould work (if it is\neven possible). I only share my idea because it has\nbeen a desire of mine\nfor so long to have an easy to use, browsable code\nlibrary that I can refer\nto daily. I would think that others would like such a\nfeature. If the R wiki\ncan make the use of R easier and save time and energy,\nthen I think such a\nfeature would greatly increase the value of R and the\nwiki.\n\n. . .  just my two cents.\n\n~Nick\n\n\n-----Original Message-----\nFrom: r-sig-wiki-bounces at r-project.org\n[mailto:r-sig-wiki-bounces at r-project.org]On Behalf Of\nPhilippe Grosjean\nSent: Friday, January 27, 2006 5:09 AM\nTo: r-sig-wiki at r-project.org\nSubject: [R-wiki] Bilan & TODOs\n\n\nHello,\n\nMy goal is still to release the R Wiki around the end\nof February.\nWe already made many progresses. Thanks to those who\ncontribute!\n\nWe now have a Wiki engine that begins to be tailored\nfor R content (with\nR code syntax highlighting, R function calltips, an\nembryo of context\nsensitive help for R functions, and several other nice\nstuff). However,\nthere is still much work to do. Here is the list:\n\n- Refine and test the proposed structure.\n\n- Import pages from Detlef Steuer's R Wiki.\n\n- Import Paul Johnson's 'Rtips' into the Wiki.\n\n- Import James Wettenhall's 'R tcltk examples' in the\nWiki.\n\n- Import Vincent Zoonekynd's 'Statistics with R' in\nthe Wiki.\n\n- Adapt the Rdconv perl script to write Wiki pages\nfrom .Rd files (Wiki\nformat of the R man pages).\n\n- Automate exportation of all .Rd pages from CRAN and\nBioconductor and\ngenerate a 'Rindex.conf' file that maps functions\nnames (and methods for\ngeneric functions) to corresponding man pages.\n\n- Implement a discussion plugin to allow adding\ncomments to these man\npages (this would be a much better mechanism as the\nINCLUDE solution\ncurrently in test).\n\n- Create a 'rhelp.php' script that, given the name of\na R function,\nextracts the corresponding man page from 'Rindex.conf'\nand redirects to\nthat page.\n\n- Create a 'calltip' plugin, derived from 'acronym'\nfor inclusion of R\nfunctions calltips in the wiki pages.\n\n- Make an R exportation format of Wiki pages (indeed,\nall Wiki stuff is\njust commented out with \"#\", and the R code appears in\na way it can be\ndirectly sourced in R. This should use the scheme\ndoku.php?do=export_R,\nas there is already doku.php?do=export_XHTML for\ninstance.\n\n- Enable line numbering in code blocks (a GeSHi\nfeature, and it eases\ndiscussion of the code in the page)\n\n- Add legend to tables/figures/code block, number them\nand allow for a\nreference to them (use bookmarks)\n\n- Add a bookmark mechanism for (bibtex) citations too\n(+ direct link to\nAmazon for instance).\n\n- Create a RWiki package containing all the R\nfunctions required to\nmanage the wiki, plus a stand-alone version of the\nwiki engine.\n\n- Add sidebars with cleared table of contents for\nmajor pages.\n\n- Make a plugin that exports one or several pages\ncompiled into a PDF\nmanual.\n\n- Eliminate the buggy 'text color' plugin and add a\nbetter one. Also, I\nwould like to propose plugins for better alternative\nsyntaxes like\n^^...^^ for superscript in place of <sup>...</sup>,\n,,...,, for\nsubscript in place of <sub>...</sub>, for instance\n(the alternative\nsyntax is found in other wiki engines).\n\n- If someone think that another Wiki engine than\nDokuWiki is more\nsuitable for the R Wiki, I am glad to consider its\nproposal, but ** (1)\nhe must implement all this in the alternate Wiki\nengine, (2) he must\ninstall the prototype Wiki under the alternate engine\nsomewhere for\ntrial, and (3) he must argument and demonstrate\n(including benchmark for\nspeed and load support) that the alternate Wiki engine\nis better.\n\nI put this list on the Wiki at:\nhttp://www.sciviews.org/_rgui/wiki/doku.php?id=varia:todo.\nI would greatly appreciate help in these tasks. If you\nwant to work on\none item, please, notify it in that Wiki page, so that\nwe keep organized\nand synchronized.\nBest,\n\nPhilippe Grosjean\n--\n..............................................<°}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut University, Pentagone\n(3D08)\n( ( ( ( (    Academie Universitaire Wallonie-Bruxelles\n  ) ) ) ) )   8, av du Champ de Mars, 7000 Mons,\nBelgium\n( ( ( ( (\n  ) ) ) ) )   phone: + 32.65.37.34.97, fax: +\n32.65.37.30.54\n( ( ( ( (    email: Philippe.Grosjean at umh.ac.be\n  ) ) ) ) )\n( ( ( ( (    web:   http://www.umh.ac.be/~econum\n  ) ) ) ) )          http://www.sciviews.org\n( ( ( ( (\n..............................................................\n\n_______________________________________________\nR-sig-wiki mailing list\nR-sig-wiki at r-project.org\nhttps://stat.ethz.ch/mailman/listinfo/r-sig-wiki",
       "body_snippet": "Philippe, thanks again for keeping this list\norganized.\n\nI have a suggestion for a wiki plugin. Although I do\nnot have the\nprogramming skills to create such a plugin myself I\nwill share it with this\nl",
       "thread_id": "thread-5a02c90a238d",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000052.html"
     },
     {
       "id": "msg-1ae90fa4ee1f",
@@ -1087,7 +1135,8 @@
       "body_snippet": "I agree that portions of the wiki should be open to\nall (this is consistent\nwith the wiki philosophy), but I also believe that\nsome pages/sections\nshould be restricted to certain individuals/groups.\nO",
       "thread_id": "thread-1ae90fa4ee1f",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000053.html"
     },
     {
       "id": "msg-5d688c9ca43b",
@@ -1103,7 +1152,8 @@
       "body_snippet": "Hello,\n\nFollowing the previous discussion about the icons with three users (some \npeople did not like them and found them not very clear nor informative \nenough), I make a second trial.\n\nThis time, th",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000054.html"
     },
     {
       "id": "msg-5d29bbc99cba",
@@ -1121,7 +1171,8 @@
       "body_snippet": "I must say I find this entire beginner/intermediate/expert baffling.\nI have no idea what goes where and to me its an categorization\nthat is difficult to get right and probably not a good idea.  I woul",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000055.html"
     },
     {
       "id": "msg-5cff6d582cb6",
@@ -1139,7 +1190,8 @@
       "body_snippet": "Isn't this duplicating what we have already for\nbuilding packages on CRAN.  Do we really\nneed to build a whole new infrastructure over\nagain?\n\n\nOn 1/28/06, Drew <drewbrewit at yahoo.com> wrote:\n> I ag",
       "thread_id": "thread-1ae90fa4ee1f",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000056.html"
     },
     {
       "id": "msg-270efea4eabe",
@@ -1158,7 +1210,8 @@
       "body_snippet": "I agree that the categorization into distinct categories is futile. I think that there are much\nmore meaningful characterizations of the content that can be made that will help the user\nnavigate its c",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000057.html"
     },
     {
       "id": "msg-a029f1175b9c",
@@ -1174,7 +1227,8 @@
       "body_snippet": "In gathering opinions relative to the UCLA tech report,\nit seems that part of the difficulty of learning R is that it\nis a programming language.  This comes both from Jon\nBaron and from a SAS/R user w",
       "thread_id": "thread-a029f1175b9c",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000058.html"
     },
     {
       "id": "msg-7f5a18a06f6a",
@@ -1192,7 +1246,8 @@
       "body_snippet": "Ironically I have found R to be a challenge to learn partly because it \nis quite different from more \"familiar\" programming languages, and I \nhave learnt quite a variety.  I guess the other reason is ",
       "thread_id": "thread-a029f1175b9c",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000059.html"
     },
     {
       "id": "msg-4f4461261f0d",
@@ -1229,7 +1284,8 @@
       "body_snippet": "I think anyone who doesn't understand everything is our\ntarget market.\n\npaul sorenson wrote:\n\n> Ironically I have found R to be a challenge to learn partly because it \n> is quite different from more \"",
       "thread_id": "thread-a029f1175b9c",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000060.html"
     },
     {
       "id": "msg-4c687cc0b9c5",
@@ -1245,7 +1301,8 @@
       "body_snippet": "The behavior of the wiki when reading it from an RSS reader\n(SharpReader in my case) seems to have changed.  Previously\ndepending on which title I clicked on I got the entire page or the\ndiffs but now",
       "thread_id": "thread-4c687cc0b9c5",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000061.html"
     },
     {
       "id": "msg-a8509543948d",
@@ -1265,7 +1322,8 @@
       "body_snippet": "Please, please, consider this:\n\n**Stop thinking you could ever control the structure of a Wiki!**\n\nBy the way it is working (everybody can add pages everywhere), it is \ngoing to be unstructured, by na",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000063.html"
     },
     {
       "id": "msg-03b190519dd8",
@@ -1283,7 +1341,8 @@
       "body_snippet": "Oops, sorry! I did the change in the config file. I now revert to 'diff'.\nThanks for the notification.\nBest,\n\nPhilippe Grosjean\n\n\nGabor Grothendieck wrote:\n> The behavior of the wiki when reading it f",
       "thread_id": "thread-4c687cc0b9c5",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000064.html"
     },
     {
       "id": "msg-8c41384fb13e",
@@ -1304,7 +1363,8 @@
       "body_snippet": "Overall these are my impressions:\n\n- the technical aspects of the wiki are impressive\n\n- I don't agree that a wiki is necessarily disorganized as the examples below\nwhich I previously posted and repea",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 4,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000065.html"
     },
     {
       "id": "msg-2d693a2774ad",
@@ -1326,7 +1386,8 @@
       "body_snippet": "Philippe, Gabor, and others,\n\nThe Wiki's growth is amazing. Thank you so much for doing this. I have little doubt that the results of\nyour labors will greatly alter the way that beginners and experien",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000066.html"
     },
     {
       "id": "msg-75f4ad887d6d",
@@ -1348,7 +1409,8 @@
       "body_snippet": "One other point.  In the case that sections are largely converted\nportions of someone else's work their name should somehow appear\nmore prominently in order to give them full credit.  Perhaps in the\nl",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000067.html"
     },
     {
       "id": "msg-8c8a8e02babe",
@@ -1364,7 +1426,8 @@
       "body_snippet": "On Sat, 28 Jan 2006, Patrick Burns wrote:\n\n> In gathering opinions relative to the UCLA tech report,\n> it seems that part of the difficulty of learning R is that it\n> is a programming language.  This ",
       "thread_id": "thread-a029f1175b9c",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000068.html"
     },
     {
       "id": "msg-cdb5927edfd6",
@@ -1382,7 +1445,8 @@
       "body_snippet": "Roger Bivand wrote:\n> I'm sure I'm quite out of line, but a big flashing warning somewhere\n> to alert hopeful users to the fact that reading is associated (maybe\n> used to be?) with learning might be ",
       "thread_id": "thread-a029f1175b9c",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000069.html"
     },
     {
       "id": "msg-13cd37cbc2ff",
@@ -1404,7 +1468,8 @@
       "body_snippet": "Hello Gabor, Damian, and the others,\n\nAs you have noticed, I consider that we are doing collaborative work, \nand that all ideas have to be considered. However, regarding Gabor's \ncomments, I must repe",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000070.html"
     },
     {
       "id": "msg-046ed4a7a6ff",
@@ -1427,7 +1492,8 @@
       "body_snippet": "Damian Betebenner wrote:\n> Philippe, Gabor, and others,\n> \n> The Wiki's growth is amazing. Thank you so much for doing this. I have little doubt that the results of\n> your labors will greatly alter th",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 6,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000071.html"
     },
     {
       "id": "msg-22ad1864e36d",
@@ -1450,7 +1516,8 @@
       "body_snippet": "It is usual, in Wiki pages, to sign at the bottom of your page and to \nadd the date. Look at:\nhttp://www.sciviews.org/_rgui/wiki/doku.php?id=beginners:installation:packages\nhttp://www.sciviews.org/_rg",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 6,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000072.html"
     },
     {
       "id": "msg-5c8a3f2aa040",
@@ -1469,7 +1536,8 @@
       "body_snippet": "paul sorenson wrote:\n> Roger Bivand wrote:\n> \n>>I'm sure I'm quite out of line, but a big flashing warning somewhere\n>>to alert hopeful users to the fact that reading is associated (maybe\n>>used to be",
       "thread_id": "thread-a029f1175b9c",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000073.html"
     },
     {
       "id": "msg-fa0b903c5474",
@@ -1487,7 +1555,8 @@
       "body_snippet": "Roger,\n\nThank you for pointing us this reference. I especially appreciate how an \nalgorithm work is depicted. Look, for instance, at \nhttp://mitpress.mit.edu/sicp/full-text/book/book-Z-H-11.html, 1.2.",
       "thread_id": "thread-a029f1175b9c",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000074.html"
     },
     {
       "id": "msg-f54aec1c407e",
@@ -1503,7 +1572,8 @@
       "body_snippet": "On Mon, 30 Jan 2006, Philippe Grosjean wrote:\n\n> Roger,\n> \n> Thank you for pointing us this reference. I especially appreciate how an \n> algorithm work is depicted. Look, for instance, at \n> http://mi",
       "thread_id": "thread-a029f1175b9c",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000075.html"
     },
     {
       "id": "msg-271b354d4eef",
@@ -1526,7 +1596,8 @@
       "body_snippet": "I agree that the technical capabilities of the wiki are impressive and have\nmentioned that.  Its the specific organization of the content that is confusing.\nI think your comments relate to the technic",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 6,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000076.html"
     },
     {
       "id": "msg-25c599048ddd",
@@ -1544,7 +1615,8 @@
       "body_snippet": "I don't want to get into the other parts of the discussion,\n\nbut if you want to have these tags,\nI think the names (in the subject line)\nshould be considered again and compared with your proposal:\n1) ",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 1,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000077.html"
     },
     {
       "id": "msg-c6394df21668",
@@ -1568,7 +1640,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> I agree that the technical capabilities of the wiki are impressive and have\n> mentioned that.  Its the specific organization of the content that is confusing.\n> I think you",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 7,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000078.html"
     },
     {
       "id": "msg-0d2bc194a12d",
@@ -1587,7 +1660,8 @@
       "body_snippet": "Martin Maechler wrote:\n> I don't want to get into the other parts of the discussion,\n> \n> but if you want to have these tags,\n> I think the names (in the subject line)\n> should be considered again and",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 2,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000079.html"
     },
     {
       "id": "msg-3d00d97437e6",
@@ -1612,7 +1686,8 @@
       "body_snippet": "Ben Bolker wrote:\n> Gabor Grothendieck wrote:\n> \n>>I agree that the technical capabilities of the wiki are impressive and have\n>>mentioned that.  Its the specific organization of the content that is c",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 8,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000080.html"
     },
     {
       "id": "msg-85f09dc8383f",
@@ -1637,7 +1712,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> I would put the author's name at the top or beginning in the case of a very long\n> organized document imported into the wiki.  The reader might never\n> get to the bottom of",
       "thread_id": "thread-85f09dc8383f",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000081.html"
     },
     {
       "id": "msg-378d1d00ba49",
@@ -1657,7 +1733,8 @@
       "body_snippet": ">>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>     on Mon, 30 Jan 2006 17:21:56 +0100 writes:\n\n    PhGr> Martin Maechler wrote:\n    >> I don't want to get into the other parts of",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000082.html"
     },
     {
       "id": "msg-3ec5c9342f5a",
@@ -1682,7 +1759,8 @@
       "body_snippet": "Thank you, Ben, \n\nI think you have very precisely described some of my own views\non this, and the direction \"we\" should be heading.\n\nI strongly support your proposal\n(though I'm still not offering any",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 8,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000083.html"
     },
     {
       "id": "msg-8a910b20072b",
@@ -1702,7 +1780,8 @@
       "body_snippet": "All,\n\nI don't know whether any decision was made on how to attempt to provide links within code to Rhelp.\nOne possibility (that I now have working) is to take all the R help files from their directory",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 3,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000084.html"
     },
     {
       "id": "msg-b826225cafc8",
@@ -1723,7 +1802,8 @@
       "body_snippet": "Damian Betebenner wrote:\n> All,\n> \n> I don't know whether any decision was made on how to attempt to provide links within code to Rhelp.\n> One possibility (that I now have working) is to take all the ",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 4,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000085.html"
     },
     {
       "id": "msg-f50f75bf97fd",
@@ -1745,7 +1825,8 @@
       "body_snippet": "Philippe,\n\nThank you. I saw the search that lists the man pages first and then the other finds after.\nI really like how nicely the Wiki format makes the Rhelp page look. Color makes things much\neasier",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 5,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000086.html"
     },
     {
       "id": "msg-b56323cdfbf5",
@@ -1768,7 +1849,8 @@
       "body_snippet": "Damian Betebenner wrote:\n> Philippe,\n> \n> Thank you. I saw the search that lists the man pages first and then the other finds after.\n> I really like how nicely the Wiki format makes the Rhelp page loo",
       "thread_id": "thread-5d688c9ca43b",
       "thread_depth": 6,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-January/000087.html"
     },
     {
       "id": "msg-cd735667e937",
@@ -1784,7 +1866,8 @@
       "body_snippet": "1. how would you insert a literal [[ into DokuWiki without it thinking\nit was an open-link delimiter?\n\n  2. I sure hope there's an easy way for Phillipe to move stuff around \nbetween namespaces on the",
       "thread_id": "thread-cd735667e937",
       "thread_depth": 0,
-      "month": "2006-01"
+      "month": "2006-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000088.html"
     }
   ],
   "threads": [

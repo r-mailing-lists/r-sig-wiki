@@ -17,7 +17,8 @@
       "body_snippet": "Hi!\n\nThere are several instances of describing factors i.e. at least these\ntwo\n\nhttp://wiki.r-project.org/rwiki/doku.php?id=guides:stats-with-r:02programming_in_r:03datastructures&s=omit#factors\n\nand\n",
       "thread_id": "thread-b3a7c60749f9",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000335.html"
     },
     {
       "id": "msg-515404849cc1",
@@ -33,7 +34,8 @@
       "body_snippet": ">>Gorjanc Gregor wrote:\n>> Hi!\n>> \n>> There are several instances of describing factors i.e. at least these\n>> two\n>> \n>> http://wiki.r-project.org/rwiki/doku.php?id=guides:stats-with-r:02programming_",
       "thread_id": "thread-515404849cc1",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000336.html"
     },
     {
       "id": "msg-ecd6a78cfe57",
@@ -51,7 +53,8 @@
       "body_snippet": "Gorjanc Gregor wrote:\n>>>Gorjanc Gregor wrote:\n>>>Hi!\n>>>\n>>>There are several instances of describing factors i.e. at least these\n>>>two\n>>>\n>>>http://wiki.r-project.org/rwiki/doku.php?id=guides:stat",
       "thread_id": "thread-515404849cc1",
       "thread_depth": 1,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000337.html"
     },
     {
       "id": "msg-65514cec1920",
@@ -67,7 +70,8 @@
       "body_snippet": "Hi,\n\n> No. Vincent Zoonekynd's Statistics with R is a separate guide by itself \n> (and I hope to have more documents like this, translated into the Wiki). \n> Apart from its translation into Wiki forma",
       "thread_id": "thread-65514cec1920",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000338.html"
     },
     {
       "id": "msg-9273ab1768d9",
@@ -85,7 +89,8 @@
       "body_snippet": ">>>>> \"Gorjanc\" == Gorjanc Gregor <Gregor.Gorjanc at bfro.uni-lj.si>\n>>>>>     on Mon, 7 Aug 2006 08:41:19 +0200 writes:\n\n    Gorjanc> Hi,\n    >> No. Vincent Zoonekynd's Statistics with R is a separat",
       "thread_id": "thread-65514cec1920",
       "thread_depth": 1,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000339.html"
     },
     {
       "id": "msg-5651632688ba",
@@ -101,7 +106,8 @@
       "body_snippet": "OK, I agree here.\n\nBut, should we, beside pointing to help(factor), cross-reference all\nguides and tips on the same topic?\n\nGregor\n\n-----Original Message-----\nFrom: Martin Maechler [mailto:maechler at",
       "thread_id": "thread-5651632688ba",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000340.html"
     },
     {
       "id": "msg-33394616a83d",
@@ -119,7 +125,8 @@
       "body_snippet": "Gorjanc Gregor wrote:\n> OK, I agree here.\n> \n> But, should we, beside pointing to help(factor), cross-reference all\n> guides and tips on the same topic?\n> \n> Gregor\n\nSure! And also, you are free to co",
       "thread_id": "thread-5651632688ba",
       "thread_depth": 1,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000341.html"
     },
     {
       "id": "msg-8871f0c0024e",
@@ -135,7 +142,8 @@
       "body_snippet": "OK!\n\n-----Original Message-----\nFrom: Philippe Grosjean [mailto:phgrosjean at sciviews.org]\nSent: Mon 2006-08-07 13:13\nTo: Gorjanc Gregor\nCc: Martin Maechler; Ben Bolker; r-sig-wiki at stat.math.ethz.",
       "thread_id": "thread-8871f0c0024e",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000342.html"
     },
     {
       "id": "msg-8b8ee6d0e4f7",
@@ -151,7 +159,8 @@
       "body_snippet": "Hi,\n\nI know that I can do a raw export of a wiki page, e.g :\nhttp://wiki.r-project.org/rwiki/doku.php?id=developers:rinterp&do=export_raw\n\nI also know that I can search in the wiki, e.g :\nhttp://wiki.",
       "thread_id": "thread-8b8ee6d0e4f7",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000343.html"
     },
     {
       "id": "msg-f8c010b5ac43",
@@ -169,7 +178,8 @@
       "body_snippet": "Hello,\n\nIt should be possible to return an ASCII page with Wiki search, but that \nrequires a reworking of the search PHP functions. I could put this on \nthe TODO list, if needed, but I don't hjave tim",
       "thread_id": "thread-8b8ee6d0e4f7",
       "thread_depth": 1,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000344.html"
     },
     {
       "id": "msg-7e8cad79f10f",
@@ -188,7 +198,8 @@
       "body_snippet": "Philippe Grosjean a ?crit :\n> Hello,\n>\n> It should be possible to return an ASCII page with Wiki search, but \n> that requires a reworking of the search PHP functions. I could put \n> this on the TODO l",
       "thread_id": "thread-8b8ee6d0e4f7",
       "thread_depth": 2,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000345.html"
     },
     {
       "id": "msg-b01bfc82a095",
@@ -204,7 +215,8 @@
       "body_snippet": "I edited the wiki comments for the help page for seq(), but when I visit \nit, I get a \"file not found\" error for the original R documentation part \nof it (the comments that I added appear correctly.) ",
       "thread_id": "thread-b01bfc82a095",
       "thread_depth": 0,
-      "month": "2006-08"
+      "month": "2006-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-August/000346.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Hello All,\n\nI have reworked the R syntax highlighter for R and I have added three \nhighlighters (for R documentation, for DESCRIPTION and NAMESPACE files).\n\nSee: http://www.sciviews.org/_rgui/wiki/dok",
       "thread_id": "thread-b2b4dcd722d9",
       "thread_depth": 0,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000189.html"
     },
     {
       "id": "msg-1de3bd021a9d",
@@ -35,7 +36,8 @@
       "body_snippet": "Philippe,\n\nBRAVO!\n\nTruly literate programming.\n\nDamian\n\n |  On Mon, 06 Mar 2006 16:05:41 +0100\n |  Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n>>>Hello All,\n>>>\n>>>I have reworked the R synt",
       "thread_id": "thread-b2b4dcd722d9",
       "thread_depth": 1,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000190.html"
     },
     {
       "id": "msg-e1ec59c583ef",
@@ -53,7 +55,8 @@
       "body_snippet": "That is looking very cool indeed.\n\nCan it write my algorithms for me?\n\nPhilippe Grosjean wrote:\n> Hello All,\n> \n> I have reworked the R syntax highlighter for R and I have added three \n> highlighters ",
       "thread_id": "thread-b2b4dcd722d9",
       "thread_depth": 1,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000191.html"
     },
     {
       "id": "msg-afdeed444c54",
@@ -72,7 +75,8 @@
       "body_snippet": "paul sorenson wrote:\n> That is looking very cool indeed.\n> \n> Can it write my algorithms for me?\n\nForget about the algorithms and focus on a software that writes the \nreports and publications for you.",
       "thread_id": "thread-b2b4dcd722d9",
       "thread_depth": 2,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000192.html"
     },
     {
       "id": "msg-c4e33679366e",
@@ -88,7 +92,8 @@
       "body_snippet": "what is the best way to deal with the orphans/wanted page?\nshould I start trying to move stuff over?\n\n   The orphans/wanted page doesn't *look* automatically\ngenerated, but it seems as though it shoul",
       "thread_id": "thread-c4e33679366e",
       "thread_depth": 0,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000193.html"
     },
     {
       "id": "msg-c73665283237",
@@ -108,7 +113,8 @@
       "body_snippet": "Finally...  \nhttp://wiki.R-project.org/  \n-------------------------- \nnow points to the new server that\nPhilippe Grosjean has set up these days!\n\nCongratulations!",
       "thread_id": "thread-c73665283237",
       "thread_depth": 0,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000194.html"
     },
     {
       "id": "msg-e079631cd045",
@@ -124,7 +130,8 @@
       "body_snippet": "[first sent to r-sig-wiki-request by accident]\n\n   now that the FAQ has gone public (more or less) it\nwould be great if we could get some more content up ...\nthanks to Phillipe Grosjean and Romain Fra",
       "thread_id": "thread-e079631cd045",
       "thread_depth": 0,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000195.html"
     },
     {
       "id": "msg-a998bfd1de80",
@@ -140,7 +147,8 @@
       "body_snippet": "Yes, more content would be good, although I've not\nbeen doing my part\nlately. Hope I can pick it up again now that work is\nstarting to slow down.\n\n~Nick\n\n-----Original Message-----\nFrom: r-sig-wiki-bo",
       "thread_id": "thread-a998bfd1de80",
       "thread_depth": 0,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000199.html"
     },
     {
       "id": "msg-f8c285a70ed7",
@@ -158,7 +166,8 @@
       "body_snippet": ">>>>> \"Ben\" == Ben Bolker <bolker at zoo.ufl.edu>\n>>>>>     on Fri, 24 Mar 2006 13:30:38 -0500 writes:\n\n    Ben> [first sent to r-sig-wiki-request by accident]\n\n    Ben> now that the FAQ has gone publ",
       "thread_id": "thread-e079631cd045",
       "thread_depth": 1,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000196.html"
     },
     {
       "id": "msg-567110585ee8",
@@ -174,7 +183,8 @@
       "body_snippet": "http://www.sciviews.org/_rgui/wiki/doku.php\n\nand\n\nwiki.r-project.org\n\nappear to point at *different* data ...\n\n... just a warning to anyone who might\nstill be updating the former!\n\n   Ben",
       "thread_id": "thread-567110585ee8",
       "thread_depth": 0,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000197.html"
     },
     {
       "id": "msg-2dac4cbfff80",
@@ -192,7 +202,8 @@
       "body_snippet": "Ben Bolker wrote:\n>    [first sent to r-sig-wiki-request by accident]\n> \n>    now that the FAQ has gone public (more or less) it\n> would be great if we could get some more content up ...\n> thanks to P",
       "thread_id": "thread-e079631cd045",
       "thread_depth": 1,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000198.html"
     },
     {
       "id": "msg-45a7bdaf011f",
@@ -211,7 +222,8 @@
       "body_snippet": "Martin Maechler wrote:\n>>>>>>\"Ben\" == Ben Bolker <bolker at zoo.ufl.edu>\n>>>>>>    on Fri, 24 Mar 2006 13:30:38 -0500 writes:\n> \n> \n>     Ben> [first sent to r-sig-wiki-request by accident]\n> \n>     B",
       "thread_id": "thread-e079631cd045",
       "thread_depth": 2,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000200.html"
     },
     {
       "id": "msg-064e9a1c8fcd",
@@ -227,7 +239,8 @@
       "body_snippet": "Hello,\n\nI have refined the structure, installed everything on the server, and, \nmost importantly, upgraded to the latest DokuWiki engine (more \nefficient: *everything is now double-cached*), and added",
       "thread_id": "thread-064e9a1c8fcd",
       "thread_depth": 0,
-      "month": "2006-03"
+      "month": "2006-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-March/000201.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Hello,\n\nI would like to make a design request. Can the top background header \ncontain a clickable area over the R Wiki log that would link to the \nstart page? This is quite a common feature on many we",
       "thread_id": "thread-2823c24fc62d",
       "thread_depth": 0,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000320.html"
     },
     {
       "id": "msg-69b303a94bc2",
@@ -33,7 +34,8 @@
       "body_snippet": "Is this feature turned on? I can't seem to successfully attach a file \nI've uploaded to this page:\n\nhttp://wiki.r-project.org/rwiki/doku.php?id=developers:rinterp\n\n-- \nJeffrey Horner       Computer Sy",
       "thread_id": "thread-69b303a94bc2",
       "thread_depth": 0,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000321.html"
     },
     {
       "id": "msg-1b33bbc23183",
@@ -51,7 +53,8 @@
       "body_snippet": "Selon Jeffrey Horner <jeff.horner at vanderbilt.edu>:\n\n> Hello,\n>\n> I would like to make a design request. Can the top background header\n> contain a clickable area over the R Wiki log that would link ",
       "thread_id": "thread-2823c24fc62d",
       "thread_depth": 1,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000322.html"
     },
     {
       "id": "msg-da6b67b5dd80",
@@ -70,7 +73,8 @@
       "body_snippet": "On 7/15/06, francoisromain at free.fr <francoisromain at free.fr> wrote:\n> Selon Jeffrey Horner <jeff.horner at vanderbilt.edu>:\n>\n> > Hello,\n> >\n> > I would like to make a design request. Can the top",
       "thread_id": "thread-2823c24fc62d",
       "thread_depth": 2,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000323.html"
     },
     {
       "id": "msg-b72fe1f8901d",
@@ -88,7 +92,8 @@
       "body_snippet": "Hello Jeffrey,\n\nYou have uploaded a tarball... in the section dedicated to media files \n(images, videos, ...). So, no, you cannot use it now. There is no place \nfor other files on the R Wiki. You are ",
       "thread_id": "thread-69b303a94bc2",
       "thread_depth": 1,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000324.html"
     },
     {
       "id": "msg-dda24410e6a0",
@@ -106,7 +111,8 @@
       "body_snippet": "Jeffrey Horner wrote:\n> Hello,\n> \n> I would like to make a design request. Can the top background header \n> contain a clickable area over the R Wiki log that would link to the \n> start page? This is q",
       "thread_id": "thread-2823c24fc62d",
       "thread_depth": 1,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000325.html"
     },
     {
       "id": "msg-098c0dc7964a",
@@ -122,7 +128,8 @@
       "body_snippet": "Hi,\n\nI'm trying to learn the ways of XUL : mozilla Xml User interface \nLanguage (basically that's how they do firefox extensions and stuff).\n\nI'd like to know if that is possible to get the some info ",
       "thread_id": "thread-098c0dc7964a",
       "thread_depth": 0,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000326.html"
     },
     {
       "id": "msg-b4888ace30dc",
@@ -140,7 +147,8 @@
       "body_snippet": "Attached is my most recent version of the R program that generates all\ntips as a single sheet.  Maybe it will help you see what can be done.\n\nThere is also an example of another approach that is liste",
       "thread_id": "thread-098c0dc7964a",
       "thread_depth": 1,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000327.html"
     },
     {
       "id": "msg-546e79c94328",
@@ -159,7 +167,8 @@
       "body_snippet": "Le 23.07.2006 00:39, Paul Johnson a ?crit :\n> Attached is my most recent version of the R program that generates all\n> tips as a single sheet.  Maybe it will help you see what can be done.\n>\n> There i",
       "thread_id": "thread-098c0dc7964a",
       "thread_depth": 2,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000328.html"
     },
     {
       "id": "msg-05e8f53f6d67",
@@ -175,7 +184,8 @@
       "body_snippet": "Hi!\n\nThe following page seems to be \"unparsed\"\n\nhttp://wiki.r-project.org./rwiki/doku.php?id=developers:rinterp\n\n-- \nLep pozdrav / With regards,\n    Gregor Gorjanc\n\n-----------------------------------",
       "thread_id": "thread-05e8f53f6d67",
       "thread_depth": 0,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000329.html"
     },
     {
       "id": "msg-a644842fcd4a",
@@ -193,7 +203,8 @@
       "body_snippet": "Corrected. In this case, editing the page and saving changes\nusually corrects the problem.\nBest,\n\nPhilippe\n\n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof.",
       "thread_id": "thread-05e8f53f6d67",
       "thread_depth": 1,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000330.html"
     },
     {
       "id": "msg-4d4fc9fb8a47",
@@ -209,7 +220,8 @@
       "body_snippet": "Hi folks,\n\nAny idea to create a google gadget for the wiki ?\nCurrently, one can add an rss feed to his google page, but what's fun \nabout that ...\n\nIs it worth a wiki challenge, or should they only be",
       "thread_id": "thread-4d4fc9fb8a47",
       "thread_depth": 0,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000331.html"
     },
     {
       "id": "msg-6d37b13c60e2",
@@ -225,7 +237,8 @@
       "body_snippet": "This was just posted to r-help:\n\n   https://www.stat.math.ethz.ch/pipermail/r-help/2006-July/109931.html\n\nNow suppose we wanted to run the code on the wiki page referenced\nin that post.  Currently I c",
       "thread_id": "thread-6d37b13c60e2",
       "thread_depth": 0,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000332.html"
     },
     {
       "id": "msg-403bbd1b466b",
@@ -243,7 +256,8 @@
       "body_snippet": "Hello,\n\nThere is a series of functions to manipulate, search, edit R Wiki pages \nfrom within R that will be provided by the future 'rwiki' r package in \ndevelopment. Here is the function that does wha",
       "thread_id": "thread-6d37b13c60e2",
       "thread_depth": 1,
-      "month": "2006-07"
+      "month": "2006-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-July/000333.html"
     },
     {
       "id": "msg-27ff453d13b0",

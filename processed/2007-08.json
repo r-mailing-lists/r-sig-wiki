@@ -17,7 +17,8 @@
       "body_snippet": "Hello all,\n\nSorry for the problem with the R Wiki that lasted several days. We had a \nmajor electric cut on the campus, and with a very limited staff due to \nholidays, it took longer than expected to ",
       "thread_id": "thread-764ce6fbb85c",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000367.html"
     },
     {
       "id": "msg-fb71a80edda5",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi Philippe,\n\nCan you post to the wiki your R.php language file for Geshi?\n\nThanks,\n\nJeff\n-- \nhttp://biostat.mc.vanderbilt.edu/JeffreyHorner",
       "thread_id": "thread-fb71a80edda5",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000368.html"
     },
     {
       "id": "msg-1a0d1c985ba5",
@@ -59,7 +61,8 @@
       "body_snippet": "I put up a preliminary Sweave-to-wiki script on the wiki.\n   Comments and improvements are welcome.\n\n  http://wiki.r-project.org/rwiki/doku.php?id=developers:latex2wiki",
       "thread_id": "thread-1a0d1c985ba5",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000369.html"
     },
     {
       "id": "msg-e1cbd735a27e",
@@ -86,7 +89,8 @@
       "body_snippet": "oops, sorry about the mistaken subject: line!\n\nBen Bolker wrote:\n>    I put up a preliminary Sweave-to-wiki script on the wiki.\n>    Comments and improvements are welcome.\n>\n>   http://wiki.r-project.",
       "thread_id": "thread-1a0d1c985ba5",
       "thread_depth": 1,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000370.html"
     },
     {
       "id": "msg-a8c66ec90d20",
@@ -102,7 +106,8 @@
       "body_snippet": "awfully quiet around here ...\n  does anyone have opinions about this?\n\nBen Bolker wrote:\n>    I put up a preliminary Sweave-to-wiki script on the wiki.\n>    Comments and improvements are welcome.\n>\n> ",
       "thread_id": "thread-a8c66ec90d20",
       "thread_depth": 0,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000371.html"
     },
     {
       "id": "msg-b8f30342648f",
@@ -120,7 +125,8 @@
       "body_snippet": "Hi Ben,\n\nThis looks great (note that I wanted to test it first before \nanswering... still haven't found time for that)! However, I think that \nit is easier to work on Wiki page and eventually convert ",
       "thread_id": "thread-a8c66ec90d20",
       "thread_depth": 1,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000372.html"
     },
     {
       "id": "msg-8cc66f6386e0",
@@ -139,7 +145,8 @@
       "body_snippet": ">>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>     on Thu, 30 Aug 2007 22:45:41 +0200 writes:\n\n    PhGr> Hi Ben,\n    PhGr> This looks great (note that I wanted to test it first b",
       "thread_id": "thread-a8c66ec90d20",
       "thread_depth": 2,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000373.html"
     },
     {
       "id": "msg-76ebb4cbdb1f",
@@ -159,7 +166,8 @@
       "body_snippet": "OK, that makes a lot of sense.\n\nPhG\n\nMartin Maechler wrote:\n>>>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>>     on Thu, 30 Aug 2007 22:45:41 +0200 writes:\n> \n>     PhGr> Hi Ben,",
       "thread_id": "thread-a8c66ec90d20",
       "thread_depth": 3,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000374.html"
     },
     {
       "id": "msg-114b6e9a84ff",
@@ -180,7 +188,8 @@
       "body_snippet": "Thanks, Martin.\n  A couple of other things: since I don't have DokuWiki installed\nlocally, developing wiki pages means being online.  And I know\nLaTeX much better than wiki code.  And the \"preview\" mo",
       "thread_id": "thread-a8c66ec90d20",
       "thread_depth": 4,
-      "month": "2007-08"
+      "month": "2007-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-August/000375.html"
     }
   ],
   "threads": [

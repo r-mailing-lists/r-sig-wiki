@@ -19,7 +19,8 @@
       "body_snippet": "Hi,\n\nI think if you save t with empty content, it deletes it.\n\nRegards,\n\nRomain\n\n\nPetr Savicky wrote:\n> Hi.\n>\n> Is it possible to rename a page, which i created a few days ago?\n>\n> If not, can i simpl",
       "thread_id": "thread-8c354172bf8e",
       "thread_depth": 1,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2009-March/000384.html"
     },
     {
       "id": "msg-8c354172bf8e",
@@ -35,7 +36,8 @@
       "body_snippet": "Hi.\n\nIs it possible to rename a page, which i created a few days ago?\n\nIf not, can i simply copy it under a more appropriate name\nand leave the old version only with a link to the new version?\n\nI am s",
       "thread_id": "thread-8c354172bf8e",
       "thread_depth": 0,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2009-March/000383.html"
     },
     {
       "id": "msg-1f128f59873a",
@@ -50,11 +52,12 @@
         "<20090316143512.GA6975@cs.cas.cz>",
         "<49BE62F0.2010808@free.fr>"
       ],
-      "body_plain": "On Mon, Mar 16, 2009 at 03:32:16PM +0100, Romain Fran?ois wrote:\n> Hi,\n> \n> I think if you save t with empty content, it deletes it.\n> \n> Regards,\n> \n> Romain\n\nThanks. It worked.\n\nPetr.",
-      "body_snippet": "On Mon, Mar 16, 2009 at 03:32:16PM +0100, Romain Fran?ois wrote:\n> Hi,\n> \n> I think if you save t with empty content, it deletes it.\n> \n> Regards,\n> \n> Romain\n\nThanks. It worked.\n\nPetr.",
+      "body_plain": "On Mon, Mar 16, 2009 at 03:32:16PM +0100, Romain François wrote:\n> Hi,\n> \n> I think if you save t with empty content, it deletes it.\n> \n> Regards,\n> \n> Romain\n\nThanks. It worked.\n\nPetr.",
+      "body_snippet": "On Mon, Mar 16, 2009 at 03:32:16PM +0100, Romain François wrote:\n> Hi,\n> \n> I think if you save t with empty content, it deletes it.\n> \n> Regards,\n> \n> Romain\n\nThanks. It worked.\n\nPetr.",
       "thread_id": "thread-8c354172bf8e",
       "thread_depth": 2,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2009-March/000385.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Just curious. I tried getting to wiki.r-project.org earlier in the day, \nand them someone on R-help mentioned that they also tried but couldn't \nreach it.\n\nJeff\n-- \nhttp://biostat.mc.vanderbilt.edu/Je",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 0,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000349.html"
     },
     {
       "id": "msg-8e463b247f23",
@@ -35,7 +36,8 @@
       "body_snippet": "Jeffrey Horner <jeff.horner <at> vanderbilt.edu> writes:\n\n> \n> \n> Just curious. I tried getting to wiki.r-project.org earlier in the day, \n> and them someone on R-help mentioned that they also tried b",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 1,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000350.html"
     },
     {
       "id": "msg-827a69b8f68c",
@@ -54,7 +56,8 @@
       "body_snippet": ">>>>> \"Gregor\" == Gregor Gorjanc <gregor.gorjanc at bfro.uni-lj.si>\n>>>>>     on Tue, 7 Nov 2006 08:14:22 +0000 (UTC) writes:\n\n    Gregor> Jeffrey Horner <jeff.horner <at> vanderbilt.edu> writes:\n    ",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 2,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000351.html"
     },
     {
       "id": "msg-e82f51052197",
@@ -74,7 +77,8 @@
       "body_snippet": "Martin Maechler wrote:\n...\n> So I guess, the reason is the now infamous  pan-European (slight\n> exaggeration) blackout that hit about millions of people in\n> Europe, and notably Belgium where the R-Wi",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 3,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000352.html"
     },
     {
       "id": "msg-a46622af2999",
@@ -94,7 +98,8 @@
       "body_snippet": "Hello,\n\nIndeed, the R Wiki server is down. I am away from my office (meetings), \nbut I just phone to the computer department in charge of the servers at \nthe University. They are currently looking at ",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 3,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000353.html"
     },
     {
       "id": "msg-030ba6323412",
@@ -115,7 +120,8 @@
       "body_snippet": "OK, here is the diagnostic: the server is physically damaged. I have \nbackups of the R Wiki site, but we are looking for a replacement server. \nWe are not likely to install it before tomorrow. Sorry f",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 4,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000354.html"
     },
     {
       "id": "msg-83222bb38fc0",
@@ -136,7 +142,8 @@
       "body_snippet": "Thanks a lot, Philippe,\n\n>>>>> \"PhGr\" == Philippe Grosjean <Philippe.Grosjean at umh.ac.be>\n>>>>>     on Tue, 07 Nov 2006 10:53:51 +0100 writes:\n\n    PhGr> Hello,\n\n    PhGr> Indeed, the R Wiki server ",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 4,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000355.html"
     },
     {
       "id": "msg-1ee2bafc4247",
@@ -158,7 +165,8 @@
       "body_snippet": "Hello all,\n\nThe R Wiki site is now back again (hopefully, I have tested from the \nIntranet, but not from the Internet). The motherboard of the server was \nbroken. so, I had to send the server back for",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 5,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000356.html"
     },
     {
       "id": "msg-27c7eb3d33e9",
@@ -181,7 +189,8 @@
       "body_snippet": "Philippe Grosjean <phgrosjean <at> sciviews.org> writes:\n> \n> Hello all,\n> \n> The R Wiki site is now back again (hopefully, I have tested from the \n> Intranet, but not from the Internet). The motherbo",
       "thread_id": "thread-77d22a510482",
       "thread_depth": 6,
-      "month": "2006-11"
+      "month": "2006-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-November/000357.html"
     }
   ],
   "threads": [

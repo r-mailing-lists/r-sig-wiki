@@ -30,7 +30,8 @@
       "body_snippet": "There have been some comments on the R help list\nabout the wiki being down, and I can't reach it either:\n\n> ben at bolker-lap2:~$ ping wiki.r-project.org\n> PING econum.umh.ac.be (193.190.194.5) 56(84)",
       "thread_id": "thread-22b2822134b6",
       "thread_depth": 0,
-      "month": "2007-07"
+      "month": "2007-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2007-July/000366.html"
     }
   ],
   "threads": [

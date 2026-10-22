@@ -17,7 +17,8 @@
       "body_snippet": "a vote of confidence ...\n\n-------- Original Message --------\nSubject: Wiki for R\nDate: Sun, 30 Apr 2006 22:33:51 -0400\nFrom: Farrel Buchinsky <fjbuch at gmail.com>\nTo: tplate at acm.org, bolker at zoo",
       "thread_id": "thread-d165dc6e3690",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000252.html"
     },
     {
       "id": "msg-323e6ba7ad2f",
@@ -33,7 +34,8 @@
       "body_snippet": "Hello,\n\nI have now adjusted ACL to deny modification of pages by anonymous \nusers. So, you have now \"Show pagesource\" at the top left and bottom \ninstead of \"Edit this page\" if you do not log in to th",
       "thread_id": "thread-323e6ba7ad2f",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000253.html"
     },
     {
       "id": "msg-622501765e5f",
@@ -51,7 +53,8 @@
       "body_snippet": "r-sig-wiki-request at r-project.org wrote:\n> Send R-sig-wiki mailing list submissions to\n> \tr-sig-wiki at r-project.org\n> \n> To subscribe or unsubscribe via the World Wide Web, visit\n> \thttps://stat.e",
       "thread_id": "thread-622501765e5f",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000254.html"
     },
     {
       "id": "msg-fb8c0034cc56",
@@ -67,7 +70,8 @@
       "body_snippet": "Hi!\n\nI just noticed that some pages are scrambled. Any clues why?\n\nhttp://wiki.r-project.org/rwiki/doku.php?id=getting-started:installation:installation\n\n-- \nLep pozdrav / With regards,\n    Gregor Gor",
       "thread_id": "thread-fb8c0034cc56",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000255.html"
     },
     {
       "id": "msg-ff896470752e",
@@ -85,7 +89,8 @@
       "body_snippet": "Hello Gregor,\n\nYes, indeed, several pages were not correctly displayed. This is due a \nchange in the caching mechanisms in the Wiki engine (I have recently \nupgraded it). Now, there is a double-cachin",
       "thread_id": "thread-fb8c0034cc56",
       "thread_depth": 1,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000256.html"
     },
     {
       "id": "msg-82faeaa12d2c",
@@ -104,7 +109,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> Hello Gregor,\n> \n> Yes, indeed, several pages were not correctly displayed. This is due a\n> change in the caching mechanisms in the Wiki engine (I have recently\n> upgraded i",
       "thread_id": "thread-fb8c0034cc56",
       "thread_depth": 2,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000257.html"
     },
     {
       "id": "msg-5e7df1be7a8f",
@@ -125,7 +131,8 @@
       "body_snippet": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nRobin Hankin wrote:\n> Hi Ben\n> \n> yes, the wiki is the best place.  What is the best way to include Rnw\n> text while letting the user see the resulting  ",
       "thread_id": "thread-5e7df1be7a8f",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000258.html"
     },
     {
       "id": "msg-04a9a21e5edd",
@@ -146,7 +153,8 @@
       "body_snippet": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\nRobin Hankin wrote:\n> Hi Ben\n> \n> yes, the wiki is the best place.  What is the best way to include Rnw\n> text while letting the user see the resulting  ",
       "thread_id": "thread-04a9a21e5edd",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000259.html"
     },
     {
       "id": "msg-5d7e3d87064d",
@@ -162,7 +170,8 @@
       "body_snippet": "On Thu, 18 May 2006, Ben Bolker wrote:\n\n> -----BEGIN PGP SIGNED MESSAGE-----\n> Hash: SHA1\n> \n> Robin Hankin wrote:\n> > Hi Ben\n> > \n> > yes, the wiki is the best place.  What is the best way to include",
       "thread_id": "thread-04a9a21e5edd",
       "thread_depth": 1,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000260.html"
     },
     {
       "id": "msg-0d86c2f31d20",
@@ -180,7 +189,8 @@
       "body_snippet": "Hello,\n\nIndeed, this would be very nice if someone could write a \"SWeave2wiki\" \ndriver, perhaps inspired from the R2HTML \"Sweave2HTML\" driver. Eric \nLecoutre (author of R2HTML) told me how easy it was",
       "thread_id": "thread-04a9a21e5edd",
       "thread_depth": 2,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000261.html"
     },
     {
       "id": "msg-3599f65cac71",
@@ -199,7 +209,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> Hello,\n> \n> Indeed, this would be very nice if someone could write a \"SWeave2wiki\"\n> driver, perhaps inspired from the R2HTML \"Sweave2HTML\" driver. Eric\n> Lecoutre (author o",
       "thread_id": "thread-04a9a21e5edd",
       "thread_depth": 3,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000262.html"
     },
     {
       "id": "msg-8235478c2c20",
@@ -215,7 +226,8 @@
       "body_snippet": "Hi,\n\nI've just added a search plugin for the wiki in mycroft :\nhttp://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search\n\nRomain\n\n-- \nvisit the R Graph Gallery : http://addicte",
       "thread_id": "thread-8235478c2c20",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000263.html"
     },
     {
       "id": "msg-0c550108948d",
@@ -233,7 +245,8 @@
       "body_snippet": "Le 22.05.2006 23:10, Romain Francois a ?crit :\n> Hi,\n>\n> I've just added a search plugin for the wiki in mycroft :\n> http://mycroft.mozdev.org/download.html?name=rwiki&sherlock=yes&submitform=Search\n>",
       "thread_id": "thread-8235478c2c20",
       "thread_depth": 1,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000264.html"
     },
     {
       "id": "msg-a899e3926390",
@@ -251,7 +264,8 @@
       "body_snippet": "Hello Romain,\n\nThis does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I \nmean, it installs neatly, but when I try to use the R wiki search box, \nnothing happens.\nBest,\n\nPhilippe\n\n..........",
       "thread_id": "thread-8235478c2c20",
       "thread_depth": 1,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000265.html"
     },
     {
       "id": "msg-cdc0faffc802",
@@ -270,7 +284,8 @@
       "body_snippet": "Interesting.\n\nI'm using Firefox 1.5.0.1 under SuSE 9.2 x86_64 and it appears to work fine.\n\nRegards,\n\nDamian\n\n\n |  On Tue, 23 May 2006 17:51:44 +0200\n |  Philippe Grosjean <phgrosjean at sciviews.org>",
       "thread_id": "thread-8235478c2c20",
       "thread_depth": 2,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000266.html"
     },
     {
       "id": "msg-2d2885ec7388",
@@ -289,7 +304,8 @@
       "body_snippet": "Selon Philippe Grosjean <phgrosjean at sciviews.org>:\n\n> Hello Romain,\n>\n> This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I\n> mean, it installs neatly, but when I try to use the R w",
       "thread_id": "thread-8235478c2c20",
       "thread_depth": 2,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000267.html"
     },
     {
       "id": "msg-46020b2aa7cd",
@@ -305,7 +321,8 @@
       "body_snippet": "> Selon Philippe Grosjean <phgrosjean at sciviews.org>:\n> \n> \n>>> Hello Romain,\n>>>\n>>> This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I\n>>> mean, it installs neatly, but when I try",
       "thread_id": "thread-46020b2aa7cd",
       "thread_depth": 0,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000268.html"
     },
     {
       "id": "msg-622fedf79c95",
@@ -325,7 +342,8 @@
       "body_snippet": "francoisromain at free.fr wrote:\n> Selon Philippe Grosjean <phgrosjean at sciviews.org>:\n> \n> \n>>Hello Romain,\n>>\n>>This does not work for me (Firefox 1.5.0.3 under Windows XP sp2). I\n>>mean, it insta",
       "thread_id": "thread-8235478c2c20",
       "thread_depth": 3,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000269.html"
     },
     {
       "id": "msg-a5e6c855988e",
@@ -346,7 +364,8 @@
       "body_snippet": "I have now added a link to it in \nhttp://wiki.r-project.org/rwiki/doku.php?id=wiki:usage.\nThank you, Romain.\n\nPhG\n\n..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (  ",
       "thread_id": "thread-8235478c2c20",
       "thread_depth": 4,
-      "month": "2006-05"
+      "month": "2006-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-May/000270.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "I have this gmail account but can't manage it very well.  Too many\nmessages, too many lists, blah, blah...\n\nAnyway, I just noticed several messages in this list debating the\nquestion of whether I shou",
       "thread_id": "thread-aca88418a9ae",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000271.html"
     },
     {
       "id": "msg-359e4f769212",
@@ -35,7 +36,8 @@
       "body_snippet": "Having seen no answer thus far:\n\n    Parts but not all of Rtips have been migrated to the R wiki\n(I'd make a wild guess of about 30-50%.)  My personal preference\nwould be migration.  Apparently DocuWi",
       "thread_id": "thread-aca88418a9ae",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000272.html"
     },
     {
       "id": "msg-f34bbf8c3022",
@@ -51,7 +53,8 @@
       "body_snippet": "Like others, I've been busy and not made the kind of progress \nof converting Rtips to the R Wiki that I've wanted to. I had hoped to have \nsection 1 (Data input/output) done by now, but there is still",
       "thread_id": "thread-aca88418a9ae",
       "thread_depth": 2,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000273.html"
     },
     {
       "id": "msg-fd898836a2da",
@@ -214,7 +217,8 @@
       "body_snippet": "Nevermind.  Found a trial and error solution for testing numeric(0)\n\n\nI'm getting closer to an \"alltips.html\" output I can enjoy.\n\nhttp://pj.freefaculty.org/R/alltips.html\n\nI really think we should co",
       "thread_id": "thread-aca88418a9ae",
       "thread_depth": 8,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000281.html"
     },
     {
       "id": "msg-35a1f1da1a7f",
@@ -230,7 +234,8 @@
       "body_snippet": "OK, I'm traveling for 9 days after today, and so I have to stop\nplaying with the tip sheet generator and report my progress.\nConsider, for your entertainment:\n\nhttp://pj.freefaculty.org/R/alltips.html",
       "thread_id": "thread-35a1f1da1a7f",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000282.html"
     },
     {
       "id": "msg-b64c93d2162d",
@@ -274,7 +279,8 @@
       "body_snippet": "Philippe Grosjean <phgrosjean at sciviews.org> writes:\n\n> Paul Johnson wrote:\n> > I've just run the alltips program and did generate a big html file.\n> > \n> > http://pj.freefaculty.org/R/alltips.html\n",
       "thread_id": "thread-aca88418a9ae",
       "thread_depth": 6,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000284.html"
     },
     {
       "id": "msg-50174ceca897",
@@ -290,7 +296,8 @@
       "body_snippet": "Hello all,\n\nReally sorry for the short time that remains before we officially launch \nthe R Wiki (at UseR!2006, that is, this week!)\n\nI have been working hard this week-end to clean up the Wiki. I als",
       "thread_id": "thread-50174ceca897",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000285.html"
     },
     {
       "id": "msg-155ef6b3c4ab",
@@ -306,7 +313,8 @@
       "body_snippet": "Philippe, I think the changes to the start page and the sidebars are\nimprovements. Thank you.\n\nAlso, I'd encourage you and others who have the privedge of attending\nUseR!2006 to \"talk up\" the Wiki. In",
       "thread_id": "thread-50174ceca897",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000286.html"
     },
     {
       "id": "msg-eddb6cd0eb7f",
@@ -324,7 +332,8 @@
       "body_snippet": "Quoting Philippe Grosjean <phgrosjean at sciviews.org>:\n\n> Hello all,\n>\n> Really sorry for the short time that remains before we officially launch\n> the R Wiki (at UseR!2006, that is, this week!)\n>\n> ",
       "thread_id": "thread-50174ceca897",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000287.html"
     },
     {
       "id": "msg-31283b494f32",
@@ -343,7 +352,8 @@
       "body_snippet": "I agree, it looks really nice.\n\n  My only suggestion (if possible, at some point) is that [e.g.]\nfrom inside the tips page, when you expand a section, that the\nfull titles rather than just the names o",
       "thread_id": "thread-50174ceca897",
       "thread_depth": 2,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000288.html"
     },
     {
       "id": "msg-08ffd1e3d129",
@@ -363,7 +373,8 @@
       "body_snippet": "Ben Bolker wrote:\n>   I agree, it looks really nice.\n> \n>   My only suggestion (if possible, at some point) is that [e.g.]\n> from inside the tips page, when you expand a section, that the\n> full title",
       "thread_id": "thread-50174ceca897",
       "thread_depth": 3,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000289.html"
     },
     {
       "id": "msg-514f437ff522",
@@ -379,7 +390,8 @@
       "body_snippet": "I thought I posted this on Saturday, but did not see it come across\nthe e-mail list and didn't get any mail about it.\n\nConsider, for your entertainment:\n\nhttp://pj.freefaculty.org/R/alltips.html\n\nI di",
       "thread_id": "thread-514f437ff522",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000290.html"
     },
     {
       "id": "msg-d3179b374238",
@@ -395,7 +407,8 @@
       "body_snippet": "for a few of the \"tips\" sections, I wrote some short\noverview/introduction sections.  For example,\n\nhttp://wiki.r-project.org/rwiki/doku.php?id=tips:stats-distrib&s=distribution\n\n I have two questions",
       "thread_id": "thread-d3179b374238",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000291.html"
     },
     {
       "id": "msg-a33ff5b05d4d",
@@ -413,7 +426,8 @@
       "body_snippet": "Wow! that is weird.  I logged into the Wiki and your page was just\nunformatted stuff all jammed together.  Then I opened the page for\nediting, added one blank space, then previewed it and it looked fi",
       "thread_id": "thread-d3179b374238",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000292.html"
     },
     {
       "id": "msg-8de502ce6368",
@@ -432,7 +446,8 @@
       "body_snippet": "Paul Johnson wrote:\n> Wow! that is weird.  I logged into the Wiki and your page was just\n> unformatted stuff all jammed together.  Then I opened the page for\n> editing, added one blank space, then pre",
       "thread_id": "thread-d3179b374238",
       "thread_depth": 2,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000293.html"
     },
     {
       "id": "msg-0722d698f1e5",
@@ -450,7 +465,8 @@
       "body_snippet": "Ben Bolker wrote:\n>   for a few of the \"tips\" sections, I wrote some short\n> overview/introduction sections.  For example,\n> \n> http://wiki.r-project.org/rwiki/doku.php?id=tips:stats-distrib&s=distrib",
       "thread_id": "thread-d3179b374238",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000294.html"
     },
     {
       "id": "msg-a6f653bdef15",
@@ -467,6 +483,7 @@
       "thread_id": "thread-a6f653bdef15",
       "thread_depth": 0,
       "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000295.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20060618/7e39927c/attachment.pl"
       ]
@@ -487,7 +504,8 @@
       "body_snippet": "Hi Nick,\n\nThank you. I have done Rtip 1.7, see: \nhttp://wiki.r-project.org/rwiki/doku.php?id=tips:data-manip:cbind_different_row_size. \nSo, it looks like section 1 is done.\n\nThe Rtips conversion statu",
       "thread_id": "thread-a6f653bdef15",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000296.html"
     },
     {
       "id": "msg-8b241bb62595",
@@ -503,7 +521,8 @@
       "body_snippet": "Is it readily possible to get a consolidated file (pdf or html  \nor ...) that has\nall the tips?\n\nJohn Maindonald             email: john.maindonald at anu.edu.au\nphone : +61 2 (6125)3473    fax  : +61",
       "thread_id": "thread-8b241bb62595",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000297.html"
     },
     {
       "id": "msg-15a97030154c",
@@ -519,7 +538,8 @@
       "body_snippet": "Hello,\n\nI just want to mention a problem with providing wiki pages in a \ndifferent format (many people ask for the R tips in a single HTML or PDF \npage). Accessing tips, or any other pages, in a diffe",
       "thread_id": "thread-15a97030154c",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000298.html"
     },
     {
       "id": "msg-8395ef5c1ce0",
@@ -535,7 +555,8 @@
       "body_snippet": "Hello R Wiki Team!\n\nJust to mention that we have now a daily backup of the Wiki. So, it \nshould be safe: if you notice a problem due to a bad attack of the \nserver (a Wiki is always rather sensitive, ",
       "thread_id": "thread-8395ef5c1ce0",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000299.html"
     },
     {
       "id": "msg-4206a90504ff",
@@ -553,7 +574,8 @@
       "body_snippet": "I would respectfully disagree.  The Wiki is for editing, not\nnecessarily for presentation.  We have to remember that 99% of people\nwho will stumble into the Wiki are new users who probably won't want\n",
       "thread_id": "thread-15a97030154c",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000300.html"
     },
     {
       "id": "msg-8647ed1d302d",
@@ -592,7 +614,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n\n> \n> I still see a couple of unformatted tips in your last document. Was it \n> generated lately?\n> \n\n  Gives a date of June 10 at the top.\n\n  There seem to be missing bits, w",
       "thread_id": "thread-15a97030154c",
       "thread_depth": 3,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000302.html"
     },
     {
       "id": "msg-0e2a0f389fd3",
@@ -610,7 +633,8 @@
       "body_snippet": "How about something like the shortest set of examples that show the \ndifferent ways that   the formula, data & weights arguments can be \nsupplied to m<-lm(...) predict(m,...) (& the pitfalls)?  Part o",
       "thread_id": "thread-8395ef5c1ce0",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000303.html"
     },
     {
       "id": "msg-1b9310310233",
@@ -631,7 +655,8 @@
       "body_snippet": "It looks like I have some re-working to do.\n\nUnfortunately, this command that starts off the whole script\n\n\nrawimport <- readLines(\"http://wiki.r-project.org/rwiki/doku.php?id=tips:tips&do=export_raw\"",
       "thread_id": "thread-15a97030154c",
       "thread_depth": 4,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000304.html"
     },
     {
       "id": "msg-f2d4c1c203df",
@@ -647,7 +672,8 @@
       "body_snippet": "I still don't understand php as well as I do perl for CGI, so some\nthings about the R wiki surprise me.  Maybe I oppose javascript too\nmuch.  Or, well, I don't want to require users to turn it on.\n\nIn",
       "thread_id": "thread-f2d4c1c203df",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000305.html"
     },
     {
       "id": "msg-cbe6bf0738f8",
@@ -665,7 +691,8 @@
       "body_snippet": "It would be nice to number the sections.\n\nOn 6/24/06, Paul Johnson <pauljohn32 at gmail.com> wrote:\n> I still don't understand php as well as I do perl for CGI, so some\n> things about the R wiki surpr",
       "thread_id": "thread-f2d4c1c203df",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000306.html"
     },
     {
       "id": "msg-e5d263e71561",
@@ -683,7 +710,8 @@
       "body_snippet": "There's another point.  The way I use such lists is to quickly scan  \nit to\nsee if what I want is present.  Or, I may just be browsing to get an  \nidea\nof the style and content.  I do not want to have",
       "thread_id": "thread-e5d263e71561",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000307.html"
     },
     {
       "id": "msg-71b4606de98c",
@@ -699,7 +727,8 @@
       "body_snippet": "Hello all,\n\nThere is a new section on the R Wiki (hhtp://wiki.r-project.org) \ndedicated to discussions around various R developments \n(http://wiki.r-project.org/rwiki/doku.php?id=developers:developers",
       "thread_id": "thread-71b4606de98c",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000308.html"
     },
     {
       "id": "msg-26f1a34e6b01",
@@ -715,7 +744,8 @@
       "body_snippet": "Hello all,\n\nWhere's the appropriate place to create pages for these? I've got some \nnotes on packages like GDD from rosuda.org that I'd like to place in the \nwiki, and I'd also like to create a page f",
       "thread_id": "thread-26f1a34e6b01",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000309.html"
     },
     {
       "id": "msg-4008c9a1573a",
@@ -731,7 +761,8 @@
       "body_snippet": "I put in my first wiki page and found it difficult. I guessed on how\nto create a page and that worked.  I navigated to the graphics section\nand want to insert a tip at the beginning of the basic graph",
       "thread_id": "thread-4008c9a1573a",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000310.html"
     },
     {
       "id": "msg-c951782fdf9c",
@@ -749,7 +780,8 @@
       "body_snippet": "I'm not sure I understand all your questions, but I'll give it\na try.\n\n  First of all, \"0savegraphs\" *does* show up, in the expandable\nindex generated in tips:tips, and in the \"full contents\" section\n",
       "thread_id": "thread-4008c9a1573a",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000311.html"
     },
     {
       "id": "msg-2577006c1c55",
@@ -768,7 +800,8 @@
       "body_snippet": "Thanks. I put in my own menu item under Base (standard) graphics here:\n\nhttp://wiki.r-project.org/rwiki/doku.php?id=tips:graphics-base\n\nNow I just need help from Phillipe on making the rawexport do wh",
       "thread_id": "thread-4008c9a1573a",
       "thread_depth": 2,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000312.html"
     },
     {
       "id": "msg-930940cbdae3",
@@ -788,7 +821,8 @@
       "body_snippet": "Hello Paul,\n\nI think that Ben answered your question correctly, and I will give a \nlittle bit more explanation on how and why the Wiki works like that:\n\n1) \"I even can't navigate the Wiki with javascr",
       "thread_id": "thread-4008c9a1573a",
       "thread_depth": 3,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000313.html"
     },
     {
       "id": "msg-ea69f291c4f9",
@@ -806,7 +840,8 @@
       "body_snippet": "... Oh, I forgot to tell: it should be rather easy to change \ngetWikiTipsIndex() to make it sort sections in a given order: just \nprovide an argument with a list of sections in the order you want. It ",
       "thread_id": "thread-4008c9a1573a",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000314.html"
     },
     {
       "id": "msg-34a40cc4fe41",
@@ -879,7 +914,8 @@
       "body_snippet": "I'm attaching \"alltips3.R\", on which I have worked pretty hard.  This\ncombines the \"rawexport\" feature to get the headings, with the newer\ngetWikiIndex functions to do the dirty work.  It breaks up th",
       "thread_id": "thread-e33ad5672b99",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000318.html"
     },
     {
       "id": "msg-d4c25f13b7a7",
@@ -897,7 +933,8 @@
       "body_snippet": "Paul Johnson wrote:\n> I'm attaching \"alltips3.R\", on which I have worked pretty hard.  This\n> combines the \"rawexport\" feature to get the headings, with the newer\n> getWikiIndex functions to do the di",
       "thread_id": "thread-e33ad5672b99",
       "thread_depth": 1,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-June/000319.html"
     }
   ],
   "threads": [

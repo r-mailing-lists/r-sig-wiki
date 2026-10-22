@@ -19,7 +19,8 @@
       "body_snippet": "Hello Ben and the other,\n\nI am a little bit off R wiki this week, because I have urgent tasks. \nHowever, be sure I will work on the structure next week.\n\nBen Bolker wrote:\n>   1. how would you insert ",
       "thread_id": "thread-72d7417ce6a4",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000089.html"
     },
     {
       "id": "msg-a5a7067774e5",
@@ -35,7 +36,8 @@
       "body_snippet": "Hello all,\nThanks a lot for your contributions. I know that a Wiki page is \nrelatively free. However, please, note the following when adding pages \n(keep in mind that these pages will be examples for ",
       "thread_id": "thread-a5a7067774e5",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000090.html"
     },
     {
       "id": "msg-775932467764",
@@ -53,7 +55,8 @@
       "body_snippet": "Philippe Grosjean <phgrosjean at sciviews.org> writes:\n\n> - Try to format R code as the implicit \"R-Core Team formatting\", in \n> particular:\n>    + Forget about T/F and always use TRUE/FALSE\n>    + Fo",
       "thread_id": "thread-a5a7067774e5",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000091.html"
     },
     {
       "id": "msg-94155e7fef03",
@@ -72,7 +75,8 @@
       "body_snippet": "..............................................<?}))><........\n  ) ) ) ) )\n( ( ( ( (    Prof. Philippe Grosjean\n  ) ) ) ) )\n( ( ( ( (    Numerical Ecology of Aquatic Systems\n  ) ) ) ) )   Mons-Hainaut ",
       "thread_id": "thread-a5a7067774e5",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000092.html"
     },
     {
       "id": "msg-8ef09d49b400",
@@ -90,7 +94,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n\n> [snip]\n> - Try to write code directly executable in R in <code r></code> chunks. \n> For instance:\n> <code r>\n> a <- 1:4\n> a  # [1] 1 2 3 4\n> </code>\n> \n> is better than:\n> ",
       "thread_id": "thread-a5a7067774e5",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000093.html"
     },
     {
       "id": "msg-0313ffd462cc",
@@ -109,7 +114,8 @@
       "body_snippet": "Tony Plate wrote:\n> Philippe Grosjean wrote:\n> \n>> [snip]\n>> - Try to write code directly executable in R in <code r></code> \n>> chunks. For instance:\n>> <code r>\n>> a <- 1:4\n>> a  # [1] 1 2 3 4\n>> </",
       "thread_id": "thread-a5a7067774e5",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000094.html"
     },
     {
       "id": "msg-c51e5f5fc75f",
@@ -125,7 +131,8 @@
       "body_snippet": "Hi there,\n\nCan I add content to the wiki today? My criteria are simple: if I come \nacross a post on r-help that I think is worth preserving, I'd like to add it \nto the wiki. For example, I want to get",
       "thread_id": "thread-c51e5f5fc75f",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000095.html"
     },
     {
       "id": "msg-289ee477c9d2",
@@ -143,7 +150,8 @@
       "body_snippet": "Jack Tanner wrote:\n> Hi there,\n> \n> Can I add content to the wiki today? My criteria are simple: if I come \n> across a post on r-help that I think is worth preserving, I'd like to add it \n> to the wik",
       "thread_id": "thread-c51e5f5fc75f",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000096.html"
     },
     {
       "id": "msg-e4652cfd98eb",
@@ -161,7 +169,8 @@
       "body_snippet": "Jack Tanner wrote:\n> Can I add content to the wiki today? My criteria are simple: if I come \n> across a post on r-help that I think is worth preserving, I'd like to add it \n> to the wiki. For example,",
       "thread_id": "thread-c51e5f5fc75f",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000097.html"
     },
     {
       "id": "msg-037c5f77cad8",
@@ -180,7 +189,8 @@
       "body_snippet": "I think it's unlikely that adding posts from R-help to the wiki will \ncreate unmanageable problems.  To a large extent, I think it's a \nself-regulating thing: it's work to add posts, and while it migh",
       "thread_id": "thread-c51e5f5fc75f",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000098.html"
     },
     {
       "id": "msg-1e96932011b0",
@@ -196,7 +206,8 @@
       "body_snippet": "I am retructuring completelly the Web site. Please, stop edition of all \ncurrent pages: they will be lost in the new version!\n\nThe new structure is a personal interpretation of the proposed \norganizat",
       "thread_id": "thread-1e96932011b0",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000099.html"
     },
     {
       "id": "msg-9ac2640af76a",
@@ -212,7 +223,8 @@
       "body_snippet": "From: paul sorenson\n>Quite apart from your \"when\" question, I would be interested to see what \n>others feel about adding posts.  My thoughts are that if the information is \n>valuable then it should be",
       "thread_id": "thread-c51e5f5fc75f",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000100.html"
     },
     {
       "id": "msg-c336e4221bd1",
@@ -230,7 +242,8 @@
       "body_snippet": "Jack Tanner wrote:\n> From: paul sorenson\n> \n>>Quite apart from your \"when\" question, I would be interested to see what \n>>others feel about adding posts.  My thoughts are that if the information is \n>",
       "thread_id": "thread-c51e5f5fc75f",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000101.html"
     },
     {
       "id": "msg-3a6404ea838b",
@@ -248,7 +261,8 @@
       "body_snippet": "Since the pages will be editable by all, except for the main pages, the pages that are created\ncan constantly be refined and added to (especially including hyperlinks to other pages with\nrelevant cont",
       "thread_id": "thread-c51e5f5fc75f",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000102.html"
     },
     {
       "id": "msg-c12ee3eaac1e",
@@ -264,7 +278,8 @@
       "body_snippet": "OK, this is it! I reworked completely the site. I did some adaptation to \nthe proposed scheme. Indeed, we forgot to consider that names should \npreferably be as short as possible. For instance, I did ",
       "thread_id": "thread-c12ee3eaac1e",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000103.html"
     },
     {
       "id": "msg-540b03a82f34",
@@ -282,7 +297,8 @@
       "body_snippet": "Would it be possible to place a url to the r wiki home page on the\n\n   https://stat.ethz.ch/mailman/listinfo/r-sig-wiki\n\npage or else at the bottom of each post on this list?\n\n\nOn 2/1/06, Philippe Gro",
       "thread_id": "thread-c12ee3eaac1e",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000104.html"
     },
     {
       "id": "msg-d40812a94edc",
@@ -301,7 +317,8 @@
       "body_snippet": ">>>>> \"Gabor\" == Gabor Grothendieck <ggrothendieck at gmail.com>\n>>>>>     on Wed, 1 Feb 2006 22:04:36 -0500 writes:\n\n    Gabor> Would it be possible to place a url to the r wiki\n    Gabor> home page ",
       "thread_id": "thread-c12ee3eaac1e",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000105.html"
     },
     {
       "id": "msg-482dc3df1497",
@@ -321,7 +338,8 @@
       "body_snippet": "Thank you, Martin, for doing this. I don't want to advertize too much \nabout the Wiki, and especially about the Wiki URL because it will \ncertainly change in the future.\n\nBest,\n\nPhilippe\n\nMartin Maech",
       "thread_id": "thread-c12ee3eaac1e",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000106.html"
     },
     {
       "id": "msg-a06fb4865038",
@@ -337,7 +355,8 @@
       "body_snippet": "OK, let's proceed step-by-step.\n\nDo we agree with the top level structure of the wiki:\n\n- beginners: collects together material for first time R users (and for \ncurious people wanting to discover what",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000107.html"
     },
     {
       "id": "msg-a3528f1c04e9",
@@ -353,7 +372,8 @@
       "body_snippet": "On Thu, 2 Feb 2006, Philippe Grosjean wrote:\n\n> OK, let's proceed step-by-step.\n> \n> Do we agree with the top level structure of the wiki:\n> \n> - beginners: collects together material for first time R",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000108.html"
     },
     {
       "id": "msg-e9f5fe81e2d4",
@@ -371,7 +391,8 @@
       "body_snippet": "Roger Bivand wrote:\n> On Thu, 2 Feb 2006, Philippe Grosjean wrote:\n> \n> \n>>OK, let's proceed step-by-step.\n>>\n>>Do we agree with the top level structure of the wiki:\n>>\n>>- beginners: collects togethe",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000109.html"
     },
     {
       "id": "msg-44a1d4ae96eb",
@@ -389,7 +410,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> OK, let's proceed step-by-step.\n> \n> Do we agree with the top level structure of the wiki:\n> \n> - beginners: collects together material for first time R users (and for \n> cu",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000110.html"
     },
     {
       "id": "msg-ee09fa9b3fe7",
@@ -409,7 +431,8 @@
       "body_snippet": "Thanks.\n\nOn 2/2/06, Martin Maechler <maechler at stat.math.ethz.ch> wrote:\n> >>>>> \"Gabor\" == Gabor Grothendieck <ggrothendieck at gmail.com>\n> >>>>>     on Wed, 1 Feb 2006 22:04:36 -0500 writes:\n>\n> ",
       "thread_id": "thread-c12ee3eaac1e",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000111.html"
     },
     {
       "id": "msg-0b6bb67c0669",
@@ -425,7 +448,8 @@
       "body_snippet": "On Thu, 2 Feb 2006, Philippe Grosjean wrote:\n\n> Roger Bivand wrote:\n> > On Thu, 2 Feb 2006, Philippe Grosjean wrote:\n> > \n> > \n> >>OK, let's proceed step-by-step.\n> >>\n> >>Do we agree with the top lev",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000112.html"
     },
     {
       "id": "msg-c27035ecf117",
@@ -444,7 +468,8 @@
       "body_snippet": "If its not feasible to somehow merge Task Views and the wiki\nthere could at least be a section with one heading per subject\narea which should be top level.\n\ntime series\neconometrics\nfisheries\nfinance\n",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000113.html"
     },
     {
       "id": "msg-1e3d615d0af6",
@@ -462,7 +487,8 @@
       "body_snippet": "On 2/2/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> OK, let's proceed step-by-step.\n>\n> Do we agree with the top level structure of the wiki:\n>\n> - beginners: collects together material",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000114.html"
     },
     {
       "id": "msg-f8c31065b76a",
@@ -481,7 +507,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> On 2/2/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> \n>>OK, let's proceed step-by-step.\n>>\n>>Do we agree with the top level structure of the wiki:\n>>\n>>- begi",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000115.html"
     },
     {
       "id": "msg-77f19084ded0",
@@ -501,7 +528,8 @@
       "body_snippet": "On 2/2/06, Ben Bolker <bolker at zoo.ufl.edu> wrote:\n> Gabor Grothendieck wrote:\n> > On 2/2/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> >\n> >>OK, let's proceed step-by-step.\n> >>\n> >>D",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000116.html"
     },
     {
       "id": "msg-4ad1dee7003c",
@@ -517,7 +545,8 @@
       "body_snippet": "[I keep sending to r-sig-wiki-requests by accident! Sorry]\n\n     > cookbook/examples and ask the group to consider splitting data\n     > manipulation examples from analysis examples.  Data manipulatio",
       "thread_id": "thread-4ad1dee7003c",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000117.html"
     },
     {
       "id": "msg-aba8d88981dd",
@@ -536,7 +565,8 @@
       "body_snippet": "Hi Gabor,\n\nYou seem to ask much changes. Could you please, make these comments in \nth Wiki page directly. It is much work to me to read this email, and \nthen to reflect the ideas in the structure and/",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000118.html"
     },
     {
       "id": "msg-54e45192d249",
@@ -556,7 +586,8 @@
       "body_snippet": "where is the discussion you are referring to on the wiki?\n\nOn 2/2/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> Hi Gabor,\n>\n> You seem to ask much changes. Could you please, make these c",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000119.html"
     },
     {
       "id": "msg-0d6c836b02d4",
@@ -576,7 +607,8 @@
       "body_snippet": "Ben Bolker wrote:\n>> [...]\n\n>>> There is also a rather sober proposal for the 'start' page. Please, keep\n>>> in mind that the 'index' at left will be replaced with a sidebar\n>>> proposing direct links",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000120.html"
     },
     {
       "id": "msg-0dd61a6dbfce",
@@ -597,7 +629,8 @@
       "body_snippet": "On the Beginners section.   The first thing one wants to know is not\nhow to install R but what is R, what are its capabilities including\na sense of the variety of functionality available through the c",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 4,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000121.html"
     },
     {
       "id": "msg-e3da3d8d4c4c",
@@ -618,7 +651,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> where is the discussion you are referring to on the wiki?\n\nhttp://www.sciviews.org/_rgui/wiki/doku.php?id=misc:organization_discussion2\n\nPhG",
       "thread_id": "thread-a06fb4865038",
       "thread_depth": 4,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000122.html"
     },
     {
       "id": "msg-a08462f47c7f",
@@ -634,7 +668,8 @@
       "body_snippet": "A new consensus, trying to take your remarks into account, and anew \ndiscussion page at: \nhttp://www.sciviews.org/_rgui/wiki/doku.php?id=misc:organization_discussion2\nBest,\n\nPhilippe Grosjean",
       "thread_id": "thread-a08462f47c7f",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000123.html"
     },
     {
       "id": "msg-1471ac3be55d",
@@ -650,7 +685,8 @@
       "body_snippet": "Does the DocuWiki engine support having RSS feeds for individual\npages.  It's appears that it does not support email notifications. \nI'm thinking people will be very curious about certain pages, but n",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000124.html"
     },
     {
       "id": "msg-cd3a4be71bb9",
@@ -668,7 +704,8 @@
       "body_snippet": "Ben Bolker wrote:\n>  [I keep sending to r-sig-wiki-requests by accident! Sorry]\n> \n>     > cookbook/examples and ask the group to consider splitting data\n>     > manipulation examples from analysis ex",
       "thread_id": "thread-4ad1dee7003c",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000125.html"
     },
     {
       "id": "msg-0cff0cf9368e",
@@ -687,7 +724,8 @@
       "body_snippet": "Frank E Harrell Jr wrote:\n\n> [...]\n> \n> I think that's enough, just think that Data Manipulation should be \n> promoted to a section.\n> \n> Frank\n\nOne has to decide and keep consistent: the current top ",
       "thread_id": "thread-4ad1dee7003c",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000126.html"
     },
     {
       "id": "msg-7a2a18dd8007",
@@ -705,7 +743,8 @@
       "body_snippet": "Peter Cowan wrote:\n> Does the DocuWiki engine support having RSS feeds for individual\n> pages.  It's appears that it does not support email notifications. \n> I'm thinking people will be very curious a",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000127.html"
     },
     {
       "id": "msg-7e4ea1646ef8",
@@ -724,7 +763,8 @@
       "body_snippet": "All,\n\nGiven the volume of material that will eventually be contained in the Wiki, it might be worthwhile to\nconsider disaggregating the contents given on the main page. An example that I like is the S",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000128.html"
     },
     {
       "id": "msg-ff87d9dd5db2",
@@ -744,7 +784,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> Frank E Harrell Jr wrote:\n> \n>> [...]\n>>\n>> I think that's enough, just think that Data Manipulation should be \n>> promoted to a section.\n>>\n>> Frank\n> \n> \n> One has to deci",
       "thread_id": "thread-4ad1dee7003c",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000129.html"
     },
     {
       "id": "msg-4432167abe2f",
@@ -765,7 +806,8 @@
       "body_snippet": "Frank E Harrell Jr wrote:\n> Philippe Grosjean wrote:\n> \n>> Frank E Harrell Jr wrote:\n>>\n>>> [...]\n>>>\n>>> I think that's enough, just think that Data Manipulation should be \n>>> promoted to a section.",
       "thread_id": "thread-4ad1dee7003c",
       "thread_depth": 4,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000130.html"
     },
     {
       "id": "msg-7670c9b7826c",
@@ -787,7 +829,8 @@
       "body_snippet": "Philippe Grosjean wrote:\n> Frank E Harrell Jr wrote:\n> \n>> Philippe Grosjean wrote:\n>>\n>>> Frank E Harrell Jr wrote:\n>>>\n>>>> [...]\n>>>>\n>>>> I think that's enough, just think that Data Manipulation s",
       "thread_id": "thread-4ad1dee7003c",
       "thread_depth": 5,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000131.html"
     },
     {
       "id": "msg-ad6aff24995e",
@@ -807,7 +850,8 @@
       "body_snippet": "Damian Betebenner wrote:\n> All,\n> \n> Given the volume of material that will eventually be contained in the Wiki, it might be worthwhile to\n> consider disaggregating the contents given on the main page",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 3,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000132.html"
     },
     {
       "id": "msg-499a2266651d",
@@ -828,7 +872,8 @@
       "body_snippet": "This is looking very good.  A few comments:\n\n- what is the difference among Manuals, Cookbooks and Tips and Tricks.\nIts not clear to me.\n\n- Translations sounds like different spoken languages such as ",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 4,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000133.html"
     },
     {
       "id": "msg-dcf3f93216ea",
@@ -850,7 +895,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> This is looking very good.  \n\n   definitely agree.  I think we may eventually want\nto tweak the categories in Tips&tricks, but we're getting\nto the point now where we'll ne",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 5,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000134.html"
     },
     {
       "id": "msg-adb9eca9535d",
@@ -873,7 +919,8 @@
       "body_snippet": "On 2/3/06, Ben Bolker <bolker at zoo.ufl.edu> wrote:\n> Gabor Grothendieck wrote:\n> > This is looking very good.\n>\n>   definitely agree.  I think we may eventually want\n> to tweak the categories in Tip",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 6,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000135.html"
     },
     {
       "id": "msg-845e41997433",
@@ -897,7 +944,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n\n>> [GG]\n>>A few comments:\n>>\n>>>- what is the difference among Manuals, Cookbooks and Tips and Tricks.\n>>>Its not clear to me.\n>>  [BB]\n>>   Manuals and \"cookbooks\" are long",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 7,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000136.html"
     },
     {
       "id": "msg-88c2ff59737f",
@@ -922,7 +970,8 @@
       "body_snippet": "On 2/3/06, Ben Bolker <bolker at zoo.ufl.edu> wrote:\n> Gabor Grothendieck wrote:\n>\n> >> [GG]\n> >>A few comments:\n> >>\n> >>>- what is the difference among Manuals, Cookbooks and Tips and Tricks.\n> >>>I",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 8,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000137.html"
     },
     {
       "id": "msg-1223109fc0f7",
@@ -948,7 +997,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> \n> Yes, I am looking at that link.  Reproducing part of it here:\n> \n> Getting Started\n> Do you want to know what R is, or do you want to start using it? Get\n> started. I tr",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 9,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000138.html"
     },
     {
       "id": "msg-0faffa4e6744",
@@ -972,7 +1022,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> On 2/3/06, Ben Bolker <bolker at zoo.ufl.edu> wrote:\n> \n>>Gabor Grothendieck wrote:\n>>\n>>>This is looking very good.\n>>\n>>  definitely agree.  I think we may eventually wan",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 7,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000139.html"
     },
     {
       "id": "msg-3ca2fb729961",
@@ -997,7 +1048,8 @@
       "body_snippet": "Ben Bolker wrote:\n> Gabor Grothendieck wrote:\n> \n> \n>>>[GG]\n>>>A few comments:\n>>>\n>>>\n>>>>- what is the difference among Manuals, Cookbooks and Tips and Tricks.\n>>>>Its not clear to me.\n>>>\n>>> [BB]\n",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 8,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000140.html"
     },
     {
       "id": "msg-476029a9c421",
@@ -1023,7 +1075,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> On 2/3/06, Ben Bolker <bolker at zoo.ufl.edu> wrote:\n> \n>>Gabor Grothendieck wrote:\n>>\n>>\n>>>>[GG]\n>>>>A few comments:\n>>>>\n>>>>\n>>>>>- what is the difference among Manuals",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 9,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000141.html"
     },
     {
       "id": "msg-a852479b98ac",
@@ -1050,7 +1103,8 @@
       "body_snippet": "On 2/4/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> Gabor Grothendieck wrote:\n> > On 2/3/06, Ben Bolker <bolker at zoo.ufl.edu> wrote:\n> >\n> >>Gabor Grothendieck wrote:\n> >>\n> >>\n> >>>>",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 10,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000142.html"
     },
     {
       "id": "msg-aca124cb5e5c",
@@ -1077,7 +1131,8 @@
       "body_snippet": "On 2/4/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> Gabor Grothendieck wrote:\n> > On 2/3/06, Ben Bolker <bolker at zoo.ufl.edu> wrote:\n> >\n> >>Gabor Grothendieck wrote:\n> >>\n> >>\n> >>>>",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 10,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000143.html"
     },
     {
       "id": "msg-c0f34b16239d",
@@ -1103,7 +1158,8 @@
       "body_snippet": "On 2/4/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> Ben Bolker wrote:\n> > Gabor Grothendieck wrote:\n> >\n> >\n> >>>[GG]\n> >>>A few comments:\n> >>>\n> >>>\n> >>>>- what is the difference amo",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 9,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000144.html"
     },
     {
       "id": "msg-abd2783799c2",
@@ -1130,7 +1186,8 @@
       "body_snippet": "On 2/4/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:\n> On 2/4/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n> > Gabor Grothendieck wrote:\n> > > On 2/3/06, Ben Bolker <bolker a",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 11,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000145.html"
     },
     {
       "id": "msg-793e6ada4a3f",
@@ -1158,7 +1215,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> On 2/4/06, Gabor Grothendieck <ggrothendieck at gmail.com> wrote:\n> \n>>On 2/4/06, Philippe Grosjean <phgrosjean at sciviews.org> wrote:\n>>\n>>>Gabor Grothendieck wrote:\n>>>\n",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 12,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000146.html"
     },
     {
       "id": "msg-4bd8f89d9df7",
@@ -1183,7 +1241,8 @@
       "body_snippet": ">>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>     on Sat, 04 Feb 2006 08:17:38 +0100 writes:\n\n    PhGr> Gabor Grothendieck wrote:\n    >> On 2/3/06, Ben Bolker <bolker at zoo.ufl",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 8,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000147.html"
     },
     {
       "id": "msg-49f509de5a5a",
@@ -1209,7 +1268,8 @@
       "body_snippet": "Martin Maechler wrote:\n>>>>>>\"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>>    on Sat, 04 Feb 2006 08:17:38 +0100 writes:\n> \n> \n>     PhGr> Gabor Grothendieck wrote:\n>     >> On 2/3/0",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 9,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000148.html"
     },
     {
       "id": "msg-16b0da6edda0",
@@ -1236,7 +1296,8 @@
       "body_snippet": ">>>>> \"PhGr\" == Philippe Grosjean <phgrosjean at sciviews.org>\n>>>>>     on Sat, 04 Feb 2006 14:50:54 +0100 writes:\n\n    PhGr> Martin Maechler wrote:\n    >>>>>>> \"PhGr\" == Philippe Grosjean <phgrosjea",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 10,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000149.html"
     },
     {
       "id": "msg-054041de19dc",
@@ -1263,7 +1324,8 @@
       "body_snippet": "All,\n\nWouldn't it be good to allow modification/supplementation of the Examples in the .Rd files put on the Wiki.\nPerhaps this is what you mean by the \"discussion section\" at the end that will be edit",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 10,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000150.html"
     },
     {
       "id": "msg-f1a531d00620",
@@ -1291,7 +1353,8 @@
       "body_snippet": "Damian Betebenner wrote:\n> All,\n> \n> Wouldn't it be good to allow modification/supplementation of the Examples in the .Rd files put on the Wiki.\n> Perhaps this is what you mean by the \"discussion sect",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 11,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000151.html"
     },
     {
       "id": "msg-0e51c9d0007c",
@@ -1318,7 +1381,8 @@
       "body_snippet": "I brought this example up before but since the conversation is back\nto this the PHP Manual allows placing of comments at the end.\nHere is a typical page with user comments at the end:\n\n   http://www.p",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 12,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000152.html"
     },
     {
       "id": "msg-be346e7dc061",
@@ -1334,7 +1398,8 @@
       "body_snippet": "Perhaps a wish list of features/issues/bugs for R could be added to the wiki.\nNot sure where the best place for that to go would be.",
       "thread_id": "thread-be346e7dc061",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000153.html"
     },
     {
       "id": "msg-7baaf6a3f9aa",
@@ -1352,7 +1417,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> Perhaps a wish list of features/issues/bugs for R could be added to the wiki.\n> Not sure where the best place for that to go would be.\n\nJust put this in miscellaneous for t",
       "thread_id": "thread-be346e7dc061",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000154.html"
     },
     {
       "id": "msg-50d26bbac2c7",
@@ -1371,7 +1437,8 @@
       "body_snippet": "If that is the link labelled Gripes and Frustrations then I think\nit should be relabelled Wishlist.  Gripes and Frustrations is too\nnegative and also many wish items are neither gripes nor\nfrustration",
       "thread_id": "thread-be346e7dc061",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000156.html"
     },
     {
       "id": "msg-354d40202bad",
@@ -1399,7 +1466,8 @@
       "body_snippet": "I agree that improved examples could be one of the best\nthings to come out of the wiki.  The lack of examples is\nto me the most obvious defect in Unix documentation.  It\nis sometimes not easy to think",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 11,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000155.html"
     },
     {
       "id": "msg-39f06a3668de",
@@ -1426,7 +1494,8 @@
       "body_snippet": "I added some links to this page but they did not come out\nclickable.  What is wrong?  Thanks.\n\nhttp://www.sciviews.org/_rgui/wiki/doku.php?id=misc:wishlist",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 11,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000157.html"
     },
     {
       "id": "msg-5a2dc19a0d99",
@@ -1442,7 +1511,8 @@
       "body_snippet": "I've had a brief email conversation with Romain\nFrancois about the prospect of incorporating the\nR graphics gallery into the R-wiki.\n\nI, perhaps naively, thought that such a merger would\nbe a good ide",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000158.html"
     },
     {
       "id": "msg-8334491107f3",
@@ -1628,7 +1698,8 @@
       "body_snippet": "Le 13.02.2006 17:58, Philippe Grosjean a ?crit :\n> Gabor Grothendieck wrote:\n>> Aside from how or where this would be accomplished,\n>> I think it would be useful if each graphic had a one or two\n>> pa",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 5,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000167.html"
     },
     {
       "id": "msg-861a29c25ae6",
@@ -1651,7 +1722,8 @@
       "body_snippet": "Le 13.02.2006 18:27, Romain Francois a ?crit :\n> Le 13.02.2006 17:58, Philippe Grosjean a ?crit :\n>   \n>> Gabor Grothendieck wrote:\n>>     \n>>> Aside from how or where this would be accomplished,\n>>> ",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 6,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000168.html"
     },
     {
       "id": "msg-0e39618e9567",
@@ -1675,7 +1747,8 @@
       "body_snippet": "Romain Francois wrote:\n> Le 13.02.2006 13:48, Philippe Grosjean a ?crit :\n> \n>> Romain Francois wrote:\n> [...]\n> Hi again,\n> \n> Here is a first draft : http://addictedtor.free.fr/misc/wiki.png\n> I wou",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 7,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000169.html"
     },
     {
       "id": "msg-23aeda0ade12",
@@ -1698,7 +1771,8 @@
       "body_snippet": "Romain Francois wrote:\n> Le 13.02.2006 17:58, Philippe Grosjean a ?crit :\n> \n>> Gabor Grothendieck wrote:\n>>\n>>> Aside from how or where this would be accomplished,\n>>> I think it would be useful if e",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 6,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000170.html"
     },
     {
       "id": "msg-0195d63362b5",
@@ -1722,7 +1796,8 @@
       "body_snippet": "(...)\n>>\n>> I agree. That solution is the easiest, and i think the better.\n>>\n>> Is there a way to add new commands to the wiki, such as <gg 25> that \n>> will add the corresponding image, ie : \n>> htt",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 7,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000171.html"
     },
     {
       "id": "msg-0bf0366a5cb4",
@@ -1747,7 +1822,8 @@
       "body_snippet": "Le 13.02.2006 19:00, Philippe Grosjean a ?crit :\n> Romain Francois wrote:\n>> Le 13.02.2006 13:48, Philippe Grosjean a ?crit :\n>>\n>>> Romain Francois wrote:\n>> [...]\n>> Hi again,\n>>\n>> Here is a first ",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 8,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000172.html"
     },
     {
       "id": "msg-a1aacf895ea1",
@@ -1773,7 +1849,8 @@
       "body_snippet": "On 2/13/06, Romain Francois <francoisromain at free.fr> wrote:\n> Le 13.02.2006 19:00, Philippe Grosjean a ?crit :\n> > Romain Francois wrote:\n> >> Le 13.02.2006 13:48, Philippe Grosjean a ?crit :\n> >>\n",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 9,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000173.html"
     },
     {
       "id": "msg-b5b8354b86c2",
@@ -1800,7 +1877,8 @@
       "body_snippet": ">> Hi all,\n>>\n>> Here's the image i have so far : http://addictedtor.free.fr/misc/wiki2.png\n>> I've reduced the size to 55px in height and added a (shaded) code from\n>> ?data.frame\n>>     \n>\n>\n> Note ",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 10,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000174.html"
     },
     {
       "id": "msg-958795998d2c",
@@ -1827,7 +1905,8 @@
       "body_snippet": "In the context of ?data.frame it may be intended to show that\none can use that construct to create a data frame from a\ndata frame and a vector.\n\n\nOn 2/13/06, Romain Francois <francoisromain at free.fr",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 11,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000175.html"
     },
     {
       "id": "msg-e22b5c1f369a",
@@ -1852,7 +1931,8 @@
       "body_snippet": "OK, now the integration between the R Wiki and the R Graph Gallery is \nalmost completelly done. Romain and myself have added this:\n\n1) A link to a wiki page for each graph in the R Graph gallery\n\n2) T",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 8,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000176.html"
     },
     {
       "id": "msg-598835ad7176",
@@ -1878,7 +1958,8 @@
       "body_snippet": "Might be nice to have both the R code and the HTML-ified R code\nlinks or else have neither with just a message to click on graphic\nto get code -- in which case the user can get both from the RGG site.",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 9,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000177.html"
     },
     {
       "id": "msg-0a77ec1d6178",
@@ -1905,7 +1986,8 @@
       "body_snippet": "Gabor Grothendieck wrote:\n> Might be nice to have both the R code and the HTML-ified R code\n> links or else have neither with just a message to click on graphic\n> to get code -- in which case the user",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 10,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000178.html"
     },
     {
       "id": "msg-1e6ebb65028c",
@@ -1932,7 +2014,8 @@
       "body_snippet": "I think the main pane of the most recent version of the wiki front\npage looks much nicer and more helpful to the users wandering in the\ndark.\n\nI'm a little concerned that the index on the left does no",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 12,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000179.html"
     },
     {
       "id": "msg-df2d65aa818b",
@@ -1948,7 +2031,8 @@
       "body_snippet": "Hi,\n\nNice header isn't it ?\n\nDid you Philippe do the last code insertion ? Much better than what i \ncame up with. Really pretty and smooth.\nI get that color : #3a4252 rather than #343B4A when I search",
       "thread_id": "thread-df2d65aa818b",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000180.html"
     },
     {
       "id": "msg-bc1cad1943ab",
@@ -1974,7 +2058,8 @@
       "body_snippet": "Le 14.02.2006 01:46, Philippe Grosjean a ?crit :\n> OK, now the integration between the R Wiki and the R Graph Gallery is \n> almost completelly done. Romain and myself have added this:\n>\n> 1) A link to",
       "thread_id": "thread-5a2dc19a0d99",
       "thread_depth": 9,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000181.html"
     },
     {
       "id": "msg-92f1ad34c68f",
@@ -1990,7 +2075,8 @@
       "body_snippet": "Hi,\n\nWith the new header banner, there is no more a link to go back to the \nhome page of the wiki.\n\nSomething like :\n<a href=\"http://www.sciviews.org/_rgui/wiki/doku.php\" id=\"homepagelink\" \naccesskey=",
       "thread_id": "thread-92f1ad34c68f",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000182.html"
     },
     {
       "id": "msg-25c0ddd61735",
@@ -2018,7 +2104,8 @@
       "body_snippet": "Paul Johnson wrote:\n> I think the main pane of the most recent version of the wiki front\n> page looks much nicer and more helpful to the users wandering in the\n> dark.\n> \n> I'm a little concerned that",
       "thread_id": "thread-1471ac3be55d",
       "thread_depth": 13,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000183.html"
     },
     {
       "id": "msg-7fa730e236ca",
@@ -2036,7 +2123,8 @@
       "body_snippet": "Romain Francois wrote:\n> Hi,\n> \n> Nice header isn't it ?\n> \n> Did you Philippe do the last code insertion ? Much better than what i \n> came up with. Really pretty and smooth.\n\nThanks.\n\n> I get that co",
       "thread_id": "thread-df2d65aa818b",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000184.html"
     },
     {
       "id": "msg-b6c5b9d21593",
@@ -2052,7 +2140,8 @@
       "body_snippet": "Hi all,\n\nDo you think it would be possible/interesting to have a little button on \ntop/bottom of each code chunk that would allow the user to select/copy \nthe code to execute it faster in his R sessio",
       "thread_id": "thread-b6c5b9d21593",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000185.html"
     },
     {
       "id": "msg-1c39736e9a92",
@@ -2070,7 +2159,8 @@
       "body_snippet": "If there is javascript on the web page that can access the\nclipboard would there be annoying security blockages by\nthe local browser depending on its security setting?  If so,\nI think I would prefer j",
       "thread_id": "thread-b6c5b9d21593",
       "thread_depth": 1,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000186.html"
     },
     {
       "id": "msg-95ddeb5aedbf",
@@ -2089,7 +2179,8 @@
       "body_snippet": "In fact, you can just copy and paste, and for console transcripts, you \ncan use copy, and then paste commands only, or similar functions (I know \nthere is one in RGui, but what about the others UIs?)\n",
       "thread_id": "thread-b6c5b9d21593",
       "thread_depth": 2,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000187.html"
     },
     {
       "id": "msg-9143043c5252",
@@ -2105,7 +2196,8 @@
       "body_snippet": "Hello,\n\nFor the second time, I have reworked everything, implementing the \nproposed structure. The page change histories are lost (well, I have a \nbackup on my machine), because I had to start with a ",
       "thread_id": "thread-9143043c5252",
       "thread_depth": 0,
-      "month": "2006-02"
+      "month": "2006-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2006-February/000188.html"
     }
   ],
   "threads": [

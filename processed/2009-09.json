@@ -18,6 +18,7 @@
       "thread_id": "thread-493951959e4f",
       "thread_depth": 0,
       "month": "2009-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2009-September/000386.html",
       "restored_from": [
         "https://stat.ethz.ch/pipermail/r-sig-wiki/attachments/20090902/ed8c0dac/attachment.pl"
       ]
@@ -38,7 +39,8 @@
       "body_snippet": "On 09/02/2009 11:11 PM, Yury Bukhman wrote:\n>\n> Hi,\n>\n> we have organized a new R user group in Madison, WI, USA.  I have edited the rugs:r_user_groups page to put in information about our group.  I w",
       "thread_id": "thread-493951959e4f",
       "thread_depth": 1,
-      "month": "2009-09"
+      "month": "2009-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-sig-wiki/2009-September/000387.html"
     }
   ],
   "threads": [
